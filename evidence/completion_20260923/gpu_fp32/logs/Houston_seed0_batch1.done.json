@@ -1,0 +1,29 @@
+{
+  "command_sha256": "0be9c092c56cf9e7b65a70a60c66c1740f74c28fc8b800bb3b072573b5ec6474",
+  "command": [
+    "$CONDA_PREFIX/bin/python",
+    "$PROJECT_ROOT/benchmark_gpu_batch1_dense16.py",
+    "--fp32-dir",
+    "$PROJECT_ROOT/results/SPATIAL_SPLIT_3WAY_DENSE/Houston_all_samples_sqrt_inverse_clip3_2000_nobias/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16",
+    "--dataset",
+    "Houston",
+    "--seed",
+    "0",
+    "--data-path",
+    "./data",
+    "--device",
+    "cuda:1",
+    "--model-kind",
+    "fp32",
+    "--batch-size",
+    "1",
+    "--repeats",
+    "20",
+    "--warmup-steps",
+    "100",
+    "--single-tile-trials",
+    "200",
+    "--output-dir",
+    "$PROJECT_ROOT/gpu_current_4datasets_v2/Houston/seed0/batch1"
+  ]
+}

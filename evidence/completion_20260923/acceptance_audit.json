@@ -1,0 +1,205 @@
+{
+  "fp32_gpu": {
+    "runs": 28,
+    "summary_rows": 112,
+    "samples_per_scope_clock": 20,
+    "existing_repository_table_matches": true,
+    "files": [
+      {
+        "path": "gpu_current_4datasets_v2/Houston/seed0/batch8/gpu_batch8_benchmark_20260918_230035.json",
+        "sha256": "32cead500bff69efdb270f8e97502ad7602db14c090843752e1f5fe343064a87"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/Houston/seed0/batch1/gpu_batch1_benchmark_20260918_225641.json",
+        "sha256": "ac26d025de66f751bc0d0d6a5dec1d6134ffb39ce3d8be4165d22eeabf8a1547"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/Houston/seed0/batch32/gpu_batch32_benchmark_20260918_230118.json",
+        "sha256": "7c67480ac9f6f7d28ffc8bf37881c2b4a6ae742cc988331393fda0d75b2f4ccc"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/Houston/seed0/batch16/gpu_batch16_benchmark_20260918_230059.json",
+        "sha256": "77c284a4afc1ef11dc901373d36ef9111020a30f8b89e2037a7870de3298e0a5"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/Houston/seed0/batch64/gpu_batch64_benchmark_20260918_230134.json",
+        "sha256": "87a9beaa305d452086dca6c9ef00f74d58d100f5aed7e96a7e91f14f288d6f0b"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/Houston/seed0/batch2/gpu_batch2_benchmark_20260918_225848.json",
+        "sha256": "1c219ad8746afac60b816f9e6e832893f2ae2f9a010e11ef04e263524f0175b5"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/Houston/seed0/batch4/gpu_batch4_benchmark_20260918_225956.json",
+        "sha256": "a44e7531eb3e9ce3e1da7b54c6234bbbbbae006b1e3b7d42ccc959935228124a"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/HongHu/seed0/batch8/gpu_batch8_benchmark_20260918_225158.json",
+        "sha256": "e0c9082732fb2c7430651708e768cdb3a01ce6190dff2dc381be743e55c7b791"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/HongHu/seed0/batch1/gpu_batch1_benchmark_20260918_224915.json",
+        "sha256": "a7ed7ce4ebba8e6fc75aa6fd85f82fe43fd71f603915fa552c866cfbae21af10"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/HongHu/seed0/batch32/gpu_batch32_benchmark_20260918_225236.json",
+        "sha256": "5e7cce562b9c61eb0df967c93f4849b6ca811e20e28aba3a4c07f1ccaba7d439"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/HongHu/seed0/batch16/gpu_batch16_benchmark_20260918_225219.json",
+        "sha256": "e894220388ba494efcdde4b23e9df35e6741e69376c8bbfbf8a0213b6d280792"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/HongHu/seed0/batch64/gpu_batch64_benchmark_20260918_225252.json",
+        "sha256": "a077e5ca5cff44d0d0d1e4bd66a3275ba262c0b627cf6e245951168d2015c1e1"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/HongHu/seed0/batch2/gpu_batch2_benchmark_20260918_225040.json",
+        "sha256": "23594ec751ece021889b5122b613f4e1eed157692c56e708a804f85c5d464b7c"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/HongHu/seed0/batch4/gpu_batch4_benchmark_20260918_225127.json",
+        "sha256": "b47b8092cbb7ac46ea7760826a694f852a26a340b1f2f9514571e8be56aa5016"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/UP/seed0/batch8/gpu_batch8_benchmark_20260918_224029.json",
+        "sha256": "295b7310e40532397ebd6cf5e3263ef7848472b52900faca7f54e75f51682d78"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/UP/seed0/batch1/gpu_batch1_benchmark_20260918_223855.json",
+        "sha256": "fd8b4a228baa136a9758223e9f999213ab46c6d540b6e89a709c5ac7a42d6b1d"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/UP/seed0/batch32/gpu_batch32_benchmark_20260918_224050.json",
+        "sha256": "e3a4f951220e7dddc8351b6b485bcbeb13b106963e533375efc498e9bf186ba3"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/UP/seed0/batch16/gpu_batch16_benchmark_20260918_224041.json",
+        "sha256": "5d57b99f3c508f03fdff208a71085dc64c3c1865644fa06d784e3ec196f1246b"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/UP/seed0/batch64/gpu_batch64_benchmark_20260918_224058.json",
+        "sha256": "0091adcc1066aa120651b60757eb9eceeb8afa8a0e7274866777c2e1ccce27ba"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/UP/seed0/batch2/gpu_batch2_benchmark_20260918_223943.json",
+        "sha256": "e48604e02e7ce9b364f5150c2197f96a42d0e94cb599e2f07505f6d47b93cf85"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/UP/seed0/batch4/gpu_batch4_benchmark_20260918_224011.json",
+        "sha256": "dc5113aec2fe1683ebbe7ad02b07e48b0818d890e42459fa17347d5b98115d1a"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/HanChuan/seed0/batch8/gpu_batch8_benchmark_20260918_224549.json",
+        "sha256": "34725231b6728f204be1e1c3da4ce0a4209abdcac076ade7e676cae86010c9bc"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/HanChuan/seed0/batch1/gpu_batch1_benchmark_20260918_224322.json",
+        "sha256": "4641111fb27d7abfb13d6ef660522408794ad83fb80e8b07444c79a16a238693"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/HanChuan/seed0/batch32/gpu_batch32_benchmark_20260918_224622.json",
+        "sha256": "8323ad8d13a6b158a1cad57f28d2b201521c743e44375847e8742dfb12c86c84"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/HanChuan/seed0/batch16/gpu_batch16_benchmark_20260918_224607.json",
+        "sha256": "5305877c3cf556020560ac28b2a828bd0042ac7feca5a779138120f6b343efd2"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/HanChuan/seed0/batch64/gpu_batch64_benchmark_20260918_224634.json",
+        "sha256": "17b4b09dfc57758afa96ecbe9e5a3f0e3859ba4a32d65d77d381f80b89bb49c5"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/HanChuan/seed0/batch2/gpu_batch2_benchmark_20260918_224438.json",
+        "sha256": "11cd7237bbe3e8044648b59d6bd1fd3edf5606f5df979d316612af66bd0d5308"
+      },
+      {
+        "path": "gpu_current_4datasets_v2/HanChuan/seed0/batch4/gpu_batch4_benchmark_20260918_224522.json",
+        "sha256": "4a4371b11cb24aa2e19df2fcfdbf745009253297a6247d388b967ca3fe14c073"
+      }
+    ]
+  },
+  "D1": {
+    "status": "COMPLETE",
+    "original_equals_previously_merged_summary": true,
+    "source_files_matched": 10,
+    "tiles": 858,
+    "trace_tiles": 5,
+    "reference_mem_files_equal": 24,
+    "methods": {
+      "n0": {
+        "test_OA": 0.9515850144092219,
+        "logit_code_mismatches": 17,
+        "all_label_mismatches": 0
+      },
+      "n1": {
+        "test_OA": 0.9552902428983121,
+        "logit_code_mismatches": 53229,
+        "all_label_mismatches": 9371
+      },
+      "n2": {
+        "test_OA": 0.9524907369287773,
+        "logit_code_mismatches": 67698,
+        "all_label_mismatches": 13412
+      },
+      "n3": {
+        "test_OA": 0.9515850144092219,
+        "logit_code_mismatches": 0,
+        "all_label_mismatches": 0
+      }
+    },
+    "labels_sha_verified": true,
+    "checkpoint_sha256": "d113c6123eb3234ea2a6b8fe13640c02b82e235e469e4337ec01c291844daf33"
+  },
+  "runtime_backups": [
+    {
+      "path": "runtime_backup/cuda_runtime_5o7mz0dk/installed_cuda_runtime.tar.gz",
+      "bytes": 165634797,
+      "valid": true,
+      "files_verified": 22,
+      "extensions_match_observed": true
+    },
+    {
+      "path": "runtime_backup/cuda_runtime_mscish0i/installed_cuda_runtime.tar.gz",
+      "bytes": 17774483,
+      "valid": false,
+      "error": "BadGzipFile: CRC check failed 0xfc77c365 != 0xea267216"
+    }
+  ],
+  "fixed_gpu": {
+    "reports": 28,
+    "identical_to_previously_received": true
+  },
+  "legacy_nonlinear": [
+    {
+      "directory": "sim_nonlinear_v5_run2",
+      "status": "COMPLETE",
+      "checkpoint_sha256": "1ee46f229dda359faf0ee4a2764adf1a284a15e8926023fb1653fb6aa6e15fe3",
+      "backends": [
+        "n3",
+        "n0",
+        "n1"
+      ]
+    },
+    {
+      "directory": "sim_nonlinear_v5_n0_n1_n2_n3",
+      "status": "COMPLETE",
+      "checkpoint_sha256": "1ee46f229dda359faf0ee4a2764adf1a284a15e8926023fb1653fb6aa6e15fe3",
+      "backends": [
+        "n3",
+        "n0",
+        "n1",
+        "n2"
+      ]
+    }
+  ],
+  "dt_diagnostics": {
+    "dataset": "UP",
+    "seed": 0,
+    "split": "test",
+    "cores": 6,
+    "rows": 18,
+    "source_hashes_match": true,
+    "int8_probes_are_local_only": true
+  }
+}

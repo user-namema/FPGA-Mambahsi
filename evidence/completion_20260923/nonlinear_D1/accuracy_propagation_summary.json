@@ -1,0 +1,3703 @@
+{
+  "status": "COMPLETE",
+  "schema": "D1_N0_N3_v1",
+  "checkpoint_sha256": "d113c6123eb3234ea2a6b8fe13640c02b82e235e469e4337ec01c291844daf33",
+  "input_sha256": "5e830f01222de08bbffd59d391f73d8130972deee529c75f7506071edf7c752f",
+  "backends": [
+    "n3",
+    "n0",
+    "n1",
+    "n2"
+  ],
+  "tiles": 858,
+  "coefficients": {
+    "blk0_spa": {
+      "s_dt": 0.05978860706090927,
+      "s_B": 0.04879850149154663,
+      "s_u": 0.023190584033727646,
+      "SDT_Q30": 64197528,
+      "SBSU_Q40": 1244279650,
+      "DECAY_Q24": [
+        15382689,
+        31716278,
+        48601685,
+        67947533,
+        75055962,
+        97336614,
+        111605199,
+        128129786,
+        145748179,
+        162795083,
+        168341489,
+        191479120,
+        214706227,
+        237688049,
+        249979378,
+        262878111
+      ],
+      "decay_from_checkpoint": [
+        0.9168797188112072,
+        1.8904374856537052,
+        2.896886159899886,
+        4.049988596970959,
+        4.473683946403278,
+        5.801714275180997,
+        6.652188244806878,
+        7.637130372138443,
+        8.68726846178418,
+        9.703343086680045,
+        10.0339346638004,
+        11.413044940784367,
+        12.797488411133306,
+        14.167311711496092,
+        14.899932003221268,
+        15.668756403986547
+      ],
+      "K_fraction_bits": 24,
+      "signature": "83f9656da81ee3682f92ec44ea601ed7d4dd7aef1fd03f0c8c98567c51819399",
+      "d_coefficient": [
+        6388116,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        6388116,
+        6388116,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        6388116,
+        7665739,
+        6388116,
+        7665739,
+        7665739,
+        7665739,
+        6388116,
+        7665739,
+        6388116,
+        7665739,
+        7665739,
+        6388116,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        6388116,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        7665739,
+        6388116,
+        6388116,
+        7665739
+      ],
+      "d_left_shift": 0,
+      "d_range_certificate": {
+        "c_min": -4398046509056,
+        "c_max": 4398046511104,
+        "total_min": -4399027723648,
+        "total_max": 4399020059957,
+        "output_bits": 48,
+        "coefficient_bits": 27,
+        "product_bits": 35,
+        "left_shift": 0,
+        "coefficient_min": 6388116,
+        "coefficient_max": 7665739,
+        "coefficient_count": 64,
+        "coefficient_rom_bits": 1728,
+        "fold_D_max_abs_error": 1.6727283558282124e-08,
+        "fold_D_mae": 1.4278008466511727e-08,
+        "max_output_error_full_u_domain": 4.965318080183455e-08,
+        "reference": "frozen dequantized QAT D; excludes LSQ error relative to original D",
+        "proof": "full signed H, INT8 C/U domains; conservative independent C+D bounds"
+      },
+      "coefficient_errors_vs_n3": {
+        "n3": {
+          "a": {
+            "count": 4096,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 3.4662155056651494e+17,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 904701727787.0,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "n0": {
+          "a": {
+            "count": 4096,
+            "mismatches": 1266,
+            "abs_sum": 2660.0,
+            "squared_error": 8354.0,
+            "reference_squared": 3.4662155056651494e+17,
+            "max_abs_error": 8.0,
+            "MAE": 0.6494140625,
+            "RMSE": 1.4281284190331065,
+            "relative_L2": 1.552456553903687e-07
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 904701727787.0,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "n1": {
+          "a": {
+            "count": 4096,
+            "mismatches": 2753,
+            "abs_sum": 378884367.0,
+            "squared_error": 256409840323465.0,
+            "reference_squared": 3.4662155056651494e+17,
+            "max_abs_error": 2150710.0,
+            "MAE": 92501.06616210938,
+            "RMSE": 250200.03731558664,
+            "relative_L2": 0.027198162472007018
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 231,
+            "abs_sum": 115526.0,
+            "squared_error": 343162676.0,
+            "reference_squared": 904701727787.0,
+            "max_abs_error": 5826.0,
+            "MAE": 451.2734375,
+            "RMSE": 1157.7906560017661,
+            "relative_L2": 0.019475890002856062
+          }
+        },
+        "n2": {
+          "a": {
+            "count": 4096,
+            "mismatches": 2751,
+            "abs_sum": 1697904962.0,
+            "squared_error": 2185673928872726.0,
+            "reference_squared": 3.4662155056651494e+17,
+            "max_abs_error": 2490933.0,
+            "MAE": 414527.57861328125,
+            "RMSE": 730487.3708978088,
+            "relative_L2": 0.07940811844231548
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 255,
+            "abs_sum": 63640.0,
+            "squared_error": 26862794.0,
+            "reference_squared": 904701727787.0,
+            "max_abs_error": 1373.0,
+            "MAE": 248.59375,
+            "RMSE": 323.9333095908786,
+            "relative_L2": 0.005449076197971532
+          }
+        }
+      }
+    },
+    "blk0_spe": {
+      "s_dt": 0.04746273532509804,
+      "s_B": 0.017944423481822014,
+      "s_u": 0.025230184197425842,
+      "SDT_Q30": 50962724,
+      "SBSU_Q40": 497794115,
+      "DECAY_Q24": [
+        16824903,
+        32817710,
+        50843181,
+        65742235,
+        82910559,
+        96609557,
+        112366158,
+        131199041,
+        159757751,
+        176305322,
+        180591309,
+        192841135,
+        215989798,
+        233325772,
+        235021194,
+        269564932
+      ],
+      "decay_from_checkpoint": [
+        1.0028423827639625,
+        1.9560879571082068,
+        3.0304897389842043,
+        3.9185425853776006,
+        4.941854423725664,
+        5.758378297601467,
+        6.69754490953629,
+        7.820072239819561,
+        9.522304006446236,
+        10.508616096890908,
+        10.7640808357462,
+        11.494227354717909,
+        12.873995167606344,
+        13.907299749691642,
+        14.008354773114409,
+        16.067321992232923
+      ],
+      "K_fraction_bits": 24,
+      "signature": "e46253b12eba12be76e9d17653ad7cdd0f9da95edbb7c00019a8ab910d29453b",
+      "d_coefficient": [
+        21290809,
+        21290809,
+        17742341,
+        21290809,
+        21290809,
+        21290809,
+        17742341,
+        17742341,
+        21290809,
+        21290809,
+        21290809,
+        21290809,
+        21290809,
+        21290809,
+        21290809,
+        21290809
+      ],
+      "d_left_shift": 0,
+      "d_range_certificate": {
+        "c_min": -4398046509056,
+        "c_max": 4398046511104,
+        "total_min": -4400771732608,
+        "total_max": 4400750443847,
+        "output_bits": 48,
+        "coefficient_bits": 27,
+        "product_bits": 35,
+        "left_shift": 0,
+        "coefficient_min": 17742341,
+        "coefficient_max": 21290809,
+        "coefficient_count": 16,
+        "coefficient_rom_bits": 432,
+        "fold_D_max_abs_error": 7.657125378202068e-09,
+        "fold_D_mae": 6.602148938661401e-09,
+        "max_output_error_full_u_domain": 2.472840751549724e-08,
+        "reference": "frozen dequantized QAT D; excludes LSQ error relative to original D",
+        "proof": "full signed H, INT8 C/U domains; conservative independent C+D bounds"
+      },
+      "coefficient_errors_vs_n3": {
+        "n3": {
+          "a": {
+            "count": 4096,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 2.8617412260128474e+17,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 92676272905.0,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "n0": {
+          "a": {
+            "count": 4096,
+            "mismatches": 1243,
+            "abs_sum": 2523.0,
+            "squared_error": 7541.0,
+            "reference_squared": 2.8617412260128474e+17,
+            "max_abs_error": 8.0,
+            "MAE": 0.615966796875,
+            "RMSE": 1.35685830252278,
+            "relative_L2": 1.6233018754735093e-07
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 92676272905.0,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "n1": {
+          "a": {
+            "count": 4096,
+            "mismatches": 2861,
+            "abs_sum": 469899555.0,
+            "squared_error": 317187063623025.0,
+            "reference_squared": 2.8617412260128474e+17,
+            "max_abs_error": 2189574.0,
+            "MAE": 114721.57104492188,
+            "RMSE": 278277.2860921999,
+            "relative_L2": 0.03329220446786944
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 244,
+            "abs_sum": 58198.0,
+            "squared_error": 69115830.0,
+            "reference_squared": 92676272905.0,
+            "max_abs_error": 2331.0,
+            "MAE": 227.3359375,
+            "RMSE": 519.5995678765524,
+            "relative_L2": 0.02730891740845384
+          }
+        },
+        "n2": {
+          "a": {
+            "count": 4096,
+            "mismatches": 2860,
+            "abs_sum": 1339591800.0,
+            "squared_error": 1387743215888344.0,
+            "reference_squared": 2.8617412260128474e+17,
+            "max_abs_error": 2327467.0,
+            "MAE": 327048.779296875,
+            "RMSE": 582069.1505882186,
+            "relative_L2": 0.06963689149031568
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 256,
+            "abs_sum": 27542.0,
+            "squared_error": 4905692.0,
+            "reference_squared": 92676272905.0,
+            "max_abs_error": 479.0,
+            "MAE": 107.5859375,
+            "RMSE": 138.42998004406417,
+            "relative_L2": 0.007275550492327219
+          }
+        }
+      }
+    },
+    "blk1_spa": {
+      "s_dt": 0.060590941458940506,
+      "s_B": 0.09189055114984512,
+      "s_u": 0.057906996458768845,
+      "SDT_Q30": 65059028,
+      "SBSU_Q40": 5850617722,
+      "DECAY_Q24": [
+        16382240,
+        31639200,
+        48230799,
+        67588756,
+        82200635,
+        101093153,
+        113426813,
+        127856881,
+        138567164,
+        169230305,
+        185133001,
+        205392778,
+        217588767,
+        243536324,
+        254303418,
+        275719213
+      ],
+      "decay_from_checkpoint": [
+        0.9764575868264075,
+        1.8858433009505904,
+        2.874779665457584,
+        4.028603789832024,
+        4.899539639873485,
+        6.025621496613957,
+        6.760764877077289,
+        7.620864003271926,
+        8.259246579265584,
+        10.086912239889331,
+        11.034786736179917,
+        12.242363597630264,
+        12.96930115767189,
+        14.515896094975092,
+        15.157664872789447,
+        16.43414576092271
+      ],
+      "K_fraction_bits": 23,
+      "signature": "a5bec124850f27c569c600c230cc44019f1f707cc5cc0aa9b710af74b90a1709",
+      "d_coefficient": [
+        11484392,
+        11484392,
+        11484392,
+        9570326,
+        11484392,
+        11484392,
+        11484392,
+        11484392,
+        11484392,
+        11484392,
+        11484392,
+        9570326,
+        9570326,
+        9570326,
+        11484392,
+        11484392,
+        11484392,
+        11484392,
+        11484392,
+        11484392,
+        11484392,
+        11484392,
+        11484392,
+        11484392,
+        9570326,
+        9570326,
+        11484392,
+        11484392,
+        9570326,
+        11484392,
+        13398457,
+        11484392,
+        11484392,
+        9570326,
+        11484392,
+        9570326,
+        11484392,
+        11484392,
+        11484392,
+        11484392,
+        11484392,
+        9570326,
+        11484392,
+        9570326,
+        9570326,
+        11484392,
+        11484392,
+        11484392,
+        9570326,
+        9570326,
+        9570326,
+        11484392,
+        9570326,
+        11484392,
+        11484392,
+        11484392,
+        11484392,
+        11484392,
+        9570326,
+        9570326,
+        11484392,
+        9570326,
+        11484392,
+        11484392
+      ],
+      "d_left_shift": 0,
+      "d_range_certificate": {
+        "c_min": -4398046509056,
+        "c_max": 4398046511104,
+        "total_min": -4399761511552,
+        "total_max": 4399748115143,
+        "output_bits": 48,
+        "coefficient_bits": 27,
+        "product_bits": 35,
+        "left_shift": 0,
+        "coefficient_min": 9570326,
+        "coefficient_max": 13398457,
+        "coefficient_count": 64,
+        "coefficient_rom_bits": 1728,
+        "fold_D_max_abs_error": 3.077922938743427e-08,
+        "fold_D_mae": 1.5991265110704145e-08,
+        "max_output_error_full_u_domain": 2.2813858907414915e-07,
+        "reference": "frozen dequantized QAT D; excludes LSQ error relative to original D",
+        "proof": "full signed H, INT8 C/U domains; conservative independent C+D bounds"
+      },
+      "coefficient_errors_vs_n3": {
+        "n3": {
+          "a": {
+            "count": 4096,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 3.474413741855566e+17,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 5132409844615.0,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "n0": {
+          "a": {
+            "count": 4096,
+            "mismatches": 1345,
+            "abs_sum": 3075.0,
+            "squared_error": 10267.0,
+            "reference_squared": 3.474413741855566e+17,
+            "max_abs_error": 7.0,
+            "MAE": 0.750732421875,
+            "RMSE": 1.583221967026418,
+            "relative_L2": 1.7190203342666994e-07
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 1,
+            "abs_sum": 1.0,
+            "squared_error": 1.0,
+            "reference_squared": 5132409844615.0,
+            "max_abs_error": 1.0,
+            "MAE": 0.00390625,
+            "RMSE": 0.0625,
+            "relative_L2": 4.4140712119701787e-07
+          }
+        },
+        "n1": {
+          "a": {
+            "count": 4096,
+            "mismatches": 2739,
+            "abs_sum": 369247723.0,
+            "squared_error": 250243700423921.0,
+            "reference_squared": 3.474413741855566e+17,
+            "max_abs_error": 2181200.0,
+            "MAE": 90148.36987304688,
+            "RMSE": 247173.32668354173,
+            "relative_L2": 0.026837422894996
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 254,
+            "abs_sum": 268031.0,
+            "squared_error": 1871798243.0,
+            "reference_squared": 5132409844615.0,
+            "max_abs_error": 13697.0,
+            "MAE": 1046.99609375,
+            "RMSE": 2704.017730474183,
+            "relative_L2": 0.019097162913188845
+          }
+        },
+        "n2": {
+          "a": {
+            "count": 4096,
+            "mismatches": 2731,
+            "abs_sum": 1744809898.0,
+            "squared_error": 2322208949320236.0,
+            "reference_squared": 3.474413741855566e+17,
+            "max_abs_error": 2595082.0,
+            "MAE": 425978.97900390625,
+            "RMSE": 752957.8635406073,
+            "relative_L2": 0.08175416367569366
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 255,
+            "abs_sum": 149226.0,
+            "squared_error": 143457636.0,
+            "reference_squared": 5132409844615.0,
+            "max_abs_error": 2629.0,
+            "MAE": 582.9140625,
+            "RMSE": 748.586261311948,
+            "relative_L2": 0.005286900905173528
+          }
+        }
+      }
+    },
+    "blk1_spe": {
+      "s_dt": 0.05748094245791435,
+      "s_B": 0.04465261101722717,
+      "s_u": 0.03392046317458153,
+      "SDT_Q30": 61719692,
+      "SBSU_Q40": 1665361266,
+      "DECAY_Q24": [
+        16372182,
+        33726978,
+        51694642,
+        67889376,
+        85629604,
+        109806374,
+        111920332,
+        129862222,
+        154408761,
+        172053070,
+        183719615,
+        218723468,
+        221359072,
+        238428507,
+        257412432,
+        256779607
+      ],
+      "decay_from_checkpoint": [
+        0.9758580999983331,
+        2.010284554304689,
+        3.0812407460662046,
+        4.04652215574595,
+        5.10392215190374,
+        6.544969892522061,
+        6.670971604998456,
+        7.740391624941251,
+        9.20347936129649,
+        10.255162121392964,
+        10.950542370490693,
+        13.036934638822478,
+        13.194028833529156,
+        14.211446445223848,
+        15.34297655545606,
+        15.305257281128753
+      ],
+      "K_fraction_bits": 24,
+      "signature": "f38ffb1dac787bab3e072f2891bc56474344e1be53922c05fca980391886a323",
+      "d_coefficient": [
+        12334722,
+        10278935,
+        12334722,
+        10278935,
+        12334722,
+        10278935,
+        12334722,
+        12334722,
+        12334722,
+        12334722,
+        10278935,
+        12334722,
+        12334722,
+        12334722,
+        12334722,
+        12334722
+      ],
+      "d_left_shift": 0,
+      "d_range_certificate": {
+        "c_min": -4398046509056,
+        "c_max": 4398046511104,
+        "total_min": -4399625353472,
+        "total_max": 4399613020798,
+        "output_bits": 48,
+        "coefficient_bits": 27,
+        "product_bits": 35,
+        "left_shift": 0,
+        "coefficient_min": 10278935,
+        "coefficient_max": 12334722,
+        "coefficient_count": 16,
+        "coefficient_rom_bits": 432,
+        "fold_D_max_abs_error": 3.805027981584885e-08,
+        "fold_D_mae": 3.054467570540176e-08,
+        "max_output_error_full_u_domain": 1.6520743875533105e-07,
+        "reference": "frozen dequantized QAT D; excludes LSQ error relative to original D",
+        "proof": "full signed H, INT8 C/U domains; conservative independent C+D bounds"
+      },
+      "coefficient_errors_vs_n3": {
+        "n3": {
+          "a": {
+            "count": 4096,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 3.3323076811991846e+17,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 1500918439433.0,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "n0": {
+          "a": {
+            "count": 4096,
+            "mismatches": 1298,
+            "abs_sum": 2695.0,
+            "squared_error": 8117.0,
+            "reference_squared": 3.3323076811991846e+17,
+            "max_abs_error": 8.0,
+            "MAE": 0.657958984375,
+            "RMSE": 1.4077249209717786,
+            "relative_L2": 1.560720827140948e-07
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 1500918439433.0,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "n1": {
+          "a": {
+            "count": 4096,
+            "mismatches": 2743,
+            "abs_sum": 382037288.0,
+            "squared_error": 253598958435888.0,
+            "reference_squared": 3.3323076811991846e+17,
+            "max_abs_error": 2181042.0,
+            "MAE": 93270.822265625,
+            "RMSE": 248824.85448983332,
+            "relative_L2": 0.027586791064586412
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 250,
+            "abs_sum": 160821.0,
+            "squared_error": 639098397.0,
+            "reference_squared": 1500918439433.0,
+            "max_abs_error": 7797.0,
+            "MAE": 628.20703125,
+            "RMSE": 1580.024719199434,
+            "relative_L2": 0.020635040117993917
+          }
+        },
+        "n2": {
+          "a": {
+            "count": 4096,
+            "mismatches": 2742,
+            "abs_sum": 1673118373.0,
+            "squared_error": 2147769323116115.0,
+            "reference_squared": 3.3323076811991846e+17,
+            "max_abs_error": 2434284.0,
+            "MAE": 408476.1652832031,
+            "RMSE": 724125.5035568043,
+            "relative_L2": 0.08028257069462565
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 256,
+            "abs_sum": 87486.0,
+            "squared_error": 49357788.0,
+            "reference_squared": 1500918439433.0,
+            "max_abs_error": 1531.0,
+            "MAE": 341.7421875,
+            "RMSE": 439.0943627228662,
+            "relative_L2": 0.005734549390443842
+          }
+        }
+      }
+    },
+    "blk2_spa": {
+      "s_dt": 0.06597839295864105,
+      "s_B": 0.12866216897964478,
+      "s_u": 0.10614240914583206,
+      "SDT_Q30": 70843760,
+      "SBSU_Q40": 15015494378,
+      "DECAY_Q24": [
+        16014373,
+        34046666,
+        49687080,
+        62032186,
+        81008188,
+        100810562,
+        114021311,
+        136044935,
+        147385616,
+        165446909,
+        186703563,
+        200413792,
+        219686928,
+        230350002,
+        261730037,
+        287815271
+      ],
+      "decay_from_checkpoint": [
+        0.9545310196307978,
+        2.029339408814645,
+        2.9615807462872255,
+        3.6974064404616627,
+        4.828464246583894,
+        6.008777725989877,
+        6.79619975848761,
+        8.108909999885258,
+        8.784867287886055,
+        9.861404258362445,
+        11.128399567669689,
+        11.945592899245915,
+        13.094361289934882,
+        13.729930022662682,
+        15.600325873433697,
+        17.155126962369653
+      ],
+      "K_fraction_bits": 22,
+      "signature": "d6c6c95db49e53b3ee1a7a107e197705c3b6b113877dced95ad44d0cc9ef8687",
+      "d_coefficient": [
+        16258347,
+        16258347,
+        16258347,
+        13548622,
+        16258347,
+        16258347,
+        16258347,
+        16258347,
+        16258347,
+        16258347,
+        16258347,
+        16258347,
+        16258347,
+        16258347,
+        16258347,
+        16258347,
+        16258347,
+        13548622,
+        16258347,
+        16258347,
+        16258347,
+        16258347,
+        16258347,
+        16258347,
+        16258347,
+        13548622,
+        16258347,
+        13548622,
+        16258347,
+        13548622,
+        16258347,
+        13548622,
+        16258347,
+        16258347,
+        13548622,
+        16258347,
+        13548622,
+        13548622,
+        16258347,
+        16258347,
+        16258347,
+        13548622,
+        13548622,
+        16258347,
+        16258347,
+        13548622,
+        16258347,
+        16258347,
+        13548622,
+        13548622,
+        16258347,
+        16258347,
+        16258347,
+        13548622,
+        13548622,
+        13548622,
+        16258347,
+        16258347,
+        16258347,
+        13548622,
+        13548622,
+        16258347,
+        16258347,
+        16258347
+      ],
+      "d_left_shift": 0,
+      "d_range_certificate": {
+        "c_min": -4398046509056,
+        "c_max": 4398046511104,
+        "total_min": -4400127577472,
+        "total_max": 4400111321173,
+        "output_bits": 48,
+        "coefficient_bits": 27,
+        "product_bits": 35,
+        "left_shift": 0,
+        "coefficient_min": 13548622,
+        "coefficient_max": 16258347,
+        "coefficient_count": 64,
+        "coefficient_rom_bits": 1728,
+        "fold_D_max_abs_error": 2.344160843215093e-08,
+        "fold_D_mae": 1.5162493694625967e-08,
+        "max_output_error_full_u_domain": 3.184830455349441e-07,
+        "reference": "frozen dequantized QAT D; excludes LSQ error relative to original D",
+        "proof": "full signed H, INT8 C/U domains; conservative independent C+D bounds"
+      },
+      "coefficient_errors_vs_n3": {
+        "n3": {
+          "a": {
+            "count": 4096,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 3.656786688292915e+17,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 9986806253742.0,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "n0": {
+          "a": {
+            "count": 4096,
+            "mismatches": 1365,
+            "abs_sum": 2826.0,
+            "squared_error": 8746.0,
+            "reference_squared": 3.656786688292915e+17,
+            "max_abs_error": 9.0,
+            "MAE": 0.68994140625,
+            "RMSE": 1.4612508019672734,
+            "relative_L2": 1.5465177994955926e-07
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 9986806253742.0,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "n1": {
+          "a": {
+            "count": 4096,
+            "mismatches": 2685,
+            "abs_sum": 338462807.0,
+            "squared_error": 228542317380689.0,
+            "reference_squared": 3.656786688292915e+17,
+            "max_abs_error": 2175296.0,
+            "MAE": 82632.52124023438,
+            "RMSE": 236212.75199334556,
+            "relative_L2": 0.024999625316457375
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 246,
+            "abs_sum": 315914.0,
+            "squared_error": 2832102974.0,
+            "reference_squared": 9986806253742.0,
+            "max_abs_error": 17577.0,
+            "MAE": 1234.0390625,
+            "RMSE": 3326.0941421113594,
+            "relative_L2": 0.016839965900488623
+          }
+        },
+        "n2": {
+          "a": {
+            "count": 4096,
+            "mismatches": 2673,
+            "abs_sum": 1876696930.0,
+            "squared_error": 2649321102742942.0,
+            "reference_squared": 3.656786688292915e+17,
+            "max_abs_error": 2715005.0,
+            "MAE": 458177.96142578125,
+            "RMSE": 804243.066398058,
+            "relative_L2": 0.08511723077455448
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 256,
+            "abs_sum": 186311.0,
+            "squared_error": 226633325.0,
+            "reference_squared": 9986806253742.0,
+            "max_abs_error": 3802.0,
+            "MAE": 727.77734375,
+            "RMSE": 940.8966073810926,
+            "relative_L2": 0.004763745735147789
+          }
+        }
+      }
+    },
+    "blk2_spe": {
+      "s_dt": 0.05757211521267891,
+      "s_B": 0.06603652983903885,
+      "s_u": 0.07752833515405655,
+      "SDT_Q30": 61817588,
+      "SBSU_Q40": 5629172119,
+      "DECAY_Q24": [
+        16726040,
+        33525005,
+        50032804,
+        69218026,
+        82613130,
+        95155052,
+        114410063,
+        138339759,
+        148578908,
+        161011514,
+        166492907,
+        200063758,
+        207406860,
+        222343841,
+        239577219,
+        262057349
+      ],
+      "decay_from_checkpoint": [
+        0.9969496866216722,
+        1.9982460126350106,
+        2.982187492854567,
+        4.125715860939142,
+        4.924126250037412,
+        5.6716830696300065,
+        6.81937114790136,
+        8.245692185307977,
+        8.85599302704466,
+        9.597034124513828,
+        9.923750603848493,
+        11.924729228268465,
+        12.36241222530933,
+        13.252725683724293,
+        14.279915045812492,
+        15.619835196437707
+      ],
+      "K_fraction_bits": 23,
+      "signature": "134c6bda86da10e186dd9aef4cdf6b677dfa7b380b14c8626e029c0752c77ef2",
+      "d_coefficient": [
+        18166025,
+        21799231,
+        21799231,
+        18166025,
+        18166025,
+        21799231,
+        21799231,
+        21799231,
+        21799231,
+        21799231,
+        21799231,
+        21799231,
+        18166025,
+        18166025,
+        21799231,
+        18166025
+      ],
+      "d_left_shift": 0,
+      "d_range_certificate": {
+        "c_min": -4398046509056,
+        "c_max": 4398046511104,
+        "total_min": -4400836810624,
+        "total_max": 4400815013441,
+        "output_bits": 48,
+        "coefficient_bits": 27,
+        "product_bits": 35,
+        "left_shift": 0,
+        "coefficient_min": 18166025,
+        "coefficient_max": 21799231,
+        "coefficient_count": 16,
+        "coefficient_rom_bits": 432,
+        "fold_D_max_abs_error": 2.1898381330487382e-08,
+        "fold_D_mae": 2.1062538602123482e-08,
+        "max_output_error_full_u_domain": 2.1731136603153415e-07,
+        "reference": "frozen dequantized QAT D; excludes LSQ error relative to original D",
+        "proof": "full signed H, INT8 C/U domains; conservative independent C+D bounds"
+      },
+      "coefficient_errors_vs_n3": {
+        "n3": {
+          "a": {
+            "count": 4096,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 3.36420219905714e+17,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 4300404710393.0,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "n0": {
+          "a": {
+            "count": 4096,
+            "mismatches": 1254,
+            "abs_sum": 2604.0,
+            "squared_error": 7914.0,
+            "reference_squared": 3.36420219905714e+17,
+            "max_abs_error": 8.0,
+            "MAE": 0.6357421875,
+            "RMSE": 1.390010397892764,
+            "relative_L2": 1.5337584830702624e-07
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 0,
+            "abs_sum": 0.0,
+            "squared_error": 0.0,
+            "reference_squared": 4300404710393.0,
+            "max_abs_error": 0.0,
+            "MAE": 0.0,
+            "RMSE": 0.0,
+            "relative_L2": 0.0
+          }
+        },
+        "n1": {
+          "a": {
+            "count": 4096,
+            "mismatches": 2759,
+            "abs_sum": 390182559.0,
+            "squared_error": 261226362050777.0,
+            "reference_squared": 3.36420219905714e+17,
+            "max_abs_error": 2187459.0,
+            "MAE": 95259.41381835938,
+            "RMSE": 252539.04113533214,
+            "relative_L2": 0.027865539512145977
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 255,
+            "abs_sum": 271345.0,
+            "squared_error": 1822540443.0,
+            "reference_squared": 4300404710393.0,
+            "max_abs_error": 13178.0,
+            "MAE": 1059.94140625,
+            "RMSE": 2668.2013802314004,
+            "relative_L2": 0.020586566651938042
+          }
+        },
+        "n2": {
+          "a": {
+            "count": 4096,
+            "mismatches": 2755,
+            "abs_sum": 1639814776.0,
+            "squared_error": 2036136523493116.0,
+            "reference_squared": 3.36420219905714e+17,
+            "max_abs_error": 2469757.0,
+            "MAE": 400345.404296875,
+            "RMSE": 705055.773276793,
+            "relative_L2": 0.07779691971659418
+          },
+          "k": {
+            "count": 256,
+            "mismatches": 256,
+            "abs_sum": 144934.0,
+            "squared_error": 135062074.0,
+            "reference_squared": 4300404710393.0,
+            "max_abs_error": 2609.0,
+            "MAE": 566.1484375,
+            "RMSE": 726.3513107047443,
+            "relative_L2": 0.0056041795725512164
+          }
+        }
+      }
+    }
+  },
+  "n2_fit": {
+    "schema": 1,
+    "method": "S2Mamba-inspired Eq9/10/20 and two-stage Alg2 adaptation",
+    "seed": 20260913,
+    "steps": 5000,
+    "samples": 4096,
+    "fit_range": [
+      -16.0,
+      16.0
+    ],
+    "loss": "mean squared Softplus error",
+    "notes": "Local coefficients, not author coefficients; no WIS/SiLU/full 16-bit network reproduction",
+    "EXP_SOFT_Q30": [
+      1032860726,
+      1032125116
+    ],
+    "LOG_SOFT_Q30": [
+      797976356,
+      11625313
+    ],
+    "EXP_STATE_Q30": [
+      1065150840,
+      1016505539
+    ],
+    "LOG2E_Q30": 1549082005,
+    "LN2_Q30": 744261118,
+    "stage1": {
+      "initial_mse": 0.00017534068155423082,
+      "final_mse": 0.00015394355605531553
+    },
+    "stage2": {
+      "initial_mse": 0.00019163078981418203,
+      "final_mse": 0.00019163078981418203
+    },
+    "RTL_latency_registers": 13,
+    "target_II": 1
+  },
+  "d_rule": "native integer C*state + (M_D*U << shift), then one output requantization",
+  "postprocess": "exact integer bilinear score numerators, strict argmax, crop after 16x16 interpolation",
+  "hardware_simulation_run": false,
+  "methods": {
+    "n3": {
+      "logits_vs_n3": {
+        "count": 123552,
+        "mismatches": 0,
+        "abs_sum": 0.0,
+        "squared_error": 0.0,
+        "reference_squared": 3871206.0,
+        "max_abs_error": 0.0,
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "relative_L2": 0.0
+      },
+      "agreement": {
+        "all": {
+          "count": 207400,
+          "mismatches": 0
+        },
+        "labeled": {
+          "count": 42776,
+          "mismatches": 0
+        },
+        "train": {
+          "count": 11648,
+          "mismatches": 0
+        },
+        "validation": {
+          "count": 10211,
+          "mismatches": 0
+        },
+        "test": {
+          "count": 12145,
+          "mismatches": 0
+        }
+      },
+      "metrics": {
+        "labeled": {
+          "OA": 0.978188703946138,
+          "mAcc": 0.9623480561178179,
+          "Kappa": 0.9711156757967939,
+          "mIoU": 0.9385924004471866,
+          "per_class_acc": [
+            0.9831096365555723,
+            0.9897581639766208,
+            0.8994759409242497,
+            0.9781331592689295,
+            0.9903345724907063,
+            0.9924438258103002,
+            0.8646616541353384,
+            0.9684953829440521,
+            0.9947201689545935
+          ],
+          "IoU": [
+            0.9358311800172265,
+            0.987428449152089,
+            0.8765088207985144,
+            0.9439370078740158,
+            0.9903345724907063,
+            0.968562002716864,
+            0.8633633633633634,
+            0.9092299847016828,
+            0.9721362229102167
+          ],
+          "support": [
+            6631,
+            18649,
+            2099,
+            3064,
+            1345,
+            5029,
+            1330,
+            3682,
+            947
+          ],
+          "confusion_matrix": [
+            [
+              6519,
+              0,
+              13,
+              7,
+              0,
+              0,
+              0,
+              91,
+              1
+            ],
+            [
+              0,
+              18458,
+              0,
+              83,
+              0,
+              108,
+              0,
+              0,
+              0
+            ],
+            [
+              84,
+              0,
+              1888,
+              0,
+              0,
+              0,
+              0,
+              127,
+              0
+            ],
+            [
+              10,
+              26,
+              2,
+              2997,
+              0,
+              1,
+              0,
+              21,
+              7
+            ],
+            [
+              3,
+              1,
+              0,
+              0,
+              1332,
+              0,
+              0,
+              0,
+              9
+            ],
+            [
+              11,
+              13,
+              0,
+              14,
+              0,
+              4991,
+              0,
+              0,
+              0
+            ],
+            [
+              159,
+              0,
+              0,
+              0,
+              0,
+              15,
+              1150,
+              1,
+              5
+            ],
+            [
+              66,
+              4,
+              40,
+              5,
+              0,
+              0,
+              1,
+              3566,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              942
+            ]
+          ]
+        },
+        "train": {
+          "OA": 0.993904532967033,
+          "mAcc": 0.9935379200054544,
+          "Kappa": 0.9929086509223033,
+          "mIoU": 0.9886729370264082,
+          "per_class_acc": [
+            0.999,
+            1.0,
+            0.9702085402184707,
+            0.9852941176470589,
+            0.9981060606060606,
+            0.9995,
+            1.0,
+            0.9917446340121079,
+            0.9979879275653923
+          ],
+          "IoU": [
+            0.9760625305324866,
+            0.9970089730807578,
+            0.9692460317460317,
+            0.9832285115303984,
+            0.9981060606060606,
+            0.9995,
+            1.0,
+            0.9868565169769989,
+            0.9880478087649402
+          ],
+          "support": [
+            2000,
+            2000,
+            1007,
+            1428,
+            528,
+            2000,
+            371,
+            1817,
+            497
+          ],
+          "confusion_matrix": [
+            [
+              1998,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              2000,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              29,
+              0,
+              977,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              6,
+              3,
+              1,
+              1407,
+              0,
+              0,
+              0,
+              8,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              527,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1999,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              371,
+              0,
+              0
+            ],
+            [
+              11,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              1802,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              496
+            ]
+          ]
+        },
+        "validation": {
+          "OA": 0.973264126921947,
+          "mAcc": 0.9606731385836229,
+          "Kappa": 0.9656772724675322,
+          "mIoU": 0.9290650893084992,
+          "per_class_acc": [
+            0.9546436285097192,
+            0.9886253630203291,
+            0.8972477064220183,
+            0.9665775401069518,
+            0.9831932773109243,
+            0.9904175222450377,
+            0.8788546255506607,
+            0.9962546816479401,
+            0.9902439024390244
+          ],
+          "IoU": [
+            0.9132231404958677,
+            0.9841002168152252,
+            0.8972477064220183,
+            0.9026217228464419,
+            0.9831932773109243,
+            0.9810169491525423,
+            0.875,
+            0.8721311475409836,
+            0.9530516431924883
+          ],
+          "support": [
+            1389,
+            4132,
+            545,
+            748,
+            476,
+            1461,
+            454,
+            801,
+            205
+          ],
+          "confusion_matrix": [
+            [
+              1326,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              60,
+              0
+            ],
+            [
+              0,
+              4085,
+              0,
+              47,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              15,
+              0,
+              489,
+              0,
+              0,
+              0,
+              0,
+              41,
+              0
+            ],
+            [
+              4,
+              8,
+              0,
+              723,
+              0,
+              0,
+              0,
+              13,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              468,
+              0,
+              0,
+              0,
+              8
+            ],
+            [
+              1,
+              11,
+              0,
+              2,
+              0,
+              1447,
+              0,
+              0,
+              0
+            ],
+            [
+              41,
+              0,
+              0,
+              0,
+              0,
+              14,
+              399,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              798,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              203
+            ]
+          ]
+        },
+        "test": {
+          "OA": 0.9515850144092219,
+          "mAcc": 0.9245381268785035,
+          "Kappa": 0.9366661943779863,
+          "mIoU": 0.8775783179699328,
+          "per_class_acc": [
+            0.9781293624941834,
+            0.9719222462203023,
+            0.7714808043875686,
+            0.9763513513513513,
+            0.9882697947214076,
+            0.9824828636709825,
+            0.7524752475247525,
+            0.9078947368421053,
+            0.9918367346938776
+          ],
+          "IoU": [
+            0.8854254422914911,
+            0.9683098591549296,
+            0.7021630615640599,
+            0.9203821656050956,
+            0.9882697947214076,
+            0.9065354884047786,
+            0.7524752475247525,
+            0.8179508890770534,
+            0.9566929133858267
+          ],
+          "support": [
+            2149,
+            5093,
+            547,
+            888,
+            341,
+            1313,
+            505,
+            1064,
+            245
+          ],
+          "confusion_matrix": [
+            [
+              2102,
+              0,
+              13,
+              3,
+              0,
+              0,
+              0,
+              31,
+              0
+            ],
+            [
+              0,
+              4950,
+              0,
+              35,
+              0,
+              108,
+              0,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              422,
+              0,
+              0,
+              0,
+              0,
+              85,
+              0
+            ],
+            [
+              0,
+              15,
+              1,
+              867,
+              0,
+              1,
+              0,
+              0,
+              4
+            ],
+            [
+              3,
+              1,
+              0,
+              0,
+              337,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              10,
+              1,
+              0,
+              12,
+              0,
+              1290,
+              0,
+              0,
+              0
+            ],
+            [
+              118,
+              0,
+              0,
+              0,
+              0,
+              1,
+              380,
+              1,
+              5
+            ],
+            [
+              53,
+              2,
+              40,
+              3,
+              0,
+              0,
+              0,
+              966,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              243
+            ]
+          ]
+        }
+      },
+      "logit_mismatched_bits": 0,
+      "total_logit_bits": 988416,
+      "test_OA_drop_percentage_points": 0.0
+    },
+    "n0": {
+      "logits_vs_n3": {
+        "count": 123552,
+        "mismatches": 17,
+        "abs_sum": 17.0,
+        "squared_error": 17.0,
+        "reference_squared": 3871206.0,
+        "max_abs_error": 1.0,
+        "MAE": 0.00013759388759388758,
+        "RMSE": 0.011730042096850616,
+        "relative_L2": 0.0020955658844855514
+      },
+      "agreement": {
+        "all": {
+          "count": 207400,
+          "mismatches": 0
+        },
+        "labeled": {
+          "count": 42776,
+          "mismatches": 0
+        },
+        "train": {
+          "count": 11648,
+          "mismatches": 0
+        },
+        "validation": {
+          "count": 10211,
+          "mismatches": 0
+        },
+        "test": {
+          "count": 12145,
+          "mismatches": 0
+        }
+      },
+      "metrics": {
+        "labeled": {
+          "OA": 0.978188703946138,
+          "mAcc": 0.9623480561178179,
+          "Kappa": 0.9711156757967939,
+          "mIoU": 0.9385924004471866,
+          "per_class_acc": [
+            0.9831096365555723,
+            0.9897581639766208,
+            0.8994759409242497,
+            0.9781331592689295,
+            0.9903345724907063,
+            0.9924438258103002,
+            0.8646616541353384,
+            0.9684953829440521,
+            0.9947201689545935
+          ],
+          "IoU": [
+            0.9358311800172265,
+            0.987428449152089,
+            0.8765088207985144,
+            0.9439370078740158,
+            0.9903345724907063,
+            0.968562002716864,
+            0.8633633633633634,
+            0.9092299847016828,
+            0.9721362229102167
+          ],
+          "support": [
+            6631,
+            18649,
+            2099,
+            3064,
+            1345,
+            5029,
+            1330,
+            3682,
+            947
+          ],
+          "confusion_matrix": [
+            [
+              6519,
+              0,
+              13,
+              7,
+              0,
+              0,
+              0,
+              91,
+              1
+            ],
+            [
+              0,
+              18458,
+              0,
+              83,
+              0,
+              108,
+              0,
+              0,
+              0
+            ],
+            [
+              84,
+              0,
+              1888,
+              0,
+              0,
+              0,
+              0,
+              127,
+              0
+            ],
+            [
+              10,
+              26,
+              2,
+              2997,
+              0,
+              1,
+              0,
+              21,
+              7
+            ],
+            [
+              3,
+              1,
+              0,
+              0,
+              1332,
+              0,
+              0,
+              0,
+              9
+            ],
+            [
+              11,
+              13,
+              0,
+              14,
+              0,
+              4991,
+              0,
+              0,
+              0
+            ],
+            [
+              159,
+              0,
+              0,
+              0,
+              0,
+              15,
+              1150,
+              1,
+              5
+            ],
+            [
+              66,
+              4,
+              40,
+              5,
+              0,
+              0,
+              1,
+              3566,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              2,
+              0,
+              0,
+              1,
+              0,
+              942
+            ]
+          ]
+        },
+        "train": {
+          "OA": 0.993904532967033,
+          "mAcc": 0.9935379200054544,
+          "Kappa": 0.9929086509223033,
+          "mIoU": 0.9886729370264082,
+          "per_class_acc": [
+            0.999,
+            1.0,
+            0.9702085402184707,
+            0.9852941176470589,
+            0.9981060606060606,
+            0.9995,
+            1.0,
+            0.9917446340121079,
+            0.9979879275653923
+          ],
+          "IoU": [
+            0.9760625305324866,
+            0.9970089730807578,
+            0.9692460317460317,
+            0.9832285115303984,
+            0.9981060606060606,
+            0.9995,
+            1.0,
+            0.9868565169769989,
+            0.9880478087649402
+          ],
+          "support": [
+            2000,
+            2000,
+            1007,
+            1428,
+            528,
+            2000,
+            371,
+            1817,
+            497
+          ],
+          "confusion_matrix": [
+            [
+              1998,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              2000,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              29,
+              0,
+              977,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              6,
+              3,
+              1,
+              1407,
+              0,
+              0,
+              0,
+              8,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              527,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1999,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              371,
+              0,
+              0
+            ],
+            [
+              11,
+              2,
+              0,
+              2,
+              0,
+              0,
+              0,
+              1802,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              496
+            ]
+          ]
+        },
+        "validation": {
+          "OA": 0.973264126921947,
+          "mAcc": 0.9606731385836229,
+          "Kappa": 0.9656772724675322,
+          "mIoU": 0.9290650893084992,
+          "per_class_acc": [
+            0.9546436285097192,
+            0.9886253630203291,
+            0.8972477064220183,
+            0.9665775401069518,
+            0.9831932773109243,
+            0.9904175222450377,
+            0.8788546255506607,
+            0.9962546816479401,
+            0.9902439024390244
+          ],
+          "IoU": [
+            0.9132231404958677,
+            0.9841002168152252,
+            0.8972477064220183,
+            0.9026217228464419,
+            0.9831932773109243,
+            0.9810169491525423,
+            0.875,
+            0.8721311475409836,
+            0.9530516431924883
+          ],
+          "support": [
+            1389,
+            4132,
+            545,
+            748,
+            476,
+            1461,
+            454,
+            801,
+            205
+          ],
+          "confusion_matrix": [
+            [
+              1326,
+              0,
+              0,
+              3,
+              0,
+              0,
+              0,
+              60,
+              0
+            ],
+            [
+              0,
+              4085,
+              0,
+              47,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              15,
+              0,
+              489,
+              0,
+              0,
+              0,
+              0,
+              41,
+              0
+            ],
+            [
+              4,
+              8,
+              0,
+              723,
+              0,
+              0,
+              0,
+              13,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              468,
+              0,
+              0,
+              0,
+              8
+            ],
+            [
+              1,
+              11,
+              0,
+              2,
+              0,
+              1447,
+              0,
+              0,
+              0
+            ],
+            [
+              41,
+              0,
+              0,
+              0,
+              0,
+              14,
+              399,
+              0,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              798,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              203
+            ]
+          ]
+        },
+        "test": {
+          "OA": 0.9515850144092219,
+          "mAcc": 0.9245381268785035,
+          "Kappa": 0.9366661943779863,
+          "mIoU": 0.8775783179699328,
+          "per_class_acc": [
+            0.9781293624941834,
+            0.9719222462203023,
+            0.7714808043875686,
+            0.9763513513513513,
+            0.9882697947214076,
+            0.9824828636709825,
+            0.7524752475247525,
+            0.9078947368421053,
+            0.9918367346938776
+          ],
+          "IoU": [
+            0.8854254422914911,
+            0.9683098591549296,
+            0.7021630615640599,
+            0.9203821656050956,
+            0.9882697947214076,
+            0.9065354884047786,
+            0.7524752475247525,
+            0.8179508890770534,
+            0.9566929133858267
+          ],
+          "support": [
+            2149,
+            5093,
+            547,
+            888,
+            341,
+            1313,
+            505,
+            1064,
+            245
+          ],
+          "confusion_matrix": [
+            [
+              2102,
+              0,
+              13,
+              3,
+              0,
+              0,
+              0,
+              31,
+              0
+            ],
+            [
+              0,
+              4950,
+              0,
+              35,
+              0,
+              108,
+              0,
+              0,
+              0
+            ],
+            [
+              40,
+              0,
+              422,
+              0,
+              0,
+              0,
+              0,
+              85,
+              0
+            ],
+            [
+              0,
+              15,
+              1,
+              867,
+              0,
+              1,
+              0,
+              0,
+              4
+            ],
+            [
+              3,
+              1,
+              0,
+              0,
+              337,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              10,
+              1,
+              0,
+              12,
+              0,
+              1290,
+              0,
+              0,
+              0
+            ],
+            [
+              118,
+              0,
+              0,
+              0,
+              0,
+              1,
+              380,
+              1,
+              5
+            ],
+            [
+              53,
+              2,
+              40,
+              3,
+              0,
+              0,
+              0,
+              966,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              243
+            ]
+          ]
+        }
+      },
+      "logit_mismatched_bits": 37,
+      "total_logit_bits": 988416,
+      "test_OA_drop_percentage_points": 0.0
+    },
+    "n1": {
+      "logits_vs_n3": {
+        "count": 123552,
+        "mismatches": 53229,
+        "abs_sum": 58014.0,
+        "squared_error": 68302.0,
+        "reference_squared": 3871206.0,
+        "max_abs_error": 5.0,
+        "MAE": 0.46955128205128205,
+        "RMSE": 0.743518570931396,
+        "relative_L2": 0.13282920375397578
+      },
+      "agreement": {
+        "all": {
+          "count": 207400,
+          "mismatches": 9371
+        },
+        "labeled": {
+          "count": 42776,
+          "mismatches": 287
+        },
+        "train": {
+          "count": 11648,
+          "mismatches": 25
+        },
+        "validation": {
+          "count": 10211,
+          "mismatches": 82
+        },
+        "test": {
+          "count": 12145,
+          "mismatches": 166
+        }
+      },
+      "metrics": {
+        "labeled": {
+          "OA": 0.9780951935664859,
+          "mAcc": 0.9614608390876328,
+          "Kappa": 0.970982615520038,
+          "mIoU": 0.9378430519251426,
+          "per_class_acc": [
+            0.9843160910873171,
+            0.9906161188267467,
+            0.88804192472606,
+            0.9774804177545692,
+            0.9910780669144982,
+            0.9914495923642871,
+            0.8661654135338346,
+            0.9682237914177078,
+            0.9957761351636748
+          ],
+          "IoU": [
+            0.9391366906474821,
+            0.9875447693376811,
+            0.8673801768264309,
+            0.944794952681388,
+            0.9910780669144982,
+            0.97041650447645,
+            0.8642160540135033,
+            0.9018466987098406,
+            0.9741735537190083
+          ],
+          "support": [
+            6631,
+            18649,
+            2099,
+            3064,
+            1345,
+            5029,
+            1330,
+            3682,
+            947
+          ],
+          "confusion_matrix": [
+            [
+              6527,
+              0,
+              5,
+              4,
+              0,
+              0,
+              0,
+              93,
+              2
+            ],
+            [
+              0,
+              18474,
+              0,
+              86,
+              0,
+              89,
+              0,
+              0,
+              0
+            ],
+            [
+              81,
+              0,
+              1864,
+              0,
+              0,
+              0,
+              0,
+              153,
+              1
+            ],
+            [
+              8,
+              29,
+              3,
+              2995,
+              0,
+              2,
+              0,
+              23,
+              4
+            ],
+            [
+              2,
+              1,
+              0,
+              0,
+              1333,
+              0,
+              0,
+              0,
+              9
+            ],
+            [
+              5,
+              26,
+              0,
+              12,
+              0,
+              4986,
+              0,
+              0,
+              0
+            ],
+            [
+              154,
+              0,
+              0,
+              0,
+              0,
+              18,
+              1152,
+              1,
+              5
+            ],
+            [
+              67,
+              2,
+              42,
+              4,
+              0,
+              0,
+              2,
+              3565,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              943
+            ]
+          ]
+        },
+        "train": {
+          "OA": 0.993904532967033,
+          "mAcc": 0.9934971783511765,
+          "Kappa": 0.9929088239725871,
+          "mIoU": 0.9884680062819514,
+          "per_class_acc": [
+            0.9985,
+            0.997,
+            0.971201588877855,
+            0.9866946778711485,
+            0.9981060606060606,
+            0.9995,
+            1.0,
+            0.9944964226747386,
+            0.9959758551307847
+          ],
+          "IoU": [
+            0.9789215686274509,
+            0.9945137157107232,
+            0.9702380952380952,
+            0.9853146853146854,
+            0.9981060606060606,
+            0.9965104685942173,
+            1.0,
+            0.9885120350109409,
+            0.9840954274353877
+          ],
+          "support": [
+            2000,
+            2000,
+            1007,
+            1428,
+            528,
+            2000,
+            371,
+            1817,
+            497
+          ],
+          "confusion_matrix": [
+            [
+              1997,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              1994,
+              0,
+              0,
+              0,
+              6,
+              0,
+              0,
+              0
+            ],
+            [
+              27,
+              0,
+              978,
+              0,
+              0,
+              0,
+              0,
+              2,
+              0
+            ],
+            [
+              3,
+              4,
+              1,
+              1409,
+              0,
+              0,
+              0,
+              8,
+              3
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              527,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1999,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              371,
+              0,
+              0
+            ],
+            [
+              9,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1807,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              495
+            ]
+          ]
+        },
+        "validation": {
+          "OA": 0.9698364508862991,
+          "mAcc": 0.9556450368645284,
+          "Kappa": 0.9612522698155817,
+          "mIoU": 0.9214064994463076,
+          "per_class_acc": [
+            0.9553635709143269,
+            0.9886253630203291,
+            0.8715596330275229,
+            0.9612299465240641,
+            0.9831932773109243,
+            0.9822039698836413,
+            0.8722466960352423,
+            0.9912609238451935,
+            0.9951219512195122
+          ],
+          "IoU": [
+            0.9095270733379027,
+            0.9805568891022564,
+            0.8683729433272395,
+            0.9010025062656641,
+            0.9831932773109243,
+            0.9709066305818674,
+            0.8665207877461707,
+            0.8593073593073594,
+            0.9532710280373832
+          ],
+          "support": [
+            1389,
+            4132,
+            545,
+            748,
+            476,
+            1461,
+            454,
+            801,
+            205
+          ],
+          "confusion_matrix": [
+            [
+              1327,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              60,
+              0
+            ],
+            [
+              0,
+              4085,
+              0,
+              47,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              21,
+              0,
+              475,
+              0,
+              0,
+              0,
+              0,
+              48,
+              1
+            ],
+            [
+              4,
+              10,
+              0,
+              719,
+              0,
+              0,
+              0,
+              15,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              468,
+              0,
+              0,
+              0,
+              8
+            ],
+            [
+              1,
+              24,
+              0,
+              1,
+              0,
+              1435,
+              0,
+              0,
+              0
+            ],
+            [
+              41,
+              0,
+              0,
+              0,
+              0,
+              17,
+              396,
+              0,
+              0
+            ],
+            [
+              3,
+              0,
+              2,
+              0,
+              0,
+              0,
+              2,
+              794,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              204
+            ]
+          ]
+        },
+        "test": {
+          "OA": 0.9552902428983121,
+          "mAcc": 0.925765713000824,
+          "Kappa": 0.9414424120607942,
+          "mIoU": 0.8831415956760085,
+          "per_class_acc": [
+            0.9818520241973011,
+            0.9789907716473591,
+            0.7513711151736746,
+            0.9763513513513513,
+            0.9912023460410557,
+            0.9878141660319878,
+            0.7623762376237624,
+            0.9060150375939849,
+            0.9959183673469387
+          ],
+          "IoU": [
+            0.8948261238337574,
+            0.9753521126760564,
+            0.6919191919191919,
+            0.9213602550478215,
+            0.9912023460410557,
+            0.9364620938628159,
+            0.7623762376237624,
+            0.8026644462947544,
+            0.9721115537848606
+          ],
+          "support": [
+            2149,
+            5093,
+            547,
+            888,
+            341,
+            1313,
+            505,
+            1064,
+            245
+          ],
+          "confusion_matrix": [
+            [
+              2110,
+              0,
+              5,
+              1,
+              0,
+              0,
+              0,
+              33,
+              0
+            ],
+            [
+              0,
+              4986,
+              0,
+              38,
+              0,
+              69,
+              0,
+              0,
+              0
+            ],
+            [
+              33,
+              0,
+              411,
+              0,
+              0,
+              0,
+              0,
+              103,
+              0
+            ],
+            [
+              1,
+              15,
+              2,
+              867,
+              0,
+              2,
+              0,
+              0,
+              1
+            ],
+            [
+              2,
+              1,
+              0,
+              0,
+              338,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              4,
+              1,
+              0,
+              11,
+              0,
+              1297,
+              0,
+              0,
+              0
+            ],
+            [
+              113,
+              0,
+              0,
+              0,
+              0,
+              1,
+              385,
+              1,
+              5
+            ],
+            [
+              55,
+              2,
+              40,
+              3,
+              0,
+              0,
+              0,
+              964,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              244
+            ]
+          ]
+        }
+      },
+      "logit_mismatched_bits": 111070,
+      "total_logit_bits": 988416,
+      "test_OA_drop_percentage_points": -0.3705228489090162
+    },
+    "n2": {
+      "logits_vs_n3": {
+        "count": 123552,
+        "mismatches": 67698,
+        "abs_sum": 80588.0,
+        "squared_error": 110152.0,
+        "reference_squared": 3871206.0,
+        "max_abs_error": 6.0,
+        "MAE": 0.6522597772597772,
+        "RMSE": 0.9442158871485067,
+        "relative_L2": 0.1686836743091416
+      },
+      "agreement": {
+        "all": {
+          "count": 207400,
+          "mismatches": 13412
+        },
+        "labeled": {
+          "count": 42776,
+          "mismatches": 370
+        },
+        "train": {
+          "count": 11648,
+          "mismatches": 36
+        },
+        "validation": {
+          "count": 10211,
+          "mismatches": 147
+        },
+        "test": {
+          "count": 12145,
+          "mismatches": 180
+        }
+      },
+      "metrics": {
+        "labeled": {
+          "OA": 0.976786048251356,
+          "mAcc": 0.9574600347568987,
+          "Kappa": 0.9692431576690785,
+          "mIoU": 0.9336212291559297,
+          "per_class_acc": [
+            0.9850701251696576,
+            0.9901335192235509,
+            0.8632682229633158,
+            0.9804177545691906,
+            0.9918215613382899,
+            0.9910518989858819,
+            0.8488721804511278,
+            0.9728408473655622,
+            0.9936642027455121
+          ],
+          "IoU": [
+            0.9299544419134397,
+            0.9871692060946271,
+            0.847124824684432,
+            0.9473352254809209,
+            0.9918215613382899,
+            0.9683310666407616,
+            0.8475975975975976,
+            0.9091370558375634,
+            0.974120082815735
+          ],
+          "support": [
+            6631,
+            18649,
+            2099,
+            3064,
+            1345,
+            5029,
+            1330,
+            3682,
+            947
+          ],
+          "confusion_matrix": [
+            [
+              6532,
+              0,
+              6,
+              8,
+              0,
+              0,
+              0,
+              85,
+              0
+            ],
+            [
+              0,
+              18465,
+              0,
+              89,
+              0,
+              95,
+              0,
+              0,
+              0
+            ],
+            [
+              135,
+              0,
+              1812,
+              0,
+              0,
+              0,
+              0,
+              151,
+              1
+            ],
+            [
+              8,
+              24,
+              2,
+              3004,
+              0,
+              2,
+              0,
+              20,
+              4
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              1334,
+              0,
+              0,
+              0,
+              9
+            ],
+            [
+              14,
+              28,
+              0,
+              3,
+              0,
+              4984,
+              0,
+              0,
+              0
+            ],
+            [
+              173,
+              0,
+              0,
+              0,
+              0,
+              21,
+              1129,
+              2,
+              5
+            ],
+            [
+              59,
+              4,
+              32,
+              4,
+              0,
+              0,
+              1,
+              3582,
+              0
+            ],
+            [
+              2,
+              0,
+              0,
+              3,
+              0,
+              0,
+              1,
+              0,
+              941
+            ]
+          ]
+        },
+        "train": {
+          "OA": 0.9935611263736264,
+          "mAcc": 0.9931320130925759,
+          "Kappa": 0.9925088940804699,
+          "mIoU": 0.9883885262926361,
+          "per_class_acc": [
+            0.9985,
+            1.0,
+            0.971201588877855,
+            0.9859943977591037,
+            0.9981060606060606,
+            0.999,
+            0.9973045822102425,
+            0.9900935608145295,
+            0.9979879275653923
+          ],
+          "IoU": [
+            0.9741463414634146,
+            0.9955201592832255,
+            0.9702380952380952,
+            0.983927323549965,
+            0.9981060606060606,
+            0.9985007496251874,
+            0.9973045822102425,
+            0.9857534246575342,
+            0.992
+          ],
+          "support": [
+            2000,
+            2000,
+            1007,
+            1428,
+            528,
+            2000,
+            371,
+            1817,
+            497
+          ],
+          "confusion_matrix": [
+            [
+              1997,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              2000,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              28,
+              0,
+              978,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0
+            ],
+            [
+              5,
+              5,
+              1,
+              1408,
+              0,
+              1,
+              0,
+              6,
+              2
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              527,
+              0,
+              0,
+              0,
+              1
+            ],
+            [
+              0,
+              2,
+              0,
+              0,
+              0,
+              1998,
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              370,
+              0,
+              0
+            ],
+            [
+              15,
+              2,
+              0,
+              1,
+              0,
+              0,
+              0,
+              1799,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              496
+            ]
+          ]
+        },
+        "validation": {
+          "OA": 0.9671922436587993,
+          "mAcc": 0.9476752726549802,
+          "Kappa": 0.9578405990020946,
+          "mIoU": 0.9115490144781769,
+          "per_class_acc": [
+            0.9647228221742261,
+            0.9886253630203291,
+            0.8091743119266055,
+            0.9679144385026738,
+            0.9831932773109243,
+            0.9815195071868583,
+            0.8524229074889867,
+            0.9912609238451935,
+            0.9902439024390244
+          ],
+          "IoU": [
+            0.9041835357624831,
+            0.9810278578290106,
+            0.8091743119266055,
+            0.9061326658322904,
+            0.9831932773109243,
+            0.9682646860229575,
+            0.8486842105263158,
+            0.8546824542518837,
+            0.9485981308411215
+          ],
+          "support": [
+            1389,
+            4132,
+            545,
+            748,
+            476,
+            1461,
+            454,
+            801,
+            205
+          ],
+          "confusion_matrix": [
+            [
+              1340,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              47,
+              0
+            ],
+            [
+              0,
+              4085,
+              0,
+              47,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              36,
+              0,
+              441,
+              0,
+              0,
+              0,
+              0,
+              67,
+              1
+            ],
+            [
+              3,
+              7,
+              0,
+              724,
+              0,
+              0,
+              0,
+              14,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              468,
+              0,
+              0,
+              0,
+              8
+            ],
+            [
+              1,
+              25,
+              0,
+              1,
+              0,
+              1434,
+              0,
+              0,
+              0
+            ],
+            [
+              47,
+              0,
+              0,
+              0,
+              0,
+              20,
+              387,
+              0,
+              0
+            ],
+            [
+              6,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              794,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              1,
+              0,
+              203
+            ]
+          ]
+        },
+        "test": {
+          "OA": 0.9524907369287773,
+          "mAcc": 0.9210865736641201,
+          "Kappa": 0.9378099235932474,
+          "mIoU": 0.8773684228360695,
+          "per_class_acc": [
+            0.9799906933457422,
+            0.9734930296485372,
+            0.7184643510054844,
+            0.9819819819819819,
+            0.9941348973607038,
+            0.9878141660319878,
+            0.7366336633663366,
+            0.9295112781954887,
+            0.9877551020408163
+          ],
+          "IoU": [
+            0.877865777407253,
+            0.9706342991386061,
+            0.6706484641638225,
+            0.9316239316239316,
+            0.9941348973607038,
+            0.9198581560283688,
+            0.7366336633663366,
+            0.8345991561181435,
+            0.9603174603174603
+          ],
+          "support": [
+            2149,
+            5093,
+            547,
+            888,
+            341,
+            1313,
+            505,
+            1064,
+            245
+          ],
+          "confusion_matrix": [
+            [
+              2106,
+              0,
+              6,
+              1,
+              0,
+              0,
+              0,
+              36,
+              0
+            ],
+            [
+              0,
+              4958,
+              0,
+              40,
+              0,
+              95,
+              0,
+              0,
+              0
+            ],
+            [
+              71,
+              0,
+              393,
+              0,
+              0,
+              0,
+              0,
+              83,
+              0
+            ],
+            [
+              0,
+              12,
+              1,
+              872,
+              0,
+              1,
+              0,
+              0,
+              2
+            ],
+            [
+              2,
+              0,
+              0,
+              0,
+              339,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              13,
+              1,
+              0,
+              2,
+              0,
+              1297,
+              0,
+              0,
+              0
+            ],
+            [
+              125,
+              0,
+              0,
+              0,
+              0,
+              1,
+              372,
+              2,
+              5
+            ],
+            [
+              38,
+              2,
+              32,
+              3,
+              0,
+              0,
+              0,
+              989,
+              0
+            ],
+            [
+              1,
+              0,
+              0,
+              2,
+              0,
+              0,
+              0,
+              0,
+              242
+            ]
+          ]
+        }
+      },
+      "logit_mismatched_bits": 142877,
+      "total_logit_bits": 988416,
+      "test_OA_drop_percentage_points": -0.09057225195553409
+    }
+  },
+  "trace_tiles": 5,
+  "state_trace_units": "physical state; C/D/total in physical readout units (includes s_C)",
+  "source_sha256": {
+    "n2_model.py": "a9c143a291860e2904d7e6da793ba921b29026b60deb0ecb11e72c6b600da60e",
+    "both_FPGA_21patch_dual.py": "d1222d13b1a223d44aa0d01dc022d6fced8ccf02bb8019ed3a704bcf89e710c0",
+    "d1_methods.py": "b95df421da13a982b1d7bf638bd389bb5afeb676dcb104d9bcf3530162e7c02c",
+    "prepare.py": "6943198f94e7beace2c291b2c85176a802272424b146b2ebc2b0c9c87bbf0e63",
+    "both_FPGA_single_qat_source.py": "45272ad9cd70809cc4ba28636f85fba2b4546215c73855fa317057570c469129",
+    "both_FPGA_nonlinear_D1.py": "f8d2bf9c5b7436d881f618bea68e75c094289881f13cd4255b6c993f8210feb1",
+    "ssm_d_path.py": "fcd8b46e11eeddbd72c4b16c9846ee9b3a1d789d16981426aa3ec98b54c5e3fe",
+    "mambahsi_ablation_model.py": "c30588f580db04944fd7254318fd7d013b2a72f845b566f4e2028f184508a6b5",
+    "train_mambahsi_spatial_split_dense_qat.py": "a2b4299de1efaa2c0962bda9e5dd39877cc87759dff2612cb395f143ff0640da",
+    "ssm_error_ablation.py": "e0e50c61795a1e5d82f12d98620848ba7def9c276aa506c1808ecdd04064a8bf"
+  },
+  "frozen_d_equal_across_methods": true,
+  "D1_board_input_and_labels_exact": true
+}

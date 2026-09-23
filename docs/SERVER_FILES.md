@@ -2,38 +2,28 @@
 
 本地已经有四数据集 D1 FP32 checkpoint、PCA/归一化预处理、划分与 seed 索引，以及本次 eval1 QAT 的源码和训练结果。**不需要重复传这些文件。** 本次收集用于确认服务器实际依赖及补齐下列运行记录；仓库名为 `FPGA-MambaHSI`。
 
-## 本次已经收到
+## 已接收并核验，主要补件已完成
 
-- 四数据集 eval1 FPGA 模拟 40 次，结果、源码身份、checkpoint 与 QAT 元数据已核对。
-- UP FP32 GPU0 功耗 42 次，包含两种范围、七种 batch、三次重复和原始采样；测量保留 Xorg 显示后台。
-- 原环境完整版本清单、wheel 来源、CUDA 扩展哈希，以及实际安装的 Mamba Python 包。Python 源码与环境采样哈希一致，`mamba_simple.py` 存在本地修改。
+- 四数据集 eval1 FPGA 模拟40次，以及对应 checkpoint/QAT 元数据核对记录。
+- UP FP32 GPU0功耗42次、原始采样和汇总，保留Xorg显示后台。
+- 四数据集 FP32 GPU 原始报告28份，与已有112行汇总一致。
+- UP seed0 dt 输入诊断：六核×三策略18行，非四数据集整网INT8输入消融。
+- D1 N0–N3 完整软件与原始结果：858 tiles、前5 tiles详细轨迹；10个源码哈希匹配，24份MEM码字匹配。
+- 原环境版本与Mamba Python包；已安装CUDA运行库备份通过22文件校验，两个扩展与原采样哈希一致。
 
-公开文件和精确回放见 [本次更新说明](SERVER_UPDATE_20260923.md)。不需要重复传上述内容。
+运行和归档位置见 [最终补件说明](COMPLETION_20260923.md)。无须重复收集。
 
-## 仍需补充什么
+`cuda_runtime_5o7mz0dk` 是有效运行库备份，保留在作者本地，不进普通Git。
+`cuda_runtime_mscish0i` 的压缩包CRC失败，未纳入发布材料。原始wheel未收到，
+但已有对应已安装运行库备份，因此不作为本次材料闭环的阻塞项。
 
-| 优先级 | 文件/记录 | 用途 |
-|---|---|---|
-| 1 | 四数据集 FP32 GPU 测速 28 组原始 JSON、汇总 CSV | 已有数值汇总；这次收集的旧目录只有早期失败日志。用户确认新结果在 `QAT_eval1_GPU_power_20260921` 下，需选对实际结果子目录 |
-| 2 | Mamba 1.1.2 与 causal-conv1d 1.1.2 的原始 cp38/cu118/torch1.13 wheel | Python 包已收到，wheel 和编译扩展未收到；用于精确二进制环境复现，不必放普通 Git 仓库 |
-| 2 | 新 eval1 dt 输入诊断输出（如果已经运行） | 本次模拟器版本没有 dt 诊断，不能用已有 INT9 输出范围代替 |
-| 3 | N0–N3 Python 软件参考、系数生成器、驱动、JSON/CSV | 论文数值的完整软件复现；不需要 RTL/Vivado |
-| 可选 | 历史 dt output=6–10 × 十 seed、完整 B1/B8 定位、requant/K 位宽扫描结果 | 仅在确已完成且计划公开时补齐 |
+## 只在论文采用时再补
 
-从服务器项目根目录收集新子目录的记录，可用：
+历史dt输出6–10位×十seed、完整B1/B8首差异定位、requant/K/state位宽扫描：
+只有计划公开或论文采用时才要求对应原始结果。不能把已有脚本计为已完成实验。
+RTL/Vivado仍在本仓库范围之外。
 
-```bash
-conda activate mambahsi
-cd ~/mzz/MambaHSI
-python collect_server_repro.py \
-  --project-root "$PWD" --output-dir "$PWD/server_repro_export" \
-  --artifact-root QAT_eval1_GPU_power_20260921 \
-  --source-file QAT_eval1_GPU_power_20260921/benchmark_up_gpu_power.py \
-  --source-file QAT_eval1_GPU_power_20260921/gpu_power_monitor.py \
-  --source-file QAT_eval1_GPU_power_20260921/run_up_gpu_power.sh
-```
-
-若新目录包含许多训练日志，可将 `--artifact-root` 缩小为实际测速子目录；检查收集清单中的 skipped。wheel 需单独复制，收集器默认不收二进制文件。本地归档仅纳入必要源码、轻量记录和元数据。
+以下保留收集器说明，供将来新增实验使用。
 
 当前本地 QAT 源码哈希与四数据集 eval1 的 `launch.json` 一致。收集器仍会带上少量服务器源码，用于逐文件核对新旧版本，不会自动覆盖本地整理版本。
 

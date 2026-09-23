@@ -17,11 +17,13 @@
 | 08 | 论文旧 QAT：eval8 选模 | 四数据集×十 seed=40 | D1 FP32 |
 | 09 | 上述 40 个 QAT 的 FPGA 整数模拟 | 40 份模拟结果及导出 | 08 对应 checkpoint |
 | 10/18 | D1 单误差源整网与固定输入回放 | UP seed0，none/a/k/state/d/all/separate 七组；局部回放8个test tile×六核 | 历史 shared-U D1 checkpoint；捕获的 U/dt/B/C |
-| 11 | FP32 GPU 多 batch 测速 | 4×7=28 设置；本地只有112行汇总，原始报告待补 | D1 FP32，RTX 4090 |
+| 11 | FP32 GPU 多 batch 测速 | 4×7=28 原始报告及112行汇总，均已核验 | D1 FP32，RTX 4090 |
 | 12 | 定点数值语义 GPU 测速 | 4×7=28 原始报告、112行汇总 | 旧 eval8 QAT，RTX 4090 |
 | 13 | 最新 QAT：eval1 选模、测试 | 四数据集×十 seed=40 | D1 FP32 |
 | 14 | eval1 FPGA 整数模拟 | 40 份完整报告，checkpoint 哈希与 QAT 归档一致；保存预测均 100% 复现 | 13 对应 checkpoint |
 | 16 | UP FP32 GPU 功耗 | 7 batch×2 scope×3 repeat=42 次，原始采样/报告/汇总齐全；Xorg 显示后台 | UP FP32 seed0，GPU0 RTX 4090 |
+| 15 | dt输入局部探针 | UP seed0，六核×三策略18行；INT8替代值未传播到整网 | 最新eval1 UP seed0 |
+| 20 | D1 N0–N3完整非线性对照 | UP历史D1，858 tiles全场景，前5 tiles状态明细，四方法原始数组 | checkpoint d113c612… |
 | 17 | 训练跳变捕获、同事件后端回放 | 两 seed 捕获；seed6 native/reference/TF32-off 三种回放 | 捕获目录中的 checkpoint 与事件记录 |
 | tools | 共享 A 代价、旧 QAT 相对 FP32 的配对统计 | 两比较×四数据集，每组十 seed | 已附数值 evidence |
 
@@ -33,11 +35,9 @@
 
 | 入口/项目 | 状态 |
 |---|---|
-| 15 dt 输入诊断 | 代码已提供；待补输出，INT9应检查量化前分布/超界比例/误差，不凭最终范围判定溢出 |
 | 19 B1/B8 首差异定位 | 代码已提供；未找到完整定位报告；17的训练跳变回放不是同一实验 |
 | 10/18 requant、K/state/accumulator位宽扫描 | 扫描入口已提供；未找到完整结果，不能列为已完成 |
 | dt输出6–10位×十seed | 用户报告已完成；当前归档缺少配置与结果，待服务器补件 |
-| N0–N3整网非线性比较 | 论文已有数值；本机缺产生该结果的完整Python实现/驱动及原始记录，需另一台电脑补软件部分 |
 
 ## 通用参数与目录
 
@@ -110,7 +110,7 @@ BATCH_SIZES=1,2,4,8,16,32,64 bash experiments/12_gpu_fixed.sh
 
 FP32默认20次repeat、100次warmup、200个单tile trial；定点默认5次repeat、5次warmup、20个单tile trial。原始报告保留model-only/end-to-end、CUDA-event/wall口径，112行汇总不等于112次独立配置。两种现有结果均为同一张 RTX 4090。定点GPU路径使用宽整数/FP64模拟定点算术，不是优化INT8推理库。
 
-## 13–16：最新eval1与补实验
+## 13–16：最新eval1、dt诊断与功耗
 
 ```bash
 bash experiments/13_qat_eval1.sh
@@ -163,3 +163,17 @@ python tools/inventory_results.py --workspace /absolute/path/archive --output-di
 配对统计计算十seed的均值差、95% Student-t区间、精确双侧符号翻转检验，并对八个主比较做Holm校正。`QAT_loss_FP32_minus_QAT8`的符号为FP32减旧QAT，不能直接套在新eval1上。eval1已另附40seed摘要与一致性核验记录。
 
 2026-09-23 新增结果的数值表、精确源码版本和功耗范围见 [补件说明](SERVER_UPDATE_20260923.md)。保留 Xorg 的完整功耗结果与早期含其他 Python 进程的 shared smoke 不是同一组实验。
+
+## 20：已完成的历史 D1 N0–N3 对照
+
+```bash
+bash experiments/20_nonlinear_D1.sh \
+  --qat-run-dir /absolute/path/historical_D1/run_seed0 \
+  --fp32-dir /absolute/path/matching_FP32/configuration \
+  --data-path /absolute/path/data --device cuda:1 \
+  --output-dir ./results/20_nonlinear_D1 --dry-run
+```
+
+20是独立入口，不通过01–19的通用命令规划器。完整命令、模型身份和范围见
+[最终补件说明](COMPLETION_20260923.md)。D1与旧v5对照分开归档；不能用它们
+替代当前四数据集eval1模型的N0–N3新实验。

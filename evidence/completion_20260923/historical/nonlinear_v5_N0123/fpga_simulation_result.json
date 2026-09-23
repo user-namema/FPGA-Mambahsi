@@ -1,0 +1,737 @@
+{
+  "dataset": "UP",
+  "seed": 0,
+  "protocol": "exact saved 5:2:3-target raw-pixel-disjoint blocks; exact FP32 train-only PCA/minmax; non-overlapping dense 16x16 tiles; current fold-aware QAT; per-tensor fixed-point FPGA simulation",
+  "simulation_scope": "integer Conv/Linear/bias/requant/fusion/residual/pooling with Q8.24 SSM state; Abar and K=delta*s_B*s_u use offline-generated dt-code ROMs while dynamic signed INT8 B and U are multiplied at runtime; dt_proj applies its bias once and selective_scan uses delta_bias=None; floating selective_scan is retained only as a diagnostic reference",
+  "ssm_lut_contract": "dt_proj input INT9; its INT8 output already contains the single dt_proj bias; selective_scan delta_bias=None; 256 addresses; per-core channel-shared Abar[address,state] UQ1.24 and unsigned 19-bit K[address], with per-core K fractional bits up to Q24; U remains signed INT8 and has no lookup table",
+  "integer_mac_backend": "FP64 exact-integer carrier checked on the integer grid, signed INT32 partial-sum/final-accumulator contract",
+  "ssm_readout_accumulator": "signed INT64 before requantization to INT8",
+  "pool_contract": "signed INT10 2x2 sum with physical scale=pool_input_tensor_scale/4",
+  "ssm_roms": [
+    {
+      "core": "blk0_spa",
+      "Abar_shape": [
+        256,
+        16
+      ],
+      "K_shape": [
+        256
+      ],
+      "K_signed": false,
+      "K_logical_bits": 19,
+      "K_fraction_bits": 24,
+      "U_storage_bits": 8,
+      "packed_bits": 107264,
+      "packed_MiB": 0.012786865234375,
+      "int32_aligned_bits": 139264,
+      "int32_aligned_MiB": 0.0166015625
+    },
+    {
+      "core": "blk0_spe",
+      "Abar_shape": [
+        256,
+        16
+      ],
+      "K_shape": [
+        256
+      ],
+      "K_signed": false,
+      "K_logical_bits": 19,
+      "K_fraction_bits": 24,
+      "U_storage_bits": 8,
+      "packed_bits": 107264,
+      "packed_MiB": 0.012786865234375,
+      "int32_aligned_bits": 139264,
+      "int32_aligned_MiB": 0.0166015625
+    },
+    {
+      "core": "blk1_spa",
+      "Abar_shape": [
+        256,
+        16
+      ],
+      "K_shape": [
+        256
+      ],
+      "K_signed": false,
+      "K_logical_bits": 19,
+      "K_fraction_bits": 24,
+      "U_storage_bits": 8,
+      "packed_bits": 107264,
+      "packed_MiB": 0.012786865234375,
+      "int32_aligned_bits": 139264,
+      "int32_aligned_MiB": 0.0166015625
+    },
+    {
+      "core": "blk1_spe",
+      "Abar_shape": [
+        256,
+        16
+      ],
+      "K_shape": [
+        256
+      ],
+      "K_signed": false,
+      "K_logical_bits": 19,
+      "K_fraction_bits": 24,
+      "U_storage_bits": 8,
+      "packed_bits": 107264,
+      "packed_MiB": 0.012786865234375,
+      "int32_aligned_bits": 139264,
+      "int32_aligned_MiB": 0.0166015625
+    },
+    {
+      "core": "blk2_spa",
+      "Abar_shape": [
+        256,
+        16
+      ],
+      "K_shape": [
+        256
+      ],
+      "K_signed": false,
+      "K_logical_bits": 19,
+      "K_fraction_bits": 23,
+      "U_storage_bits": 8,
+      "packed_bits": 107264,
+      "packed_MiB": 0.012786865234375,
+      "int32_aligned_bits": 139264,
+      "int32_aligned_MiB": 0.0166015625
+    },
+    {
+      "core": "blk2_spe",
+      "Abar_shape": [
+        256,
+        16
+      ],
+      "K_shape": [
+        256
+      ],
+      "K_signed": false,
+      "K_logical_bits": 19,
+      "K_fraction_bits": 24,
+      "U_storage_bits": 8,
+      "packed_bits": 107264,
+      "packed_MiB": 0.012786865234375,
+      "int32_aligned_bits": 139264,
+      "int32_aligned_MiB": 0.0166015625
+    }
+  ],
+  "ssm_rom_total_packed_bits": 643584,
+  "ssm_rom_total_packed_MiB": 0.07672119140625,
+  "ssm_rom_total_int32_aligned_bits": 835584,
+  "ssm_rom_total_int32_aligned_MiB": 0.099609375,
+  "tile_size": 16,
+  "split_block_size": 16,
+  "scene_shape": [
+    610,
+    340
+  ],
+  "pca_channels": 16,
+  "class_count": 9,
+  "tile_count": 858,
+  "qat_run_dir": "$PROJECT_ROOT/results/SPATIAL_SPLIT_3WAY_DENSE_QAT/UP_int8_lsq_freeze20_detach_lr1/run_seed0",
+  "fp32_dir": "$PROJECT_ROOT/results/SPATIAL_SPLIT_3WAY_DENSE/UP_all_samples_sqrt_inverse_clip3_2000_nobias",
+  "qat_checkpoint": "$PROJECT_ROOT/results/SPATIAL_SPLIT_3WAY_DENSE_QAT/UP_int8_lsq_freeze20_detach_lr1/run_seed0/best_qat_foldaware.pth",
+  "qat_batch_invariance_probe": {
+    "probe_tiles": 1,
+    "cosine": 1.0,
+    "logit_MAE": 0.0,
+    "logit_MaxAE": 0.0,
+    "prediction_match": 1.0
+  },
+  "qat_best_epoch": 35,
+  "input_scale": 0.0034292603377252817,
+  "saved_qat_prediction_match": 1.0,
+  "qat_reference_batch_size": 1,
+  "qat_batch1_vs_saved_batch_match": 1.0,
+  "metrics": {
+    "qat_saved_batch": {
+      "OA": 0.9477974475092631,
+      "mAcc": 0.9280539508210734,
+      "Kappa": 0.9317747236538856,
+      "mIoU": 0.864599667383777,
+      "per_class_acc": [
+        0.9348534201954397,
+        0.9882191242882388,
+        0.7897623400365631,
+        0.9673423423423423,
+        0.967741935483871,
+        0.9063214013709063,
+        0.8950495049504951,
+        0.9031954887218046,
+        1.0
+      ],
+      "IoU": [
+        0.8924922256774767,
+        0.9847387986695363,
+        0.5333333333333333,
+        0.9367502726281353,
+        0.967741935483871,
+        0.8795269770879527,
+        0.8950495049504951,
+        0.7877049180327869,
+        0.9040590405904059
+      ],
+      "support": [
+        2149,
+        5093,
+        547,
+        888,
+        341,
+        1313,
+        505,
+        1064,
+        245
+      ],
+      "confusion_matrix": [
+        [
+          2009,
+          0,
+          94,
+          2,
+          0,
+          0,
+          0,
+          35,
+          9
+        ],
+        [
+          1,
+          5033,
+          0,
+          22,
+          0,
+          37,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          432,
+          0,
+          0,
+          0,
+          0,
+          115,
+          0
+        ],
+        [
+          7,
+          13,
+          0,
+          859,
+          0,
+          2,
+          0,
+          1,
+          6
+        ],
+        [
+          5,
+          0,
+          4,
+          0,
+          330,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          38,
+          0,
+          75,
+          5,
+          0,
+          1190,
+          0,
+          5,
+          0
+        ],
+        [
+          43,
+          0,
+          0,
+          0,
+          0,
+          1,
+          452,
+          0,
+          9
+        ],
+        [
+          8,
+          5,
+          90,
+          0,
+          0,
+          0,
+          0,
+          961,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          245
+        ]
+      ]
+    },
+    "qat_direct": {
+      "OA": 0.9477974475092631,
+      "mAcc": 0.9280539508210734,
+      "Kappa": 0.9317747236538856,
+      "mIoU": 0.864599667383777,
+      "per_class_acc": [
+        0.9348534201954397,
+        0.9882191242882388,
+        0.7897623400365631,
+        0.9673423423423423,
+        0.967741935483871,
+        0.9063214013709063,
+        0.8950495049504951,
+        0.9031954887218046,
+        1.0
+      ],
+      "IoU": [
+        0.8924922256774767,
+        0.9847387986695363,
+        0.5333333333333333,
+        0.9367502726281353,
+        0.967741935483871,
+        0.8795269770879527,
+        0.8950495049504951,
+        0.7877049180327869,
+        0.9040590405904059
+      ],
+      "support": [
+        2149,
+        5093,
+        547,
+        888,
+        341,
+        1313,
+        505,
+        1064,
+        245
+      ],
+      "confusion_matrix": [
+        [
+          2009,
+          0,
+          94,
+          2,
+          0,
+          0,
+          0,
+          35,
+          9
+        ],
+        [
+          1,
+          5033,
+          0,
+          22,
+          0,
+          37,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          432,
+          0,
+          0,
+          0,
+          0,
+          115,
+          0
+        ],
+        [
+          7,
+          13,
+          0,
+          859,
+          0,
+          2,
+          0,
+          1,
+          6
+        ],
+        [
+          5,
+          0,
+          4,
+          0,
+          330,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          38,
+          0,
+          75,
+          5,
+          0,
+          1190,
+          0,
+          5,
+          0
+        ],
+        [
+          43,
+          0,
+          0,
+          0,
+          0,
+          1,
+          452,
+          0,
+          9
+        ],
+        [
+          8,
+          5,
+          90,
+          0,
+          0,
+          0,
+          0,
+          961,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          245
+        ]
+      ]
+    },
+    "staged_fp": {
+      "OA": 0.9477974475092631,
+      "mAcc": 0.9280539508210734,
+      "Kappa": 0.9317747236538856,
+      "mIoU": 0.864599667383777,
+      "per_class_acc": [
+        0.9348534201954397,
+        0.9882191242882388,
+        0.7897623400365631,
+        0.9673423423423423,
+        0.967741935483871,
+        0.9063214013709063,
+        0.8950495049504951,
+        0.9031954887218046,
+        1.0
+      ],
+      "IoU": [
+        0.8924922256774767,
+        0.9847387986695363,
+        0.5333333333333333,
+        0.9367502726281353,
+        0.967741935483871,
+        0.8795269770879527,
+        0.8950495049504951,
+        0.7877049180327869,
+        0.9040590405904059
+      ],
+      "support": [
+        2149,
+        5093,
+        547,
+        888,
+        341,
+        1313,
+        505,
+        1064,
+        245
+      ],
+      "confusion_matrix": [
+        [
+          2009,
+          0,
+          94,
+          2,
+          0,
+          0,
+          0,
+          35,
+          9
+        ],
+        [
+          1,
+          5033,
+          0,
+          22,
+          0,
+          37,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          432,
+          0,
+          0,
+          0,
+          0,
+          115,
+          0
+        ],
+        [
+          7,
+          13,
+          0,
+          859,
+          0,
+          2,
+          0,
+          1,
+          6
+        ],
+        [
+          5,
+          0,
+          4,
+          0,
+          330,
+          0,
+          0,
+          0,
+          2
+        ],
+        [
+          38,
+          0,
+          75,
+          5,
+          0,
+          1190,
+          0,
+          5,
+          0
+        ],
+        [
+          43,
+          0,
+          0,
+          0,
+          0,
+          1,
+          452,
+          0,
+          9
+        ],
+        [
+          8,
+          5,
+          90,
+          0,
+          0,
+          0,
+          0,
+          961,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          245
+        ]
+      ]
+    },
+    "int8_hw": {
+      "OA": 0.9443392342527789,
+      "mAcc": 0.9263236446202865,
+      "Kappa": 0.927278392313233,
+      "mIoU": 0.8598339503812126,
+      "per_class_acc": [
+        0.9371800837598884,
+        0.9850775574317691,
+        0.7989031078610603,
+        0.9605855855855856,
+        0.9706744868035191,
+        0.872048743335872,
+        0.897029702970297,
+        0.9154135338345865,
+        1.0
+      ],
+      "IoU": [
+        0.8899690676093681,
+        0.9804572991987492,
+        0.5388409371146733,
+        0.9363336992316136,
+        0.9706744868035191,
+        0.8357664233576643,
+        0.8711538461538462,
+        0.7977067977067978,
+        0.9176029962546817
+      ],
+      "support": [
+        2149,
+        5093,
+        547,
+        888,
+        341,
+        1313,
+        505,
+        1064,
+        245
+      ],
+      "confusion_matrix": [
+        [
+          2014,
+          0,
+          82,
+          2,
+          0,
+          0,
+          15,
+          32,
+          4
+        ],
+        [
+          6,
+          5017,
+          0,
+          16,
+          0,
+          54,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          437,
+          0,
+          0,
+          0,
+          0,
+          110,
+          0
+        ],
+        [
+          8,
+          17,
+          0,
+          853,
+          0,
+          2,
+          0,
+          0,
+          8
+        ],
+        [
+          4,
+          0,
+          5,
+          0,
+          331,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          46,
+          0,
+          102,
+          5,
+          0,
+          1145,
+          0,
+          15,
+          0
+        ],
+        [
+          42,
+          0,
+          0,
+          0,
+          0,
+          1,
+          453,
+          0,
+          9
+        ],
+        [
+          8,
+          7,
+          75,
+          0,
+          0,
+          0,
+          0,
+          974,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          245
+        ]
+      ]
+    }
+  },
+  "test_agreements": {
+    "qat_saved_batch_vs_qat_direct_batch1": {
+      "matches": 12145,
+      "total": 12145,
+      "rate": 1.0
+    },
+    "qat_saved_batch_vs_int8": {
+      "matches": 11960,
+      "total": 12145,
+      "rate": 0.984767393989296
+    },
+    "qat_direct_vs_staged_fp": {
+      "matches": 12145,
+      "total": 12145,
+      "rate": 1.0
+    },
+    "staged_fp_vs_int8": {
+      "matches": 11960,
+      "total": 12145,
+      "rate": 0.984767393989296
+    },
+    "qat_direct_vs_int8": {
+      "matches": 11960,
+      "total": 12145,
+      "rate": 0.984767393989296
+    }
+  }
+}

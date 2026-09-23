@@ -51,3 +51,11 @@ wheel and is not the verification manifest for the modified snapshot; use
 The CUDA extensions are not bundled. Keeping this package for provenance does
 not automatically make it the active Python import: see `ENVIRONMENT.md` for
 explicit snapshot selection and the required causal-conv1d dependency.
+
+
+## Received causal-conv1d 1.1.2 Python snapshot
+
+`third_party/causal_conv1d_server_1_1_2/` preserves the Python interface and
+package metadata from the verified installed-runtime backup. Its LICENSE and
+AUTHORS are retained in `causal_conv1d-1.1.2.dist-info/`; no new license is
+assigned to these files. The compiled extension remains outside Git.

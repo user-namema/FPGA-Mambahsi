@@ -1,0 +1,121 @@
+{
+  "python": "3.8.20 (default, Oct  3 2024, 15:24:27) \n[GCC 11.2.0]",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.17",
+  "files": [
+    {
+      "path": "selective_scan_cuda.cpython-38-x86_64-linux-gnu.so",
+      "bytes": 215056664,
+      "sha256": "25e78f53d6aafbb7ac11be80d720fd07200b048ac3f7800778248c74dd99bd45",
+      "recorded_20260923_sha256": "25e78f53d6aafbb7ac11be80d720fd07200b048ac3f7800778248c74dd99bd45",
+      "matches_recorded_20260923": true
+    },
+    {
+      "path": "causal_conv1d_cuda.cpython-38-x86_64-linux-gnu.so",
+      "bytes": 34258896,
+      "sha256": "8cefee9d05467dc5a288ab2e2e3789ffc46af9c7bed939b0386c9da34bef3d83",
+      "recorded_20260923_sha256": "8cefee9d05467dc5a288ab2e2e3789ffc46af9c7bed939b0386c9da34bef3d83",
+      "matches_recorded_20260923": true
+    },
+    {
+      "path": "causal_conv1d/__init__.py",
+      "bytes": 112,
+      "sha256": "26ecb9872b3f52caa5ce1130d9536c9395c7b570d66f21f62bd04604f7a5bf0c"
+    },
+    {
+      "path": "causal_conv1d/causal_conv1d_interface.py",
+      "bytes": 3697,
+      "sha256": "f98c24066be42f718a700cc48ea979398bf1a4362203eeb1cbc245b5272c6c0a"
+    },
+    {
+      "path": "causal_conv1d-1.1.2.dist-info/METADATA",
+      "bytes": 1124,
+      "sha256": "30ad8d20bade24a07c81f5d5a186be89e5e03ebb152fe74a9c00efd6b0dcdf5a"
+    },
+    {
+      "path": "causal_conv1d-1.1.2.dist-info/direct_url.json",
+      "bytes": 301,
+      "sha256": "155acde9254315b7a8852cbc050fd9b529044970a1d4c18ed8f23b349892d73b"
+    },
+    {
+      "path": "causal_conv1d-1.1.2.dist-info/top_level.txt",
+      "bytes": 33,
+      "sha256": "b4ca9363f2a5ed365a72d63d281273881e6f8fe78cb6929aac8245dd06d95afa"
+    },
+    {
+      "path": "causal_conv1d-1.1.2.dist-info/INSTALLER",
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "path": "causal_conv1d-1.1.2.dist-info/WHEEL",
+      "bytes": 103,
+      "sha256": "a7c657a9135aeabbc65137895e5b2a63edeb41985316dbbcd6d1d6997247be00"
+    },
+    {
+      "path": "causal_conv1d-1.1.2.dist-info/RECORD",
+      "bytes": 1217,
+      "sha256": "c2ac342d70a061be151b4a2d6f079448e52409b7527ccf79d2fd475bdcabf4f2"
+    },
+    {
+      "path": "causal_conv1d-1.1.2.dist-info/AUTHORS",
+      "bytes": 23,
+      "sha256": "0dd3fdb00754168d9789b946e325655491bc209faf8cb68c7f9dded33f82a775"
+    },
+    {
+      "path": "causal_conv1d-1.1.2.dist-info/LICENSE",
+      "bytes": 1558,
+      "sha256": "8c9ccb96c065e706135b6cbad279b721da6156e51f3a5f27c6b3329af9416d73"
+    },
+    {
+      "path": "causal_conv1d-1.1.2.dist-info/REQUESTED",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "mamba_ssm-1.1.2.dist-info/METADATA",
+      "bytes": 8940,
+      "sha256": "3f64181a571af0b06ca22b8180594c68d80cabb78bc14da0c00f220576dea58f"
+    },
+    {
+      "path": "mamba_ssm-1.1.2.dist-info/direct_url.json",
+      "bytes": 297,
+      "sha256": "157f31698f609d18dbcabc32acebd1e89fcb43a8ad2f87f5f0d5138c131af0f5"
+    },
+    {
+      "path": "mamba_ssm-1.1.2.dist-info/top_level.txt",
+      "bytes": 30,
+      "sha256": "46c140dffb704032e37a27df9b704d5ff5c4ba234fbdae23645367cac0de9a7a"
+    },
+    {
+      "path": "mamba_ssm-1.1.2.dist-info/INSTALLER",
+      "bytes": 4,
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508"
+    },
+    {
+      "path": "mamba_ssm-1.1.2.dist-info/WHEEL",
+      "bytes": 103,
+      "sha256": "a7c657a9135aeabbc65137895e5b2a63edeb41985316dbbcd6d1d6997247be00"
+    },
+    {
+      "path": "mamba_ssm-1.1.2.dist-info/RECORD",
+      "bytes": 2939,
+      "sha256": "860ed78770ea571a20942844deb5ada453d39b581538b0c25785179368a03967"
+    },
+    {
+      "path": "mamba_ssm-1.1.2.dist-info/AUTHORS",
+      "bytes": 53,
+      "sha256": "e5eb51eba1fdf225e8e99afb87e315c2383d934dd9d61c0681e05617e045d145"
+    },
+    {
+      "path": "mamba_ssm-1.1.2.dist-info/LICENSE",
+      "bytes": 11348,
+      "sha256": "760939b000194d04548ede6a857bbe735d1695d8422ec85955c8e2bd7f4b95c5"
+    },
+    {
+      "path": "mamba_ssm-1.1.2.dist-info/REQUESTED",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "note": "Installed runtime backup, not a wheel or cross-platform installer."
+}

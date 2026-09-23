@@ -1,0 +1,181 @@
+{
+  "s_dt": 0.05748094245791435,
+  "s_B": 0.04465261101722717,
+  "s_u": 0.03392046317458153,
+  "SDT_Q30": 61719692,
+  "SBSU_Q40": 1665361266,
+  "DECAY_Q24": [
+    16372182,
+    33726978,
+    51694642,
+    67889376,
+    85629604,
+    109806374,
+    111920332,
+    129862222,
+    154408761,
+    172053070,
+    183719615,
+    218723468,
+    221359072,
+    238428507,
+    257412432,
+    256779607
+  ],
+  "decay_from_checkpoint": [
+    0.9758580999983331,
+    2.010284554304689,
+    3.0812407460662046,
+    4.04652215574595,
+    5.10392215190374,
+    6.544969892522061,
+    6.670971604998456,
+    7.740391624941251,
+    9.20347936129649,
+    10.255162121392964,
+    10.950542370490693,
+    13.036934638822478,
+    13.194028833529156,
+    14.211446445223848,
+    15.34297655545606,
+    15.305257281128753
+  ],
+  "K_fraction_bits": 24,
+  "signature": "f38ffb1dac787bab3e072f2891bc56474344e1be53922c05fca980391886a323",
+  "d_coefficient": [
+    12334722,
+    10278935,
+    12334722,
+    10278935,
+    12334722,
+    10278935,
+    12334722,
+    12334722,
+    12334722,
+    12334722,
+    10278935,
+    12334722,
+    12334722,
+    12334722,
+    12334722,
+    12334722
+  ],
+  "d_left_shift": 0,
+  "d_range_certificate": {
+    "c_min": -4398046509056,
+    "c_max": 4398046511104,
+    "total_min": -4399625353472,
+    "total_max": 4399613020798,
+    "output_bits": 48,
+    "coefficient_bits": 27,
+    "product_bits": 35,
+    "left_shift": 0,
+    "coefficient_min": 10278935,
+    "coefficient_max": 12334722,
+    "coefficient_count": 16,
+    "coefficient_rom_bits": 432,
+    "fold_D_max_abs_error": 3.805027981584885e-08,
+    "fold_D_mae": 3.054467570540176e-08,
+    "max_output_error_full_u_domain": 1.6520743875533105e-07,
+    "reference": "frozen dequantized QAT D; excludes LSQ error relative to original D",
+    "proof": "full signed H, INT8 C/U domains; conservative independent C+D bounds"
+  },
+  "coefficient_errors_vs_n3": {
+    "n3": {
+      "a": {
+        "count": 4096,
+        "mismatches": 0,
+        "abs_sum": 0.0,
+        "squared_error": 0.0,
+        "reference_squared": 3.3323076811991846e+17,
+        "max_abs_error": 0.0,
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "relative_L2": 0.0
+      },
+      "k": {
+        "count": 256,
+        "mismatches": 0,
+        "abs_sum": 0.0,
+        "squared_error": 0.0,
+        "reference_squared": 1500918439433.0,
+        "max_abs_error": 0.0,
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "relative_L2": 0.0
+      }
+    },
+    "n0": {
+      "a": {
+        "count": 4096,
+        "mismatches": 1298,
+        "abs_sum": 2695.0,
+        "squared_error": 8117.0,
+        "reference_squared": 3.3323076811991846e+17,
+        "max_abs_error": 8.0,
+        "MAE": 0.657958984375,
+        "RMSE": 1.4077249209717786,
+        "relative_L2": 1.560720827140948e-07
+      },
+      "k": {
+        "count": 256,
+        "mismatches": 0,
+        "abs_sum": 0.0,
+        "squared_error": 0.0,
+        "reference_squared": 1500918439433.0,
+        "max_abs_error": 0.0,
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "relative_L2": 0.0
+      }
+    },
+    "n1": {
+      "a": {
+        "count": 4096,
+        "mismatches": 2743,
+        "abs_sum": 382037288.0,
+        "squared_error": 253598958435888.0,
+        "reference_squared": 3.3323076811991846e+17,
+        "max_abs_error": 2181042.0,
+        "MAE": 93270.822265625,
+        "RMSE": 248824.85448983332,
+        "relative_L2": 0.027586791064586412
+      },
+      "k": {
+        "count": 256,
+        "mismatches": 250,
+        "abs_sum": 160821.0,
+        "squared_error": 639098397.0,
+        "reference_squared": 1500918439433.0,
+        "max_abs_error": 7797.0,
+        "MAE": 628.20703125,
+        "RMSE": 1580.024719199434,
+        "relative_L2": 0.020635040117993917
+      }
+    },
+    "n2": {
+      "a": {
+        "count": 4096,
+        "mismatches": 2742,
+        "abs_sum": 1673118373.0,
+        "squared_error": 2147769323116115.0,
+        "reference_squared": 3.3323076811991846e+17,
+        "max_abs_error": 2434284.0,
+        "MAE": 408476.1652832031,
+        "RMSE": 724125.5035568043,
+        "relative_L2": 0.08028257069462565
+      },
+      "k": {
+        "count": 256,
+        "mismatches": 256,
+        "abs_sum": 87486.0,
+        "squared_error": 49357788.0,
+        "reference_squared": 1500918439433.0,
+        "max_abs_error": 1531.0,
+        "MAE": 341.7421875,
+        "RMSE": 439.0943627228662,
+        "relative_L2": 0.005734549390443842
+      }
+    }
+  }
+}

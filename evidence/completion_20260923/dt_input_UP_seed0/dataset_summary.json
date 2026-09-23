@@ -1,0 +1,28 @@
+{
+  "UP": {
+    "n_completed": 1,
+    "seeds": [
+      0
+    ],
+    "qat_direct_OA": {
+      "mean": 96.84643886372993,
+      "std": null
+    },
+    "int8_hw_OA": {
+      "mean": 96.43474680938657,
+      "std": null
+    },
+    "int8_hw_mAcc": {
+      "mean": 96.0968413305788,
+      "std": null
+    },
+    "int8_hw_Kappa": {
+      "mean": 0.9535782228243891,
+      "std": null
+    },
+    "QAT_to_INT8_loss_pp": {
+      "mean": 0.4116920543433622,
+      "std": null
+    }
+  }
+}

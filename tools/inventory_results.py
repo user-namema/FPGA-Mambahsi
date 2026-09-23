@@ -12,6 +12,11 @@ from pathlib import Path
 
 DATASETS = ('UP', 'HanChuan', 'HongHu', 'Houston')
 SPECS = [
+    ('gpu_fp32', 'FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2', 'gpu_batch*_benchmark_*.json'),
+    ('dt_input_UP_seed0', 'FPGA模拟和GPU测速和缺失的记录/fpga_dt_input_UP_seed0', 'dt_input_diagnostics.json'),
+    ('nonlinear_D1', 'FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2', 'accuracy_propagation_summary.json'),
+    ('nonlinear_v5_N013', 'FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2', 'accuracy_propagation_summary.json'),
+    ('nonlinear_v5_N0123', 'FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3', 'accuracy_propagation_summary.json'),
     ('fpga_eval1', 'FPGA模拟和GPU测速和缺失的记录', 'fpga_simulation_result.json'),
     ('gpu_power_UP', 'FPGA模拟和GPU测速和缺失的记录/gpu_power_UP_gpu0_display_v2', 'batch*_repeat*.json'),
     ('shared_a_training', 'a_shared_current_4datasets', 'result.json'),
@@ -55,6 +60,8 @@ def inventory(workspace):
             add('architecture_19', path)
     for group, dirname, pattern in SPECS:
         for path in sorted((workspace / dirname).rglob(pattern)):
+            if group == "fpga_eval1" and path.relative_to(workspace / dirname).parts[0] not in DATASETS:
+                continue
             add(group, path)
     return records
 
@@ -68,7 +75,7 @@ def main():
         parser.error('No matching result files; check --workspace')
     args.output_dir.mkdir(parents=True, exist_ok=True)
     with (args.output_dir / 'reference_run_index.csv').open('w', newline='', encoding='utf-8') as stream:
-        writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(stream, fieldnames=list(rows[0]), lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
     groups = sorted(set(row['experiment'] for row in rows))

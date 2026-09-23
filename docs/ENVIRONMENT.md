@@ -37,7 +37,11 @@ The recorded scan interface **requires causal-conv1d and its CUDA extension**.
 This differs from the scan-only dependency behavior of the alternative Mamba
 1.2.0 recipe below. The original environment used cp38/cu118/torch1.13 wheels
 with PyTorch reporting CUDA 11.7. Their names, hashes and paths are retained in
-`environment.json`; the wheels and compiled extensions have not been supplied.
+`environment.json`; the original wheels have not been supplied. A backup of the installed compiled
+extensions has now been received and hash-verified; it is kept outside Git.
+`runtime_manifest.json` and `runtime_archive.sha256` in that same directory
+record the accepted archive. The matching causal-conv1d Python files and license
+are under `third_party/causal_conv1d_server_1_1_2/`.
 Do not compile them with the captured system CUDA 12.6 and assume binary parity.
 
 For replay on the existing server, keep its working `mambahsi` environment and
@@ -151,3 +155,14 @@ in the reconstruction recipe were selected for the legacy Torch stack. The
 captured server versions are stored separately under `environment/observed_20260923/`. CUDA installation, complete training and
 timing must be verified on the target Linux GPU. Keep both the collector report
 and `environment_check.json` with each published experiment release.
+
+## Accepted installed-runtime backup
+
+The author-side `cuda_runtime_5o7mz0dk/installed_cuda_runtime.tar.gz` contains
+22 hash-verified files; both compiled extensions match the captured environment.
+The smaller `cuda_runtime_mscish0i` copy failed gzip CRC and is excluded.
+This archive is an installed Linux/cp38/Torch1.13 runtime backup, not a wheel or
+cross-platform installer. It is not included in the Git source tree. No automatic
+site-packages replacement is performed by the release tools. The original wheel
+files remain optional provenance; exact binary replay requires access to the
+accepted archive or matching binaries, followed by a real CUDA scan check.

@@ -1,0 +1,107 @@
+{
+  "version": "v5-nonlinear-20260913-dt9",
+  "qat_source": {
+    "module": "both_QAT_21patch_aligned",
+    "path": "$PROJECT_ROOT/both_QAT_21patch_aligned.py",
+    "sha256": "20b7bc01fff273f03c4d58fed49b56f242021b385779a62a26f1493b8df6fef4"
+  },
+  "layers": [
+    {
+      "layer": "block0.spa.dt_proj",
+      "before": {
+        "nbit_a": 9,
+        "a_bits": 9,
+        "Qn": -256,
+        "Qp": 255
+      },
+      "after": {
+        "nbit_a": 9,
+        "a_bits": 9,
+        "Qn": -256,
+        "Qp": 255
+      },
+      "changed": false
+    },
+    {
+      "layer": "block0.spe.dt_proj",
+      "before": {
+        "nbit_a": 9,
+        "a_bits": 9,
+        "Qn": -256,
+        "Qp": 255
+      },
+      "after": {
+        "nbit_a": 9,
+        "a_bits": 9,
+        "Qn": -256,
+        "Qp": 255
+      },
+      "changed": false
+    },
+    {
+      "layer": "block1.spa.dt_proj",
+      "before": {
+        "nbit_a": 9,
+        "a_bits": 9,
+        "Qn": -256,
+        "Qp": 255
+      },
+      "after": {
+        "nbit_a": 9,
+        "a_bits": 9,
+        "Qn": -256,
+        "Qp": 255
+      },
+      "changed": false
+    },
+    {
+      "layer": "block1.spe.dt_proj",
+      "before": {
+        "nbit_a": 9,
+        "a_bits": 9,
+        "Qn": -256,
+        "Qp": 255
+      },
+      "after": {
+        "nbit_a": 9,
+        "a_bits": 9,
+        "Qn": -256,
+        "Qp": 255
+      },
+      "changed": false
+    },
+    {
+      "layer": "block2.spa.dt_proj",
+      "before": {
+        "nbit_a": 9,
+        "a_bits": 9,
+        "Qn": -256,
+        "Qp": 255
+      },
+      "after": {
+        "nbit_a": 9,
+        "a_bits": 9,
+        "Qn": -256,
+        "Qp": 255
+      },
+      "changed": false
+    },
+    {
+      "layer": "block2.spe.dt_proj",
+      "before": {
+        "nbit_a": 9,
+        "a_bits": 9,
+        "Qn": -256,
+        "Qp": 255
+      },
+      "after": {
+        "nbit_a": 9,
+        "a_bits": 9,
+        "Qn": -256,
+        "Qp": 255
+      },
+      "changed": false
+    }
+  ],
+  "note": "Constructor attributes only; before strict checkpoint load. Original validator runs next."
+}

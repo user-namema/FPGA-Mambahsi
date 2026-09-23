@@ -33,3 +33,11 @@ tables. Read `docs/EXPERIMENTS.md` before interpreting or combining them.
   Absolute server project/environment/home paths were replaced by documented
   placeholders; numerical fields and source snapshots were not changed.
   `python tools/verify_release_records.py` validates the published evidence.
+
+- `completion_20260923/`: received FP32 originals (28 reports/112 summary rows),
+  UP seed0 dt diagnostics, full historical D1 N0–N3 records and exact output
+  arrays. `historical/` separately retains old v5 comparisons and August GPU
+  reports/profile summaries. Large profiler timelines and runtime binaries are
+  excluded with reasons in `provenance.json`; fixed-GPU duplicates are not
+  counted as new experiments. Run `tools/verify_completion_records.py` (add
+  `--check-arrays` for NumPy checks) to verify this addition.

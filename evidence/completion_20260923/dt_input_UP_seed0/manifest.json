@@ -1,0 +1,78 @@
+[
+  {
+    "dataset": "UP",
+    "seed": 0,
+    "command": [
+      "$CONDA_PREFIX/bin/python",
+      "-u",
+      "$PROJECT_ROOT/both_FPGA_single_qat_source.py",
+      "--qat-run-dir",
+      "$PROJECT_ROOT/QAT_eval1_GPU_power_20260921/qat_eval1_4datasets/UP/models/SPATIAL_SPLIT_3WAY_DENSE_QAT/UP_patch_max_D_mean_freeze20_eval1/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16/run_seed0",
+      "--fp32-dir",
+      "$PROJECT_ROOT/results/SPATIAL_SPLIT_3WAY_DENSE/UP_all_samples_sqrt_inverse_clip3_2000_nobias/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16",
+      "--dataset",
+      "UP",
+      "--seed",
+      "0",
+      "--data-path",
+      "$PROJECT_ROOT/data",
+      "--device",
+      "cuda",
+      "--qat-reference-batch-size",
+      "1",
+      "--report-ssm-errors",
+      "--ssm-analysis-split",
+      "test",
+      "--report-dt-inputs"
+    ],
+    "identity": {
+      "dataset": "UP",
+      "seed": 0,
+      "qat_result_sha256": "ae0ec4c6898cb2113f8b0b4e8cb4a49901e56ad1a5e7694eeb1e8bf8301f87f7",
+      "checkpoint_sha256": "fb4aea2ae6243d83acf7d7d16cf3b864377880324a08b02735319cd7d1c9ae0e",
+      "source_hashes": {
+        "both_FPGA_single_qat_source.py": "d02d8f2bc2dfff0b27435334a2f0afe0ff67070b6250365d37a205b8d576d023",
+        "train_mambahsi_spatial_split_dense_qat.py": "aee89074a695b4ba0572a347b7e64e2ddab65495719c033317594dbbb9803cef",
+        "ssm_error_ablation.py": "56b05cc9ca2724bd7fa4ed784fc59bf380193f84754d0cce623981f6df1156e3",
+        "ssm_d_path.py": "fcd8b46e11eeddbd72c4b16c9846ee9b3a1d789d16981426aa3ec98b54c5e3fe",
+        "qat_forensics.py": "9dc45780a59c91f208e979e339bff5860a9ba2592c3dd6e8df1a1c45e11126a1"
+      },
+      "input_hashes": {
+        "$PROJECT_ROOT/QAT_eval1_GPU_power_20260921/qat_eval1_4datasets/UP/models/SPATIAL_SPLIT_3WAY_DENSE_QAT/UP_patch_max_D_mean_freeze20_eval1/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16/run_seed0/sample_indices.npz": "244911b64056f53e4b4908493e706398cc712904ab84fe9c7bf01d62048e8987",
+        "$PROJECT_ROOT/QAT_eval1_GPU_power_20260921/qat_eval1_4datasets/UP/models/SPATIAL_SPLIT_3WAY_DENSE_QAT/UP_patch_max_D_mean_freeze20_eval1/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16/run_seed0/qat_deploy_test_prediction.npy": "c2b0f038f2e49531f8972a4fc41b1be81c10bd15c0a308716d0f29c356527b2a",
+        "$PROJECT_ROOT/results/SPATIAL_SPLIT_3WAY_DENSE/UP_all_samples_sqrt_inverse_clip3_2000_nobias/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16/train_only_preprocess.npz": "826a4c872e29cd1959cfeb1d70cf75f3183ada799a01bc2d8eae8a736da81c11",
+        "$PROJECT_ROOT/results/SPATIAL_SPLIT_3WAY_DENSE/UP_all_samples_sqrt_inverse_clip3_2000_nobias/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16/spatial_split_masks.npz": "979ee6069834c4b777f75e54f1c02c8dae167526a745138761019bdd477cdf15",
+        "$PROJECT_ROOT/results/SPATIAL_SPLIT_3WAY_DENSE/UP_all_samples_sqrt_inverse_clip3_2000_nobias/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16/spatial_split.json": "9095d65f03c68162cb272df114a140fd6a40bc08953db46ccf05575d0f9c533d",
+        "$PROJECT_ROOT/results/SPATIAL_SPLIT_3WAY_DENSE/UP_all_samples_sqrt_inverse_clip3_2000_nobias/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16/run_seed0/sample_indices.npz": "244911b64056f53e4b4908493e706398cc712904ab84fe9c7bf01d62048e8987"
+      },
+      "fp32_dir": "$PROJECT_ROOT/results/SPATIAL_SPLIT_3WAY_DENSE/UP_all_samples_sqrt_inverse_clip3_2000_nobias/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16",
+      "data_path": "$PROJECT_ROOT/data",
+      "device": "cuda",
+      "report_dt_inputs": true,
+      "cuda_visible_devices": "1",
+      "python": "$CONDA_PREFIX/bin/python"
+    },
+    "fingerprint": "9a40c8932b132b4a2d5969bd8e134289a846f9fb6455e90ea8e1879850cd5150",
+    "numeric_config": {
+      "dt_input_bits": 9,
+      "dt_output_bits": 8,
+      "a_fraction_bits": 24,
+      "k_bits": 19,
+      "k_preferred_fraction_bits": 24,
+      "state_bits": 32,
+      "state_fraction_bits": 24,
+      "rounding": "single",
+      "error_source": "all",
+      "accumulator_bits": 65,
+      "coefficient_backend": "exact",
+      "pwl_segments": 32,
+      "d_coefficient_bits": 27,
+      "d_max_left_shift": 24,
+      "readout_requantization": "auto"
+    },
+    "checkpoint_sha256": "fb4aea2ae6243d83acf7d7d16cf3b864377880324a08b02735319cd7d1c9ae0e",
+    "status": "complete",
+    "output": "$PROJECT_ROOT/fpga_dt_input_UP_seed0/UP/seed0/attempt001",
+    "log": "$PROJECT_ROOT/fpga_dt_input_UP_seed0/UP/seed0/attempt001.log"
+  }
+]

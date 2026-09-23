@@ -104,7 +104,7 @@ docs/               Experiment inventory, protocols and historical notes
 source_manifest.json  SHA256 of the copied software snapshot
 ```
 
-The archive audit found 760 result files for the 19 network configurations, 80 paired shared/per-channel-A training runs and 80 dynamics analyses, 40 historical QAT/integer pairs, 40 new eval1 QAT runs with 40 matching integer simulations, 42 UP GPU power trials, and 28 fixed-arithmetic GPU timing reports. The FP32 GPU table covers another 28 settings; its raw reports still need collection. Counts overlap where an experiment reuses the same models; they must not be added as independent repetitions.
+The archive audit found 760 result files for the 19 network configurations, 80 paired shared/per-channel-A training runs and 80 dynamics analyses, 40 historical QAT/integer pairs, 40 new eval1 QAT runs with 40 matching integer simulations, 42 UP GPU power trials, and 28 fixed-arithmetic GPU timing reports. The FP32 GPU table covers another 28 settings; all 28 raw reports are now bundled and match the original 112-row table. Counts overlap where an experiment reuses the same models; they must not be added as independent repetitions.
 
 `evidence/reference_run_index.csv` records the original relative path and SHA256 of each indexed result. It is an index, not a checkpoint archive. `source_manifest.json` records the current source snapshot; it does not imply that every historical experiment used this exact revision. The eval1 launch metadata does match the bundled QAT trainer hash. See [docs/VERIFICATION.md](docs/VERIFICATION.md) for release checks and their limits.
 
@@ -134,3 +134,28 @@ python tools/prepare_observed_eval1.py --output-dir ./results/observed_eval1_sof
 The main simulator retains the newer optional dt-input diagnostics. The exact
 recorded simulator is preserved separately, with its launch script and source
 hashes; neither revision is silently substituted for the other.
+
+## Final received materials
+
+[Completion guide](docs/COMPLETION_20260923.md) describes the added FP32 timing
+reports, UP seed0 dt diagnostics, full D1 N0–N3 outputs and runtime provenance.
+`evidence/completion_20260923/` keeps current evidence separate from older v5
+comparisons and August profiling runs. The CUDA runtime archive is retained
+outside Git; its metadata and checksums are included.
+
+```bash
+python tools/verify_completion_records.py
+python tools/verify_completion_records.py --check-arrays  # also requires NumPy
+
+# Frozen historical D1 checkpoint, not latest eval1 QAT weights:
+bash experiments/20_nonlinear_D1.sh \
+  --qat-run-dir /absolute/path/to/historical_D1/run_seed0 \
+  --fp32-dir /absolute/path/to/matching/FP32/configuration \
+  --data-path /absolute/path/data --device cuda:0 --dry-run
+```
+
+Remove `--dry-run` to execute the full UP scene; the entry checks the exact
+checkpoint and snapshot hashes. The model required by this comparison has
+SHA256 `d113c6123eb3234ea2a6b8fe13640c02b82e235e469e4337ec01c291844daf33`.
+Use a new output directory. Stages 01–19 retain their shared planner; stage 20
+has a dedicated launcher for the frozen historical source package.

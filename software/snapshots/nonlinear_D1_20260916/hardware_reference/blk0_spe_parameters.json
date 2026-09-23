@@ -1,0 +1,180 @@
+{
+  "s_dt": 0.04746273532509804,
+  "s_B": 0.017944423481822014,
+  "s_u": 0.025230184197425842,
+  "SDT_Q30": 50962724,
+  "SBSU_Q40": 497794115,
+  "DECAY_Q24": [
+    16824903,
+    32817710,
+    50843181,
+    65742235,
+    82910559,
+    96609557,
+    112366158,
+    131199041,
+    159757751,
+    176305322,
+    180591309,
+    192841135,
+    215989798,
+    233325772,
+    235021194,
+    269564932
+  ],
+  "decay_from_checkpoint": [
+    1.0028423827639625,
+    1.9560879571082068,
+    3.0304897389842043,
+    3.9185425853776006,
+    4.941854423725664,
+    5.758378297601467,
+    6.69754490953629,
+    7.820072239819561,
+    9.522304006446236,
+    10.508616096890908,
+    10.7640808357462,
+    11.494227354717909,
+    12.873995167606344,
+    13.907299749691642,
+    14.008354773114409,
+    16.067321992232927
+  ],
+  "K_fraction_bits": 24,
+  "d_coefficient": [
+    21290809,
+    21290809,
+    17742341,
+    21290809,
+    21290809,
+    21290809,
+    17742341,
+    17742341,
+    21290809,
+    21290809,
+    21290809,
+    21290809,
+    21290809,
+    21290809,
+    21290809,
+    21290809
+  ],
+  "d_left_shift": 0,
+  "d_range_certificate": {
+    "c_min": -4398046509056,
+    "c_max": 4398046511104,
+    "total_min": -4400771732608,
+    "total_max": 4400750443847,
+    "output_bits": 48,
+    "coefficient_bits": 27,
+    "product_bits": 35,
+    "left_shift": 0,
+    "coefficient_min": 17742341,
+    "coefficient_max": 21290809,
+    "coefficient_count": 16,
+    "coefficient_rom_bits": 432,
+    "fold_D_max_abs_error": 7.657125378202068e-09,
+    "fold_D_mae": 6.602148938661401e-09,
+    "max_output_error_full_u_domain": 2.472840751549724e-08,
+    "reference": "frozen dequantized QAT D; excludes LSQ error relative to original D",
+    "proof": "full signed H, INT8 C/U domains; conservative independent C+D bounds"
+  },
+  "coefficient_errors_vs_n3": {
+    "n3": {
+      "a": {
+        "count": 4096,
+        "mismatches": 0,
+        "abs_sum": 0.0,
+        "squared_error": 0.0,
+        "reference_squared": 2.8617412260128474e+17,
+        "max_abs_error": 0.0,
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "relative_L2": 0.0
+      },
+      "k": {
+        "count": 256,
+        "mismatches": 0,
+        "abs_sum": 0.0,
+        "squared_error": 0.0,
+        "reference_squared": 92676272905.0,
+        "max_abs_error": 0.0,
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "relative_L2": 0.0
+      }
+    },
+    "n0": {
+      "a": {
+        "count": 4096,
+        "mismatches": 1243,
+        "abs_sum": 2523.0,
+        "squared_error": 7541.0,
+        "reference_squared": 2.8617412260128474e+17,
+        "max_abs_error": 8.0,
+        "MAE": 0.615966796875,
+        "RMSE": 1.35685830252278,
+        "relative_L2": 1.6233018754735093e-07
+      },
+      "k": {
+        "count": 256,
+        "mismatches": 0,
+        "abs_sum": 0.0,
+        "squared_error": 0.0,
+        "reference_squared": 92676272905.0,
+        "max_abs_error": 0.0,
+        "MAE": 0.0,
+        "RMSE": 0.0,
+        "relative_L2": 0.0
+      }
+    },
+    "n1": {
+      "a": {
+        "count": 4096,
+        "mismatches": 2861,
+        "abs_sum": 469899555.0,
+        "squared_error": 317187063623025.0,
+        "reference_squared": 2.8617412260128474e+17,
+        "max_abs_error": 2189574.0,
+        "MAE": 114721.57104492188,
+        "RMSE": 278277.2860921999,
+        "relative_L2": 0.03329220446786944
+      },
+      "k": {
+        "count": 256,
+        "mismatches": 244,
+        "abs_sum": 58198.0,
+        "squared_error": 69115830.0,
+        "reference_squared": 92676272905.0,
+        "max_abs_error": 2331.0,
+        "MAE": 227.3359375,
+        "RMSE": 519.5995678765524,
+        "relative_L2": 0.02730891740845384
+      }
+    },
+    "n2": {
+      "a": {
+        "count": 4096,
+        "mismatches": 2860,
+        "abs_sum": 1339591800.0,
+        "squared_error": 1387743215888344.0,
+        "reference_squared": 2.8617412260128474e+17,
+        "max_abs_error": 2327467.0,
+        "MAE": 327048.779296875,
+        "RMSE": 582069.1505882186,
+        "relative_L2": 0.06963689149031568
+      },
+      "k": {
+        "count": 256,
+        "mismatches": 256,
+        "abs_sum": 27542.0,
+        "squared_error": 4905692.0,
+        "reference_squared": 92676272905.0,
+        "max_abs_error": 479.0,
+        "MAE": 107.5859375,
+        "RMSE": 138.42998004406417,
+        "relative_L2": 0.007275550492327219
+      }
+    }
+  }
+}

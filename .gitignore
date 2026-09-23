@@ -15,3 +15,16 @@ server_collection*/
 *.zip
 *.tar.gz
 *.log
+
+# Published experiment evidence only; datasets/checkpoints remain excluded.
+!evidence/completion_20260923/nonlinear_D1/**/*.npz
+!evidence/completion_20260923/nonlinear_D1/*.npy
+!evidence/completion_20260923/historical/nonlinear_v5_N013/**/*.npz
+!evidence/completion_20260923/historical/nonlinear_v5_N013/*.npy
+!evidence/completion_20260923/historical/nonlinear_v5_N0123/**/*.npz
+!evidence/completion_20260923/historical/nonlinear_v5_N0123/*.npy
+!software/snapshots/nonlinear_D1_20260916/hardware_reference/*.npz
+*.so
+*.dylib
+*.dll
+runtime_backup/

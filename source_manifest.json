@@ -361,5 +361,7 @@
   "updated_date": "2026-09-23",
   "update_note": "GPU power: explicit graphics-only Xorg/Xwayland policy; numerical training/simulation kernels unchanged",
   "recorded_server_snapshot": "software/snapshots/eval1_server_20260923/source_hashes.json",
-  "import_provenance": "evidence/server_update_20260923/provenance.json"
+  "import_provenance": "evidence/server_update_20260923/provenance.json",
+  "completion_provenance": "evidence/completion_20260923/provenance.json",
+  "nonlinear_D1_snapshot": "software/snapshots/nonlinear_D1_20260916/source_hashes.json"
 }

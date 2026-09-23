@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETE",
+  "backends": [
+    "n3",
+    "n0",
+    "n1"
+  ],
+  "script_version": "v5-nonlinear-20260913-dt9",
+  "qat_source": {
+    "module": "both_QAT_21patch_aligned",
+    "path": "$PROJECT_ROOT/both_QAT_21patch_aligned.py",
+    "sha256": "20b7bc01fff273f03c4d58fed49b56f242021b385779a62a26f1493b8df6fef4"
+  },
+  "arguments": {
+    "qat_run_dir": "$PROJECT_ROOT/results/SPATIAL_SPLIT_3WAY_DENSE_QAT/UP_int8_lsq_freeze20_detach_lr1/run_seed0",
+    "model": null,
+    "fp32_dir": null,
+    "dataset": "UP",
+    "data_path": "./data",
+    "output_dir": "./sim_nonlinear_v5_run2",
+    "hidden_dim": 32,
+    "token_num": 4,
+    "seed": 0,
+    "device": "cuda",
+    "progress_every": 25,
+    "verbose_every_tile": false,
+    "qat_reference_batch_size": 0,
+    "nonlinear_backend": "all",
+    "trace_tiles": 5,
+    "qat_module": "both_QAT_21patch_aligned",
+    "reference_lut_dir": null,
+    "rtl_data_dir": null,
+    "expected_labels": null,
+    "expected_real5_logits": null,
+    "expected_input_sha256": null,
+    "self_test": false
+  },
+  "baseline_source_sha256": "ba139c67a74061e6439df4b6d495281aa7ae553bd13a315921e62da19637d74d",
+  "script_sha256": "064adec3a0af6c7314fcb91d4ffc27b848c1ce8a60b6808fe73a09926ff945a5",
+  "reference": "Frozen v5 integer N3, not floating QAT",
+  "n0": "Q30 polynomial online arithmetic, NOT vendor FP32 IP",
+  "n1": "FastMamba-inspired exp/PWL and Eq.6 softplus adaptation, NOT author RTL",
+  "warning": "Cached software runtime is NOT online hardware latency or resource usage"
+}

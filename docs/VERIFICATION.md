@@ -84,6 +84,23 @@ Run `python tools/verify_release_records.py` to verify the published evidence
 without Torch or datasets. Use `tools/prepare_observed_eval1.py` with a new
 `--output-dir` to verify recorded source identities and assemble a replay copy.
 Published checkpoint hashes document the import-time check; checkpoint payloads
-are not included for readers to repeat that check locally. CUDA binaries were
-not received. The server Python snapshot was not installed or executed as a
+are not included for readers to repeat that check locally. CUDA binaries had not yet been received at that first import; the final
+completion now records the verified local runtime backup. The server Python snapshot was not installed or executed as a
 CUDA environment on this Mac.
+
+## Final completion merge — 2026-09-23
+
+- Added 379 received source/evidence/metadata files with original and published
+  SHA256 provenance. Published arrays and reference coefficients are explicitly
+  allowed by .gitignore; 121 NPY/NPZ files were checked as Git-visible.
+- Verified the 28 FP32 report grid and the original 112-row table, D1 source
+  hashes, 24 coefficient MEM files, N2 fit, DT coverage and clipped proportions.
+  NumPy checks reproduce D1 logit differences, label differences and N3 label hash.
+- All 15 release tests passed, including the new completion checker, stage-20
+  dry-run/device mapping, and wrong-checkpoint rejection before child execution.
+- Python 3.8 syntax and bash syntax checks passed for the complete package.
+- The existing main numerical sources were not altered. The frozen D1 snapshot
+  remains separate from current software; no full CUDA inference was rerun.
+- Runtime archive binaries, its damaged duplicate and large historical profiler
+  timelines are excluded from Git. The accepted runtime metadata, licenses and
+  checksums are included. No Git staging, commit or push was performed.

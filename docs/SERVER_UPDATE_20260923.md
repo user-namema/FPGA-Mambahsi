@@ -59,8 +59,8 @@ DEVICE=cuda:0 BATCH_SIZES=1,2,4,8,16,32,64 \
 
 42 次均为 `display_background_only`，首尾检查无其他计算进程，保留两个 Xorg 显示进程；`exclusive_at_boundaries=false`。功耗是整卡含显示后台的观测，没有扣除显示进程或 idle，也不是主机插座功耗。与旧含其他 Python 作业的共享 GPU smoke 分开。model-only batch1 为 70.259 W、505.087 tile/s、139156.410 µJ/tile；batch64 为 336.200 W、27046.906 tile/s、12432.551 µJ/tile（三次均值）。旧 FP32/定点测速虽已确认使用同一张 RTX 4090，本次功耗需以这里的 GPU UUID 为准，不仅凭型号认定为同一物理卡。
 
-## 仍需补齐的材料
+## 后续补件已完成
 
-已收到的 `gpu_current_4datasets` 收集目录只有早期失败日志。用户确认新结果在服务器 `QAT_eval1_GPU_power_20260921` 下；该位置与本次已收到的 UP 功耗结果不等同于四数据集旧 FP32 测速的 28 份原始报告。应从正确子目录再收集，命令见 `SERVER_FILES.md`。dt 诊断、N0–N3 Python 对照仍未收到。
-
-Mamba Python 源码已收到；两个 cu118/cp38 wheel 和对应 CUDA 扩展二进制未收到。环境记录有它们的来源与哈希，不能把 Python 源码快照称为完整可安装 wheel。
+本页记录首轮导入。后续已收到28份FP32测速原始JSON、UP seed0 dt诊断、
+D1 N0–N3完整原始目录和CUDA运行库备份。最新路径、结果身份与运行入口见
+[最终补件说明](COMPLETION_20260923.md)。旧“待补件”状态已被此次验收取代。

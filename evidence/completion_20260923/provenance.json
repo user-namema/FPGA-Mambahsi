@@ -1,0 +1,3060 @@
+{
+  "files": [
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/HanChuan/seed0/batch1/gpu_batch1_benchmark_20260918_224322.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/HanChuan/seed0/batch1/gpu_batch1_benchmark_20260918_224322.json",
+      "original_sha256": "4641111fb27d7abfb13d6ef660522408794ad83fb80e8b07444c79a16a238693",
+      "published_sha256": "25dbb3b4e44790647e9857da5a5bb681db280ef2ce9ea1c12e4056ec9c16b277",
+      "bytes": 19664,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/HanChuan/seed0/batch16/gpu_batch16_benchmark_20260918_224607.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/HanChuan/seed0/batch16/gpu_batch16_benchmark_20260918_224607.json",
+      "original_sha256": "5305877c3cf556020560ac28b2a828bd0042ac7feca5a779138120f6b343efd2",
+      "published_sha256": "963725ac7c61cb75b09092ca05435e2ff8c80fbf4c5c1370215322c03802ac5d",
+      "bytes": 7591,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/HanChuan/seed0/batch2/gpu_batch2_benchmark_20260918_224438.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/HanChuan/seed0/batch2/gpu_batch2_benchmark_20260918_224438.json",
+      "original_sha256": "11cd7237bbe3e8044648b59d6bd1fd3edf5606f5df979d316612af66bd0d5308",
+      "published_sha256": "12fc14905a65ff74e026ff30e7c2de0b33238b3d5991a42aca9291ff5da9f7b1",
+      "bytes": 7579,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/HanChuan/seed0/batch32/gpu_batch32_benchmark_20260918_224622.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/HanChuan/seed0/batch32/gpu_batch32_benchmark_20260918_224622.json",
+      "original_sha256": "8323ad8d13a6b158a1cad57f28d2b201521c743e44375847e8742dfb12c86c84",
+      "published_sha256": "34b23994693a1469911cf3d678b7f830162351673808af4b430b6b58ba6684cc",
+      "bytes": 7594,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/HanChuan/seed0/batch4/gpu_batch4_benchmark_20260918_224522.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/HanChuan/seed0/batch4/gpu_batch4_benchmark_20260918_224522.json",
+      "original_sha256": "4a4371b11cb24aa2e19df2fcfdbf745009253297a6247d388b967ca3fe14c073",
+      "published_sha256": "4f4e46635e10946a6b0a3fecc0522291d6484541ace677aca8deccf6ef8fc366",
+      "bytes": 7500,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/HanChuan/seed0/batch64/gpu_batch64_benchmark_20260918_224634.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/HanChuan/seed0/batch64/gpu_batch64_benchmark_20260918_224634.json",
+      "original_sha256": "17b4b09dfc57758afa96ecbe9e5a3f0e3859ba4a32d65d77d381f80b89bb49c5",
+      "published_sha256": "ec23b5524efba05bf49f386e0fddde12ea9f24f14100e96bce1dbc498c3e4efb",
+      "bytes": 7526,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/HanChuan/seed0/batch8/gpu_batch8_benchmark_20260918_224549.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/HanChuan/seed0/batch8/gpu_batch8_benchmark_20260918_224549.json",
+      "original_sha256": "34725231b6728f204be1e1c3da4ce0a4209abdcac076ade7e676cae86010c9bc",
+      "published_sha256": "d49bbcfa5f22f40c3f9428a737d989a0438fac6fe1b3e9bb0b5e33c8f477db50",
+      "bytes": 7545,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/HongHu/seed0/batch1/gpu_batch1_benchmark_20260918_224915.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/HongHu/seed0/batch1/gpu_batch1_benchmark_20260918_224915.json",
+      "original_sha256": "a7ed7ce4ebba8e6fc75aa6fd85f82fe43fd71f603915fa552c866cfbae21af10",
+      "published_sha256": "b4176bb38a75def7206e1bcdf1d3b0ab7de6d0e7c6666113a683544f5e782033",
+      "bytes": 19635,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/HongHu/seed0/batch16/gpu_batch16_benchmark_20260918_225219.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/HongHu/seed0/batch16/gpu_batch16_benchmark_20260918_225219.json",
+      "original_sha256": "e894220388ba494efcdde4b23e9df35e6741e69376c8bbfbf8a0213b6d280792",
+      "published_sha256": "a6cf45cd23750bbc51dd4b94a3a67a469f51d5c09f8f4ce8f8700efbd214c419",
+      "bytes": 7559,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/HongHu/seed0/batch2/gpu_batch2_benchmark_20260918_225040.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/HongHu/seed0/batch2/gpu_batch2_benchmark_20260918_225040.json",
+      "original_sha256": "23594ec751ece021889b5122b613f4e1eed157692c56e708a804f85c5d464b7c",
+      "published_sha256": "7b08594cf670d81461bcae04426e482a1bef7d52595bfef94688e0724df5a38d",
+      "bytes": 7556,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/HongHu/seed0/batch32/gpu_batch32_benchmark_20260918_225236.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/HongHu/seed0/batch32/gpu_batch32_benchmark_20260918_225236.json",
+      "original_sha256": "5e7cce562b9c61eb0df967c93f4849b6ca811e20e28aba3a4c07f1ccaba7d439",
+      "published_sha256": "6330fffe5a8a1bcc4215d0bcbae11f9c0ccbaab02c2cec3e24fc462c8fc6e298",
+      "bytes": 7586,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/HongHu/seed0/batch4/gpu_batch4_benchmark_20260918_225127.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/HongHu/seed0/batch4/gpu_batch4_benchmark_20260918_225127.json",
+      "original_sha256": "b47b8092cbb7ac46ea7760826a694f852a26a340b1f2f9514571e8be56aa5016",
+      "published_sha256": "aba0a1e9ddcbd2bf2c5a61047a186b55299ba485ee40049334130102f0319cc1",
+      "bytes": 7490,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/HongHu/seed0/batch64/gpu_batch64_benchmark_20260918_225252.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/HongHu/seed0/batch64/gpu_batch64_benchmark_20260918_225252.json",
+      "original_sha256": "a077e5ca5cff44d0d0d1e4bd66a3275ba262c0b627cf6e245951168d2015c1e1",
+      "published_sha256": "615ac0cfff3d1937b250cd573d1d9cf77224926fded5c2776d0106d9a7ef0510",
+      "bytes": 7575,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/HongHu/seed0/batch8/gpu_batch8_benchmark_20260918_225158.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/HongHu/seed0/batch8/gpu_batch8_benchmark_20260918_225158.json",
+      "original_sha256": "e0c9082732fb2c7430651708e768cdb3a01ce6190dff2dc381be743e55c7b791",
+      "published_sha256": "a7c6efd2c6a481a84dad5d26777025ac065e4d6b4ef192cdfaa14996bb19b099",
+      "bytes": 7541,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/Houston/seed0/batch1/gpu_batch1_benchmark_20260918_225641.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/Houston/seed0/batch1/gpu_batch1_benchmark_20260918_225641.json",
+      "original_sha256": "ac26d025de66f751bc0d0d6a5dec1d6134ffb39ce3d8be4165d22eeabf8a1547",
+      "published_sha256": "09bcc3dd14ce0f8fbb7bc9fdf4605b740fd95e72720df725174ea225c3f924aa",
+      "bytes": 19621,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/Houston/seed0/batch16/gpu_batch16_benchmark_20260918_230059.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/Houston/seed0/batch16/gpu_batch16_benchmark_20260918_230059.json",
+      "original_sha256": "77c284a4afc1ef11dc901373d36ef9111020a30f8b89e2037a7870de3298e0a5",
+      "published_sha256": "88e219654a0827c60ca026ceacd7765b5a5380802c30822483575645048ae2f7",
+      "bytes": 7529,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/Houston/seed0/batch2/gpu_batch2_benchmark_20260918_225848.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/Houston/seed0/batch2/gpu_batch2_benchmark_20260918_225848.json",
+      "original_sha256": "1c219ad8746afac60b816f9e6e832893f2ae2f9a010e11ef04e263524f0175b5",
+      "published_sha256": "159f4dab3955efb3da3524e97e7d8d26fd5a58e10905ff903d9492240ca59bd8",
+      "bytes": 7519,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/Houston/seed0/batch32/gpu_batch32_benchmark_20260918_230118.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/Houston/seed0/batch32/gpu_batch32_benchmark_20260918_230118.json",
+      "original_sha256": "7c67480ac9f6f7d28ffc8bf37881c2b4a6ae742cc988331393fda0d75b2f4ccc",
+      "published_sha256": "d21999a91dfb78e5eed51cccb3b27fd2cafe2ba5ef7944230b210b2bec1d8a64",
+      "bytes": 7593,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/Houston/seed0/batch4/gpu_batch4_benchmark_20260918_225956.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/Houston/seed0/batch4/gpu_batch4_benchmark_20260918_225956.json",
+      "original_sha256": "a44e7531eb3e9ce3e1da7b54c6234bbbbbae006b1e3b7d42ccc959935228124a",
+      "published_sha256": "287dc09bf25c5fe36abac9f83c401a0e42564856aa87536977f13b5fb95110d8",
+      "bytes": 7562,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/Houston/seed0/batch64/gpu_batch64_benchmark_20260918_230134.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/Houston/seed0/batch64/gpu_batch64_benchmark_20260918_230134.json",
+      "original_sha256": "87a9beaa305d452086dca6c9ef00f74d58d100f5aed7e96a7e91f14f288d6f0b",
+      "published_sha256": "c71d6e5436a47e3e78e442be3fdce2d881b7a30e471f8b44862f01462a19b2e7",
+      "bytes": 7590,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/Houston/seed0/batch8/gpu_batch8_benchmark_20260918_230035.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/Houston/seed0/batch8/gpu_batch8_benchmark_20260918_230035.json",
+      "original_sha256": "32cead500bff69efdb270f8e97502ad7602db14c090843752e1f5fe343064a87",
+      "published_sha256": "cf54d7dbc9de9ace2213d6797e4b6cfbe8b206cd14dbabe7fa2ebf9c451dd0ae",
+      "bytes": 7494,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/UP/seed0/batch1/gpu_batch1_benchmark_20260918_223855.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/UP/seed0/batch1/gpu_batch1_benchmark_20260918_223855.json",
+      "original_sha256": "fd8b4a228baa136a9758223e9f999213ab46c6d540b6e89a709c5ac7a42d6b1d",
+      "published_sha256": "7a26e371c74ec55901af4f5c31d4ba94b5e20b54a53366250e462bb95f6afec1",
+      "bytes": 19768,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/UP/seed0/batch16/gpu_batch16_benchmark_20260918_224041.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/UP/seed0/batch16/gpu_batch16_benchmark_20260918_224041.json",
+      "original_sha256": "5d57b99f3c508f03fdff208a71085dc64c3c1865644fa06d784e3ec196f1246b",
+      "published_sha256": "c930dd108e7199622b029b06206327b790baa94c59727b568a6d3bd7ef2efbac",
+      "bytes": 7566,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/UP/seed0/batch2/gpu_batch2_benchmark_20260918_223943.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/UP/seed0/batch2/gpu_batch2_benchmark_20260918_223943.json",
+      "original_sha256": "e48604e02e7ce9b364f5150c2197f96a42d0e94cb599e2f07505f6d47b93cf85",
+      "published_sha256": "3cc64bd2233f835dc65913da2b170c294eda70deaa002091dd23edc10c0e460e",
+      "bytes": 7499,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/UP/seed0/batch32/gpu_batch32_benchmark_20260918_224050.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/UP/seed0/batch32/gpu_batch32_benchmark_20260918_224050.json",
+      "original_sha256": "e3a4f951220e7dddc8351b6b485bcbeb13b106963e533375efc498e9bf186ba3",
+      "published_sha256": "61abf1c71cb68e85839c3cc6750b1049095e170b5fc81ca22d24414e4a8c49ec",
+      "bytes": 7501,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/UP/seed0/batch4/gpu_batch4_benchmark_20260918_224011.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/UP/seed0/batch4/gpu_batch4_benchmark_20260918_224011.json",
+      "original_sha256": "dc5113aec2fe1683ebbe7ad02b07e48b0818d890e42459fa17347d5b98115d1a",
+      "published_sha256": "910544f51593711dc8fbd5ccb72b231811eb50afbbf1b6d060429644033ffa4f",
+      "bytes": 7514,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/UP/seed0/batch64/gpu_batch64_benchmark_20260918_224058.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/UP/seed0/batch64/gpu_batch64_benchmark_20260918_224058.json",
+      "original_sha256": "0091adcc1066aa120651b60757eb9eceeb8afa8a0e7274866777c2e1ccce27ba",
+      "published_sha256": "b42630458a52faf03590fbb34104f476bde94d4ccb771d77566f4f35d22677a0",
+      "bytes": 7528,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/UP/seed0/batch8/gpu_batch8_benchmark_20260918_224029.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/UP/seed0/batch8/gpu_batch8_benchmark_20260918_224029.json",
+      "original_sha256": "295b7310e40532397ebd6cf5e3263ef7848472b52900faca7f54e75f51682d78",
+      "published_sha256": "a6577d767930d732a8618b26b3f15e789dbc2750afd1dde96a5a5401b84fe24e",
+      "bytes": 7532,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/gpu_batch_summary.csv",
+      "destination": "evidence/completion_20260923/gpu_fp32/gpu_batch_summary.csv",
+      "original_sha256": "971060fda5530817e676708514806bef4bf8e076425afe8c4d982a5176d3bfac",
+      "published_sha256": "ebd45d7484ae86bdcbdd191b32db74406692b65d12b82b75bc75ccde6b894c3f",
+      "bytes": 22846,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/HanChuan_seed0_batch1.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/HanChuan_seed0_batch1.done.json",
+      "original_sha256": "80b86752580cce66061eea4f35c36c7e28b797d0c8c0a0d950e636ac26ba0025",
+      "published_sha256": "1a3c6b77e0791e66ebf5397218e0107bc0a53f727f9b83aa79c8d23a11bdac64",
+      "bytes": 763,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/HanChuan_seed0_batch16.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/HanChuan_seed0_batch16.done.json",
+      "original_sha256": "0e058d3b78f645fd848d2a580bd3609d9ba4b970fb3bde2ca89e307d05dfc712",
+      "published_sha256": "286dc04c19fc2634ab0a8f9b35ed8dfe979ef760763fae1ee274b32676f29847",
+      "bytes": 763,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/HanChuan_seed0_batch2.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/HanChuan_seed0_batch2.done.json",
+      "original_sha256": "84a367010465cef7ecb124a1dc9d4a4ce69b74acc32b5728f8a0cabed49e098c",
+      "published_sha256": "314e1a6238465c49eca09045c96da35f71ad751c313456e96cc0abc220800fe4",
+      "bytes": 761,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/HanChuan_seed0_batch32.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/HanChuan_seed0_batch32.done.json",
+      "original_sha256": "f56609267b7053e92d87039863021897d31d343e0508aeccb947279e766c79a0",
+      "published_sha256": "1563e00656c91b789f5a7c42e2fb364a100b96a96f683b52e416e9cb7c4332d1",
+      "bytes": 763,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/HanChuan_seed0_batch4.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/HanChuan_seed0_batch4.done.json",
+      "original_sha256": "3d7a87eaf2a4c61137a276e2232a3d652afa9d8b13440f80864d3d75954fa433",
+      "published_sha256": "e7b671cede070ed9275a7f5b8fc878d375dd783750f38f575e01b89d74c6605f",
+      "bytes": 761,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/HanChuan_seed0_batch64.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/HanChuan_seed0_batch64.done.json",
+      "original_sha256": "4bbf632f335c7bc243a31cebea697c94aec5daa4e1bf3fef4c48a3b0936bdd5f",
+      "published_sha256": "a1c9911c93da3848aca190aa0ea020abb76e440886287138785b63466c63cf0e",
+      "bytes": 763,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/HanChuan_seed0_batch8.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/HanChuan_seed0_batch8.done.json",
+      "original_sha256": "9c6328e90c8f7daf6743a1d977300d5d9864d9595a3db670a4f498a2fbb60fa4",
+      "published_sha256": "f9954a23f19a2366f96652f5a9bb1ea223b17ee912a3bee8574b01c56f5cf604",
+      "bytes": 761,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/HongHu_seed0_batch1.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/HongHu_seed0_batch1.done.json",
+      "original_sha256": "7e5e3b3221ce44108eb870ccf930aa2eaadb74dd02a3fc3f9f96fa2ad036f596",
+      "published_sha256": "b676e1d9b11110c5c737ea343354d496d0caef02de275499e51dcdc196164724",
+      "bytes": 757,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/HongHu_seed0_batch16.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/HongHu_seed0_batch16.done.json",
+      "original_sha256": "68d94126602f918182d3605079d4781d9887806b43e0e48c807bda13db0bae7d",
+      "published_sha256": "4442133af1f475074d5c44beaa00558317611992766f8fd6517fb2c373931ab7",
+      "bytes": 757,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/HongHu_seed0_batch2.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/HongHu_seed0_batch2.done.json",
+      "original_sha256": "d7fd0b88d7ccd73e3d86b78e46789c075a0d2fefc42c97c2275ca5217fd239cf",
+      "published_sha256": "5ec491807dc148f52eb929a39bcc9caa4c02b6aa4ab4e0e6f80456fd41ebda1b",
+      "bytes": 755,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/HongHu_seed0_batch32.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/HongHu_seed0_batch32.done.json",
+      "original_sha256": "31105ba1e694b2043475c57202085f087ed0608c1b3272089e17ec9babddbca6",
+      "published_sha256": "967fe397d279d84082a27ed232087e591b33ba9c12783f23bca316561d1299b5",
+      "bytes": 757,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/HongHu_seed0_batch4.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/HongHu_seed0_batch4.done.json",
+      "original_sha256": "4ba427fc443c58afbbc54c6c7bdeb704c8fd1d7438cead4459c5b111bc8b1d94",
+      "published_sha256": "34044fbe819e74d5d77d4af0be1979ebf3f511f9b2c377d59d8ca493dc09a644",
+      "bytes": 755,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/HongHu_seed0_batch64.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/HongHu_seed0_batch64.done.json",
+      "original_sha256": "95aa3deb00c04d92dd3b62c6eb4bb7b1f3b2624c4467ef48bfc07562fa99a3cc",
+      "published_sha256": "d5b5af87c92e2b34ec059dce6c92935a74b720fc520ef0cf5886b5d8b03b1980",
+      "bytes": 757,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/HongHu_seed0_batch8.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/HongHu_seed0_batch8.done.json",
+      "original_sha256": "06e70bacf5a5bd3c3992c97192e9403ea23e9b82431268afb8b32a853fc4faff",
+      "published_sha256": "6cd15c4b8579ef8533dbbb418e82e2d34d4d8190c2474c1d00928e58369c4dcf",
+      "bytes": 755,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/Houston_seed0_batch1.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/Houston_seed0_batch1.done.json",
+      "original_sha256": "0f10d3c8f17f1cb7c35008be11d6833d0444642914858c755c21a79f641d1308",
+      "published_sha256": "1ce94ff904c074c1f25a7917598155b95661db1b587afcf92928c4e397058c51",
+      "bytes": 760,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/Houston_seed0_batch16.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/Houston_seed0_batch16.done.json",
+      "original_sha256": "662c31c3ce648f13a3eea957761e12c3d897038f92bdeeccb1ee8560bfde14ae",
+      "published_sha256": "5821e6bd3619c13076c702be835f4ceaabd53ec05c3f06e4e1d2c598c904c8e9",
+      "bytes": 760,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/Houston_seed0_batch2.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/Houston_seed0_batch2.done.json",
+      "original_sha256": "3f530c2cfc62bd0746e43aee8f305c852abd85b1c9955e2f430ba5307f6cf465",
+      "published_sha256": "83e9b08b9a6d5e2473248dbb4ca4c1f1543d595100661a8821d5ebe3071128d5",
+      "bytes": 758,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/Houston_seed0_batch32.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/Houston_seed0_batch32.done.json",
+      "original_sha256": "ffc03953c1f91a61b350c2c2ec21f5d22e1920daddbe5eef261059399968b267",
+      "published_sha256": "683264ae67a8f8ffbcfc9013ce5e020cf1fb523646225cacf6163a7ef08f7170",
+      "bytes": 760,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/Houston_seed0_batch4.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/Houston_seed0_batch4.done.json",
+      "original_sha256": "42a725504b5f3f962759be8d65cd309e0fe4540e8cee590a2f05b8618a40c30d",
+      "published_sha256": "ee63eb5f3e2fcb521fc4d5f0c28ec5bec5fd2ed3ee0642a51c1bedd50d8ed220",
+      "bytes": 758,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/Houston_seed0_batch64.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/Houston_seed0_batch64.done.json",
+      "original_sha256": "47d84c8725cf0c4188915374b0b610c385677571b73a90a0861bc5a854ec9d7e",
+      "published_sha256": "cacd52070e48c825986d59d2419a42fc9da45a42b8feb438e3ed1684d071a524",
+      "bytes": 760,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/Houston_seed0_batch8.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/Houston_seed0_batch8.done.json",
+      "original_sha256": "54b0dd5d843e90a6785bac51660805c6f973158e9cc8c93064974d60b44a0f63",
+      "published_sha256": "5b2af1f6c977e97fba6235504d6bbae4d95578f38d903e50395aacf42be9fd46",
+      "bytes": 758,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/UP_seed0_batch1.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/UP_seed0_batch1.done.json",
+      "original_sha256": "a508eac81a3384097efbec76896ca80b8574aeddd78d343e08cc78bfbf45f625",
+      "published_sha256": "256a21ea10aa49da08555d19f18067f018859707df6c0b191dbd232b8de8d1f9",
+      "bytes": 745,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/UP_seed0_batch16.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/UP_seed0_batch16.done.json",
+      "original_sha256": "4d9bf5fe5d24ed9eb85c78578cbdf81c5fb3aaee96824bff1c31b8cfb3ca991a",
+      "published_sha256": "5ece5ab503188e311da55ec3e483e7736b0670608561817db10824ecc63e5305",
+      "bytes": 745,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/UP_seed0_batch2.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/UP_seed0_batch2.done.json",
+      "original_sha256": "63353117a36178cc70b7ee4552a6b2eb6853eb8ce49baed473e22f011c49e63a",
+      "published_sha256": "0177adaa31bae1f1a076bc8052d4cbad0d35ae7c70de1fc7f88819e659675a8a",
+      "bytes": 743,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/UP_seed0_batch32.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/UP_seed0_batch32.done.json",
+      "original_sha256": "c0a20929786eddde44523625365348357ced1b87412f775877b09a716373fc90",
+      "published_sha256": "e68e1559d23f8ae3b737d0ae227c79493d991f17e2cc4b150ce8ccf910b1aca7",
+      "bytes": 745,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/UP_seed0_batch4.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/UP_seed0_batch4.done.json",
+      "original_sha256": "0f30c49bfc809899cd6d7a6b0594900a9d3f6dc758d97148bfc63d274d809540",
+      "published_sha256": "9d489a1db06c97b5f23fb136a3cc9ed7488fc2f9d1b14999fc645f9ed3ad915d",
+      "bytes": 743,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/UP_seed0_batch64.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/UP_seed0_batch64.done.json",
+      "original_sha256": "80a32c81a38eefe015b90594ccfedf55e317f538d2fa9c4446631e6f1ff3f099",
+      "published_sha256": "f35001cea9755d633513c187b95342b29d649585d05a00edbd2f7f127f6c8efb",
+      "bytes": 745,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/gpu_current_4datasets_v2/logs/UP_seed0_batch8.done.json",
+      "destination": "evidence/completion_20260923/gpu_fp32/logs/UP_seed0_batch8.done.json",
+      "original_sha256": "0085aeda0f9c5a473edc4e8e38b598993489e22bb6e7060b9b06d05fadab3e98",
+      "published_sha256": "c5bb2a551122eadf7c96cc8e6879eba8587b56f2aa1b72819289400353a9e741",
+      "bytes": 743,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/fpga_dt_input_UP_seed0/manifest.json",
+      "destination": "evidence/completion_20260923/dt_input_UP_seed0/manifest.json",
+      "original_sha256": "062e193691c714e574de2adabb7d226006bc916248398dd88caa3a5039e0916a",
+      "published_sha256": "43a6751bb583fb1ebd6ee37bab6a232fe2cb1f0503c65d068bda49d078957273",
+      "bytes": 4713,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/fpga_dt_input_UP_seed0/dataset_summary.json",
+      "destination": "evidence/completion_20260923/dt_input_UP_seed0/dataset_summary.json",
+      "original_sha256": "c2429ccd7c7f943544e3b4fc8d67367acaaf771e7d66879bfb787670895892ee",
+      "published_sha256": "c2429ccd7c7f943544e3b4fc8d67367acaaf771e7d66879bfb787670895892ee",
+      "bytes": 476,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/fpga_dt_input_UP_seed0/per_seed_summary.csv",
+      "destination": "evidence/completion_20260923/dt_input_UP_seed0/per_seed_summary.csv",
+      "original_sha256": "27fec415fc8ca83378c53748d37887b7d7dc51b34e9a9ddbb702dbc43da0ec8d",
+      "published_sha256": "e478cd53eb730c2089bda73e3224a3fa72b7cabd414e0a747fc8d572d3d4a07d",
+      "bytes": 653,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/fpga_dt_input_UP_seed0/UP/seed0/attempt001/fpga_simulation_result.json",
+      "destination": "evidence/completion_20260923/dt_input_UP_seed0/fpga_simulation_result.json",
+      "original_sha256": "0f43fc63309ed4d560bfab7940321d96d22e9397238217796ede3998a65fdaa7",
+      "published_sha256": "2c177c1f22efb4d128e6c0fc4d9f4acc974b13b3f75f439b8c7593308f205058",
+      "bytes": 21987,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/fpga_dt_input_UP_seed0/UP/seed0/attempt001/numeric_config.json",
+      "destination": "evidence/completion_20260923/dt_input_UP_seed0/numeric_config.json",
+      "original_sha256": "3481c1eeebf7c68fe5a9e9eac1dc395e5650628ccc6da69d944c7bcb26c5c63a",
+      "published_sha256": "3481c1eeebf7c68fe5a9e9eac1dc395e5650628ccc6da69d944c7bcb26c5c63a",
+      "bytes": 393,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/fpga_dt_input_UP_seed0/UP/seed0/attempt001/dt_input_diagnostics.json",
+      "destination": "evidence/completion_20260923/dt_input_UP_seed0/dt_input_diagnostics.json",
+      "original_sha256": "c412afde867cfd4453bdf1edc14fba2e4d777d48fe401426b90938c2eebb8d6d",
+      "published_sha256": "c412afde867cfd4453bdf1edc14fba2e4d777d48fe401426b90938c2eebb8d6d",
+      "bytes": 18793,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/fpga_dt_input_UP_seed0/UP/seed0/attempt001/dt_input_diagnostics.csv",
+      "destination": "evidence/completion_20260923/dt_input_UP_seed0/dt_input_diagnostics.csv",
+      "original_sha256": "ffe939278a0beec96e208d91164cf3e3a5b5f4a1d770ad6fdd76342a67c97b2d",
+      "published_sha256": "ffe939278a0beec96e208d91164cf3e3a5b5f4a1d770ad6fdd76342a67c97b2d",
+      "bytes": 7104,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/fpga_dt_input_UP_seed0/UP/seed0/attempt001/ssm_local_error_by_position.csv",
+      "destination": "evidence/completion_20260923/dt_input_UP_seed0/ssm_local_error_by_position.csv",
+      "original_sha256": "e63bceea62c4ba43851d806e02f876aa773a148ca8efda08fab64f9524352fbc",
+      "published_sha256": "e63bceea62c4ba43851d806e02f876aa773a148ca8efda08fab64f9524352fbc",
+      "bytes": 217966,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/D1_board_anchor_check.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/D1_board_anchor_check.json",
+      "original_sha256": "972af25a6fba590136d9f615e31faa803487b257eecc177ba140991d7694a057",
+      "published_sha256": "972af25a6fba590136d9f615e31faa803487b257eecc177ba140991d7694a057",
+      "bytes": 352,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/accuracy_propagation_summary.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/accuracy_propagation_summary.json",
+      "original_sha256": "fc56748054be8527fc4d53cbb2fa4185fb1a9c1e10545502c00e3ef45522cb42",
+      "published_sha256": "fc56748054be8527fc4d53cbb2fa4185fb1a9c1e10545502c00e3ef45522cb42",
+      "bytes": 83582,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spa_n0.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spa_n0.mem",
+      "original_sha256": "ce08390481805cde5bf6f8d5bee7a25e033a58c02a6d094e970966eabf561019",
+      "published_sha256": "ce08390481805cde5bf6f8d5bee7a25e033a58c02a6d094e970966eabf561019",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spa_n0.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spa_n0.npz",
+      "original_sha256": "773af8a66120fee364029d7a7e2f9da0022765139652c450efb42de824c3dfd8",
+      "published_sha256": "773af8a66120fee364029d7a7e2f9da0022765139652c450efb42de824c3dfd8",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spa_n1.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spa_n1.mem",
+      "original_sha256": "22bb7d49ab3772864dde38de2317e26ab456fca7667400b6da5f87866d223f52",
+      "published_sha256": "22bb7d49ab3772864dde38de2317e26ab456fca7667400b6da5f87866d223f52",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spa_n1.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spa_n1.npz",
+      "original_sha256": "03b7ca6aa20e0b7b7821352d6f1eca7f99189bab676273f0377cd1553f7fa0b9",
+      "published_sha256": "03b7ca6aa20e0b7b7821352d6f1eca7f99189bab676273f0377cd1553f7fa0b9",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spa_n2.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spa_n2.mem",
+      "original_sha256": "3474b5b17e24dc33d69129c3bec80fcbba11fbd98b7427cf3b003843601398fe",
+      "published_sha256": "3474b5b17e24dc33d69129c3bec80fcbba11fbd98b7427cf3b003843601398fe",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spa_n2.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spa_n2.npz",
+      "original_sha256": "8d70c5f24fbbb0a6413dbd9bd3f62513b16e263e5051ae6ee4b5674dac9fcc83",
+      "published_sha256": "8d70c5f24fbbb0a6413dbd9bd3f62513b16e263e5051ae6ee4b5674dac9fcc83",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spa_n3.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spa_n3.mem",
+      "original_sha256": "cfed5b917dc1533d14194aa3f3e12e479c0c6a6ff3b11bbe0b3fc79ac0bb613c",
+      "published_sha256": "cfed5b917dc1533d14194aa3f3e12e479c0c6a6ff3b11bbe0b3fc79ac0bb613c",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spa_n3.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spa_n3.npz",
+      "original_sha256": "0bb1252e92bca8350b5070e627cb2c7b10090a40f2606c1426c657f514857ed8",
+      "published_sha256": "0bb1252e92bca8350b5070e627cb2c7b10090a40f2606c1426c657f514857ed8",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spa_parameters.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spa_parameters.json",
+      "original_sha256": "aff0403a47d45649ccb75f98caf10f56d0ae083dbd3778d35c19d136a711da6e",
+      "published_sha256": "aff0403a47d45649ccb75f98caf10f56d0ae083dbd3778d35c19d136a711da6e",
+      "bytes": 5083,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spe_n0.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spe_n0.mem",
+      "original_sha256": "b557b97f52eb781c856e5bb22091c9f30ca940e2b3fd398f6a8b7533eb925eab",
+      "published_sha256": "b557b97f52eb781c856e5bb22091c9f30ca940e2b3fd398f6a8b7533eb925eab",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spe_n0.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spe_n0.npz",
+      "original_sha256": "98426360f2be0cd6aa06de08de42696aae4c7da1b5e417e2a3f7166cd79c4091",
+      "published_sha256": "98426360f2be0cd6aa06de08de42696aae4c7da1b5e417e2a3f7166cd79c4091",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spe_n1.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spe_n1.mem",
+      "original_sha256": "811e677607b8ec451ff11afed2f0d2d2788fedbe8fbf1aaa0156f8f9cdacceed",
+      "published_sha256": "811e677607b8ec451ff11afed2f0d2d2788fedbe8fbf1aaa0156f8f9cdacceed",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spe_n1.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spe_n1.npz",
+      "original_sha256": "eebc168c3942d6061fa2a210b8f763f64387cd0d497bec8b3f4296079e25b744",
+      "published_sha256": "eebc168c3942d6061fa2a210b8f763f64387cd0d497bec8b3f4296079e25b744",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spe_n2.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spe_n2.mem",
+      "original_sha256": "e18c3d13505914a6a92c5f40cf39fa9e65be7afd0e7fa3b8c3dd47e95c5cb3fb",
+      "published_sha256": "e18c3d13505914a6a92c5f40cf39fa9e65be7afd0e7fa3b8c3dd47e95c5cb3fb",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spe_n2.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spe_n2.npz",
+      "original_sha256": "016691dea15a69fcc157d95245af0929c10f3390f83990bb9fb31dca634716d9",
+      "published_sha256": "016691dea15a69fcc157d95245af0929c10f3390f83990bb9fb31dca634716d9",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spe_n3.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spe_n3.mem",
+      "original_sha256": "6ff84f1411083c8e7696cded889ed48106ac5b44720467fff58c2a30e4baf92e",
+      "published_sha256": "6ff84f1411083c8e7696cded889ed48106ac5b44720467fff58c2a30e4baf92e",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spe_n3.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spe_n3.npz",
+      "original_sha256": "ca5ba8e5121a6d6621a874c02bb311dde3a01b602c6975440435422de0023c51",
+      "published_sha256": "ca5ba8e5121a6d6621a874c02bb311dde3a01b602c6975440435422de0023c51",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk0_spe_parameters.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk0_spe_parameters.json",
+      "original_sha256": "4d24e384cab649a113400bb79306ff79c953f1179515607ed03596daa54224b4",
+      "published_sha256": "4d24e384cab649a113400bb79306ff79c953f1179515607ed03596daa54224b4",
+      "bytes": 4468,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spa_n0.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spa_n0.mem",
+      "original_sha256": "cd3f56f732e97b97e8186e6bf5e2a40ce8d94a46a74965bd750fd5bd0c92d593",
+      "published_sha256": "cd3f56f732e97b97e8186e6bf5e2a40ce8d94a46a74965bd750fd5bd0c92d593",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spa_n0.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spa_n0.npz",
+      "original_sha256": "313c0ea27513810b0e79ac747bc549707ec5e758826720a8aaf0e1909f3ae93a",
+      "published_sha256": "313c0ea27513810b0e79ac747bc549707ec5e758826720a8aaf0e1909f3ae93a",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spa_n1.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spa_n1.mem",
+      "original_sha256": "acfc51aeea758f8beb5ea9ffbf27581ba4a35ed3c5e153c0f51336a9ac315888",
+      "published_sha256": "acfc51aeea758f8beb5ea9ffbf27581ba4a35ed3c5e153c0f51336a9ac315888",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spa_n1.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spa_n1.npz",
+      "original_sha256": "9be09f9859e830faaf2c081278ff8cbf6793d5ca459ef8a511afe33a99fc244f",
+      "published_sha256": "9be09f9859e830faaf2c081278ff8cbf6793d5ca459ef8a511afe33a99fc244f",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spa_n2.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spa_n2.mem",
+      "original_sha256": "c4e6fc8edf730a865d039dca838d0a3609b2fa969f8152d26e99e572b7ea3356",
+      "published_sha256": "c4e6fc8edf730a865d039dca838d0a3609b2fa969f8152d26e99e572b7ea3356",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spa_n2.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spa_n2.npz",
+      "original_sha256": "1e0bf330fa4da2f2cad1ca8487a8fac56c7d3e8e2b61f89dd1aabe1044c56a33",
+      "published_sha256": "1e0bf330fa4da2f2cad1ca8487a8fac56c7d3e8e2b61f89dd1aabe1044c56a33",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spa_n3.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spa_n3.mem",
+      "original_sha256": "5b9eeb09210949eeeb5f88c81b26c44528fb8284d2aa30fce7d764c1823688b8",
+      "published_sha256": "5b9eeb09210949eeeb5f88c81b26c44528fb8284d2aa30fce7d764c1823688b8",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spa_n3.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spa_n3.npz",
+      "original_sha256": "4bfc63a66fb8f96a6d3838078b91729aeba5c4f6afb1d944d24ed0f9ca87b059",
+      "published_sha256": "4bfc63a66fb8f96a6d3838078b91729aeba5c4f6afb1d944d24ed0f9ca87b059",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spa_parameters.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spa_parameters.json",
+      "original_sha256": "0865e245834d2d24cd9f88f80e1e6cf43d624a41ed8d75be2edd371702a1db76",
+      "published_sha256": "0865e245834d2d24cd9f88f80e1e6cf43d624a41ed8d75be2edd371702a1db76",
+      "bytes": 5168,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spe_n0.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spe_n0.mem",
+      "original_sha256": "981186b611f6c87b519b11da5d7259b7b34bf05a81c29b11f470ec0d96e14a66",
+      "published_sha256": "981186b611f6c87b519b11da5d7259b7b34bf05a81c29b11f470ec0d96e14a66",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spe_n0.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spe_n0.npz",
+      "original_sha256": "0d1d19a39d2a03ebb41866fcb1e7f9c7c2cf23713cc013250df867e27f586f8c",
+      "published_sha256": "0d1d19a39d2a03ebb41866fcb1e7f9c7c2cf23713cc013250df867e27f586f8c",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spe_n1.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spe_n1.mem",
+      "original_sha256": "8e0fc3c948f68b4a9444756e2852110ac6e958e88e7c5e1ec74a8065eeeb54c4",
+      "published_sha256": "8e0fc3c948f68b4a9444756e2852110ac6e958e88e7c5e1ec74a8065eeeb54c4",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spe_n1.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spe_n1.npz",
+      "original_sha256": "0a31e5f412603abbe5f0542484771d4041f4dc2d961e4ac08fedc9413d77b978",
+      "published_sha256": "0a31e5f412603abbe5f0542484771d4041f4dc2d961e4ac08fedc9413d77b978",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spe_n2.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spe_n2.mem",
+      "original_sha256": "b1627308ce3ffe96f2037dfdb8d18b98b311dcf2f35800cd0845a455e14e890e",
+      "published_sha256": "b1627308ce3ffe96f2037dfdb8d18b98b311dcf2f35800cd0845a455e14e890e",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spe_n2.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spe_n2.npz",
+      "original_sha256": "95ef302238ad6731a1e61638d6ddcc06c9b6e5228b8ce275a942e5c753fed4ea",
+      "published_sha256": "95ef302238ad6731a1e61638d6ddcc06c9b6e5228b8ce275a942e5c753fed4ea",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spe_n3.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spe_n3.mem",
+      "original_sha256": "3df5e05d54b925cb9f1103ef8bb40cc14d7b514e34be35459273a0cd4bb18c6c",
+      "published_sha256": "3df5e05d54b925cb9f1103ef8bb40cc14d7b514e34be35459273a0cd4bb18c6c",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spe_n3.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spe_n3.npz",
+      "original_sha256": "06e0082239f0212512b2705825e065ca46bc5848f7c2fd1a964defac5153e807",
+      "published_sha256": "06e0082239f0212512b2705825e065ca46bc5848f7c2fd1a964defac5153e807",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk1_spe_parameters.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk1_spe_parameters.json",
+      "original_sha256": "804071fe0bdcc576a9fac519140458a6871fe20eba38155c089dbc0b1d57e7c7",
+      "published_sha256": "804071fe0bdcc576a9fac519140458a6871fe20eba38155c089dbc0b1d57e7c7",
+      "bytes": 4480,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spa_n0.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spa_n0.mem",
+      "original_sha256": "777d6566cd2de2067a50c0f5190e9899cdbfa32bacf0462ad05fae975f71b42a",
+      "published_sha256": "777d6566cd2de2067a50c0f5190e9899cdbfa32bacf0462ad05fae975f71b42a",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spa_n0.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spa_n0.npz",
+      "original_sha256": "33dc8e6b5b1f5bdc6069897e674c4f46e460719a8d541c8c421e10e9b041c25b",
+      "published_sha256": "33dc8e6b5b1f5bdc6069897e674c4f46e460719a8d541c8c421e10e9b041c25b",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spa_n1.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spa_n1.mem",
+      "original_sha256": "6b5834df89c85bd06c7add36efcf099b69f93f007270b112fd3c212eed92b1db",
+      "published_sha256": "6b5834df89c85bd06c7add36efcf099b69f93f007270b112fd3c212eed92b1db",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spa_n1.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spa_n1.npz",
+      "original_sha256": "5b0f12bf94822ef0c60ba46196e651c32f34a8dc2a343e67885182fc722de673",
+      "published_sha256": "5b0f12bf94822ef0c60ba46196e651c32f34a8dc2a343e67885182fc722de673",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spa_n2.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spa_n2.mem",
+      "original_sha256": "aff83a7bcbe7c84ef40901ac853f2397d5611c00efe3c3bd7224f461d5a944f6",
+      "published_sha256": "aff83a7bcbe7c84ef40901ac853f2397d5611c00efe3c3bd7224f461d5a944f6",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spa_n2.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spa_n2.npz",
+      "original_sha256": "ed972cd02c749eaa16a60e26f97ca2fa25135471f672b5e6bb189821cabdd8c9",
+      "published_sha256": "ed972cd02c749eaa16a60e26f97ca2fa25135471f672b5e6bb189821cabdd8c9",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spa_n3.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spa_n3.mem",
+      "original_sha256": "5778561fd9dab1eb14f9683f800412705a319a9ba24ed1b926e63246cf8817d7",
+      "published_sha256": "5778561fd9dab1eb14f9683f800412705a319a9ba24ed1b926e63246cf8817d7",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spa_n3.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spa_n3.npz",
+      "original_sha256": "9a117b113f07b73dd747113c29062beaa77be0b62c5707fde6b73b03fca0adad",
+      "published_sha256": "9a117b113f07b73dd747113c29062beaa77be0b62c5707fde6b73b03fca0adad",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spa_parameters.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spa_parameters.json",
+      "original_sha256": "b67ae7eaad8d8f7e22d17e863f11c310b806cdd5510d9920a57122e82721c0e2",
+      "published_sha256": "b67ae7eaad8d8f7e22d17e863f11c310b806cdd5510d9920a57122e82721c0e2",
+      "bytes": 5161,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spe_n0.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spe_n0.mem",
+      "original_sha256": "800f10fc26a31210a804dc1b5c4bc6a9ff5d2501c6293dc775f6c4723a9c71ad",
+      "published_sha256": "800f10fc26a31210a804dc1b5c4bc6a9ff5d2501c6293dc775f6c4723a9c71ad",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spe_n0.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spe_n0.npz",
+      "original_sha256": "858d8cd30384d65db5cdc98f47689c91d9987b373e256276bc2d2d7ac89f582e",
+      "published_sha256": "858d8cd30384d65db5cdc98f47689c91d9987b373e256276bc2d2d7ac89f582e",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spe_n1.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spe_n1.mem",
+      "original_sha256": "a99a936f82b7307e73ca835035f24b336caf55bc89b0cc50624d3ee36b7c72d7",
+      "published_sha256": "a99a936f82b7307e73ca835035f24b336caf55bc89b0cc50624d3ee36b7c72d7",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spe_n1.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spe_n1.npz",
+      "original_sha256": "77f52413d0e9dd8b488591fef0dbb89177a50f025be3028ea978d9296d8b0e40",
+      "published_sha256": "77f52413d0e9dd8b488591fef0dbb89177a50f025be3028ea978d9296d8b0e40",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spe_n2.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spe_n2.mem",
+      "original_sha256": "20597bf70449a1757bb5ec6bfa2ee8105de2598043c875ebeb793fb2ae18e825",
+      "published_sha256": "20597bf70449a1757bb5ec6bfa2ee8105de2598043c875ebeb793fb2ae18e825",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spe_n2.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spe_n2.npz",
+      "original_sha256": "289791434bbf8d406b59e4a50b4190f18189070da46d48f2992c75a47730bebd",
+      "published_sha256": "289791434bbf8d406b59e4a50b4190f18189070da46d48f2992c75a47730bebd",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spe_n3.mem",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spe_n3.mem",
+      "original_sha256": "688c67c539478ef4755b09a4b9185cbd347982d541168e770e4f752ea436c38b",
+      "published_sha256": "688c67c539478ef4755b09a4b9185cbd347982d541168e770e4f752ea436c38b",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spe_n3.npz",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spe_n3.npz",
+      "original_sha256": "f8fa63d429ebc426dddb6ed3796c4c5e08c293647b8f2c7a33365596d5188bae",
+      "published_sha256": "f8fa63d429ebc426dddb6ed3796c4c5e08c293647b8f2c7a33365596d5188bae",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/coefficients/blk2_spe_parameters.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/coefficients/blk2_spe_parameters.json",
+      "original_sha256": "80c9b6ab355f67d77bd514e133ee41e344cdfd9340fac01d2d6ae0deaf8af35a",
+      "published_sha256": "80c9b6ab355f67d77bd514e133ee41e344cdfd9340fac01d2d6ae0deaf8af35a",
+      "bytes": 4478,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/end_to_end_ssm_vs_float.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/end_to_end_ssm_vs_float.json",
+      "original_sha256": "cee4d36fb2dd6d100d11c81c6d87b7cd10463a6f1d07653dab323408488170f5",
+      "published_sha256": "cee4d36fb2dd6d100d11c81c6d87b7cd10463a6f1d07653dab323408488170f5",
+      "bytes": 2084205,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/end_to_end_ssm_vs_n3.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/end_to_end_ssm_vs_n3.json",
+      "original_sha256": "f49666f732b32843b24a141bad0be27b34b5216d8fa304134a6e0bb82fe0bf43",
+      "published_sha256": "f49666f732b32843b24a141bad0be27b34b5216d8fa304134a6e0bb82fe0bf43",
+      "bytes": 1554435,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/isolated_ssm_vs_float.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/isolated_ssm_vs_float.json",
+      "original_sha256": "fa4e30a93188cdb6f2bc4904a8d240f967523b30e24794760adb32d3b221ec57",
+      "published_sha256": "fa4e30a93188cdb6f2bc4904a8d240f967523b30e24794760adb32d3b221ec57",
+      "bytes": 1559092,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/isolated_ssm_vs_n3.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/isolated_ssm_vs_n3.json",
+      "original_sha256": "c0ad9cc3f4c38989ad97322c9e001a43e57264ba021107bf3a44888d47135d2d",
+      "published_sha256": "c0ad9cc3f4c38989ad97322c9e001a43e57264ba021107bf3a44888d47135d2d",
+      "bytes": 1539014,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/layer_fixed_vs_float.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/layer_fixed_vs_float.json",
+      "original_sha256": "0445bf91e51999b01191c88901aa0eaaa14898ce2ff55e86300141860007a018",
+      "published_sha256": "0445bf91e51999b01191c88901aa0eaaa14898ce2ff55e86300141860007a018",
+      "bytes": 94514,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/layer_propagation.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/layer_propagation.json",
+      "original_sha256": "8d38d949e643763839dd1a6f782609e211182f24d4212df28120582290eeb09b",
+      "published_sha256": "8d38d949e643763839dd1a6f782609e211182f24d4212df28120582290eeb09b",
+      "bytes": 60727,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/n0_prediction_rtl_integer.npy",
+      "destination": "evidence/completion_20260923/nonlinear_D1/n0_prediction_rtl_integer.npy",
+      "original_sha256": "0947681bf3dffaad40115df2a9b4ffb1db729ee572dc6dff1999e779f331bfe6",
+      "published_sha256": "0947681bf3dffaad40115df2a9b4ffb1db729ee572dc6dff1999e779f331bfe6",
+      "bytes": 207528,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/n0_tile_logits_int8.npy",
+      "destination": "evidence/completion_20260923/nonlinear_D1/n0_tile_logits_int8.npy",
+      "original_sha256": "4616910cc8d8bdb359bdb3dbd58d3fcf3df3c45dee95810482ec4a1d843d4e11",
+      "published_sha256": "4616910cc8d8bdb359bdb3dbd58d3fcf3df3c45dee95810482ec4a1d843d4e11",
+      "bytes": 123680,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/n1_prediction_rtl_integer.npy",
+      "destination": "evidence/completion_20260923/nonlinear_D1/n1_prediction_rtl_integer.npy",
+      "original_sha256": "74b44745933d35b7151dc5abbf0c30aee5e920ad235c12410f060188fc1e8220",
+      "published_sha256": "74b44745933d35b7151dc5abbf0c30aee5e920ad235c12410f060188fc1e8220",
+      "bytes": 207528,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/n1_tile_logits_int8.npy",
+      "destination": "evidence/completion_20260923/nonlinear_D1/n1_tile_logits_int8.npy",
+      "original_sha256": "d2700ae14c273ca150aa1fb8c85c744cada8cced40d4f0e6bcd9bb22624dd2a8",
+      "published_sha256": "d2700ae14c273ca150aa1fb8c85c744cada8cced40d4f0e6bcd9bb22624dd2a8",
+      "bytes": 123680,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/n2_prediction_rtl_integer.npy",
+      "destination": "evidence/completion_20260923/nonlinear_D1/n2_prediction_rtl_integer.npy",
+      "original_sha256": "ce2c0b07f1c68f9ad0889fc24fad959883ee477ab9aabc7075c0e32b480acd38",
+      "published_sha256": "ce2c0b07f1c68f9ad0889fc24fad959883ee477ab9aabc7075c0e32b480acd38",
+      "bytes": 207528,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/n2_tile_logits_int8.npy",
+      "destination": "evidence/completion_20260923/nonlinear_D1/n2_tile_logits_int8.npy",
+      "original_sha256": "a11a8601d9858517bac3822ff9aa1c3ae53d5e3858f3bc03ecab952eb39486bf",
+      "published_sha256": "a11a8601d9858517bac3822ff9aa1c3ae53d5e3858f3bc03ecab952eb39486bf",
+      "bytes": 123680,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/n3_prediction_rtl_integer.npy",
+      "destination": "evidence/completion_20260923/nonlinear_D1/n3_prediction_rtl_integer.npy",
+      "original_sha256": "0947681bf3dffaad40115df2a9b4ffb1db729ee572dc6dff1999e779f331bfe6",
+      "published_sha256": "0947681bf3dffaad40115df2a9b4ffb1db729ee572dc6dff1999e779f331bfe6",
+      "bytes": 207528,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/n3_tile_logits_int8.npy",
+      "destination": "evidence/completion_20260923/nonlinear_D1/n3_tile_logits_int8.npy",
+      "original_sha256": "46a9397571c950b99ab932448982e1a1e37cc7407b53d076c8a1864feada7d55",
+      "published_sha256": "46a9397571c950b99ab932448982e1a1e37cc7407b53d076c8a1864feada7d55",
+      "bytes": 123680,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/nonlinear_experiment/tile_manifest.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/tile_manifest.json",
+      "original_sha256": "3a280453c044f3dcd5643b460075cf3a78af28ee498d93b1ffcca6476f3dd14c",
+      "published_sha256": "3a280453c044f3dcd5643b460075cf3a78af28ee498d93b1ffcca6476f3dd14c",
+      "bytes": 123753,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_D1_run2/fpga_simulation_result.json",
+      "destination": "evidence/completion_20260923/nonlinear_D1/fpga_simulation_result.json",
+      "original_sha256": "08692e43c855c025444fb592b162f588aa72b9054c90650bf9360b5e97325c13",
+      "published_sha256": "e9ce04d4567ed7d674457ebdb17e3ea5c228e6a3ef46c66d881bbc001948c1cf",
+      "bytes": 23625,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/accuracy_propagation_summary.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/accuracy_propagation_summary.json",
+      "original_sha256": "80dab4781eb59304bba3f1b8014c730721f4058d595db95c5d3101ab181b585d",
+      "published_sha256": "3c14e75ab55ec2c65e451a872b017181b37a9ef235da0f7f2f4d9388cc686fe3",
+      "bytes": 57176,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk0_spa_n0.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk0_spa_n0.mem",
+      "original_sha256": "50a11d4f98ca50724649f22933c2ef3a180a96492991585ac810ac20c7802cd9",
+      "published_sha256": "50a11d4f98ca50724649f22933c2ef3a180a96492991585ac810ac20c7802cd9",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk0_spa_n0.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk0_spa_n0.npz",
+      "original_sha256": "42b7628102198769d2b88f435103466b7e3bd33e0eb65bc0e6d1ccea45646fff",
+      "published_sha256": "42b7628102198769d2b88f435103466b7e3bd33e0eb65bc0e6d1ccea45646fff",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk0_spa_n1.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk0_spa_n1.mem",
+      "original_sha256": "28cd76587adcd7092d8cb02e65c165e5ea2353b76a0436e4e9c16a5d68ed25a0",
+      "published_sha256": "28cd76587adcd7092d8cb02e65c165e5ea2353b76a0436e4e9c16a5d68ed25a0",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk0_spa_n1.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk0_spa_n1.npz",
+      "original_sha256": "91800730fe3a502f64da4e86b22b35634799c2f6af26bb81b18573086ad0ad0c",
+      "published_sha256": "91800730fe3a502f64da4e86b22b35634799c2f6af26bb81b18573086ad0ad0c",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk0_spa_n3.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk0_spa_n3.mem",
+      "original_sha256": "af042018fa811785c6f6370c9993d72be0f281cc1216648c6d1fd562aeb84a16",
+      "published_sha256": "af042018fa811785c6f6370c9993d72be0f281cc1216648c6d1fd562aeb84a16",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk0_spa_n3.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk0_spa_n3.npz",
+      "original_sha256": "6586e4ac09f7e39d51961d20eeb92172786604a01414ea4c2c5a14cc427e4366",
+      "published_sha256": "6586e4ac09f7e39d51961d20eeb92172786604a01414ea4c2c5a14cc427e4366",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk0_spa_parameters.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk0_spa_parameters.json",
+      "original_sha256": "d342949ec5fd7d1c655e4d66feecf8f38cc551c49e5c03cc5b3212d2215c532f",
+      "published_sha256": "d342949ec5fd7d1c655e4d66feecf8f38cc551c49e5c03cc5b3212d2215c532f",
+      "bytes": 4461,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk0_spe_n0.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk0_spe_n0.mem",
+      "original_sha256": "bed1367d26afb46296ec1835e232a7253d1595e3fcf39ac12f32f9d289c6513a",
+      "published_sha256": "bed1367d26afb46296ec1835e232a7253d1595e3fcf39ac12f32f9d289c6513a",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk0_spe_n0.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk0_spe_n0.npz",
+      "original_sha256": "9d785925c955c5f3189fb0fd864e9590a09512ec2425aaa08e41fb5f1f402853",
+      "published_sha256": "9d785925c955c5f3189fb0fd864e9590a09512ec2425aaa08e41fb5f1f402853",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk0_spe_n1.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk0_spe_n1.mem",
+      "original_sha256": "ebfc5867ba0bbba4a140911fef2a43c879f189d6828c0b729a291843b8aad560",
+      "published_sha256": "ebfc5867ba0bbba4a140911fef2a43c879f189d6828c0b729a291843b8aad560",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk0_spe_n1.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk0_spe_n1.npz",
+      "original_sha256": "59508cbdff5712b3c116e7a9492fc43cc8da72eb6d79fa4aa0e18bb07f95118c",
+      "published_sha256": "59508cbdff5712b3c116e7a9492fc43cc8da72eb6d79fa4aa0e18bb07f95118c",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk0_spe_n3.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk0_spe_n3.mem",
+      "original_sha256": "73714bee89b1c823ad570fae9823648e3faf237dd7841b4ae0f726cfee2a2b72",
+      "published_sha256": "73714bee89b1c823ad570fae9823648e3faf237dd7841b4ae0f726cfee2a2b72",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk0_spe_n3.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk0_spe_n3.npz",
+      "original_sha256": "e41074458e6ae68c767108d2bfd378bc4048b996b7d18e62c4d453ec5e439cd0",
+      "published_sha256": "e41074458e6ae68c767108d2bfd378bc4048b996b7d18e62c4d453ec5e439cd0",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk0_spe_parameters.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk0_spe_parameters.json",
+      "original_sha256": "219b75d8daf2d5a8a6007db49fed3006c4c7a8df6254d776c978ecd5e1ed87ea",
+      "published_sha256": "219b75d8daf2d5a8a6007db49fed3006c4c7a8df6254d776c978ecd5e1ed87ea",
+      "bytes": 4401,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk1_spa_n0.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk1_spa_n0.mem",
+      "original_sha256": "4866ccde69a8cd1c968441b069ca0a661b3fdf2fb64297f9c66e5644fbf189d9",
+      "published_sha256": "4866ccde69a8cd1c968441b069ca0a661b3fdf2fb64297f9c66e5644fbf189d9",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk1_spa_n0.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk1_spa_n0.npz",
+      "original_sha256": "e56ab673d0131199e230ed8b30be020d9f51642ab997cb2abc204c76056d27f6",
+      "published_sha256": "e56ab673d0131199e230ed8b30be020d9f51642ab997cb2abc204c76056d27f6",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk1_spa_n1.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk1_spa_n1.mem",
+      "original_sha256": "cf6c30389a9a0dcaf48727b203fa7422bfa851a9141a6ba2225984db69e00ccc",
+      "published_sha256": "cf6c30389a9a0dcaf48727b203fa7422bfa851a9141a6ba2225984db69e00ccc",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk1_spa_n1.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk1_spa_n1.npz",
+      "original_sha256": "e6238815e2851353f8caac5daa180237dc7fcdde4ebdef77870ace7b416645b6",
+      "published_sha256": "e6238815e2851353f8caac5daa180237dc7fcdde4ebdef77870ace7b416645b6",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk1_spa_n3.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk1_spa_n3.mem",
+      "original_sha256": "7e9efab05200b4848d382adccceedd3486e1a8c7ad6e2d30405343a8692fb121",
+      "published_sha256": "7e9efab05200b4848d382adccceedd3486e1a8c7ad6e2d30405343a8692fb121",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk1_spa_n3.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk1_spa_n3.npz",
+      "original_sha256": "10532ba1452628c1c8d1787faa218f9261092b17eca6d849cf8590b3651cdd6a",
+      "published_sha256": "10532ba1452628c1c8d1787faa218f9261092b17eca6d849cf8590b3651cdd6a",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk1_spa_parameters.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk1_spa_parameters.json",
+      "original_sha256": "45e5d05d10eecdb6c36933ba6466a52f825eaf31800b5320d2ddd6f135afe7f5",
+      "published_sha256": "45e5d05d10eecdb6c36933ba6466a52f825eaf31800b5320d2ddd6f135afe7f5",
+      "bytes": 4425,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk1_spe_n0.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk1_spe_n0.mem",
+      "original_sha256": "18793d7c5b7b828f4563e533dc87599058a3dd787ebd430ca93aaef248c6e451",
+      "published_sha256": "18793d7c5b7b828f4563e533dc87599058a3dd787ebd430ca93aaef248c6e451",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk1_spe_n0.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk1_spe_n0.npz",
+      "original_sha256": "4b677c7c6e6096ce7195c7f305b9cb5d5adefbb7cd2cc62252a1c30b548c8f69",
+      "published_sha256": "4b677c7c6e6096ce7195c7f305b9cb5d5adefbb7cd2cc62252a1c30b548c8f69",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk1_spe_n1.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk1_spe_n1.mem",
+      "original_sha256": "768a1f92ac40773cc780a837a6472b97f138c77641269dc21e714e8ff2a37224",
+      "published_sha256": "768a1f92ac40773cc780a837a6472b97f138c77641269dc21e714e8ff2a37224",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk1_spe_n1.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk1_spe_n1.npz",
+      "original_sha256": "6534d373cf332a1248db8836f6adc9ca614fb8af5976bfdc635a5fb29d0d4555",
+      "published_sha256": "6534d373cf332a1248db8836f6adc9ca614fb8af5976bfdc635a5fb29d0d4555",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk1_spe_n3.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk1_spe_n3.mem",
+      "original_sha256": "f88b899f71074ed16d06f892587ae4709b196e1cb001d06b81a207c431e017d3",
+      "published_sha256": "f88b899f71074ed16d06f892587ae4709b196e1cb001d06b81a207c431e017d3",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk1_spe_n3.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk1_spe_n3.npz",
+      "original_sha256": "b37f50b2d1cd2bd4d5e61a4130bfb3ba08c77a7eba02429ce9ff3baed1521e77",
+      "published_sha256": "b37f50b2d1cd2bd4d5e61a4130bfb3ba08c77a7eba02429ce9ff3baed1521e77",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk1_spe_parameters.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk1_spe_parameters.json",
+      "original_sha256": "c174351c09801f831b1941fb085afac14c09c32daa2eddc1dd1d5ac1e89c0774",
+      "published_sha256": "c174351c09801f831b1941fb085afac14c09c32daa2eddc1dd1d5ac1e89c0774",
+      "bytes": 4412,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk2_spa_n0.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk2_spa_n0.mem",
+      "original_sha256": "ebb96803792ea1dd35353698097b8456d02ffe38082dd5625e28cdb3ef58fea4",
+      "published_sha256": "ebb96803792ea1dd35353698097b8456d02ffe38082dd5625e28cdb3ef58fea4",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk2_spa_n0.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk2_spa_n0.npz",
+      "original_sha256": "7df6afefa4ab4b0312e2b264e06eea49af6b7ee191e9e09b76aa6f98ea302724",
+      "published_sha256": "7df6afefa4ab4b0312e2b264e06eea49af6b7ee191e9e09b76aa6f98ea302724",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk2_spa_n1.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk2_spa_n1.mem",
+      "original_sha256": "1668e46f104fe59c0fe40d1ea062dadbe249365c824e044720add6b6f0bf0c11",
+      "published_sha256": "1668e46f104fe59c0fe40d1ea062dadbe249365c824e044720add6b6f0bf0c11",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk2_spa_n1.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk2_spa_n1.npz",
+      "original_sha256": "2a2bcce9bf3fe58d9641a0062c639beea749931cea617bdf2f1a3929cf3336fd",
+      "published_sha256": "2a2bcce9bf3fe58d9641a0062c639beea749931cea617bdf2f1a3929cf3336fd",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk2_spa_n3.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk2_spa_n3.mem",
+      "original_sha256": "e38f25101f9c8643d03b1689916356ea42ef03e69bc12d6d4a325b89a399e25d",
+      "published_sha256": "e38f25101f9c8643d03b1689916356ea42ef03e69bc12d6d4a325b89a399e25d",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk2_spa_n3.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk2_spa_n3.npz",
+      "original_sha256": "1d0a10c5ae1e2d26a0411e377087b0ad934c21482e0467e20842d3f64956b1ab",
+      "published_sha256": "1d0a10c5ae1e2d26a0411e377087b0ad934c21482e0467e20842d3f64956b1ab",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk2_spa_parameters.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk2_spa_parameters.json",
+      "original_sha256": "8d60d70da0c35cb2ee96184e963b8908cf60f2fa6aa0bd76fde740a16a82d631",
+      "published_sha256": "8d60d70da0c35cb2ee96184e963b8908cf60f2fa6aa0bd76fde740a16a82d631",
+      "bytes": 4427,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk2_spe_n0.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk2_spe_n0.mem",
+      "original_sha256": "dfc0973778bc749afdf87cefad98ee95984dd7d40da14e1d99cd8efefbadebe4",
+      "published_sha256": "dfc0973778bc749afdf87cefad98ee95984dd7d40da14e1d99cd8efefbadebe4",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk2_spe_n0.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk2_spe_n0.npz",
+      "original_sha256": "3693b013d0b21cffe2096afe30406de6f922bdadd4bc3f42836dd8c71e9c7378",
+      "published_sha256": "3693b013d0b21cffe2096afe30406de6f922bdadd4bc3f42836dd8c71e9c7378",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk2_spe_n1.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk2_spe_n1.mem",
+      "original_sha256": "b7d933f8e72aaece9a961591ddc09c6d3886726b55a35ac19c354a1443301b52",
+      "published_sha256": "b7d933f8e72aaece9a961591ddc09c6d3886726b55a35ac19c354a1443301b52",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk2_spe_n1.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk2_spe_n1.npz",
+      "original_sha256": "11f81cd4c091947316fac3473004caf63703b1d04ec1f81d163473ee55aff949",
+      "published_sha256": "11f81cd4c091947316fac3473004caf63703b1d04ec1f81d163473ee55aff949",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk2_spe_n3.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk2_spe_n3.mem",
+      "original_sha256": "d784c7a99d02ca0afb9679cb9affa47f1f2de380d2836d17fd6044799509553c",
+      "published_sha256": "d784c7a99d02ca0afb9679cb9affa47f1f2de380d2836d17fd6044799509553c",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk2_spe_n3.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk2_spe_n3.npz",
+      "original_sha256": "c4a8d68e65634a04e3196fa8c4dea82bea382cfb58fff78adc11f28d934fce82",
+      "published_sha256": "c4a8d68e65634a04e3196fa8c4dea82bea382cfb58fff78adc11f28d934fce82",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/blk2_spe_parameters.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/blk2_spe_parameters.json",
+      "original_sha256": "e1ad9952c83e6ee8fea96f0599cdd0ca38ca2daa44a03ec1f374e8c0ab6f4a16",
+      "published_sha256": "e1ad9952c83e6ee8fea96f0599cdd0ca38ca2daa44a03ec1f374e8c0ab6f4a16",
+      "bytes": 4421,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/coefficients/decay_from_checkpoint.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/coefficients/decay_from_checkpoint.json",
+      "original_sha256": "a8e6ecd833ce25b10d188e3c994eb04590b34d8207de5065ee2bef28e6c7bc3c",
+      "published_sha256": "a8e6ecd833ce25b10d188e3c994eb04590b34d8207de5065ee2bef28e6c7bc3c",
+      "bytes": 2366,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/dt_code_histogram_n3.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/dt_code_histogram_n3.json",
+      "original_sha256": "ca768d61c4ebdd4b8eed8fb40011f579dddf6141fdd70debb052bb213a31069a",
+      "published_sha256": "ca768d61c4ebdd4b8eed8fb40011f579dddf6141fdd70debb052bb213a31069a",
+      "bytes": 12781,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/end_to_end_ssm_states.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/end_to_end_ssm_states.json",
+      "original_sha256": "2f15bd49c54a7d3ca3d17cb6ab85e7976c218ccc29a689dff7e7f4e3600cdb2b",
+      "published_sha256": "2f15bd49c54a7d3ca3d17cb6ab85e7976c218ccc29a689dff7e7f4e3600cdb2b",
+      "bytes": 767605,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/fixed_indices.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/fixed_indices.npz",
+      "original_sha256": "2be8bab12a8abfa6135e4040e44fdaaa43a3f169bc074cdf855406a50f316bd0",
+      "published_sha256": "2be8bab12a8abfa6135e4040e44fdaaa43a3f169bc074cdf855406a50f316bd0",
+      "bytes": 272822,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/isolated_ssm_replay.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/isolated_ssm_replay.json",
+      "original_sha256": "b64b0cab0869abeced16882c2435585bbdf394f50e6c083f58a90bd6390e3bce",
+      "published_sha256": "b64b0cab0869abeced16882c2435585bbdf394f50e6c083f58a90bd6390e3bce",
+      "bytes": 765374,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/layer_propagation.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/layer_propagation.json",
+      "original_sha256": "12e0a235e73b191abf65a0184074f733751fdb976797c9583390bbbd4080dcd8",
+      "published_sha256": "12e0a235e73b191abf65a0184074f733751fdb976797c9583390bbbd4080dcd8",
+      "bytes": 55821,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/logit_scales.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/logit_scales.npy",
+      "original_sha256": "fb47ee98dd4f61b63a6affcda63a56a27cfc2698c62d3c6af48fe5572747551c",
+      "published_sha256": "fb47ee98dd4f61b63a6affcda63a56a27cfc2698c62d3c6af48fe5572747551c",
+      "bytes": 6992,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/n0_mismatch_mask.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/n0_mismatch_mask.npy",
+      "original_sha256": "3d23667688f23bdd77aeccaf99276679af30662189aa5d0e68a9d92377b3b28e",
+      "published_sha256": "3d23667688f23bdd77aeccaf99276679af30662189aa5d0e68a9d92377b3b28e",
+      "bytes": 207528,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/n0_prediction.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/n0_prediction.npy",
+      "original_sha256": "c520c146b078755583e7adb05b875fea6dcaf3373dc224cecf0e761e4c816ec9",
+      "published_sha256": "c520c146b078755583e7adb05b875fea6dcaf3373dc224cecf0e761e4c816ec9",
+      "bytes": 1659328,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/n0_tile_logits_int8.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/n0_tile_logits_int8.npy",
+      "original_sha256": "73805851017a407bfe9246584e3f55110fb557694700a81c62f34c07a629f039",
+      "published_sha256": "73805851017a407bfe9246584e3f55110fb557694700a81c62f34c07a629f039",
+      "bytes": 123680,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/n1_mismatch_mask.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/n1_mismatch_mask.npy",
+      "original_sha256": "f10a7c33c4a46b7559ae6f00f27a50be74e444b271d68fb7d569b84e0142d6fc",
+      "published_sha256": "f10a7c33c4a46b7559ae6f00f27a50be74e444b271d68fb7d569b84e0142d6fc",
+      "bytes": 207528,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/n1_prediction.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/n1_prediction.npy",
+      "original_sha256": "58b9b63ef0051a826c681ae67fb025e9a3f58966b51551633472c05665a49efb",
+      "published_sha256": "58b9b63ef0051a826c681ae67fb025e9a3f58966b51551633472c05665a49efb",
+      "bytes": 1659328,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/n1_tile_logits_int8.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/n1_tile_logits_int8.npy",
+      "original_sha256": "666e5eb240f861ceefea67bd8d125f9a58d8b6ae925f4222bbdb1f54893e2199",
+      "published_sha256": "666e5eb240f861ceefea67bd8d125f9a58d8b6ae925f4222bbdb1f54893e2199",
+      "bytes": 123680,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/n3_prediction.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/n3_prediction.npy",
+      "original_sha256": "18419a9bcf2dfdc9889cf2d4287327ce2b2a75737fa6ce71fc80825db455f94f",
+      "published_sha256": "18419a9bcf2dfdc9889cf2d4287327ce2b2a75737fa6ce71fc80825db455f94f",
+      "bytes": 1659328,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/n3_tile_logits_int8.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/n3_tile_logits_int8.npy",
+      "original_sha256": "52fefd143151f59f8c4b02a48e6444bd9858f4e301e2b0d6d0519ef2ee836a6c",
+      "published_sha256": "52fefd143151f59f8c4b02a48e6444bd9858f4e301e2b0d6d0519ef2ee836a6c",
+      "bytes": 123680,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/qat_dt_input_contract.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/qat_dt_input_contract.json",
+      "original_sha256": "2f43c7d0428e7d48bcc452bab5db3898439ef1afa0041927d5d65d821ca70512",
+      "published_sha256": "df7903a1a26fbe6c6a2533968361a8f6cddcfc8c7a86264d59a2241ee0c5a9b8",
+      "bytes": 2084,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/run_manifest.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/run_manifest.json",
+      "original_sha256": "6b7fb218b3087fa21caa86c7ed9cadeb974f56cc639d09a6a4374436e83302bf",
+      "published_sha256": "641c1cb16e3725d671d376ad4cde4d5dace2a7b63bc4b6edb65998101758df00",
+      "bytes": 1527,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/nonlinear_experiment/tile_manifest.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/tile_manifest.json",
+      "original_sha256": "9663e96eeec196f2da09371af6ed0f41045ae2c144fe955aab596b562f7d8d58",
+      "published_sha256": "9663e96eeec196f2da09371af6ed0f41045ae2c144fe955aab596b562f7d8d58",
+      "bytes": 159590,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_run2/fpga_simulation_result.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N013/fpga_simulation_result.json",
+      "original_sha256": "c33adc3dcb710402b424e055022886952aa7d41ad8689c9b26be080730504c15",
+      "published_sha256": "f944d2adb20ef73fe8052b11d78e970a2d4db6ed196b053fb38fbc0cc1c9357b",
+      "bytes": 13808,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/accuracy_propagation_summary.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/accuracy_propagation_summary.json",
+      "original_sha256": "4cb12ea9ac33b17e5e42586a509d1c3007d8d40da8e49ddbb3886fd6a2405d0a",
+      "published_sha256": "48b876bd63fb2dda0246c40e605310b1989b81abcdd43d1a662cc11630c9d0a2",
+      "bytes": 77927,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spa_n0.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spa_n0.mem",
+      "original_sha256": "50a11d4f98ca50724649f22933c2ef3a180a96492991585ac810ac20c7802cd9",
+      "published_sha256": "50a11d4f98ca50724649f22933c2ef3a180a96492991585ac810ac20c7802cd9",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spa_n0.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spa_n0.npz",
+      "original_sha256": "42b7628102198769d2b88f435103466b7e3bd33e0eb65bc0e6d1ccea45646fff",
+      "published_sha256": "42b7628102198769d2b88f435103466b7e3bd33e0eb65bc0e6d1ccea45646fff",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spa_n1.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spa_n1.mem",
+      "original_sha256": "28cd76587adcd7092d8cb02e65c165e5ea2353b76a0436e4e9c16a5d68ed25a0",
+      "published_sha256": "28cd76587adcd7092d8cb02e65c165e5ea2353b76a0436e4e9c16a5d68ed25a0",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spa_n1.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spa_n1.npz",
+      "original_sha256": "91800730fe3a502f64da4e86b22b35634799c2f6af26bb81b18573086ad0ad0c",
+      "published_sha256": "91800730fe3a502f64da4e86b22b35634799c2f6af26bb81b18573086ad0ad0c",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spa_n2.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spa_n2.mem",
+      "original_sha256": "7e95d41effc667e1bff76daacd4fbc7ef027e5120904dbf91d1c0540a0ad22af",
+      "published_sha256": "7e95d41effc667e1bff76daacd4fbc7ef027e5120904dbf91d1c0540a0ad22af",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spa_n2.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spa_n2.npz",
+      "original_sha256": "5b4a5763e3d3f4fc3058b938f8defd4dc956b0ace63e0d945c1d4859ee87a4c9",
+      "published_sha256": "5b4a5763e3d3f4fc3058b938f8defd4dc956b0ace63e0d945c1d4859ee87a4c9",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spa_n3.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spa_n3.mem",
+      "original_sha256": "af042018fa811785c6f6370c9993d72be0f281cc1216648c6d1fd562aeb84a16",
+      "published_sha256": "af042018fa811785c6f6370c9993d72be0f281cc1216648c6d1fd562aeb84a16",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spa_n3.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spa_n3.npz",
+      "original_sha256": "6586e4ac09f7e39d51961d20eeb92172786604a01414ea4c2c5a14cc427e4366",
+      "published_sha256": "6586e4ac09f7e39d51961d20eeb92172786604a01414ea4c2c5a14cc427e4366",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spa_parameters.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spa_parameters.json",
+      "original_sha256": "d1b798abfec33d57963460d1630c0e4b537d0e18eb4548b5037ff701fb3e2e95",
+      "published_sha256": "d1b798abfec33d57963460d1630c0e4b537d0e18eb4548b5037ff701fb3e2e95",
+      "bytes": 5493,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spe_n0.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spe_n0.mem",
+      "original_sha256": "bed1367d26afb46296ec1835e232a7253d1595e3fcf39ac12f32f9d289c6513a",
+      "published_sha256": "bed1367d26afb46296ec1835e232a7253d1595e3fcf39ac12f32f9d289c6513a",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spe_n0.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spe_n0.npz",
+      "original_sha256": "9d785925c955c5f3189fb0fd864e9590a09512ec2425aaa08e41fb5f1f402853",
+      "published_sha256": "9d785925c955c5f3189fb0fd864e9590a09512ec2425aaa08e41fb5f1f402853",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spe_n1.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spe_n1.mem",
+      "original_sha256": "ebfc5867ba0bbba4a140911fef2a43c879f189d6828c0b729a291843b8aad560",
+      "published_sha256": "ebfc5867ba0bbba4a140911fef2a43c879f189d6828c0b729a291843b8aad560",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spe_n1.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spe_n1.npz",
+      "original_sha256": "59508cbdff5712b3c116e7a9492fc43cc8da72eb6d79fa4aa0e18bb07f95118c",
+      "published_sha256": "59508cbdff5712b3c116e7a9492fc43cc8da72eb6d79fa4aa0e18bb07f95118c",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spe_n2.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spe_n2.mem",
+      "original_sha256": "6a6b4ec036b45bf0fc394db3bc6a116ba4f6f32a43c98eba1d18056a1f3f4251",
+      "published_sha256": "6a6b4ec036b45bf0fc394db3bc6a116ba4f6f32a43c98eba1d18056a1f3f4251",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spe_n2.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spe_n2.npz",
+      "original_sha256": "9b3261253fbfd7e7fae50febfe929ac525dce2eb94b8d148045dab72d4f7bf95",
+      "published_sha256": "9b3261253fbfd7e7fae50febfe929ac525dce2eb94b8d148045dab72d4f7bf95",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spe_n3.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spe_n3.mem",
+      "original_sha256": "73714bee89b1c823ad570fae9823648e3faf237dd7841b4ae0f726cfee2a2b72",
+      "published_sha256": "73714bee89b1c823ad570fae9823648e3faf237dd7841b4ae0f726cfee2a2b72",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spe_n3.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spe_n3.npz",
+      "original_sha256": "e41074458e6ae68c767108d2bfd378bc4048b996b7d18e62c4d453ec5e439cd0",
+      "published_sha256": "e41074458e6ae68c767108d2bfd378bc4048b996b7d18e62c4d453ec5e439cd0",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk0_spe_parameters.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk0_spe_parameters.json",
+      "original_sha256": "7a2b00e447e918a9cbc9ec7a80e7ff4f83711000ebc406c024dbc9d210c16340",
+      "published_sha256": "7a2b00e447e918a9cbc9ec7a80e7ff4f83711000ebc406c024dbc9d210c16340",
+      "bytes": 5433,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spa_n0.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spa_n0.mem",
+      "original_sha256": "4866ccde69a8cd1c968441b069ca0a661b3fdf2fb64297f9c66e5644fbf189d9",
+      "published_sha256": "4866ccde69a8cd1c968441b069ca0a661b3fdf2fb64297f9c66e5644fbf189d9",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spa_n0.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spa_n0.npz",
+      "original_sha256": "e56ab673d0131199e230ed8b30be020d9f51642ab997cb2abc204c76056d27f6",
+      "published_sha256": "e56ab673d0131199e230ed8b30be020d9f51642ab997cb2abc204c76056d27f6",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spa_n1.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spa_n1.mem",
+      "original_sha256": "cf6c30389a9a0dcaf48727b203fa7422bfa851a9141a6ba2225984db69e00ccc",
+      "published_sha256": "cf6c30389a9a0dcaf48727b203fa7422bfa851a9141a6ba2225984db69e00ccc",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spa_n1.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spa_n1.npz",
+      "original_sha256": "e6238815e2851353f8caac5daa180237dc7fcdde4ebdef77870ace7b416645b6",
+      "published_sha256": "e6238815e2851353f8caac5daa180237dc7fcdde4ebdef77870ace7b416645b6",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spa_n2.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spa_n2.mem",
+      "original_sha256": "91718817bff47a4310b70324f618c603f0c300aa76fb0e267bcbef3cd15f820e",
+      "published_sha256": "91718817bff47a4310b70324f618c603f0c300aa76fb0e267bcbef3cd15f820e",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spa_n2.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spa_n2.npz",
+      "original_sha256": "aeead455292a526ceb8a4866434c02e04426bde3a178b728fe296c3b472547d8",
+      "published_sha256": "aeead455292a526ceb8a4866434c02e04426bde3a178b728fe296c3b472547d8",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spa_n3.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spa_n3.mem",
+      "original_sha256": "7e9efab05200b4848d382adccceedd3486e1a8c7ad6e2d30405343a8692fb121",
+      "published_sha256": "7e9efab05200b4848d382adccceedd3486e1a8c7ad6e2d30405343a8692fb121",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spa_n3.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spa_n3.npz",
+      "original_sha256": "10532ba1452628c1c8d1787faa218f9261092b17eca6d849cf8590b3651cdd6a",
+      "published_sha256": "10532ba1452628c1c8d1787faa218f9261092b17eca6d849cf8590b3651cdd6a",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spa_parameters.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spa_parameters.json",
+      "original_sha256": "283aa1bed898eb3d2b572afc786d9879dd9fd6b86b3e0fd756a8cca83162a66f",
+      "published_sha256": "283aa1bed898eb3d2b572afc786d9879dd9fd6b86b3e0fd756a8cca83162a66f",
+      "bytes": 5459,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spe_n0.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spe_n0.mem",
+      "original_sha256": "18793d7c5b7b828f4563e533dc87599058a3dd787ebd430ca93aaef248c6e451",
+      "published_sha256": "18793d7c5b7b828f4563e533dc87599058a3dd787ebd430ca93aaef248c6e451",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spe_n0.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spe_n0.npz",
+      "original_sha256": "4b677c7c6e6096ce7195c7f305b9cb5d5adefbb7cd2cc62252a1c30b548c8f69",
+      "published_sha256": "4b677c7c6e6096ce7195c7f305b9cb5d5adefbb7cd2cc62252a1c30b548c8f69",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spe_n1.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spe_n1.mem",
+      "original_sha256": "768a1f92ac40773cc780a837a6472b97f138c77641269dc21e714e8ff2a37224",
+      "published_sha256": "768a1f92ac40773cc780a837a6472b97f138c77641269dc21e714e8ff2a37224",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spe_n1.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spe_n1.npz",
+      "original_sha256": "6534d373cf332a1248db8836f6adc9ca614fb8af5976bfdc635a5fb29d0d4555",
+      "published_sha256": "6534d373cf332a1248db8836f6adc9ca614fb8af5976bfdc635a5fb29d0d4555",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spe_n2.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spe_n2.mem",
+      "original_sha256": "33f870ed7169a8f850a11a6fc0e5450c97225862aeca67314b29880613b0cc42",
+      "published_sha256": "33f870ed7169a8f850a11a6fc0e5450c97225862aeca67314b29880613b0cc42",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spe_n2.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spe_n2.npz",
+      "original_sha256": "ddcaa70c699f5d5a69371403c22e7a94da70a6671c69692d39f1fec861eb5673",
+      "published_sha256": "ddcaa70c699f5d5a69371403c22e7a94da70a6671c69692d39f1fec861eb5673",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spe_n3.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spe_n3.mem",
+      "original_sha256": "f88b899f71074ed16d06f892587ae4709b196e1cb001d06b81a207c431e017d3",
+      "published_sha256": "f88b899f71074ed16d06f892587ae4709b196e1cb001d06b81a207c431e017d3",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spe_n3.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spe_n3.npz",
+      "original_sha256": "b37f50b2d1cd2bd4d5e61a4130bfb3ba08c77a7eba02429ce9ff3baed1521e77",
+      "published_sha256": "b37f50b2d1cd2bd4d5e61a4130bfb3ba08c77a7eba02429ce9ff3baed1521e77",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk1_spe_parameters.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk1_spe_parameters.json",
+      "original_sha256": "2def0ea0b318f9c3bf27f21ca0874fd7fdc51eb5c42563419f7b38afdad53d0b",
+      "published_sha256": "2def0ea0b318f9c3bf27f21ca0874fd7fdc51eb5c42563419f7b38afdad53d0b",
+      "bytes": 5444,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spa_n0.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spa_n0.mem",
+      "original_sha256": "ebb96803792ea1dd35353698097b8456d02ffe38082dd5625e28cdb3ef58fea4",
+      "published_sha256": "ebb96803792ea1dd35353698097b8456d02ffe38082dd5625e28cdb3ef58fea4",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spa_n0.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spa_n0.npz",
+      "original_sha256": "7df6afefa4ab4b0312e2b264e06eea49af6b7ee191e9e09b76aa6f98ea302724",
+      "published_sha256": "7df6afefa4ab4b0312e2b264e06eea49af6b7ee191e9e09b76aa6f98ea302724",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spa_n1.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spa_n1.mem",
+      "original_sha256": "1668e46f104fe59c0fe40d1ea062dadbe249365c824e044720add6b6f0bf0c11",
+      "published_sha256": "1668e46f104fe59c0fe40d1ea062dadbe249365c824e044720add6b6f0bf0c11",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spa_n1.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spa_n1.npz",
+      "original_sha256": "2a2bcce9bf3fe58d9641a0062c639beea749931cea617bdf2f1a3929cf3336fd",
+      "published_sha256": "2a2bcce9bf3fe58d9641a0062c639beea749931cea617bdf2f1a3929cf3336fd",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spa_n2.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spa_n2.mem",
+      "original_sha256": "e63137a2ca7bf1103f0e57fd60a2e28d8c8dbac9a5f9814cc408f124d419665c",
+      "published_sha256": "e63137a2ca7bf1103f0e57fd60a2e28d8c8dbac9a5f9814cc408f124d419665c",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spa_n2.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spa_n2.npz",
+      "original_sha256": "b58a1860a68596097c5f29038b1568d55265e53c1f4a936a08c040348390b2b3",
+      "published_sha256": "b58a1860a68596097c5f29038b1568d55265e53c1f4a936a08c040348390b2b3",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spa_n3.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spa_n3.mem",
+      "original_sha256": "e38f25101f9c8643d03b1689916356ea42ef03e69bc12d6d4a325b89a399e25d",
+      "published_sha256": "e38f25101f9c8643d03b1689916356ea42ef03e69bc12d6d4a325b89a399e25d",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spa_n3.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spa_n3.npz",
+      "original_sha256": "1d0a10c5ae1e2d26a0411e377087b0ad934c21482e0467e20842d3f64956b1ab",
+      "published_sha256": "1d0a10c5ae1e2d26a0411e377087b0ad934c21482e0467e20842d3f64956b1ab",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spa_parameters.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spa_parameters.json",
+      "original_sha256": "f1a9e602ebfab12e6415391a1e99fa0161cdb7af04c067d2f20738370377a228",
+      "published_sha256": "f1a9e602ebfab12e6415391a1e99fa0161cdb7af04c067d2f20738370377a228",
+      "bytes": 5462,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spe_n0.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spe_n0.mem",
+      "original_sha256": "dfc0973778bc749afdf87cefad98ee95984dd7d40da14e1d99cd8efefbadebe4",
+      "published_sha256": "dfc0973778bc749afdf87cefad98ee95984dd7d40da14e1d99cd8efefbadebe4",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spe_n0.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spe_n0.npz",
+      "original_sha256": "3693b013d0b21cffe2096afe30406de6f922bdadd4bc3f42836dd8c71e9c7378",
+      "published_sha256": "3693b013d0b21cffe2096afe30406de6f922bdadd4bc3f42836dd8c71e9c7378",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spe_n1.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spe_n1.mem",
+      "original_sha256": "b7d933f8e72aaece9a961591ddc09c6d3886726b55a35ac19c354a1443301b52",
+      "published_sha256": "b7d933f8e72aaece9a961591ddc09c6d3886726b55a35ac19c354a1443301b52",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spe_n1.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spe_n1.npz",
+      "original_sha256": "11f81cd4c091947316fac3473004caf63703b1d04ec1f81d163473ee55aff949",
+      "published_sha256": "11f81cd4c091947316fac3473004caf63703b1d04ec1f81d163473ee55aff949",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spe_n2.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spe_n2.mem",
+      "original_sha256": "04f13c364d2cbadbff60e0433f72f9a2633808ad2a80e6c22d0814284e8ff6cd",
+      "published_sha256": "04f13c364d2cbadbff60e0433f72f9a2633808ad2a80e6c22d0814284e8ff6cd",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spe_n2.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spe_n2.npz",
+      "original_sha256": "6e34fb016a4309d373bae35bfb521d549ddbb0c891a6712a178a4cdc51e95232",
+      "published_sha256": "6e34fb016a4309d373bae35bfb521d549ddbb0c891a6712a178a4cdc51e95232",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spe_n3.mem",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spe_n3.mem",
+      "original_sha256": "d784c7a99d02ca0afb9679cb9affa47f1f2de380d2836d17fd6044799509553c",
+      "published_sha256": "d784c7a99d02ca0afb9679cb9affa47f1f2de380d2836d17fd6044799509553c",
+      "bytes": 27136,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spe_n3.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spe_n3.npz",
+      "original_sha256": "c4a8d68e65634a04e3196fa8c4dea82bea382cfb58fff78adc11f28d934fce82",
+      "published_sha256": "c4a8d68e65634a04e3196fa8c4dea82bea382cfb58fff78adc11f28d934fce82",
+      "bytes": 35564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/blk2_spe_parameters.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/blk2_spe_parameters.json",
+      "original_sha256": "0749c59ff53db62cc52246da3434d212011613d413e6b090092c14a2e27518ed",
+      "published_sha256": "0749c59ff53db62cc52246da3434d212011613d413e6b090092c14a2e27518ed",
+      "bytes": 5456,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/coefficients/decay_from_checkpoint.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/coefficients/decay_from_checkpoint.json",
+      "original_sha256": "a8e6ecd833ce25b10d188e3c994eb04590b34d8207de5065ee2bef28e6c7bc3c",
+      "published_sha256": "a8e6ecd833ce25b10d188e3c994eb04590b34d8207de5065ee2bef28e6c7bc3c",
+      "bytes": 2366,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/dt_code_histogram_n3.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/dt_code_histogram_n3.json",
+      "original_sha256": "ca768d61c4ebdd4b8eed8fb40011f579dddf6141fdd70debb052bb213a31069a",
+      "published_sha256": "ca768d61c4ebdd4b8eed8fb40011f579dddf6141fdd70debb052bb213a31069a",
+      "bytes": 12781,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/end_to_end_ssm_states.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/end_to_end_ssm_states.json",
+      "original_sha256": "61a975437564167033b18c9b013949234c384fef499021c898dc132f126e3bb3",
+      "published_sha256": "61a975437564167033b18c9b013949234c384fef499021c898dc132f126e3bb3",
+      "bytes": 1161276,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/fixed_indices.npz",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/fixed_indices.npz",
+      "original_sha256": "2be8bab12a8abfa6135e4040e44fdaaa43a3f169bc074cdf855406a50f316bd0",
+      "published_sha256": "2be8bab12a8abfa6135e4040e44fdaaa43a3f169bc074cdf855406a50f316bd0",
+      "bytes": 272822,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/isolated_ssm_replay.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/isolated_ssm_replay.json",
+      "original_sha256": "f25ff07e722fe95bd84966d9f6c195d1f6cef8d758ed409e1d70c537a3da01f1",
+      "published_sha256": "f25ff07e722fe95bd84966d9f6c195d1f6cef8d758ed409e1d70c537a3da01f1",
+      "bytes": 1158633,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/layer_propagation.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/layer_propagation.json",
+      "original_sha256": "fa8c2b0e2605342a92b460fdb10d9ffe4fe2991b1384f84469d2ee024b131038",
+      "published_sha256": "fa8c2b0e2605342a92b460fdb10d9ffe4fe2991b1384f84469d2ee024b131038",
+      "bytes": 83836,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/logit_scales.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/logit_scales.npy",
+      "original_sha256": "fb47ee98dd4f61b63a6affcda63a56a27cfc2698c62d3c6af48fe5572747551c",
+      "published_sha256": "fb47ee98dd4f61b63a6affcda63a56a27cfc2698c62d3c6af48fe5572747551c",
+      "bytes": 6992,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/n0_mismatch_mask.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/n0_mismatch_mask.npy",
+      "original_sha256": "3d23667688f23bdd77aeccaf99276679af30662189aa5d0e68a9d92377b3b28e",
+      "published_sha256": "3d23667688f23bdd77aeccaf99276679af30662189aa5d0e68a9d92377b3b28e",
+      "bytes": 207528,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/n0_prediction.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/n0_prediction.npy",
+      "original_sha256": "c520c146b078755583e7adb05b875fea6dcaf3373dc224cecf0e761e4c816ec9",
+      "published_sha256": "c520c146b078755583e7adb05b875fea6dcaf3373dc224cecf0e761e4c816ec9",
+      "bytes": 1659328,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/n0_tile_logits_int8.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/n0_tile_logits_int8.npy",
+      "original_sha256": "73805851017a407bfe9246584e3f55110fb557694700a81c62f34c07a629f039",
+      "published_sha256": "73805851017a407bfe9246584e3f55110fb557694700a81c62f34c07a629f039",
+      "bytes": 123680,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/n1_mismatch_mask.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/n1_mismatch_mask.npy",
+      "original_sha256": "f10a7c33c4a46b7559ae6f00f27a50be74e444b271d68fb7d569b84e0142d6fc",
+      "published_sha256": "f10a7c33c4a46b7559ae6f00f27a50be74e444b271d68fb7d569b84e0142d6fc",
+      "bytes": 207528,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/n1_prediction.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/n1_prediction.npy",
+      "original_sha256": "58b9b63ef0051a826c681ae67fb025e9a3f58966b51551633472c05665a49efb",
+      "published_sha256": "58b9b63ef0051a826c681ae67fb025e9a3f58966b51551633472c05665a49efb",
+      "bytes": 1659328,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/n1_tile_logits_int8.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/n1_tile_logits_int8.npy",
+      "original_sha256": "666e5eb240f861ceefea67bd8d125f9a58d8b6ae925f4222bbdb1f54893e2199",
+      "published_sha256": "666e5eb240f861ceefea67bd8d125f9a58d8b6ae925f4222bbdb1f54893e2199",
+      "bytes": 123680,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/n2_config.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/n2_config.json",
+      "original_sha256": "dbe07ac4dd83aa34b4d79dd39939be7cec1f668b3e6cc7146e15a6026e62de55",
+      "published_sha256": "dbe07ac4dd83aa34b4d79dd39939be7cec1f668b3e6cc7146e15a6026e62de55",
+      "bytes": 3629,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/n2_mismatch_mask.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/n2_mismatch_mask.npy",
+      "original_sha256": "5fd7614eb25652c127ac961d950830317cf3cd00ea2bd740eca14f33121707a1",
+      "published_sha256": "5fd7614eb25652c127ac961d950830317cf3cd00ea2bd740eca14f33121707a1",
+      "bytes": 207528,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/n2_prediction.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/n2_prediction.npy",
+      "original_sha256": "9339396dda2bfea872ac9dfc7c09aa0033fd1ecb475ac8822699f7ce849183d2",
+      "published_sha256": "9339396dda2bfea872ac9dfc7c09aa0033fd1ecb475ac8822699f7ce849183d2",
+      "bytes": 1659328,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/n2_tile_logits_int8.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/n2_tile_logits_int8.npy",
+      "original_sha256": "a197fce740c61b05cbb632744b73413685d9dd941e6bbf96ee9c6d1a54ba2901",
+      "published_sha256": "a197fce740c61b05cbb632744b73413685d9dd941e6bbf96ee9c6d1a54ba2901",
+      "bytes": 123680,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/n3_prediction.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/n3_prediction.npy",
+      "original_sha256": "18419a9bcf2dfdc9889cf2d4287327ce2b2a75737fa6ce71fc80825db455f94f",
+      "published_sha256": "18419a9bcf2dfdc9889cf2d4287327ce2b2a75737fa6ce71fc80825db455f94f",
+      "bytes": 1659328,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/n3_tile_logits_int8.npy",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/n3_tile_logits_int8.npy",
+      "original_sha256": "52fefd143151f59f8c4b02a48e6444bd9858f4e301e2b0d6d0519ef2ee836a6c",
+      "published_sha256": "52fefd143151f59f8c4b02a48e6444bd9858f4e301e2b0d6d0519ef2ee836a6c",
+      "bytes": 123680,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/qat_dt_input_contract.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/qat_dt_input_contract.json",
+      "original_sha256": "fb8f90e5ff06822eabb92bda7c862265ca589dc463acf32ee8937375ea1bd02d",
+      "published_sha256": "2c79863d0a068ba2c6d84e791d75d41ea953c4192fc50e65e8a19d20196bceed",
+      "bytes": 2094,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/run_manifest.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/run_manifest.json",
+      "original_sha256": "f48611c632508eb1fc29b9a00f11ef9bc7ccc18e20ee9d7e32acc38daf22841c",
+      "published_sha256": "1480ad196419f8f639b85c32c1a93e1117e6491312fd8801fe4ad274f732b58d",
+      "bytes": 5650,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/nonlinear_experiment/tile_manifest.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/tile_manifest.json",
+      "original_sha256": "9663e96eeec196f2da09371af6ed0f41045ae2c144fe955aab596b562f7d8d58",
+      "published_sha256": "9663e96eeec196f2da09371af6ed0f41045ae2c144fe955aab596b562f7d8d58",
+      "bytes": 159590,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/sim_nonlinear_v5_n0_n1_n2_n3/fpga_simulation_result.json",
+      "destination": "evidence/completion_20260923/historical/nonlinear_v5_N0123/fpga_simulation_result.json",
+      "original_sha256": "c33adc3dcb710402b424e055022886952aa7d41ad8689c9b26be080730504c15",
+      "published_sha256": "f944d2adb20ef73fe8052b11d78e970a2d4db6ed196b053fb38fbc0cc1c9357b",
+      "bytes": 13808,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/GPU_BENCHMARK_FP32/UP_seed0/gpu_batch1_benchmark_20260817_112236.json",
+      "destination": "evidence/completion_20260923/historical/gpu_august/GPU_BENCHMARK_FP32/UP_seed0/gpu_batch1_benchmark_20260817_112236.json",
+      "original_sha256": "8651ad09d38337f70c0b8505c847d4738af2104570a5846cc63a79a0f8d7cda6",
+      "published_sha256": "a8d22a1f4e3cf8183f58deae7f8867bf971c8fd1aaf0d55bce9fe3dfeb345e91",
+      "bytes": 30627,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/GPU_BENCHMARK_SINGLE_TILE/UP_seed0/gpu_batch1_benchmark_20260817_093520.json",
+      "destination": "evidence/completion_20260923/historical/gpu_august/GPU_BENCHMARK_SINGLE_TILE/UP_seed0/gpu_batch1_benchmark_20260817_093520.json",
+      "original_sha256": "7696e5925e85b770e5b7ef06b6311e762e9152130e12f43fa0bad04832b7b072",
+      "published_sha256": "1c9afaab480777a0a7a263dccaa507f1a602aa98a1f22af80657de3cecdc4386",
+      "bytes": 58236,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/GPU_PROFILE_SINGLE_TILE/UP_seed0/UP_tile0_20260817_094649_operators_self_cpu.txt",
+      "destination": "evidence/completion_20260923/historical/gpu_august/GPU_PROFILE_SINGLE_TILE/UP_seed0/UP_tile0_20260817_094649_operators_self_cpu.txt",
+      "original_sha256": "0aa747f33d485aa0d6df4a39b5f9d180355705df3c39d07aeb047182eba1ee8c",
+      "published_sha256": "0aa747f33d485aa0d6df4a39b5f9d180355705df3c39d07aeb047182eba1ee8c",
+      "bytes": 21972,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/GPU_PROFILE_SINGLE_TILE/UP_seed0/UP_tile0_20260817_094649_operators_self_cuda.txt",
+      "destination": "evidence/completion_20260923/historical/gpu_august/GPU_PROFILE_SINGLE_TILE/UP_seed0/UP_tile0_20260817_094649_operators_self_cuda.txt",
+      "original_sha256": "ffe8d381a477be74d0d7fc9014b82e79212528711d5a74a975356b3422c3e180",
+      "published_sha256": "ffe8d381a477be74d0d7fc9014b82e79212528711d5a74a975356b3422c3e180",
+      "bytes": 21972,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/GPU_PROFILE_SINGLE_TILE/UP_seed0/UP_tile0_20260817_094649_operators_total_cuda.txt",
+      "destination": "evidence/completion_20260923/historical/gpu_august/GPU_PROFILE_SINGLE_TILE/UP_seed0/UP_tile0_20260817_094649_operators_total_cuda.txt",
+      "original_sha256": "ffe8d381a477be74d0d7fc9014b82e79212528711d5a74a975356b3422c3e180",
+      "published_sha256": "ffe8d381a477be74d0d7fc9014b82e79212528711d5a74a975356b3422c3e180",
+      "bytes": 21972,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/GPU_PROFILE_SINGLE_TILE/UP_seed0/UP_tile0_20260817_094649_summary.json",
+      "destination": "evidence/completion_20260923/historical/gpu_august/GPU_PROFILE_SINGLE_TILE/UP_seed0/UP_tile0_20260817_094649_summary.json",
+      "original_sha256": "4a888c51de50e9751264fb28e7c9b9a197beabb810544eec1cb9e6999dcf3216",
+      "published_sha256": "fccfca9c5d3398dd05d26705c46a2fe04c949cea1e2ecfb02a54d3220a21e089",
+      "bytes": 97869,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/GPU_PROFILE_SINGLE_TILE/UP_seed0_v2/UP_tile0_20260817_103457_operators_self_cpu.txt",
+      "destination": "evidence/completion_20260923/historical/gpu_august/GPU_PROFILE_SINGLE_TILE/UP_seed0_v2/UP_tile0_20260817_103457_operators_self_cpu.txt",
+      "original_sha256": "3b421151b49587c910913db38550c8320123d69405fead773841433f033c4483",
+      "published_sha256": "3b421151b49587c910913db38550c8320123d69405fead773841433f033c4483",
+      "bytes": 21972,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/GPU_PROFILE_SINGLE_TILE/UP_seed0_v2/UP_tile0_20260817_103457_operators_self_cuda.txt",
+      "destination": "evidence/completion_20260923/historical/gpu_august/GPU_PROFILE_SINGLE_TILE/UP_seed0_v2/UP_tile0_20260817_103457_operators_self_cuda.txt",
+      "original_sha256": "566d7c279eb55b4615857288f64a5f7e0827a5e56c931e796a6e72ddbbd56b75",
+      "published_sha256": "566d7c279eb55b4615857288f64a5f7e0827a5e56c931e796a6e72ddbbd56b75",
+      "bytes": 21972,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/GPU_PROFILE_SINGLE_TILE/UP_seed0_v2/UP_tile0_20260817_103457_operators_total_cuda.txt",
+      "destination": "evidence/completion_20260923/historical/gpu_august/GPU_PROFILE_SINGLE_TILE/UP_seed0_v2/UP_tile0_20260817_103457_operators_total_cuda.txt",
+      "original_sha256": "566d7c279eb55b4615857288f64a5f7e0827a5e56c931e796a6e72ddbbd56b75",
+      "published_sha256": "566d7c279eb55b4615857288f64a5f7e0827a5e56c931e796a6e72ddbbd56b75",
+      "bytes": 21972,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/GPU_PROFILE_SINGLE_TILE/UP_seed0_v2/UP_tile0_20260817_103457_summary.json",
+      "destination": "evidence/completion_20260923/historical/gpu_august/GPU_PROFILE_SINGLE_TILE/UP_seed0_v2/UP_tile0_20260817_103457_summary.json",
+      "original_sha256": "01e6ac847c4a4e149f45adca95fd586386a7d3f97b489551370c5f0cd2cd58c1",
+      "published_sha256": "e852e63db9ffbc13df948bf9c156b1cf558c7c9629919e4b702371a28acd64d5",
+      "bytes": 97911,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/UP_seed0/gpu_batch1_benchmark_20260814_160502.json",
+      "destination": "evidence/completion_20260923/historical/gpu_august/UP_seed0/gpu_batch1_benchmark_20260814_160502.json",
+      "original_sha256": "47d5bf7e3c99f8cbb833531a545d5106fc441f31a49c0f924f1377c31d6713c6",
+      "published_sha256": "ccc4d64fcb3bcd5ecd2d7fdd0f3567695c0d9a76421937e8b250337cebaf525e",
+      "bytes": 7902,
+      "text_normalized": true
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/both_FPGA_21patch_dual.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/both_FPGA_21patch_dual.py",
+      "original_sha256": "d1222d13b1a223d44aa0d01dc022d6fced8ccf02bb8019ed3a704bcf89e710c0",
+      "published_sha256": "d1222d13b1a223d44aa0d01dc022d6fced8ccf02bb8019ed3a704bcf89e710c0",
+      "bytes": 292,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/both_FPGA_nonlinear_D1.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/both_FPGA_nonlinear_D1.py",
+      "original_sha256": "f8d2bf9c5b7436d881f618bea68e75c094289881f13cd4255b6c993f8210feb1",
+      "published_sha256": "f8d2bf9c5b7436d881f618bea68e75c094289881f13cd4255b6c993f8210feb1",
+      "bytes": 18199,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/both_FPGA_single_qat_source.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/both_FPGA_single_qat_source.py",
+      "original_sha256": "45272ad9cd70809cc4ba28636f85fba2b4546215c73855fa317057570c469129",
+      "published_sha256": "45272ad9cd70809cc4ba28636f85fba2b4546215c73855fa317057570c469129",
+      "bytes": 142712,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/d1_methods.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/d1_methods.py",
+      "original_sha256": "b95df421da13a982b1d7bf638bd389bb5afeb676dcb104d9bcf3530162e7c02c",
+      "published_sha256": "b95df421da13a982b1d7bf638bd389bb5afeb676dcb104d9bcf3530162e7c02c",
+      "bytes": 7003,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spa_d_golden.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spa_d_golden.mem",
+      "original_sha256": "25343eb0ed6a8c80dfc57814998c241124339e4f1d8613e5a29938ef7866f3de",
+      "published_sha256": "25343eb0ed6a8c80dfc57814998c241124339e4f1d8613e5a29938ef7866f3de",
+      "bytes": 229376,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spa_n0.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spa_n0.mem",
+      "original_sha256": "0124bb16cc1ae46f9d3fe8be175ff05b4a9ce816df8ddaa8d51966dc9b716fec",
+      "published_sha256": "0124bb16cc1ae46f9d3fe8be175ff05b4a9ce816df8ddaa8d51966dc9b716fec",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spa_n0.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spa_n0.npz",
+      "original_sha256": "3b7cc299db737c1df8f0d4489beb3b47eaf06814c0595abda895438f24bcd987",
+      "published_sha256": "3b7cc299db737c1df8f0d4489beb3b47eaf06814c0595abda895438f24bcd987",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spa_n1.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spa_n1.mem",
+      "original_sha256": "cff1ddd9099aad6a39ca12a7a375b052fe80950ff209ac9575d463068fcb242e",
+      "published_sha256": "cff1ddd9099aad6a39ca12a7a375b052fe80950ff209ac9575d463068fcb242e",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spa_n1.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spa_n1.npz",
+      "original_sha256": "20dcac600287f47ad8c59ca215a65e32a291cb7ad8e64b0aba81ab6f6c974b17",
+      "published_sha256": "20dcac600287f47ad8c59ca215a65e32a291cb7ad8e64b0aba81ab6f6c974b17",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spa_n2.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spa_n2.mem",
+      "original_sha256": "95dfada0e2cc9d491b2e6d1bfa3638c32fd2fa5863b37e8150f3d984d9ba02fe",
+      "published_sha256": "95dfada0e2cc9d491b2e6d1bfa3638c32fd2fa5863b37e8150f3d984d9ba02fe",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spa_n2.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spa_n2.npz",
+      "original_sha256": "0f22d548253fd0c86da1c18a6b29ad0e67014dc2e7f9cf500ded0c2a0e215f4c",
+      "published_sha256": "0f22d548253fd0c86da1c18a6b29ad0e67014dc2e7f9cf500ded0c2a0e215f4c",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spa_n3.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spa_n3.mem",
+      "original_sha256": "3733f1c153f8319a15314a817d0ac6b690341bd42b63a654027f41a12a99e632",
+      "published_sha256": "3733f1c153f8319a15314a817d0ac6b690341bd42b63a654027f41a12a99e632",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spa_n3.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spa_n3.npz",
+      "original_sha256": "33069147ef5555ff8607d1383df770aca9138294e65ce57aadd90ce4079c56b8",
+      "published_sha256": "33069147ef5555ff8607d1383df770aca9138294e65ce57aadd90ce4079c56b8",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spa_parameters.json",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spa_parameters.json",
+      "original_sha256": "3152f402a3084728b3ed78384543e3797b729796709fedf0e86c00a7589dbd96",
+      "published_sha256": "3152f402a3084728b3ed78384543e3797b729796709fedf0e86c00a7589dbd96",
+      "bytes": 5227,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spe_d_golden.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spe_d_golden.mem",
+      "original_sha256": "c57b19e15e4453b16cd9c315a1683729d2a13223a81c498c556bf9d28d7e9456",
+      "published_sha256": "c57b19e15e4453b16cd9c315a1683729d2a13223a81c498c556bf9d28d7e9456",
+      "bytes": 57344,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spe_n0.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spe_n0.mem",
+      "original_sha256": "26b03f30126cf3eb9753a9a9971a9cf92535d2de1b8e904e0f2f79cb752bc162",
+      "published_sha256": "26b03f30126cf3eb9753a9a9971a9cf92535d2de1b8e904e0f2f79cb752bc162",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spe_n0.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spe_n0.npz",
+      "original_sha256": "215cc040bff7b2c4a3b322acddd8d84718f3c5f779b228165a62d29b1a6cb26c",
+      "published_sha256": "215cc040bff7b2c4a3b322acddd8d84718f3c5f779b228165a62d29b1a6cb26c",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spe_n1.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spe_n1.mem",
+      "original_sha256": "0c550a151ffae87b7e745d08135ba65e64c8349eb17d3c7a4ba44809eb23223b",
+      "published_sha256": "0c550a151ffae87b7e745d08135ba65e64c8349eb17d3c7a4ba44809eb23223b",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spe_n1.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spe_n1.npz",
+      "original_sha256": "224552a054522f34aaabbb7e8817f5a61147247521b2e9c98b876e2aaf4a7aad",
+      "published_sha256": "224552a054522f34aaabbb7e8817f5a61147247521b2e9c98b876e2aaf4a7aad",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spe_n2.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spe_n2.mem",
+      "original_sha256": "281a1de53e91fa948e8a530034bdbf04c1d6d6484e0b0c942eb96b807d4e56b3",
+      "published_sha256": "281a1de53e91fa948e8a530034bdbf04c1d6d6484e0b0c942eb96b807d4e56b3",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spe_n2.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spe_n2.npz",
+      "original_sha256": "512e910e39c93f8e0e6933849e82875cc7170b3a760b490487325083b4dc5ccd",
+      "published_sha256": "512e910e39c93f8e0e6933849e82875cc7170b3a760b490487325083b4dc5ccd",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spe_n3.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spe_n3.mem",
+      "original_sha256": "a415a82cc7f780afbae1eaeac2791e6064ef6f9bf8dc600a955c93dacb9352e7",
+      "published_sha256": "a415a82cc7f780afbae1eaeac2791e6064ef6f9bf8dc600a955c93dacb9352e7",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spe_n3.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spe_n3.npz",
+      "original_sha256": "bed49b3e6023521dbfe450b16e2a6829c9a69456fedde37a00398fc6846c05b7",
+      "published_sha256": "bed49b3e6023521dbfe450b16e2a6829c9a69456fedde37a00398fc6846c05b7",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk0_spe_parameters.json",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk0_spe_parameters.json",
+      "original_sha256": "9d0f72e02d5f0c2d6566927e4615c347eec2be2135239684ec713009d81f7fb4",
+      "published_sha256": "9d0f72e02d5f0c2d6566927e4615c347eec2be2135239684ec713009d81f7fb4",
+      "bytes": 4564,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spa_d_golden.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spa_d_golden.mem",
+      "original_sha256": "d11b0be261f2bd399a96d1dec0195e88337074883acd23458f0b9983181ff6d9",
+      "published_sha256": "d11b0be261f2bd399a96d1dec0195e88337074883acd23458f0b9983181ff6d9",
+      "bytes": 229376,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spa_n0.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spa_n0.mem",
+      "original_sha256": "155b010832758e9f417b33e4b13d336afb19bc6dcd0abe7df8fca868cad2a1d2",
+      "published_sha256": "155b010832758e9f417b33e4b13d336afb19bc6dcd0abe7df8fca868cad2a1d2",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spa_n0.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spa_n0.npz",
+      "original_sha256": "49a6ea14e285be1305205357c28c9f091f01b9615c418e6e641e54a3f199f350",
+      "published_sha256": "49a6ea14e285be1305205357c28c9f091f01b9615c418e6e641e54a3f199f350",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spa_n1.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spa_n1.mem",
+      "original_sha256": "23ee8f7dfeb616b45552c1062da886599331fd88e367f59f35c2800fbc9b870d",
+      "published_sha256": "23ee8f7dfeb616b45552c1062da886599331fd88e367f59f35c2800fbc9b870d",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spa_n1.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spa_n1.npz",
+      "original_sha256": "1d4c2b52e36a9563239d6048b4d6159881dd7499ce6145231ab5966b0709031a",
+      "published_sha256": "1d4c2b52e36a9563239d6048b4d6159881dd7499ce6145231ab5966b0709031a",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spa_n2.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spa_n2.mem",
+      "original_sha256": "eeb4d63eef95e685bcac44fc8e686bb4313de5d2657dd2cf91ab779a2d9afb7f",
+      "published_sha256": "eeb4d63eef95e685bcac44fc8e686bb4313de5d2657dd2cf91ab779a2d9afb7f",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spa_n2.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spa_n2.npz",
+      "original_sha256": "053176d0d1fda5cf65b64d27df3e2fcd0bc301a0a47bb230500f90371b0d67ec",
+      "published_sha256": "053176d0d1fda5cf65b64d27df3e2fcd0bc301a0a47bb230500f90371b0d67ec",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spa_n3.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spa_n3.mem",
+      "original_sha256": "bd3280b89f76bb7304adb74d54fa5a3ad2bef9260a2a390648865e9ee43d6827",
+      "published_sha256": "bd3280b89f76bb7304adb74d54fa5a3ad2bef9260a2a390648865e9ee43d6827",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spa_n3.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spa_n3.npz",
+      "original_sha256": "a4c89c0b04cf219daf87f3f166a42edff9883af8b67a995b279bc18949a44e21",
+      "published_sha256": "a4c89c0b04cf219daf87f3f166a42edff9883af8b67a995b279bc18949a44e21",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spa_parameters.json",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spa_parameters.json",
+      "original_sha256": "3ba55069fc4a63f0a6e910b9bee9ad3bb364f52f47787548d807373bc260a081",
+      "published_sha256": "3ba55069fc4a63f0a6e910b9bee9ad3bb364f52f47787548d807373bc260a081",
+      "bytes": 5312,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spe_d_golden.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spe_d_golden.mem",
+      "original_sha256": "4ebd3cd94ead2a7eeb693fe27af4f58cd7ff821142cd3e8b3f1408f92c1f3c5b",
+      "published_sha256": "4ebd3cd94ead2a7eeb693fe27af4f58cd7ff821142cd3e8b3f1408f92c1f3c5b",
+      "bytes": 57344,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spe_n0.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spe_n0.mem",
+      "original_sha256": "94bd30a8df1790b03ced44237847b98e5d0e48f3afc8d699764ec55b0632b707",
+      "published_sha256": "94bd30a8df1790b03ced44237847b98e5d0e48f3afc8d699764ec55b0632b707",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spe_n0.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spe_n0.npz",
+      "original_sha256": "aa14295c1d49c682734d4d763737edcab7ba0fea26eb215812666a12ed926d3a",
+      "published_sha256": "aa14295c1d49c682734d4d763737edcab7ba0fea26eb215812666a12ed926d3a",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spe_n1.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spe_n1.mem",
+      "original_sha256": "24eeaf87d2e3ad4133aa474535b13c93749d78324724a1ed9a21d945040378b7",
+      "published_sha256": "24eeaf87d2e3ad4133aa474535b13c93749d78324724a1ed9a21d945040378b7",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spe_n1.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spe_n1.npz",
+      "original_sha256": "be779a0c1c541884e0216189de37d58d8b4e8780a06afd934bb86cf1232e019c",
+      "published_sha256": "be779a0c1c541884e0216189de37d58d8b4e8780a06afd934bb86cf1232e019c",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spe_n2.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spe_n2.mem",
+      "original_sha256": "bc06e1548b93f5d184208592b3a4f657d1fa35915f6c08f821a4e1007b243a1d",
+      "published_sha256": "bc06e1548b93f5d184208592b3a4f657d1fa35915f6c08f821a4e1007b243a1d",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spe_n2.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spe_n2.npz",
+      "original_sha256": "befc6e24affc330dcb252c8e620d7b50e9d508f486247d4fa710db88affbb2a3",
+      "published_sha256": "befc6e24affc330dcb252c8e620d7b50e9d508f486247d4fa710db88affbb2a3",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spe_n3.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spe_n3.mem",
+      "original_sha256": "8bbde9f90e6c15ca2bf63f70faef632540bb743fb06519e02f2910fcba096fc8",
+      "published_sha256": "8bbde9f90e6c15ca2bf63f70faef632540bb743fb06519e02f2910fcba096fc8",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spe_n3.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spe_n3.npz",
+      "original_sha256": "c0cf2fab95c95e3f03504cf6dab7c1790f9c5fd3257ae2733e664ea523647fb2",
+      "published_sha256": "c0cf2fab95c95e3f03504cf6dab7c1790f9c5fd3257ae2733e664ea523647fb2",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk1_spe_parameters.json",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk1_spe_parameters.json",
+      "original_sha256": "2bb615251364be22283526fca04835fb4edd201c76c6ab7edb28f5956b84baad",
+      "published_sha256": "2bb615251364be22283526fca04835fb4edd201c76c6ab7edb28f5956b84baad",
+      "bytes": 4577,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spa_d_golden.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spa_d_golden.mem",
+      "original_sha256": "c30998cab9e2353d28330570dd927a0aea1e9b3f4804f7aa08958335663f754e",
+      "published_sha256": "c30998cab9e2353d28330570dd927a0aea1e9b3f4804f7aa08958335663f754e",
+      "bytes": 229376,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spa_n0.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spa_n0.mem",
+      "original_sha256": "c1cb770f0dd46f17dca11595cf757d2ff79d19af5b916f49b63efb427b024a08",
+      "published_sha256": "c1cb770f0dd46f17dca11595cf757d2ff79d19af5b916f49b63efb427b024a08",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spa_n0.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spa_n0.npz",
+      "original_sha256": "7a81a88c0fc102d03f4ea7a8c52685132b4d0ec15911cdcf1a3b298f4edd3aaa",
+      "published_sha256": "7a81a88c0fc102d03f4ea7a8c52685132b4d0ec15911cdcf1a3b298f4edd3aaa",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spa_n1.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spa_n1.mem",
+      "original_sha256": "8f4cc076e7f0d836da7b2740a7915919d81fb3f3262f8b76e566b4e9fd9e7a67",
+      "published_sha256": "8f4cc076e7f0d836da7b2740a7915919d81fb3f3262f8b76e566b4e9fd9e7a67",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spa_n1.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spa_n1.npz",
+      "original_sha256": "0c2c2e3b34861440748acd8a0cabb8d44d7e88b2bb1d0cedb1d757dcc69b502c",
+      "published_sha256": "0c2c2e3b34861440748acd8a0cabb8d44d7e88b2bb1d0cedb1d757dcc69b502c",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spa_n2.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spa_n2.mem",
+      "original_sha256": "e418f1245448c161b162552ec5a840d6ee965601f346044eac57de24b6e42231",
+      "published_sha256": "e418f1245448c161b162552ec5a840d6ee965601f346044eac57de24b6e42231",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spa_n2.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spa_n2.npz",
+      "original_sha256": "347e1a9dad44ebc0abe225c97df0c4fd51506d5b429d7f6ca21fcdaa9e5d3c86",
+      "published_sha256": "347e1a9dad44ebc0abe225c97df0c4fd51506d5b429d7f6ca21fcdaa9e5d3c86",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spa_n3.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spa_n3.mem",
+      "original_sha256": "1dad4f56b217b5b618382f37f1ae4f7704b663cdc01c2f91bb4b1fedf361c0c7",
+      "published_sha256": "1dad4f56b217b5b618382f37f1ae4f7704b663cdc01c2f91bb4b1fedf361c0c7",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spa_n3.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spa_n3.npz",
+      "original_sha256": "66d684dc46366cdf6ba8c94813f7ec71a77919143cf589f7d4ec416b30be79b9",
+      "published_sha256": "66d684dc46366cdf6ba8c94813f7ec71a77919143cf589f7d4ec416b30be79b9",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spa_parameters.json",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spa_parameters.json",
+      "original_sha256": "655052cf48c19e25e3336172626743b1e7bd6e58e15e2edebdfb80cc622d0d7e",
+      "published_sha256": "655052cf48c19e25e3336172626743b1e7bd6e58e15e2edebdfb80cc622d0d7e",
+      "bytes": 5305,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spe_d_golden.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spe_d_golden.mem",
+      "original_sha256": "7b9dfc76e5cba40814c2b38b394cb9d1766128841b95cb48816eec8595250a06",
+      "published_sha256": "7b9dfc76e5cba40814c2b38b394cb9d1766128841b95cb48816eec8595250a06",
+      "bytes": 57344,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spe_n0.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spe_n0.mem",
+      "original_sha256": "0c45be211259074dabda93189bce1215c2880420392e74009f5c52ac2f092670",
+      "published_sha256": "0c45be211259074dabda93189bce1215c2880420392e74009f5c52ac2f092670",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spe_n0.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spe_n0.npz",
+      "original_sha256": "0b89e04285ae930af0fc94398062681a3e2f2fd3d7aa61371fb715899f325e1c",
+      "published_sha256": "0b89e04285ae930af0fc94398062681a3e2f2fd3d7aa61371fb715899f325e1c",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spe_n1.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spe_n1.mem",
+      "original_sha256": "d3c0b9930f694a6798a3fb1385ad57c09d4ac9d800ffa45e202794c8a905b49e",
+      "published_sha256": "d3c0b9930f694a6798a3fb1385ad57c09d4ac9d800ffa45e202794c8a905b49e",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spe_n1.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spe_n1.npz",
+      "original_sha256": "1552d142c08efd7299bbc79ae42a39e0675de6f25cc8170ffab3eaebefd2adab",
+      "published_sha256": "1552d142c08efd7299bbc79ae42a39e0675de6f25cc8170ffab3eaebefd2adab",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spe_n2.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spe_n2.mem",
+      "original_sha256": "ec5b5fb2a388db232f259906447e2d691bc619f0b5756ce79d57c36bdd3f0bfa",
+      "published_sha256": "ec5b5fb2a388db232f259906447e2d691bc619f0b5756ce79d57c36bdd3f0bfa",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spe_n2.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spe_n2.npz",
+      "original_sha256": "a3fa61da50992a51098267e01f7501faa9d083b927ca47f8073d9d098a4b731e",
+      "published_sha256": "a3fa61da50992a51098267e01f7501faa9d083b927ca47f8073d9d098a4b731e",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spe_n3.mem",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spe_n3.mem",
+      "original_sha256": "c7c0bc1449e84f89d6b8ed9cc04cc79e083fc81499cbe9b10152a79c2308e8ab",
+      "published_sha256": "c7c0bc1449e84f89d6b8ed9cc04cc79e083fc81499cbe9b10152a79c2308e8ab",
+      "bytes": 27392,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spe_n3.npz",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spe_n3.npz",
+      "original_sha256": "ed3e99dbb0721108462251a54a42ab3982242db2a0ec527e4ef0cabf72c35e5f",
+      "published_sha256": "ed3e99dbb0721108462251a54a42ab3982242db2a0ec527e4ef0cabf72c35e5f",
+      "bytes": 18152,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/blk2_spe_parameters.json",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/blk2_spe_parameters.json",
+      "original_sha256": "a7c4e5346022f43e63674435c8002bf6d9eb316a2069a181c151a33938e164a5",
+      "published_sha256": "a7c4e5346022f43e63674435c8002bf6d9eb316a2069a181c151a33938e164a5",
+      "bytes": 4574,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/hardware_reference/manifest.json",
+      "destination": "software/snapshots/nonlinear_D1_20260916/hardware_reference/manifest.json",
+      "original_sha256": "d75558359f437160a26f0275f604dd48f52310537dbb408b884c337b0c23cc08",
+      "published_sha256": "d75558359f437160a26f0275f604dd48f52310537dbb408b884c337b0c23cc08",
+      "bytes": 35812,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/mambahsi_ablation_model.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/mambahsi_ablation_model.py",
+      "original_sha256": "c30588f580db04944fd7254318fd7d013b2a72f845b566f4e2028f184508a6b5",
+      "published_sha256": "c30588f580db04944fd7254318fd7d013b2a72f845b566f4e2028f184508a6b5",
+      "bytes": 26545,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/n2_config.json",
+      "destination": "software/snapshots/nonlinear_D1_20260916/n2_config.json",
+      "original_sha256": "33dfec0b04859cea8410259f5de60086f52b39389fd6e77efb35b3f679f5e331",
+      "published_sha256": "33dfec0b04859cea8410259f5de60086f52b39389fd6e77efb35b3f679f5e331",
+      "bytes": 3815,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/n2_model.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/n2_model.py",
+      "original_sha256": "a9c143a291860e2904d7e6da793ba921b29026b60deb0ecb11e72c6b600da60e",
+      "published_sha256": "a9c143a291860e2904d7e6da793ba921b29026b60deb0ecb11e72c6b600da60e",
+      "bytes": 4309,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/prepare.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/prepare.py",
+      "original_sha256": "6943198f94e7beace2c291b2c85176a802272424b146b2ebc2b0c9c87bbf0e63",
+      "published_sha256": "6943198f94e7beace2c291b2c85176a802272424b146b2ebc2b0c9c87bbf0e63",
+      "bytes": 8261,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/run_D1_all.sh",
+      "destination": "software/snapshots/nonlinear_D1_20260916/run_D1_all.sh",
+      "original_sha256": "d8164ee366c234a58f7321cb1312a5b6016f526d66684e8b7978fa33495b4d01",
+      "published_sha256": "d8164ee366c234a58f7321cb1312a5b6016f526d66684e8b7978fa33495b4d01",
+      "bytes": 716,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/ssm_d_path.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/ssm_d_path.py",
+      "original_sha256": "fcd8b46e11eeddbd72c4b16c9846ee9b3a1d789d16981426aa3ec98b54c5e3fe",
+      "published_sha256": "fcd8b46e11eeddbd72c4b16c9846ee9b3a1d789d16981426aa3ec98b54c5e3fe",
+      "bytes": 3998,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/ssm_error_ablation.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/ssm_error_ablation.py",
+      "original_sha256": "e0e50c61795a1e5d82f12d98620848ba7def9c276aa506c1808ecdd04064a8bf",
+      "published_sha256": "e0e50c61795a1e5d82f12d98620848ba7def9c276aa506c1808ecdd04064a8bf",
+      "bytes": 17921,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/train_mambahsi_spatial_split_dense_qat.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/train_mambahsi_spatial_split_dense_qat.py",
+      "original_sha256": "a2b4299de1efaa2c0962bda9e5dd39877cc87759dff2612cb395f143ff0640da",
+      "published_sha256": "a2b4299de1efaa2c0962bda9e5dd39877cc87759dff2612cb395f143ff0640da",
+      "bytes": 117655,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/utils/HSICommonUtils.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/utils/HSICommonUtils.py",
+      "original_sha256": "6ff985dc5c1bda81b65199e669f3cda82f92ffc54c67515fed93248123725155",
+      "published_sha256": "6ff985dc5c1bda81b65199e669f3cda82f92ffc54c67515fed93248123725155",
+      "bytes": 1631,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/utils/Loss.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/utils/Loss.py",
+      "original_sha256": "d5aa5ce3b7226f4b91d107fda1ad50f5178da1dab7b3ae7916eed69b6dade458",
+      "published_sha256": "d5aa5ce3b7226f4b91d107fda1ad50f5178da1dab7b3ae7916eed69b6dade458",
+      "bytes": 1287,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/utils/data_load_operate.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/utils/data_load_operate.py",
+      "original_sha256": "25ac5f67a92b1a19a57bd4500b47053cd72bbdbf85598613eb16dd17241f2383",
+      "published_sha256": "25ac5f67a92b1a19a57bd4500b47053cd72bbdbf85598613eb16dd17241f2383",
+      "bytes": 16974,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/utils/evaluation.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/utils/evaluation.py",
+      "original_sha256": "ba2004fcbdcb71e6175e9da6a4f828ed918f7231bcf1456fc97cfe50e5cf9997",
+      "published_sha256": "ba2004fcbdcb71e6175e9da6a4f828ed918f7231bcf1456fc97cfe50e5cf9997",
+      "bytes": 3249,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/utils/setup_logger.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/utils/setup_logger.py",
+      "original_sha256": "0e4122496f47b484da84099a5b79d71467ae1df2598868f1f150ad9d97be833f",
+      "published_sha256": "0e4122496f47b484da84099a5b79d71467ae1df2598868f1f150ad9d97be833f",
+      "bytes": 4356,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/nonlinear_D1/utils/visual_predict.py",
+      "destination": "software/snapshots/nonlinear_D1_20260916/utils/visual_predict.py",
+      "original_sha256": "809bee2c98680d593fdb22f80ac892367cdfd7446b5ba011498e5423348fde59",
+      "published_sha256": "809bee2c98680d593fdb22f80ac892367cdfd7446b5ba011498e5423348fde59",
+      "bytes": 496,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_DOWNLOADS/both_FPGA_nonlinear_propagation.py",
+      "destination": "software/snapshots/nonlinear_v5_20260914/both_FPGA_nonlinear_propagation.py",
+      "original_sha256": "160ad3f29649ce713bf19fe812ec6dc3acf348a3ad543cadadbed18353aa0bb7",
+      "published_sha256": "160ad3f29649ce713bf19fe812ec6dc3acf348a3ad543cadadbed18353aa0bb7",
+      "bytes": 164871,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/runtime_backup/cuda_runtime_5o7mz0dk/runtime_manifest.json",
+      "destination": "environment/observed_20260923/runtime_manifest.json",
+      "original_sha256": "2b61abc2c5d08f49f32dfcce1bad8b1edc22c9d3cda24348f4d8335e1e6ead52",
+      "published_sha256": "2b61abc2c5d08f49f32dfcce1bad8b1edc22c9d3cda24348f4d8335e1e6ead52",
+      "bytes": 4300,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/FPGA模拟和GPU测速和缺失的记录/runtime_backup/cuda_runtime_5o7mz0dk/installed_cuda_runtime.tar.gz.sha256",
+      "destination": "environment/observed_20260923/runtime_archive.sha256",
+      "original_sha256": "8a014b718356d5601442a0119a803a5cd164275dfabea29424d78973d64f75ae",
+      "published_sha256": "8a014b718356d5601442a0119a803a5cd164275dfabea29424d78973d64f75ae",
+      "bytes": 96,
+      "text_normalized": false
+    },
+    {
+      "source": "runtime_backup/cuda_runtime_5o7mz0dk/installed_cuda_runtime.tar.gz::site-packages/causal_conv1d/__init__.py",
+      "destination": "third_party/causal_conv1d_server_1_1_2/causal_conv1d/__init__.py",
+      "original_sha256": "26ecb9872b3f52caa5ce1130d9536c9395c7b570d66f21f62bd04604f7a5bf0c",
+      "published_sha256": "26ecb9872b3f52caa5ce1130d9536c9395c7b570d66f21f62bd04604f7a5bf0c",
+      "bytes": 112,
+      "text_normalized": false
+    },
+    {
+      "source": "runtime_backup/cuda_runtime_5o7mz0dk/installed_cuda_runtime.tar.gz::site-packages/causal_conv1d/causal_conv1d_interface.py",
+      "destination": "third_party/causal_conv1d_server_1_1_2/causal_conv1d/causal_conv1d_interface.py",
+      "original_sha256": "f98c24066be42f718a700cc48ea979398bf1a4362203eeb1cbc245b5272c6c0a",
+      "published_sha256": "f98c24066be42f718a700cc48ea979398bf1a4362203eeb1cbc245b5272c6c0a",
+      "bytes": 3697,
+      "text_normalized": false
+    },
+    {
+      "source": "runtime_backup/cuda_runtime_5o7mz0dk/installed_cuda_runtime.tar.gz::site-packages/causal_conv1d-1.1.2.dist-info/METADATA",
+      "destination": "third_party/causal_conv1d_server_1_1_2/causal_conv1d-1.1.2.dist-info/METADATA",
+      "original_sha256": "30ad8d20bade24a07c81f5d5a186be89e5e03ebb152fe74a9c00efd6b0dcdf5a",
+      "published_sha256": "30ad8d20bade24a07c81f5d5a186be89e5e03ebb152fe74a9c00efd6b0dcdf5a",
+      "bytes": 1124,
+      "text_normalized": false
+    },
+    {
+      "source": "runtime_backup/cuda_runtime_5o7mz0dk/installed_cuda_runtime.tar.gz::site-packages/causal_conv1d-1.1.2.dist-info/WHEEL",
+      "destination": "third_party/causal_conv1d_server_1_1_2/causal_conv1d-1.1.2.dist-info/WHEEL",
+      "original_sha256": "a7c657a9135aeabbc65137895e5b2a63edeb41985316dbbcd6d1d6997247be00",
+      "published_sha256": "a7c657a9135aeabbc65137895e5b2a63edeb41985316dbbcd6d1d6997247be00",
+      "bytes": 103,
+      "text_normalized": false
+    },
+    {
+      "source": "runtime_backup/cuda_runtime_5o7mz0dk/installed_cuda_runtime.tar.gz::site-packages/causal_conv1d-1.1.2.dist-info/RECORD",
+      "destination": "third_party/causal_conv1d_server_1_1_2/causal_conv1d-1.1.2.dist-info/RECORD",
+      "original_sha256": "c2ac342d70a061be151b4a2d6f079448e52409b7527ccf79d2fd475bdcabf4f2",
+      "published_sha256": "c2ac342d70a061be151b4a2d6f079448e52409b7527ccf79d2fd475bdcabf4f2",
+      "bytes": 1217,
+      "text_normalized": false
+    },
+    {
+      "source": "runtime_backup/cuda_runtime_5o7mz0dk/installed_cuda_runtime.tar.gz::site-packages/causal_conv1d-1.1.2.dist-info/AUTHORS",
+      "destination": "third_party/causal_conv1d_server_1_1_2/causal_conv1d-1.1.2.dist-info/AUTHORS",
+      "original_sha256": "0dd3fdb00754168d9789b946e325655491bc209faf8cb68c7f9dded33f82a775",
+      "published_sha256": "0dd3fdb00754168d9789b946e325655491bc209faf8cb68c7f9dded33f82a775",
+      "bytes": 23,
+      "text_normalized": false
+    },
+    {
+      "source": "runtime_backup/cuda_runtime_5o7mz0dk/installed_cuda_runtime.tar.gz::site-packages/causal_conv1d-1.1.2.dist-info/LICENSE",
+      "destination": "third_party/causal_conv1d_server_1_1_2/causal_conv1d-1.1.2.dist-info/LICENSE",
+      "original_sha256": "8c9ccb96c065e706135b6cbad279b721da6156e51f3a5f27c6b3329af9416d73",
+      "published_sha256": "8c9ccb96c065e706135b6cbad279b721da6156e51f3a5f27c6b3329af9416d73",
+      "bytes": 1558,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/补件核对_20260923/backup_cuda_runtime.py",
+      "destination": "tools/backup_cuda_runtime.py",
+      "original_sha256": "246f5200c62ad267249617c178fdabdffc9b1a9b32b345d88d977e0c0558f268",
+      "published_sha256": "246f5200c62ad267249617c178fdabdffc9b1a9b32b345d88d977e0c0558f268",
+      "bytes": 3086,
+      "text_normalized": false
+    },
+    {
+      "source": "$AUTHOR_ARCHIVE/补件核对_20260923/最新补件验收.json",
+      "destination": "evidence/completion_20260923/acceptance_audit.json",
+      "original_sha256": "4e12d0a3d7540c2f3ee871c3c89800dd30e2720cc35909e93f1e822d09c3c210",
+      "published_sha256": "4e12d0a3d7540c2f3ee871c3c89800dd30e2720cc35909e93f1e822d09c3c210",
+      "bytes": 8181,
+      "text_normalized": false
+    }
+  ],
+  "excluded": [
+    {
+      "source": "GPU_PROFILE_SINGLE_TILE/UP_seed0/UP_tile0_20260817_094649_trace.json",
+      "reason": "Large profiler timeline; summary and operator tables retained",
+      "bytes": 26301121,
+      "sha256": "676f77127ced7346cd06794911eb90f994587d87db0485e11a7f7f7122c867c7"
+    },
+    {
+      "source": "GPU_PROFILE_SINGLE_TILE/UP_seed0_v2/UP_tile0_20260817_103457_trace.json",
+      "reason": "Large profiler timeline; summary and operator tables retained",
+      "bytes": 26298296,
+      "sha256": "3ea787f2d43ae34b410b2d9e2bc0f52e378fb222a47d1c8fab4a1aa3fd3f3d04"
+    }
+  ],
+  "duplicate_fixed_gpu_reports": 28,
+  "runtime_binary_in_git": false,
+  "damaged_runtime_copy_excluded": "cuda_runtime_mscish0i",
+  "path_placeholders": [
+    "$PROJECT_ROOT",
+    "$CONDA_PREFIX",
+    "$SERVER_HOME",
+    "$AUTHOR_DOWNLOADS",
+    "$AUTHOR_ARCHIVE"
+  ]
+}

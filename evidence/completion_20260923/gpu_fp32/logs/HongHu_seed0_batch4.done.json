@@ -1,0 +1,29 @@
+{
+  "command_sha256": "84ebbaf772ba10db30ec3f88aff4a08d7f25fcb660c6e913b51eb2ee7d899dc6",
+  "command": [
+    "$CONDA_PREFIX/bin/python",
+    "$PROJECT_ROOT/benchmark_gpu_batch1_dense16.py",
+    "--fp32-dir",
+    "$PROJECT_ROOT/results/SPATIAL_SPLIT_3WAY_DENSE/HongHu_all_samples_sqrt_inverse_clip3_2000_nobias/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16",
+    "--dataset",
+    "HongHu",
+    "--seed",
+    "0",
+    "--data-path",
+    "./data",
+    "--device",
+    "cuda:1",
+    "--model-kind",
+    "fp32",
+    "--batch-size",
+    "4",
+    "--repeats",
+    "20",
+    "--warmup-steps",
+    "100",
+    "--single-tile-trials",
+    "0",
+    "--output-dir",
+    "$PROJECT_ROOT/gpu_current_4datasets_v2/HongHu/seed0/batch4"
+  ]
+}
