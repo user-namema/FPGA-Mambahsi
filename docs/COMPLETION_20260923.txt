@@ -11,7 +11,7 @@
 | D1 N0–N3 | `evidence/completion_20260923/nonlinear_D1/` | 858 tiles全场景；前5 tiles状态轨迹；四方法预测/logit数组、系数及逐层误差 |
 | D1冻结源码 | `software/snapshots/nonlinear_D1_20260916/` | 10个顶层Python文件与运行记录哈希匹配，另附utils、N2拟合参数、参考系数 |
 | 旧v5与早期GPU | `evidence/completion_20260923/historical/` | 单独保留，不能当作当前D1/eval1结果 |
-| 运行库身份 | `environment/observed_20260923/runtime_manifest.json`、`runtime_archive.sha256` | 有效本地备份的22文件清单及哈希，两个扩展与原环境一致 |
+| 运行库身份 | `environment/observed_20260923/runtime_manifest.json`、`runtime_archive.sha256` | 可用运行库备份的22文件清单及哈希 |
 | 导入溯源 | `evidence/completion_20260923/provenance.json` | 原始/公开SHA256、路径替换、排除项目与重复件说明 |
 
 D1快照使用两个单独修订文件 `both_FPGA_nonlinear_D1.py`、`d1_methods.py`，其余来自原软件包。修订以整数码字比较MEM，避免CRLF/LF引发误判。不要将这套冻结代码覆盖到当前主软件目录。

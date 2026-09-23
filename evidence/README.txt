@@ -25,7 +25,7 @@ measured outcomes. They contain no raw scene or trained checkpoint.
 
 The inventory counts are overlapping evidence groups. A validation report can
 contain several conditions, and a model can be reused across main and ablation
-tables. Read `docs/EXPERIMENTS.md` before interpreting or combining them.
+tables. Read `docs/EXPERIMENTS.txt` before interpreting or combining them.
 
 - `server_update_20260923/`: 40 eval1 FPGA reports and local SSM error CSVs,
   42 UP power trials with 84 telemetry/idle CSVs and 14-setting summary,

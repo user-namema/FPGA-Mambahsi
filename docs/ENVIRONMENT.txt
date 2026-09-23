@@ -1,0 +1,83 @@
+环境安装与检查
+================
+
+本说明用于在 Linux 和 NVIDIA GPU 上安装运行环境。所有命令都从仓库根目录执行。
+CPU 可以运行路径检查和部分单元测试，但不能用于 GPU 吞吐或功耗结果。
+
+1. 创建 Conda 环境
+-------------------
+
+    conda create -n mambahsi python=3.8.20 -y
+    conda activate mambahsi
+    conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.7 -c pytorch -c nvidia
+
+2. 安装 Python 依赖
+--------------------
+
+    python -m pip install -c environment/constraints-torch113.txt -r environment/requirements.txt
+    python -m pip install -c environment/constraints-torch113.txt --no-build-isolation mamba-ssm==1.2.0
+    python -m pip check
+
+可选的 FLOP 统计包：
+
+    python -m pip install -c environment/constraints-torch113.txt -r environment/requirements-optional.txt
+
+代码包含 PyTorch 参考 selective scan 后端，因此缺少 CUDA 扩展时仍可检查模型路径和
+数值流程。该后端速度较慢，不能代替 CUDA 测速。
+
+3. 检查 GPU
+-----------
+
+    nvidia-smi
+    python tools/check_environment.py --device cuda:0 --check-scan --json environment_check.json
+
+`--device cuda:0` 表示当前进程可见设备中的第一个 GPU。若要使用第二张物理卡，
+可写成 `--device cuda:1`；也可以先设置 `CUDA_VISIBLE_DEVICES=1`，再使用
+`--device cuda:0`。检查程序会验证 Torch、CUDA 张量分配和 selective scan 小样例。
+
+只检查 Python 依赖时：
+
+    python tools/check_environment.py --device cpu
+
+如果出现 CUDA 初始化错误、驱动与 NVML 版本不匹配或 forward compatibility 错误，
+先修复驱动环境，再进行训练或测速。不要在这种状态下记录功耗或吞吐结果。
+
+4. 选择性扫描扩展
+------------------
+
+普通复现可以直接使用上面的 mamba-ssm 安装命令。若要使用本仓库保存的 Python
+快照，可在单条检查命令前临时设置：
+
+    PYTHONPATH="$PWD/third_party/mamba_ssm_server_1_1_2${PYTHONPATH:+:$PYTHONPATH}" \
+      python tools/check_environment.py --device cuda:0 --check-scan --json environment_check_snapshot.json
+
+快照只提供 Python 文件和许可证；编译扩展必须与当前 Torch、CUDA 和编译器 ABI 匹配。
+不要把其他机器编译出的 `.so` 文件直接复制到新的环境中。需要从源码编译时，准备
+与 PyTorch CUDA 版本兼容的 nvcc 和 C++ 编译器，并在编译后重新运行上面的 scan 检查。
+
+5. GPU 功耗测量
+----------------
+
+安装 NVML Python 接口：
+
+    python -m pip install nvidia-ml-py
+
+建议使用没有其他计算任务的 GPU。若 GPU 正在运行 Xorg/Xwayland 显示服务，允许只读
+显示进程：
+
+    DEVICE=cuda:0 BATCH_SIZES=1,2,4,8,16,32,64 \
+      bash experiments/16_gpu_power.sh --allow-display-processes \
+      --output-root ./results/gpu_power_UP
+
+报告中的功耗和能量是整张 GPU 的 NVML 设备读数，不是墙上插座功耗，也没有从设备读数
+中扣除显示后台或空闲功耗。请保存每次运行的 GPU UUID、进程快照和测量窗口。
+
+6. 常见问题
+------------
+
+* 找不到数据：先执行 `python tools/prepare_data_formats.py --data-root ./data`，并
+  检查 docs/DATA.txt 中的文件名和 MAT 变量名。
+* 找不到 checkpoint：将 FP32_ROOT、QAT_ROOT 或脚本参数改为包含完整配置目录的绝对路径。
+* CUDA 不可用：执行 `nvidia-smi` 和环境检查；CPU 模式只能用于调试。
+* 输出目录已存在：为新的试验指定新的 `--output-root`，避免混合不同配置的日志。
+* 内存不足：减少并行 seed 或 batch；不要修改固定评估协议后再把结果与表格合并。

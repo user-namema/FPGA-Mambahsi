@@ -1,6 +1,6 @@
 # 误差消融与共享极点分析
 
-2026-09-14：新增 D 通路、共享 U 量化和 d-only 折叠误差消融，详见同目录 `README_D通路_QAT与FPGA模拟.md`。新 QAT 默认 shared U；旧检查点无合同字段时继续按 legacy U 恢复。D1 尚未接入 RTL。
+2026-09-14：新增 D 通路、共享 U 量化和 d-only 折叠误差消融，详见同目录 `README_D通路_QAT与FPGA模拟.txt`。新 QAT 默认 shared U；旧检查点无合同字段时继续按 legacy U 恢复。D1 尚未接入 RTL。
 
 更新日期为 2026-09-08。主模拟入口是 `both_FPGA_single_qat_source.py`。`both_FPGA_21patch_dual.py` 现在转发到同一实现，避免两份代码漂移。
 
@@ -160,7 +160,7 @@ python run_fpga_error_sweep.py \
   --suite both --output-dir ./sweep_run
 ```
 
-`sources` 为 D0 六组或 D1 七组误差来源/舍入模式，`widths` 为位宽实验，`both` 为两者，`nonlinear` 为下一节的非线性近似。新增 `requant` 输出再量化三组对照及 `k-precision` K 精度网格，`all` 现在包含上述五类实验。详见 [batch 诊断与新消融说明](README_batch差异_再量化_K扫描.md)。每个配置独立目录、日志和结果，输出 `sweep_metrics.csv` 汇总 OA、mAcc、Kappa、mIoU、相对 QAT 的 OA 损失和逻辑 ROM 位数。执行失败立即停止，清单只标记已成功完成的作业。
+`sources` 为 D0 六组或 D1 七组误差来源/舍入模式，`widths` 为位宽实验，`both` 为两者，`nonlinear` 为下一节的非线性近似。新增 `requant` 输出再量化三组对照及 `k-precision` K 精度网格，`all` 现在包含上述五类实验。详见 [batch 诊断与新消融说明](README_batch差异_再量化_K扫描.txt)。每个配置独立目录、日志和结果，输出 `sweep_metrics.csv` 汇总 OA、mAcc、Kappa、mIoU、相对 QAT 的 OA 损失和逻辑 ROM 位数。执行失败立即停止，清单只标记已成功完成的作业。
 
 重复 `--qat-run-dir` 可处理多个数据集/种子。数据集和 seed 从每个 result.json 读取；多个 run 使用独立路径哈希标识。`--fp32-dir` 重定位覆盖只用于单 run，多 run 应各自具有可解析的源制品路径。
 

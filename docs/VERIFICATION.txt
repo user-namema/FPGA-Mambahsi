@@ -48,7 +48,7 @@ The second command uses `software` as its working directory because the existing
 tests refer to the source scripts and historical fixture by relative path.
 No raw dataset or trained checkpoint is required for these synthetic tests.
 Server collection commands and outstanding experiment records are listed in
-`SERVER_FILES.md`; original reports remain the source for scientific claims.
+`SERVER_FILES.txt`; original reports remain the source for scientific claims.
 
 ## GPU display-process update
 

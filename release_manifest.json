@@ -9,84 +9,84 @@
       "sha256": "516c548b7d4143e10cb62bcb3d2035e0bb59e09beeb4f1164b5d5d5c4b28909f"
     },
     {
-      "path": "README.md",
-      "bytes": 10253,
-      "sha256": "5bdefabc9079f3b44e3e12d3f47687aec5b55449311ad4ac9d9e93addd9d741b"
+      "path": "README.txt",
+      "bytes": 5799,
+      "sha256": "ade330f6a0dcd312cdc9e7ca1f35a544b1a8e94a277b36445ea75edfabb5a204"
     },
     {
-      "path": "README_zh-CN.md",
-      "bytes": 4943,
-      "sha256": "d7f822ab6ca3d2a0281952c110a0c7bc056fd2a53bdc8137a4e9dad0afd1da85"
+      "path": "README_zh-CN.txt",
+      "bytes": 5006,
+      "sha256": "4bfde1a897550e478db588ba36d548f337c7665fa0194e3779782202f4a847b4"
     },
     {
-      "path": "docs/COMPLETION_20260923.md",
-      "bytes": 5781,
-      "sha256": "81105f930dddedbd75d1795cf301b8fca1a2bcb1400da99db7c020e530d9f97e"
+      "path": "docs/COMPLETION_20260923.txt",
+      "bytes": 5751,
+      "sha256": "4221050b1a9058754756ed6488ab118684860fe6547828483cdc5d98bd06b0bd"
     },
     {
-      "path": "docs/DATA.md",
+      "path": "docs/DATA.txt",
       "bytes": 3759,
       "sha256": "c2d038287a41a82049354a59042a39b7a4830c172b258013213623733613da88"
     },
     {
-      "path": "docs/ENVIRONMENT.md",
-      "bytes": 8566,
-      "sha256": "bbec696348d0a8f6496cfc437c9ecc55d4adeb13614c3e08784bbadbf5dc0d78"
+      "path": "docs/ENVIRONMENT.txt",
+      "bytes": 3739,
+      "sha256": "173b8706f78b86ca0fe9af6bb47f6eb3595a10d57338d9c1c871c80d333ecf26"
     },
     {
-      "path": "docs/EXPERIMENTS.md",
-      "bytes": 12762,
-      "sha256": "8accbebba19b6ab912080d06af2a996d3fc6dceed95d9f1385115d9410f25594"
+      "path": "docs/EXPERIMENTS.txt",
+      "bytes": 6594,
+      "sha256": "23a245e0b64e0cb88e856a4196fe401d6b944e99259287ff5c1f499542da8ee8"
     },
     {
-      "path": "docs/SERVER_FILES.md",
-      "bytes": 5790,
-      "sha256": "31c8b3e099ac7daabb3aac9340c8c11767562b53995b23d2007d031f86357212"
+      "path": "docs/SERVER_FILES.txt",
+      "bytes": 2690,
+      "sha256": "2bf80b6f120c0610fe71ad899326f22781ca3dc3009e0b3f5348852617fda912"
     },
     {
-      "path": "docs/SERVER_UPDATE_20260923.md",
-      "bytes": 4798,
-      "sha256": "98114d22b23c7bafbb01edf2fb8e3e9504fc0cc2aa99ecba8eb5544ab2ffd849"
+      "path": "docs/SERVER_UPDATE_20260923.txt",
+      "bytes": 3246,
+      "sha256": "92eb8d984ffff73a963e64f15f92de5d8964861ceb7ceaf7ada95d9a37d13832"
     },
     {
-      "path": "docs/THIRD_PARTY_NOTICES.md",
-      "bytes": 3846,
-      "sha256": "50440c61a0010d93e204121ecaa9bf49728c3f544144677609664f1fbde89e2d"
+      "path": "docs/THIRD_PARTY_NOTICES.txt",
+      "bytes": 3847,
+      "sha256": "f244f8ce201cedbfbb5e7c03eca532d7e23500abc63f60607c0dcffec1073b55"
     },
     {
-      "path": "docs/VERIFICATION.md",
-      "bytes": 6381,
-      "sha256": "963ba781a21e2d473864eed020ce8c809028bf4fd1466b49cbbdfeba27d6a5d5"
+      "path": "docs/VERIFICATION.txt",
+      "bytes": 6382,
+      "sha256": "ad4351c1659824eabf1b0cd16266777ca6d671dd9835865807e0d70bec138ed3"
     },
     {
-      "path": "docs/historical/README_QAT三阶段定位.md",
+      "path": "docs/historical/README_QAT三阶段定位.txt",
       "bytes": 12077,
       "sha256": "f7a4791567176f956b08abe82e99cbc885260f0500f7b585cb1c9468b61f314f"
     },
     {
-      "path": "docs/historical/README_QAT稳定性诊断.md",
-      "bytes": 7652,
-      "sha256": "25cf81bf11812d173f313e8e5774512167c485a6cf118dc3437b6156ed5a5ab1"
+      "path": "docs/historical/README_QAT稳定性诊断.txt",
+      "bytes": 7654,
+      "sha256": "e30ce6f5914843609b5df9f075b2bfc984ad3dece8fb3573c5a7e01f072c8393"
     },
     {
-      "path": "docs/historical/README_batch差异_再量化_K扫描.md",
+      "path": "docs/historical/README_batch差异_再量化_K扫描.txt",
       "bytes": 8910,
       "sha256": "ed5e337dcf489b9d7dacb4732b75719fe1beb33eb132aadb4a84a89a17049fe1"
     },
     {
-      "path": "docs/historical/README_max初始化_QAT与FPGA顺序运行.md",
+      "path": "docs/historical/README_max初始化_QAT与FPGA顺序运行.txt",
       "bytes": 6608,
       "sha256": "d2da4df07493c4e697480c8989fbe521612ade7c8a4332b840a931f168797dff"
     },
     {
-      "path": "docs/historical/README_权重初始化三组验证.md",
+      "path": "docs/historical/README_权重初始化三组验证.txt",
       "bytes": 4041,
       "sha256": "4dda0d17cb635955735aefc89ab886b8879b445d7d8bdb360c08fa627d5e5919"
     },
     {
-      "path": "docs/historical/README_误差消融与共享极点分析.md",
-      "bytes": 14527,
-      "sha256": "5f6d0d6a63589a7efffdf66785e932ad7fa62df836a9306d3cae0e869cef0662"
+      "path": "docs/historical/README_误差消融与共享极点分析.txt",
+      "bytes": 14529,
+      "sha256": "6e9b5b6430e38b4df5e13b653d620aef1270814f8bffdcc8207c5b074189ecee"
     },
     {
       "path": "environment/conda.yml",
@@ -134,9 +134,9 @@
       "sha256": "c52dcbf52ab31cb6fdbf9f2fc81459d29286a8633e22c80201fe0fb0806ffc91"
     },
     {
-      "path": "evidence/README.md",
-      "bytes": 2781,
-      "sha256": "8c2ece98de2f9afb050dd4338a5d69e5b583f2534cf377d49fea61461bf4c942"
+      "path": "evidence/README.txt",
+      "bytes": 2782,
+      "sha256": "99b016654bc1d60beddadf11a115c5cf2afc0972f3cf5e834969962108e9c756"
     },
     {
       "path": "evidence/completion_20260923/acceptance_audit.json",
@@ -3289,9 +3289,9 @@
       "sha256": "f9cc503fccf42b3f924354f7c2685f50507296d750ae155b93048020428ab27a"
     },
     {
-      "path": "software/snapshots/eval1_server_20260923/README.md",
-      "bytes": 801,
-      "sha256": "84d057bb683509fdea381e937ac2f870d4458f6b5446cd59af88555c8770d540"
+      "path": "software/snapshots/eval1_server_20260923/README.txt",
+      "bytes": 802,
+      "sha256": "29d914d3d9c9c80ed4cbd394876ad9e0e58471969fe7a7f4db3840af67625393"
     },
     {
       "path": "software/snapshots/eval1_server_20260923/both_FPGA_single_qat_source.py",
@@ -3309,9 +3309,9 @@
       "sha256": "88bafcce7ff93623a761cad03614f5c8b662d3058be7d035b62c6297a18c0a11"
     },
     {
-      "path": "software/snapshots/nonlinear_D1_20260916/README.md",
-      "bytes": 998,
-      "sha256": "4deb7700205b2cbe66635bc3f71e98d66025081277204ee19e64e28153034df5"
+      "path": "software/snapshots/nonlinear_D1_20260916/README.txt",
+      "bytes": 999,
+      "sha256": "18bf75bedbc2708ac3c97b0c0f6cd4b248bacb7e415feb5efb0b50720bbd087a"
     },
     {
       "path": "software/snapshots/nonlinear_D1_20260916/both_FPGA_21patch_dual.py",
@@ -3889,7 +3889,7 @@
       "sha256": "d43bda0b4a29e6db5aec44a26dbe0d8b5312d94944748f9fb5e665db572605c6"
     },
     {
-      "path": "third_party/causal_conv1d_server_1_1_2/README.md",
+      "path": "third_party/causal_conv1d_server_1_1_2/README.txt",
       "bytes": 426,
       "sha256": "f67dca1142367461d25390389032c4775e48ce2a8416002c7a165e964dfcae07"
     },
@@ -3929,9 +3929,9 @@
       "sha256": "a7c657a9135aeabbc65137895e5b2a63edeb41985316dbbcd6d1d6997247be00"
     },
     {
-      "path": "third_party/mamba_ssm_server_1_1_2/README.md",
-      "bytes": 1016,
-      "sha256": "dc997152d5b35bce5b1dd4c6b0909d23d3aabaae39168b6bb817baf77f4f3381"
+      "path": "third_party/mamba_ssm_server_1_1_2/README.txt",
+      "bytes": 1017,
+      "sha256": "aaf43c7055272283bd3663c3e345c65ba580440855c76feea871761b5813c586"
     },
     {
       "path": "third_party/mamba_ssm_server_1_1_2/distribution_metadata/AUTHORS",
