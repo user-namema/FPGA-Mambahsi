@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.venv/
+data/
+results/
+server_collection*/
+*.pth
+*.pt
+*.ckpt
+*.mat
+*.npy
+*.npz
+*.zip
+*.tar.gz
+*.log

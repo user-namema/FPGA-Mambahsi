@@ -1,0 +1,979 @@
+{
+  "numeric_config": {
+    "dt_input_bits": 9,
+    "dt_output_bits": 8,
+    "a_fraction_bits": 24,
+    "k_bits": 19,
+    "k_preferred_fraction_bits": 24,
+    "state_bits": 32,
+    "state_fraction_bits": 24,
+    "rounding": "single",
+    "error_source": "all",
+    "accumulator_bits": 65,
+    "coefficient_backend": "exact",
+    "pwl_segments": 32,
+    "d_coefficient_bits": 27,
+    "d_max_left_shift": 24,
+    "readout_requantization": "auto"
+  },
+  "selective_scan_backend": "mamba_ssm_optimized",
+  "rtl_baseline_compatible": false,
+  "model_config": {
+    "model_variant": "current",
+    "hidden_dim": 32,
+    "branch_mode": "both",
+    "fusion_mode": "sum",
+    "skip_scale": 2,
+    "use_z": false,
+    "use_D": true,
+    "A_mode": "shared",
+    "norm_path": "bn",
+    "activation": "relu",
+    "head_dim": 64,
+    "token_num": 4,
+    "d_state": 16,
+    "block_count": 3,
+    "downsample_count": 2,
+    "d_conv": 4,
+    "expand": 2,
+    "group_num": 4,
+    "linear_bias": false,
+    "conv_bias": true,
+    "branch_residual": false,
+    "spa_batch_safe": true,
+    "dt_bias_placement": "dt_proj_output_once"
+  },
+  "qat_ssm_contract": {
+    "u_quantization": "shared",
+    "d_weight_bits": 8
+  },
+  "d_path_rom_bits": 6480,
+  "d_path_manifests": {
+    "mamba.0.spa_mamba.mamba": {
+      "c_min": -4398046509056,
+      "c_max": 4398046511104,
+      "total_min": -4399211185664,
+      "total_max": 4399202088676,
+      "output_bits": 48,
+      "coefficient_bits": 27,
+      "product_bits": 35,
+      "left_shift": 0,
+      "coefficient_min": 6499311,
+      "coefficient_max": 9099036,
+      "coefficient_count": 64,
+      "coefficient_rom_bits": 1728,
+      "fold_D_max_abs_error": 5.348110621028468e-08,
+      "fold_D_mae": 1.1160188379336078e-08,
+      "max_output_error_full_u_domain": 1.6349810019633492e-07,
+      "reference": "frozen dequantized QAT D; excludes LSQ error relative to original D",
+      "proof": "full signed H, INT8 C/U domains; conservative independent C+D bounds",
+      "requant_certificate": {
+        "max_abs_intermediate": 91859997487326720,
+        "multiplier": 20881,
+        "shift": 37,
+        "carrier_bits": 64
+      }
+    },
+    "mamba.0.spe_mamba.mamba": {
+      "c_min": -4398046509056,
+      "c_max": 4398046511104,
+      "total_min": -4400896577408,
+      "total_max": 4400874313297,
+      "output_bits": 48,
+      "coefficient_bits": 27,
+      "product_bits": 35,
+      "left_shift": 0,
+      "coefficient_min": 18555132,
+      "coefficient_max": 22266159,
+      "coefficient_count": 16,
+      "coefficient_rom_bits": 432,
+      "fold_D_max_abs_error": 1.6083420928403314e-08,
+      "fold_D_mae": 1.070512178208416e-08,
+      "max_output_error_full_u_domain": 7.091404098334626e-08,
+      "reference": "frozen dequantized QAT D; excludes LSQ error relative to original D",
+      "proof": "full signed H, INT8 C/U domains; conservative independent C+D bounds",
+      "requant_certificate": {
+        "max_abs_intermediate": 116742858386808960,
+        "multiplier": 26527,
+        "shift": 39,
+        "carrier_bits": 64
+      }
+    },
+    "mamba.2.spa_mamba.mamba": {
+      "c_min": -4398046509056,
+      "c_max": 4398046511104,
+      "total_min": -4398951186560,
+      "total_max": 4398944120815,
+      "output_bits": 48,
+      "coefficient_bits": 27,
+      "product_bits": 35,
+      "left_shift": 0,
+      "coefficient_min": 5889827,
+      "coefficient_max": 7067793,
+      "coefficient_count": 64,
+      "coefficient_rom_bits": 1728,
+      "fold_D_max_abs_error": 7.030294013610217e-08,
+      "fold_D_mae": 6.657029088391608e-08,
+      "max_output_error_full_u_domain": 3.4178094666653443e-07,
+      "reference": "frozen dequantized QAT D; excludes LSQ error relative to original D",
+      "proof": "full signed H, INT8 C/U domains; conservative independent C+D bounds",
+      "requant_certificate": {
+        "max_abs_intermediate": 78864465592124416,
+        "multiplier": 17928,
+        "shift": 37,
+        "carrier_bits": 64
+      }
+    },
+    "mamba.2.spe_mamba.mamba": {
+      "c_min": -4398046509056,
+      "c_max": 4398046511104,
+      "total_min": -4401041904128,
+      "total_max": 4401018504652,
+      "output_bits": 48,
+      "coefficient_bits": 27,
+      "product_bits": 35,
+      "left_shift": 0,
+      "coefficient_min": 19501270,
+      "coefficient_max": 23401524,
+      "coefficient_count": 16,
+      "coefficient_rom_bits": 432,
+      "fold_D_max_abs_error": 2.0096734276719985e-08,
+      "fold_D_mae": 1.9050029401168622e-08,
+      "max_output_error_full_u_domain": 8.228425905406454e-08,
+      "reference": "frozen dequantized QAT D; excludes LSQ error relative to original D",
+      "proof": "full signed H, INT8 C/U domains; conservative independent C+D bounds",
+      "requant_certificate": {
+        "max_abs_intermediate": 111562286105647616,
+        "multiplier": 25349,
+        "shift": 39,
+        "carrier_bits": 64
+      }
+    },
+    "mamba.4.spa_mamba.mamba": {
+      "c_min": -4398046509056,
+      "c_max": 4398046511104,
+      "total_min": -4399425949952,
+      "total_max": 4399415175118,
+      "output_bits": 48,
+      "coefficient_bits": 27,
+      "product_bits": 35,
+      "left_shift": 0,
+      "coefficient_min": 8980735,
+      "coefficient_max": 10776882,
+      "coefficient_count": 64,
+      "coefficient_rom_bits": 1728,
+      "fold_D_max_abs_error": 4.3079186662353663e-08,
+      "fold_D_mae": 4.038673748207877e-08,
+      "max_output_error_full_u_domain": 5.27125393833766e-07,
+      "reference": "frozen dequantized QAT D; excludes LSQ error relative to original D",
+      "proof": "full signed H, INT8 C/U domains; conservative independent C+D bounds",
+      "requant_certificate": {
+        "max_abs_intermediate": 127275530171064832,
+        "multiplier": 28930,
+        "shift": 38,
+        "carrier_bits": 64
+      }
+    },
+    "mamba.4.spe_mamba.mamba": {
+      "c_min": -4398046509056,
+      "c_max": 4398046511104,
+      "total_min": -4400262279680,
+      "total_max": 4400244971020,
+      "output_bits": 48,
+      "coefficient_bits": 27,
+      "product_bits": 35,
+      "left_shift": 0,
+      "coefficient_min": 14425590,
+      "coefficient_max": 17310708,
+      "coefficient_count": 16,
+      "coefficient_rom_bits": 432,
+      "fold_D_max_abs_error": 1.147271033730135e-08,
+      "fold_D_mae": 1.1114188125382896e-08,
+      "max_output_error_full_u_domain": 6.867696866805633e-08,
+      "reference": "frozen dequantized QAT D; excludes LSQ error relative to original D",
+      "proof": "full signed H, INT8 C/U domains; conservative independent C+D bounds",
+      "requant_certificate": {
+        "max_abs_intermediate": 73282105444744192,
+        "multiplier": 16654,
+        "shift": 38,
+        "carrier_bits": 64
+      }
+    }
+  },
+  "ssm_analysis_split": "test",
+  "ssm_execution_mode": "exact-integer",
+  "ssm_readout_requantization": "hardware",
+  "ssm_local_error_reference": "same quantized U/dt/B/C; full precision A/K; D reference is frozen LSQ D, d-only isolates coefficient folding",
+  "dataset": "UP",
+  "seed": 9,
+  "protocol": "exact saved 5:2:3-target raw-pixel-disjoint blocks; exact FP32 train-only PCA/minmax; non-overlapping dense 16x16 tiles; current fold-aware QAT; per-tensor fixed-point FPGA simulation",
+  "simulation_scope": "Integer SSM with C+D readout before one output requantization; D RTL not implemented.",
+  "ssm_lut_contract": "A/K variant schema 5 plus independent per-channel D manifests; see numeric_config.",
+  "integer_mac_backend": "FP64 exact-integer carrier checked on the integer grid, signed INT32 partial-sum/final-accumulator contract",
+  "ssm_readout_accumulator": "signed INT64 before requantization to INT8",
+  "pool_contract": "signed INT10 2x2 sum with physical scale=pool_input_tensor_scale/4",
+  "ssm_roms": [
+    {
+      "core": "blk0_spa",
+      "Abar_shape": [
+        256,
+        16
+      ],
+      "K_shape": [
+        256
+      ],
+      "coefficient_error": {
+        "A_mae": 1.0768360276514491e-08,
+        "A_max_abs_error": 2.97925879522154e-08,
+        "K_mae": 1.4823190938712386e-08,
+        "K_max_abs_error": 2.9777243555455246e-08
+      },
+      "K_signed": false,
+      "K_logical_bits": 19,
+      "K_fraction_bits": 24,
+      "U_storage_bits": 8,
+      "packed_bits": 107264,
+      "packed_MiB": 0.012786865234375,
+      "int32_aligned_bits": 139264,
+      "int32_aligned_MiB": 0.0166015625
+    },
+    {
+      "core": "blk0_spe",
+      "Abar_shape": [
+        256,
+        16
+      ],
+      "K_shape": [
+        256
+      ],
+      "coefficient_error": {
+        "A_mae": 1.0763913129661994e-08,
+        "A_max_abs_error": 2.980015456621743e-08,
+        "K_mae": 1.4400014048977904e-08,
+        "K_max_abs_error": 2.9759802773726262e-08
+      },
+      "K_signed": false,
+      "K_logical_bits": 19,
+      "K_fraction_bits": 24,
+      "U_storage_bits": 8,
+      "packed_bits": 107264,
+      "packed_MiB": 0.012786865234375,
+      "int32_aligned_bits": 139264,
+      "int32_aligned_MiB": 0.0166015625
+    },
+    {
+      "core": "blk1_spa",
+      "Abar_shape": [
+        256,
+        16
+      ],
+      "K_shape": [
+        256
+      ],
+      "coefficient_error": {
+        "A_mae": 1.0589381108003903e-08,
+        "A_max_abs_error": 2.9744244955942634e-08,
+        "K_mae": 1.4548667564777176e-08,
+        "K_max_abs_error": 2.9634179361283375e-08
+      },
+      "K_signed": false,
+      "K_logical_bits": 19,
+      "K_fraction_bits": 24,
+      "U_storage_bits": 8,
+      "packed_bits": 107264,
+      "packed_MiB": 0.012786865234375,
+      "int32_aligned_bits": 139264,
+      "int32_aligned_MiB": 0.0166015625
+    },
+    {
+      "core": "blk1_spe",
+      "Abar_shape": [
+        256,
+        16
+      ],
+      "K_shape": [
+        256
+      ],
+      "coefficient_error": {
+        "A_mae": 1.0457670886025044e-08,
+        "A_max_abs_error": 2.9763396747206627e-08,
+        "K_mae": 1.6016187954292533e-08,
+        "K_max_abs_error": 2.9626256682277474e-08
+      },
+      "K_signed": false,
+      "K_logical_bits": 19,
+      "K_fraction_bits": 24,
+      "U_storage_bits": 8,
+      "packed_bits": 107264,
+      "packed_MiB": 0.012786865234375,
+      "int32_aligned_bits": 139264,
+      "int32_aligned_MiB": 0.0166015625
+    },
+    {
+      "core": "blk2_spa",
+      "Abar_shape": [
+        256,
+        16
+      ],
+      "K_shape": [
+        256
+      ],
+      "coefficient_error": {
+        "A_mae": 1.0589913367895198e-08,
+        "A_max_abs_error": 2.9793677525091766e-08,
+        "K_mae": 1.2249035393510284e-07,
+        "K_max_abs_error": 2.3839580522155845e-07
+      },
+      "K_signed": false,
+      "K_logical_bits": 19,
+      "K_fraction_bits": 21,
+      "U_storage_bits": 8,
+      "packed_bits": 107264,
+      "packed_MiB": 0.012786865234375,
+      "int32_aligned_bits": 139264,
+      "int32_aligned_MiB": 0.0166015625
+    },
+    {
+      "core": "blk2_spe",
+      "Abar_shape": [
+        256,
+        16
+      ],
+      "K_shape": [
+        256
+      ],
+      "coefficient_error": {
+        "A_mae": 1.106522841965514e-08,
+        "A_max_abs_error": 2.9792765287724415e-08,
+        "K_mae": 1.4728160838212501e-08,
+        "K_max_abs_error": 2.9694631952946384e-08
+      },
+      "K_signed": false,
+      "K_logical_bits": 19,
+      "K_fraction_bits": 24,
+      "U_storage_bits": 8,
+      "packed_bits": 107264,
+      "packed_MiB": 0.012786865234375,
+      "int32_aligned_bits": 139264,
+      "int32_aligned_MiB": 0.0166015625
+    }
+  ],
+  "ssm_rom_total_packed_bits": 643584,
+  "ssm_rom_total_packed_MiB": 0.07672119140625,
+  "ssm_rom_total_int32_aligned_bits": 835584,
+  "ssm_rom_total_int32_aligned_MiB": 0.099609375,
+  "tile_size": 16,
+  "split_block_size": 16,
+  "scene_shape": [
+    610,
+    340
+  ],
+  "pca_channels": 16,
+  "class_count": 9,
+  "tile_count": 858,
+  "qat_run_dir": "$PROJECT_ROOT/QAT_eval1_GPU_power_20260921/qat_eval1_4datasets/UP/models/SPATIAL_SPLIT_3WAY_DENSE_QAT/UP_patch_max_D_mean_freeze20_eval1/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16/run_seed9",
+  "fp32_dir": "$PROJECT_ROOT/results/SPATIAL_SPLIT_3WAY_DENSE/UP_all_samples_sqrt_inverse_clip3_2000_nobias/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16",
+  "qat_checkpoint": "$PROJECT_ROOT/QAT_eval1_GPU_power_20260921/qat_eval1_4datasets/UP/models/SPATIAL_SPLIT_3WAY_DENSE_QAT/UP_patch_max_D_mean_freeze20_eval1/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16/run_seed9/best_qat_foldaware.pth",
+  "qat_checkpoint_sha256": "51f67eb569dae7ac9af4f7e8daa0fa8a554e1b5e19883df910b6ac6f493e43a1",
+  "qat_batch_invariance_probe": {
+    "probe_tiles": 1,
+    "cosine": 1.0,
+    "logit_MAE": 0.0,
+    "logit_MaxAE": 0.0,
+    "prediction_match": 1.0
+  },
+  "qat_best_epoch": 67,
+  "input_scale": 0.002951275324448943,
+  "saved_qat_prediction_match": 1.0,
+  "qat_reference_batch_size": 1,
+  "qat_batch1_vs_saved_batch_match": 1.0,
+  "metrics": {
+    "qat_saved_batch": {
+      "OA": 0.962783038287361,
+      "mAcc": 0.9427119328456346,
+      "Kappa": 0.9513696499430507,
+      "mIoU": 0.9011729172582018,
+      "per_class_acc": [
+        0.9530013959981387,
+        0.9848812095032398,
+        0.6489945155393053,
+        0.9943693693693694,
+        1.0,
+        0.9664889565879665,
+        0.9564356435643564,
+        0.9924812030075187,
+        0.9877551020408163
+      ],
+      "IoU": [
+        0.9416091954022988,
+        0.9844946025515211,
+        0.5829228243021346,
+        0.922675026123302,
+        1.0,
+        0.9344624447717231,
+        0.9545454545454546,
+        0.8061068702290076,
+        0.983739837398374
+      ],
+      "support": [
+        2149,
+        5093,
+        547,
+        888,
+        341,
+        1313,
+        505,
+        1064,
+        245
+      ],
+      "confusion_matrix": [
+        [
+          2048,
+          0,
+          44,
+          3,
+          0,
+          0,
+          0,
+          54,
+          0
+        ],
+        [
+          0,
+          5016,
+          4,
+          31,
+          0,
+          42,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          355,
+          0,
+          0,
+          0,
+          0,
+          190,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          883,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          341,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          34,
+          0,
+          1269,
+          0,
+          0,
+          0
+        ],
+        [
+          21,
+          0,
+          0,
+          0,
+          0,
+          1,
+          483,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          4,
+          1,
+          0,
+          0,
+          0,
+          1056,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          242
+        ]
+      ]
+    },
+    "qat_direct": {
+      "OA": 0.962783038287361,
+      "mAcc": 0.9427119328456346,
+      "Kappa": 0.9513696499430507,
+      "mIoU": 0.9011729172582018,
+      "per_class_acc": [
+        0.9530013959981387,
+        0.9848812095032398,
+        0.6489945155393053,
+        0.9943693693693694,
+        1.0,
+        0.9664889565879665,
+        0.9564356435643564,
+        0.9924812030075187,
+        0.9877551020408163
+      ],
+      "IoU": [
+        0.9416091954022988,
+        0.9844946025515211,
+        0.5829228243021346,
+        0.922675026123302,
+        1.0,
+        0.9344624447717231,
+        0.9545454545454546,
+        0.8061068702290076,
+        0.983739837398374
+      ],
+      "support": [
+        2149,
+        5093,
+        547,
+        888,
+        341,
+        1313,
+        505,
+        1064,
+        245
+      ],
+      "confusion_matrix": [
+        [
+          2048,
+          0,
+          44,
+          3,
+          0,
+          0,
+          0,
+          54,
+          0
+        ],
+        [
+          0,
+          5016,
+          4,
+          31,
+          0,
+          42,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          355,
+          0,
+          0,
+          0,
+          0,
+          190,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          883,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          341,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          34,
+          0,
+          1269,
+          0,
+          0,
+          0
+        ],
+        [
+          21,
+          0,
+          0,
+          0,
+          0,
+          1,
+          483,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          4,
+          1,
+          0,
+          0,
+          0,
+          1056,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          242
+        ]
+      ]
+    },
+    "staged_fp": {
+      "OA": 0.962783038287361,
+      "mAcc": 0.9427119328456346,
+      "Kappa": 0.9513696499430507,
+      "mIoU": 0.9011729172582018,
+      "per_class_acc": [
+        0.9530013959981387,
+        0.9848812095032398,
+        0.6489945155393053,
+        0.9943693693693694,
+        1.0,
+        0.9664889565879665,
+        0.9564356435643564,
+        0.9924812030075187,
+        0.9877551020408163
+      ],
+      "IoU": [
+        0.9416091954022988,
+        0.9844946025515211,
+        0.5829228243021346,
+        0.922675026123302,
+        1.0,
+        0.9344624447717231,
+        0.9545454545454546,
+        0.8061068702290076,
+        0.983739837398374
+      ],
+      "support": [
+        2149,
+        5093,
+        547,
+        888,
+        341,
+        1313,
+        505,
+        1064,
+        245
+      ],
+      "confusion_matrix": [
+        [
+          2048,
+          0,
+          44,
+          3,
+          0,
+          0,
+          0,
+          54,
+          0
+        ],
+        [
+          0,
+          5016,
+          4,
+          31,
+          0,
+          42,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          355,
+          0,
+          0,
+          0,
+          0,
+          190,
+          0
+        ],
+        [
+          1,
+          2,
+          0,
+          883,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          341,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          34,
+          0,
+          1269,
+          0,
+          0,
+          0
+        ],
+        [
+          21,
+          0,
+          0,
+          0,
+          0,
+          1,
+          483,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          4,
+          1,
+          0,
+          0,
+          0,
+          1056,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          2,
+          242
+        ]
+      ]
+    },
+    "int8_hw": {
+      "OA": 0.960806916426513,
+      "mAcc": 0.9394403609557997,
+      "Kappa": 0.9487954913970567,
+      "mIoU": 0.895210239164177,
+      "per_class_acc": [
+        0.9548627268496975,
+        0.983899469860593,
+        0.6544789762340036,
+        0.9887387387387387,
+        1.0,
+        0.9527798933739527,
+        0.9663366336633663,
+        0.9906015037593985,
+        0.963265306122449
+      ],
+      "IoU": [
+        0.9456221198156682,
+        0.9827417140615807,
+        0.5755627009646302,
+        0.9060887512899897,
+        1.0,
+        0.9198529411764705,
+        0.9606299212598425,
+        0.8070444104134763,
+        0.959349593495935
+      ],
+      "support": [
+        2149,
+        5093,
+        547,
+        888,
+        341,
+        1313,
+        505,
+        1064,
+        245
+      ],
+      "confusion_matrix": [
+        [
+          2052,
+          0,
+          41,
+          5,
+          0,
+          0,
+          0,
+          51,
+          0
+        ],
+        [
+          0,
+          5011,
+          5,
+          33,
+          0,
+          44,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          358,
+          0,
+          0,
+          0,
+          0,
+          187,
+          0
+        ],
+        [
+          2,
+          6,
+          0,
+          878,
+          0,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          341,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          23,
+          39,
+          0,
+          1251,
+          0,
+          0,
+          0
+        ],
+        [
+          16,
+          0,
+          0,
+          0,
+          0,
+          1,
+          488,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          4,
+          4,
+          0,
+          0,
+          0,
+          1054,
+          1
+        ],
+        [
+          0,
+          0,
+          2,
+          0,
+          0,
+          0,
+          3,
+          4,
+          236
+        ]
+      ]
+    }
+  },
+  "test_agreements": {
+    "qat_saved_batch_vs_qat_direct_batch1": {
+      "matches": 12145,
+      "total": 12145,
+      "rate": 1.0
+    },
+    "qat_saved_batch_vs_int8": {
+      "matches": 12029,
+      "total": 12145,
+      "rate": 0.9904487443392342
+    },
+    "qat_direct_vs_staged_fp": {
+      "matches": 12145,
+      "total": 12145,
+      "rate": 1.0
+    },
+    "staged_fp_vs_int8": {
+      "matches": 12029,
+      "total": 12145,
+      "rate": 0.9904487443392342
+    },
+    "qat_direct_vs_int8": {
+      "matches": 12029,
+      "total": 12145,
+      "rate": 0.9904487443392342
+    }
+  }
+}

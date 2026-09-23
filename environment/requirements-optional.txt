@@ -1,0 +1,3 @@
+# Optional FLOP estimates from the FP32 trainer; not needed for predictions.
+# Use the same constraints-torch113.txt as the core installation.
+calflops==0.3.2

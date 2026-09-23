@@ -1,0 +1,85 @@
+{
+  "duration_s": 30.008575311047025,
+  "tiles": 700986,
+  "tiles_per_s": 23359.52282752813,
+  "energy_j": 8801.67000001669,
+  "energy_method": "nvml_energy_counter",
+  "energy_counter_start_j": 263097028.734,
+  "energy_counter_end_j": 263105830.404,
+  "power_integrated_energy_j": 8803.665390326129,
+  "mean_power_w": 293.30516056777077,
+  "joules_per_tile": 0.01255612808246768,
+  "microjoules_per_tile": 12556.12808246768,
+  "power_samples_inside": 299,
+  "sampled_min_power_w": 281.096,
+  "sampled_max_power_w": 300.767,
+  "counter_vs_integral_relative_difference": -0.00022665449230179407,
+  "batch_size": 64,
+  "scope": "full_gpu_pipeline",
+  "repeat": 1,
+  "scenes": 817,
+  "idle_power_w": 77.02032840802416,
+  "idle_settle_seconds": 2.0,
+  "incremental_energy_j": 6490.399674502922,
+  "peak_torch_allocated_bytes": 88714752,
+  "processes_before": {
+    "other_pids": [
+      4112,
+      3467119
+    ],
+    "unavailable": [],
+    "compute_pids": [],
+    "graphics_pids": [
+      4112,
+      3467119
+    ],
+    "display_pids": [
+      4112,
+      3467119
+    ],
+    "process_names": {
+      "4112": "/usr/lib/xorg/Xorg",
+      "3467119": "/usr/lib/xorg/Xorg"
+    },
+    "process_name_errors": {},
+    "allowed_display_pids": [
+      4112,
+      3467119
+    ],
+    "blocking_pids": [],
+    "process_policy": "allow_display_only"
+  },
+  "processes_after": {
+    "other_pids": [
+      4112,
+      3467119
+    ],
+    "unavailable": [],
+    "compute_pids": [],
+    "graphics_pids": [
+      4112,
+      3467119
+    ],
+    "display_pids": [
+      4112,
+      3467119
+    ],
+    "process_names": {
+      "4112": "/usr/lib/xorg/Xorg",
+      "3467119": "/usr/lib/xorg/Xorg"
+    },
+    "process_name_errors": {},
+    "allowed_display_pids": [
+      4112,
+      3467119
+    ],
+    "blocking_pids": [],
+    "process_policy": "allow_display_only"
+  },
+  "energy_unavailable_reason": null,
+  "power_csv": "batch64_full_gpu_pipeline_repeat1_power.csv",
+  "exclusive_at_boundaries": false,
+  "no_other_compute_at_boundaries": true,
+  "display_present_at_boundaries": true,
+  "process_condition": "display_background_only"
+}

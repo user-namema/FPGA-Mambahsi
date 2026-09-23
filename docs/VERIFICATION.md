@@ -1,0 +1,89 @@
+# Release verification — 2026-09-23
+
+This packaging task preserved the numerical software sources. New code handles
+launching, environment checks, data-format preparation, evidence indexing and
+server collection. The main scripts are hashed in `source_manifest.json`.
+
+## Checks performed
+
+- Parsed every Python file with Python 3.8 grammar; checked every shell script
+  with `bash -n`.
+- Verified each source snapshot against its recorded SHA256.
+- Ran all 19 numbered shell launchers in dry-run mode from outside the repository.
+- Passed 9 release-runner tests: the 19-configuration architecture selection,
+  six stability controls, train/eval batch settings, all-dataset eval1 dispatch,
+  relative paths, CUDA device mapping, resume validation, and multi-dataset GPU
+  summary merging. Dry runs did not execute child experiments or write outputs.
+- Ran 80 existing software tests: **78 passed; 2 skipped** because SciPy is absent
+  on the packaging host. The skipped tests exercise synthetic MAT-scene loading
+  through QAT, simulation, capture and replay. The included numerical tests cover
+  rounding, accumulator saturation, state isolation, D bypass, initialization,
+  device dispatch, simulation recovery and the fixed GPU arithmetic reference.
+- Included the historical D0 simulation fixture needed by the existing bit-parity
+  regression test. It is under `software/output/code_backups/` and is not a
+  supported production entry point.
+- Recomputed the eight paired statistical comparisons using bundled evidence.
+- Checked the server collector's help, fixture exports, size limits, source
+  immutability, optional payload controls, symlink exclusion, archive hashes,
+  and local environment metadata capture. The environment/data helpers passed
+  syntax, CLI and relevant validation/error-path checks.
+
+The packaging host runs macOS, Python 3.9 and CPU PyTorch 2.8; it has neither
+the experiment server's CUDA runtime nor SciPy/scikit-learn. These checks do not
+establish a fresh installation of the recommended Linux environment or a new
+GPU reproduction of training, accuracy, timing or power results. MAT conversion
+and the compiled CUDA scan check must run in the target environment.
+
+## Repeat the tests
+
+From the repository root, in the prepared `mambahsi` environment:
+
+```bash
+python -m unittest discover -s tests -v
+cd software
+python -m unittest discover -s tests -v
+```
+
+The second command uses `software` as its working directory because the existing
+tests refer to the source scripts and historical fixture by relative path.
+No raw dataset or trained checkpoint is required for these synthetic tests.
+Server collection commands and outstanding experiment records are listed in
+`SERVER_FILES.md`; original reports remain the source for scientific claims.
+
+## GPU display-process update
+
+The 2026-09-23 display-process patch adds an explicit exception for graphics-only
+Xorg/Xwayland while retaining rejection of other compute/graphics tasks. Six
+additional synthetic NVML tests pass, covering the reported two-Xorg case,
+compute/graphics overlap, missing process names, failed queries, own-process
+exclusion, boundary changes and CLI defaults. The shell and numbered entry
+forward the option. No actual NVIDIA power measurement was performed locally.
+
+## Received-record update — 2026-09-23
+
+- Imported 275 source/evidence/environment files with original and published
+  SHA256 values. Redactions replace server path prefixes; executable source
+  snapshots are byte-for-byte copies.
+- Matched all 40 eval1 FPGA report checkpoint hashes and QAT result hashes to
+  the local training archive; matched recorded source hashes to received
+  server files. All 40 saved-QAT prediction checks and B1 comparisons are 100%.
+- Recomputed per-seed metric columns and all five dataset-summary fields
+  (means and sample SDs). Recomputed 42 power trial energies, rates and 14
+  grouped summaries. All trials have display-background-only boundary records.
+- Verified the three received Mamba files against environment collector hashes;
+  identified the server modification to `mamba_simple.py` using installed RECORD.
+- Re-ran all 87 software tests: **85 passed, 2 skipped** (SciPy missing).
+  The added full-tile nonzero-D regression checks identical integer output
+  and prediction between the recorded and current simulator revisions.
+- Passed all nine release-runner tests and three new archive/preparation tests,
+  including output protection and rejection of a changed dependency hash.
+- Parsed 75 Python files with Python 3.8 grammar and checked 42 shell scripts.
+  Existing numerical source manifest entries remain unchanged.
+
+Run `python tools/verify_release_records.py` to verify the published evidence
+without Torch or datasets. Use `tools/prepare_observed_eval1.py` with a new
+`--output-dir` to verify recorded source identities and assemble a replay copy.
+Published checkpoint hashes document the import-time check; checkpoint payloads
+are not included for readers to repeat that check locally. CUDA binaries were
+not received. The server Python snapshot was not installed or executed as a
+CUDA environment on this Mac.

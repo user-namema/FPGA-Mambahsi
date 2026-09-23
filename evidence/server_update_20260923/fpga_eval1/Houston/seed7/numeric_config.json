@@ -1,0 +1,17 @@
+{
+  "dt_input_bits": 9,
+  "dt_output_bits": 8,
+  "a_fraction_bits": 24,
+  "k_bits": 19,
+  "k_preferred_fraction_bits": 24,
+  "state_bits": 32,
+  "state_fraction_bits": 24,
+  "rounding": "single",
+  "error_source": "all",
+  "accumulator_bits": 65,
+  "coefficient_backend": "exact",
+  "pwl_segments": 32,
+  "d_coefficient_bits": 27,
+  "d_max_left_shift": 24,
+  "readout_requantization": "auto"
+}

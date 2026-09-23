@@ -1,0 +1,3572 @@
+[
+  {
+    "duration_s": 31.55180704803206,
+    "tiles": 16302,
+    "tiles_per_s": 516.6740521448766,
+    "energy_j": 2203.908999979496,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262865466.985,
+    "energy_counter_end_j": 262867670.894,
+    "power_integrated_energy_j": 2201.986879658169,
+    "mean_power_w": 69.85048420917488,
+    "joules_per_tile": 0.13519255305971636,
+    "microjoules_per_tile": 135192.55305971636,
+    "power_samples_inside": 314,
+    "sampled_min_power_w": 68.641,
+    "sampled_max_power_w": 70.748,
+    "counter_vs_integral_relative_difference": 0.0008729027130376519,
+    "batch_size": 1,
+    "scope": "model_only",
+    "repeat": 0,
+    "scenes": 19,
+    "idle_power_w": 54.491224111782714,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 484.61241099345557,
+    "peak_torch_allocated_bytes": 15546880,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch1_model_only_repeat0_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 31.241215346963145,
+    "tiles": 15444,
+    "tiles_per_s": 494.34696533024794,
+    "energy_j": 2198.2750000059605,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262868802.579,
+    "energy_counter_end_j": 262871000.854,
+    "power_integrated_energy_j": 2196.5557784093066,
+    "mean_power_w": 70.36458010970587,
+    "joules_per_tile": 0.14233844858883452,
+    "microjoules_per_tile": 142338.44858883452,
+    "power_samples_inside": 311,
+    "sampled_min_power_w": 69.427,
+    "sampled_max_power_w": 71.243,
+    "counter_vs_integral_relative_difference": 0.0007826897061083709,
+    "batch_size": 1,
+    "scope": "model_only",
+    "repeat": 1,
+    "scenes": 18,
+    "idle_power_w": 55.49783589327185,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 464.45515757383396,
+    "peak_torch_allocated_bytes": 15546880,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch1_model_only_repeat1_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.62827358103823,
+    "tiles": 15444,
+    "tiles_per_s": 504.2399781083738,
+    "energy_j": 2161.2060000002384,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262872164.251,
+    "energy_counter_end_j": 262874325.457,
+    "power_integrated_energy_j": 2165.986188219386,
+    "mean_power_w": 70.56244924422471,
+    "joules_per_tile": 0.13993822843824388,
+    "microjoules_per_tile": 139938.22843824388,
+    "power_samples_inside": 305,
+    "sampled_min_power_w": 69.642,
+    "sampled_max_power_w": 71.367,
+    "counter_vs_integral_relative_difference": -0.0022069338415667246,
+    "batch_size": 1,
+    "scope": "model_only",
+    "repeat": 2,
+    "scenes": 18,
+    "idle_power_w": 55.70381701257837,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 455.0942530308964,
+    "peak_torch_allocated_bytes": 15546880,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch1_model_only_repeat2_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.852425899007358,
+    "tiles": 14586,
+    "tiles_per_s": 472.7667136369101,
+    "energy_j": 2181.7360000014305,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262875516.913,
+    "energy_counter_end_j": 262877698.649,
+    "power_integrated_energy_j": 2186.8668817060925,
+    "mean_power_w": 70.71521724557891,
+    "joules_per_tile": 0.14957740298926578,
+    "microjoules_per_tile": 149577.40298926577,
+    "power_samples_inside": 307,
+    "sampled_min_power_w": 69.938,
+    "sampled_max_power_w": 71.696,
+    "counter_vs_integral_relative_difference": -0.0023462249794825698,
+    "batch_size": 1,
+    "scope": "full_gpu_pipeline",
+    "repeat": 0,
+    "scenes": 17,
+    "idle_power_w": 55.982227996066854,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 454.54845909144274,
+    "peak_torch_allocated_bytes": 15764480,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch1_full_gpu_pipeline_repeat0_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.61093034897931,
+    "tiles": 15444,
+    "tiles_per_s": 504.52566530748925,
+    "energy_j": 2190.0699999928474,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262878831.114,
+    "energy_counter_end_j": 262881021.184,
+    "power_integrated_energy_j": 2192.7965241027446,
+    "mean_power_w": 71.54535896246855,
+    "joules_per_tile": 0.1418071743067112,
+    "microjoules_per_tile": 141807.17430671118,
+    "power_samples_inside": 305,
+    "sampled_min_power_w": 70.562,
+    "sampled_max_power_w": 72.108,
+    "counter_vs_integral_relative_difference": -0.0012434004158287213,
+    "batch_size": 1,
+    "scope": "full_gpu_pipeline",
+    "repeat": 1,
+    "scenes": 18,
+    "idle_power_w": 56.49334078420145,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 460.7562800665046,
+    "peak_torch_allocated_bytes": 15764480,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch1_full_gpu_pipeline_repeat1_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.241664843983017,
+    "tiles": 14586,
+    "tiles_per_s": 482.31471631106575,
+    "energy_j": 2160.104999989271,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262882231.625,
+    "energy_counter_end_j": 262884391.73,
+    "power_integrated_energy_j": 2165.496801151657,
+    "mean_power_w": 71.42811122116687,
+    "joules_per_tile": 0.14809440559367004,
+    "microjoules_per_tile": 148094.40559367003,
+    "power_samples_inside": 301,
+    "sampled_min_power_w": 70.681,
+    "sampled_max_power_w": 72.193,
+    "counter_vs_integral_relative_difference": -0.002489867987576094,
+    "batch_size": 1,
+    "scope": "full_gpu_pipeline",
+    "repeat": 2,
+    "scenes": 17,
+    "idle_power_w": 56.706667296187014,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 445.20097319873094,
+    "peak_torch_allocated_bytes": 15764480,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch1_full_gpu_pipeline_repeat2_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.807433193083853,
+    "tiles": 30888,
+    "tiles_per_s": 1002.6151742798953,
+    "energy_j": 2308.717999994755,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262885555.138,
+    "energy_counter_end_j": 262887863.856,
+    "power_integrated_energy_j": 2311.222733581637,
+    "mean_power_w": 74.9402907254556,
+    "joules_per_tile": 0.07474481999465019,
+    "microjoules_per_tile": 74744.81999465018,
+    "power_samples_inside": 307,
+    "sampled_min_power_w": 73.771,
+    "sampled_max_power_w": 76.019,
+    "counter_vs_integral_relative_difference": -0.001083726613834671,
+    "batch_size": 2,
+    "scope": "model_only",
+    "repeat": 0,
+    "scenes": 36,
+    "idle_power_w": 56.62873106863907,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 564.1321507885448,
+    "peak_torch_allocated_bytes": 16504832,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch2_model_only_repeat0_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.427909446065314,
+    "tiles": 31746,
+    "tiles_per_s": 1043.3184723476008,
+    "energy_j": 2286.406999975443,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262889017.439,
+    "energy_counter_end_j": 262891303.846,
+    "power_integrated_energy_j": 2290.0916568164216,
+    "mean_power_w": 75.14177088071695,
+    "joules_per_tile": 0.07202189252111897,
+    "microjoules_per_tile": 72021.89252111898,
+    "power_samples_inside": 303,
+    "sampled_min_power_w": 73.582,
+    "sampled_max_power_w": 76.062,
+    "counter_vs_integral_relative_difference": -0.0016089560564143401,
+    "batch_size": 2,
+    "scope": "model_only",
+    "repeat": 1,
+    "scenes": 37,
+    "idle_power_w": 56.85549256204088,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 556.4132207862231,
+    "peak_torch_allocated_bytes": 16504832,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch2_model_only_repeat1_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.0234883580124,
+    "tiles": 29172,
+    "tiles_per_s": 971.6392596403555,
+    "energy_j": 2243.9379999935627,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262892468.336,
+    "energy_counter_end_j": 262894712.274,
+    "power_integrated_energy_j": 2242.147604056814,
+    "mean_power_w": 74.7394164607365,
+    "joules_per_tile": 0.07692095159720151,
+    "microjoules_per_tile": 76920.9515972015,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 73.315,
+    "sampled_max_power_w": 75.845,
+    "counter_vs_integral_relative_difference": 0.0007985183194492499,
+    "batch_size": 2,
+    "scope": "model_only",
+    "repeat": 2,
+    "scenes": 34,
+    "idle_power_w": 57.24518003287992,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 525.2380037240684,
+    "peak_torch_allocated_bytes": 16504832,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch2_model_only_repeat2_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.51133213599678,
+    "tiles": 29172,
+    "tiles_per_s": 956.1037803912645,
+    "energy_j": 2263.419999986887,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262895886.761,
+    "energy_counter_end_j": 262898150.181,
+    "power_integrated_energy_j": 2265.307584040785,
+    "mean_power_w": 74.18292947349029,
+    "joules_per_tile": 0.07758878376480485,
+    "microjoules_per_tile": 77588.78376480486,
+    "power_samples_inside": 304,
+    "sampled_min_power_w": 72.868,
+    "sampled_max_power_w": 74.943,
+    "counter_vs_integral_relative_difference": -0.0008332572879710522,
+    "batch_size": 2,
+    "scope": "full_gpu_pipeline",
+    "repeat": 0,
+    "scenes": 34,
+    "idle_power_w": 56.52465034438009,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 538.7776194584212,
+    "peak_torch_allocated_bytes": 16731648,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch2_full_gpu_pipeline_repeat0_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.181569530977868,
+    "tiles": 28314,
+    "tiles_per_s": 938.1221864866562,
+    "energy_j": 2243.780000001192,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262899329.597,
+    "energy_counter_end_j": 262901573.377,
+    "power_integrated_energy_j": 2245.861790558869,
+    "mean_power_w": 74.34272090118485,
+    "joules_per_tile": 0.07924630924635134,
+    "microjoules_per_tile": 79246.30924635135,
+    "power_samples_inside": 301,
+    "sampled_min_power_w": 73.21,
+    "sampled_max_power_w": 75.467,
+    "counter_vs_integral_relative_difference": -0.0009269450891538732,
+    "batch_size": 2,
+    "scope": "full_gpu_pipeline",
+    "repeat": 1,
+    "scenes": 33,
+    "idle_power_w": 57.095740295948005,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 520.5409443363826,
+    "peak_torch_allocated_bytes": 16731648,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch2_full_gpu_pipeline_repeat1_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.26178703911137,
+    "tiles": 26598,
+    "tiles_per_s": 878.930248422667,
+    "energy_j": 2224.438999980688,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262902755.691,
+    "energy_counter_end_j": 262904980.13,
+    "power_integrated_energy_j": 2224.3713352778423,
+    "mean_power_w": 73.5065314254491,
+    "joules_per_tile": 0.08363181442141093,
+    "microjoules_per_tile": 83631.81442141093,
+    "power_samples_inside": 301,
+    "sampled_min_power_w": 73.029,
+    "sampled_max_power_w": 74.364,
+    "counter_vs_integral_relative_difference": 3.0419697364684863e-05,
+    "batch_size": 2,
+    "scope": "full_gpu_pipeline",
+    "repeat": 2,
+    "scenes": 31,
+    "idle_power_w": 56.72506562876605,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 507.8371441433537,
+    "peak_torch_allocated_bytes": 16731648,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch2_full_gpu_pipeline_repeat2_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.211958469008096,
+    "tiles": 60918,
+    "tiles_per_s": 2016.3538905460448,
+    "energy_j": 2452.5640000104904,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262906209.906,
+    "energy_counter_end_j": 262908662.47,
+    "power_integrated_energy_j": 2455.522319391869,
+    "mean_power_w": 81.17858372294432,
+    "joules_per_tile": 0.04026008733068207,
+    "microjoules_per_tile": 40260.08733068207,
+    "power_samples_inside": 301,
+    "sampled_min_power_w": 78.963,
+    "sampled_max_power_w": 82.323,
+    "counter_vs_integral_relative_difference": -0.0012047617559881791,
+    "batch_size": 4,
+    "scope": "model_only",
+    "repeat": 0,
+    "scenes": 71,
+    "idle_power_w": 56.93678305792445,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 732.3922749055532,
+    "peak_torch_allocated_bytes": 18807808,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch4_model_only_repeat0_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.12065406399779,
+    "tiles": 61776,
+    "tiles_per_s": 2050.9514789666796,
+    "energy_j": 2461.4939999878407,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262909895.497,
+    "energy_counter_end_j": 262912356.991,
+    "power_integrated_energy_j": 2465.807139726653,
+    "mean_power_w": 81.72113376946824,
+    "joules_per_tile": 0.03984547397027714,
+    "microjoules_per_tile": 39845.47397027714,
+    "power_samples_inside": 300,
+    "sampled_min_power_w": 81.035,
+    "sampled_max_power_w": 82.66,
+    "counter_vs_integral_relative_difference": -0.0017491796780548527,
+    "batch_size": 4,
+    "scope": "model_only",
+    "repeat": 1,
+    "scenes": 72,
+    "idle_power_w": 56.936253289486544,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 746.5368109550602,
+    "peak_torch_allocated_bytes": 18807808,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch4_model_only_repeat1_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.336010213010013,
+    "tiles": 62634,
+    "tiles_per_s": 2064.674937811649,
+    "energy_j": 2493.7619999945164,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262913584.402,
+    "energy_counter_end_j": 262916078.164,
+    "power_integrated_energy_j": 2490.9050195551913,
+    "mean_power_w": 82.20467960302283,
+    "joules_per_tile": 0.03981482900652228,
+    "microjoules_per_tile": 39814.829006522275,
+    "power_samples_inside": 302,
+    "sampled_min_power_w": 81.559,
+    "sampled_max_power_w": 82.994,
+    "counter_vs_integral_relative_difference": 0.001146964824790971,
+    "batch_size": 4,
+    "scope": "model_only",
+    "repeat": 2,
+    "scenes": 73,
+    "idle_power_w": 57.50095065815566,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 749.4125735709215,
+    "peak_torch_allocated_bytes": 18807808,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch4_model_only_repeat2_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.13633964897599,
+    "tiles": 51480,
+    "tiles_per_s": 1708.2366538083947,
+    "energy_j": 2385.0679999887943,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262917268.947,
+    "energy_counter_end_j": 262919654.015,
+    "power_integrated_energy_j": 2383.0071333312167,
+    "mean_power_w": 79.14259089755902,
+    "joules_per_tile": 0.04632999222977456,
+    "microjoules_per_tile": 46329.99222977456,
+    "power_samples_inside": 300,
+    "sampled_min_power_w": 78.453,
+    "sampled_max_power_w": 79.843,
+    "counter_vs_integral_relative_difference": 0.0008648176620003514,
+    "batch_size": 4,
+    "scope": "full_gpu_pipeline",
+    "repeat": 0,
+    "scenes": 60,
+    "idle_power_w": 57.18534168848444,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 661.7111199218809,
+    "peak_torch_allocated_bytes": 19053568,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch4_full_gpu_pipeline_repeat0_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.323311327956617,
+    "tiles": 55770,
+    "tiles_per_s": 1839.179085583004,
+    "energy_j": 2430.8650000095367,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262920860.278,
+    "energy_counter_end_j": 262923291.143,
+    "power_integrated_energy_j": 2429.553132888285,
+    "mean_power_w": 80.16489273611742,
+    "joules_per_tile": 0.04358732293364778,
+    "microjoules_per_tile": 43587.32293364778,
+    "power_samples_inside": 302,
+    "sampled_min_power_w": 78.338,
+    "sampled_max_power_w": 81.429,
+    "counter_vs_integral_relative_difference": 0.0005399623097323838,
+    "batch_size": 4,
+    "scope": "full_gpu_pipeline",
+    "repeat": 1,
+    "scenes": 65,
+    "idle_power_w": 57.05923723423443,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 700.6399852201118,
+    "peak_torch_allocated_bytes": 19053568,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch4_full_gpu_pipeline_repeat1_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.374885718920268,
+    "tiles": 52338,
+    "tiles_per_s": 1723.068211163642,
+    "energy_j": 2402.680999994278,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262924474.826,
+    "energy_counter_end_j": 262926877.507,
+    "power_integrated_energy_j": 2403.892387287792,
+    "mean_power_w": 79.10090665782053,
+    "joules_per_tile": 0.04590700829214486,
+    "microjoules_per_tile": 45907.00829214486,
+    "power_samples_inside": 303,
+    "sampled_min_power_w": 78.287,
+    "sampled_max_power_w": 79.868,
+    "counter_vs_integral_relative_difference": -0.0005039274220095148,
+    "batch_size": 4,
+    "scope": "full_gpu_pipeline",
+    "repeat": 2,
+    "scenes": 61,
+    "idle_power_w": 56.81549129569059,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 676.916944823367,
+    "peak_torch_allocated_bytes": 19053568,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch4_full_gpu_pipeline_repeat2_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.063761334051378,
+    "tiles": 124410,
+    "tiles_per_s": 4138.204751482258,
+    "energy_j": 2872.673999994993,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262928234.148,
+    "energy_counter_end_j": 262931106.822,
+    "power_integrated_energy_j": 2870.308065504882,
+    "mean_power_w": 95.55271438179265,
+    "joules_per_tile": 0.023090378586890066,
+    "microjoules_per_tile": 23090.378586890067,
+    "power_samples_inside": 300,
+    "sampled_min_power_w": 94.463,
+    "sampled_max_power_w": 96.532,
+    "counter_vs_integral_relative_difference": 0.0008242789401405226,
+    "batch_size": 8,
+    "scope": "model_only",
+    "repeat": 0,
+    "scenes": 145,
+    "idle_power_w": 57.16355434824688,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 1154.122545063224,
+    "peak_torch_allocated_bytes": 23413760,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch8_model_only_repeat0_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.03814856009558,
+    "tiles": 113256,
+    "tiles_per_s": 3770.405481996179,
+    "energy_j": 2790.122999995947,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262932466.923,
+    "energy_counter_end_j": 262935257.046,
+    "power_integrated_energy_j": 2796.7880584431027,
+    "mean_power_w": 92.88598444787334,
+    "joules_per_tile": 0.024635542487779428,
+    "microjoules_per_tile": 24635.54248777943,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 88.997,
+    "sampled_max_power_w": 96.214,
+    "counter_vs_integral_relative_difference": -0.002383111736706321,
+    "batch_size": 8,
+    "scope": "model_only",
+    "repeat": 1,
+    "scenes": 132,
+    "idle_power_w": 57.813321208820255,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 1053.5178687728796,
+    "peak_torch_allocated_bytes": 23413760,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch8_model_only_repeat1_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.035764614935033,
+    "tiles": 119262,
+    "tiles_per_s": 3970.666354892726,
+    "energy_j": 2847.9829999804497,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262936586.233,
+    "energy_counter_end_j": 262939434.216,
+    "power_integrated_energy_j": 2839.9474312796387,
+    "mean_power_w": 94.81972696524309,
+    "joules_per_tile": 0.023880053998595108,
+    "microjoules_per_tile": 23880.053998595107,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 89.915,
+    "sampled_max_power_w": 96.574,
+    "counter_vs_integral_relative_difference": 0.0028294779728335385,
+    "batch_size": 8,
+    "scope": "model_only",
+    "repeat": 2,
+    "scenes": 139,
+    "idle_power_w": 57.88367460525393,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 1109.40257448955,
+    "peak_torch_allocated_bytes": 23413760,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch8_model_only_repeat2_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.177677582018077,
+    "tiles": 102960,
+    "tiles_per_s": 3411.7933601805926,
+    "energy_j": 2747.524000018835,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262940743.709,
+    "energy_counter_end_j": 262943491.233,
+    "power_integrated_energy_j": 2750.463578480885,
+    "mean_power_w": 91.04491200661504,
+    "joules_per_tile": 0.02668535353553647,
+    "microjoules_per_tile": 26685.353535536473,
+    "power_samples_inside": 301,
+    "sampled_min_power_w": 89.476,
+    "sampled_max_power_w": 94.309,
+    "counter_vs_integral_relative_difference": -0.0010687574578514096,
+    "batch_size": 8,
+    "scope": "full_gpu_pipeline",
+    "repeat": 0,
+    "scenes": 120,
+    "idle_power_w": 57.75986998932202,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 1004.4652663017932,
+    "peak_torch_allocated_bytes": 23697408,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch8_full_gpu_pipeline_repeat0_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.004364247899503,
+    "tiles": 109824,
+    "tiles_per_s": 3660.2675228383946,
+    "energy_j": 2778.15600001812,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262944861.501,
+    "energy_counter_end_j": 262947639.657,
+    "power_integrated_energy_j": 2783.360206700698,
+    "mean_power_w": 92.59173022513245,
+    "joules_per_tile": 0.025296437937227925,
+    "microjoules_per_tile": 25296.437937227925,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 89.641,
+    "sampled_max_power_w": 94.76,
+    "counter_vs_integral_relative_difference": -0.0018697568033234475,
+    "batch_size": 8,
+    "scope": "full_gpu_pipeline",
+    "repeat": 1,
+    "scenes": 128,
+    "idle_power_w": 58.451897680096614,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 1024.3439710435491,
+    "peak_torch_allocated_bytes": 23697408,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch8_full_gpu_pipeline_repeat1_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.13251017499715,
+    "tiles": 110682,
+    "tiles_per_s": 3673.1755621156267,
+    "energy_j": 2799.194000005722,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262948990.541,
+    "energy_counter_end_j": 262951789.735,
+    "power_integrated_energy_j": 2808.38230883383,
+    "mean_power_w": 92.89614385755324,
+    "joules_per_tile": 0.02529041759279487,
+    "microjoules_per_tile": 25290.41759279487,
+    "power_samples_inside": 300,
+    "sampled_min_power_w": 90.147,
+    "sampled_max_power_w": 94.725,
+    "counter_vs_integral_relative_difference": -0.003271744306039053,
+    "batch_size": 8,
+    "scope": "full_gpu_pipeline",
+    "repeat": 2,
+    "scenes": 129,
+    "idle_power_w": 58.240098339029444,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 1044.2736442120827,
+    "peak_torch_allocated_bytes": 23697408,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch8_full_gpu_pipeline_repeat2_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.0638599160593,
+    "tiles": 224796,
+    "tiles_per_s": 7477.283377039688,
+    "energy_j": 4309.635999977589,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262953581.925,
+    "energy_counter_end_j": 262957891.561,
+    "power_integrated_energy_j": 4315.667816828508,
+    "mean_power_w": 143.3493906640876,
+    "joules_per_tile": 0.019171319774273513,
+    "microjoules_per_tile": 19171.319774273514,
+    "power_samples_inside": 300,
+    "sampled_min_power_w": 138.234,
+    "sampled_max_power_w": 150.92,
+    "counter_vs_integral_relative_difference": -0.0013976554978116843,
+    "batch_size": 16,
+    "scope": "model_only",
+    "repeat": 0,
+    "scenes": 262,
+    "idle_power_w": 58.25297783293447,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 2558.3266347149392,
+    "peak_torch_allocated_bytes": 32626176,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch16_model_only_repeat0_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.059064146946184,
+    "tiles": 226512,
+    "tiles_per_s": 7535.563944794742,
+    "energy_j": 4374.871999979019,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262959727.02,
+    "energy_counter_end_j": 262964101.892,
+    "power_integrated_energy_j": 4366.113751464072,
+    "mean_power_w": 145.54252183607915,
+    "joules_per_tile": 0.01931408490490137,
+    "microjoules_per_tile": 19314.08490490137,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 140.07,
+    "sampled_max_power_w": 152.172,
+    "counter_vs_integral_relative_difference": 0.002005959765022162,
+    "batch_size": 16,
+    "scope": "model_only",
+    "repeat": 1,
+    "scenes": 264,
+    "idle_power_w": 61.04425242674683,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 2539.938900481061,
+    "peak_torch_allocated_bytes": 32626176,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch16_model_only_repeat1_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.057204209966585,
+    "tiles": 246246,
+    "tiles_per_s": 8192.578334293246,
+    "energy_j": 4569.581999987364,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262966033.675,
+    "energy_counter_end_j": 262970603.257,
+    "power_integrated_energy_j": 4579.763485665902,
+    "mean_power_w": 152.02950906765136,
+    "joules_per_tile": 0.01855697960570878,
+    "microjoules_per_tile": 18556.97960570878,
+    "power_samples_inside": 300,
+    "sampled_min_power_w": 149.989,
+    "sampled_max_power_w": 155.05,
+    "counter_vs_integral_relative_difference": -0.0022231466123535403,
+    "batch_size": 16,
+    "scope": "model_only",
+    "repeat": 2,
+    "scenes": 287,
+    "idle_power_w": 61.82824779302261,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 2711.1977301280676,
+    "peak_torch_allocated_bytes": 32626176,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch16_model_only_repeat2_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.07642117002979,
+    "tiles": 216216,
+    "tiles_per_s": 7188.887227561917,
+    "energy_j": 4341.772000014782,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262972427.478,
+    "energy_counter_end_j": 262976769.25,
+    "power_integrated_energy_j": 4349.512583220218,
+    "mean_power_w": 144.3579997590013,
+    "joules_per_tile": 0.020080715580783948,
+    "microjoules_per_tile": 20080.715580783948,
+    "power_samples_inside": 300,
+    "sampled_min_power_w": 136.133,
+    "sampled_max_power_w": 149.071,
+    "counter_vs_integral_relative_difference": -0.0017796438238386722,
+    "batch_size": 16,
+    "scope": "full_gpu_pipeline",
+    "repeat": 0,
+    "scenes": 252,
+    "idle_power_w": 64.5620608634443,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 2399.976265880734,
+    "peak_torch_allocated_bytes": 32985600,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch16_full_gpu_pipeline_repeat0_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.066412967978977,
+    "tiles": 199914,
+    "tiles_per_s": 6649.08049433467,
+    "energy_j": 4223.078999996185,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262978676.171,
+    "energy_counter_end_j": 262982899.25,
+    "power_integrated_energy_j": 4232.107714010515,
+    "mean_power_w": 140.45835811853598,
+    "joules_per_tile": 0.021124478525746997,
+    "microjoules_per_tile": 21124.478525746996,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 136.137,
+    "sampled_max_power_w": 147.688,
+    "counter_vs_integral_relative_difference": -0.002133384739816573,
+    "batch_size": 16,
+    "scope": "full_gpu_pipeline",
+    "repeat": 1,
+    "scenes": 233,
+    "idle_power_w": 63.173675866703064,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 2323.673172682644,
+    "peak_torch_allocated_bytes": 32985600,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch16_full_gpu_pipeline_repeat1_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.068028104957193,
+    "tiles": 222222,
+    "tiles_per_s": 7390.640956709867,
+    "energy_j": 4426.291000008583,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262984725.304,
+    "energy_counter_end_j": 262989151.595,
+    "power_integrated_energy_j": 4422.376911098209,
+    "mean_power_w": 147.20922118862987,
+    "joules_per_tile": 0.019918329418368044,
+    "microjoules_per_tile": 19918.329418368045,
+    "power_samples_inside": 300,
+    "sampled_min_power_w": 142.055,
+    "sampled_max_power_w": 148.515,
+    "counter_vs_integral_relative_difference": 0.0008850645227798403,
+    "batch_size": 16,
+    "scope": "full_gpu_pipeline",
+    "repeat": 2,
+    "scenes": 259,
+    "idle_power_w": 64.25245591928093,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 2494.3463496151207,
+    "peak_torch_allocated_bytes": 32985600,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch16_full_gpu_pipeline_repeat2_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.045507653034292,
+    "tiles": 432432,
+    "tiles_per_s": 14392.567600911505,
+    "energy_j": 6351.731000006199,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 262991652.375,
+    "energy_counter_end_j": 262998004.106,
+    "power_integrated_energy_j": 6367.884871820892,
+    "mean_power_w": 211.40368381709598,
+    "joules_per_tile": 0.014688392625906961,
+    "microjoules_per_tile": 14688.392625906961,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 205.489,
+    "sampled_max_power_w": 218.08,
+    "counter_vs_integral_relative_difference": -0.0025367719642949292,
+    "batch_size": 32,
+    "scope": "model_only",
+    "repeat": 0,
+    "scenes": 504,
+    "idle_power_w": 62.48077256241939,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 4474.464469814532,
+    "peak_torch_allocated_bytes": 51051008,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch32_model_only_repeat0_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.0170586979948,
+    "tiles": 425568,
+    "tiles_per_s": 14177.538321848597,
+    "energy_j": 6174.986999988556,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 263000531.941,
+    "energy_counter_end_j": 263006706.928,
+    "power_integrated_energy_j": 6184.349813084722,
+    "mean_power_w": 205.7159251382967,
+    "joules_per_tile": 0.01450998900290566,
+    "microjoules_per_tile": 14509.989002905659,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 202.102,
+    "sampled_max_power_w": 212.38,
+    "counter_vs_integral_relative_difference": -0.0015139526998224477,
+    "batch_size": 32,
+    "scope": "model_only",
+    "repeat": 1,
+    "scenes": 496,
+    "idle_power_w": 69.40373757054113,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 4091.690935473396,
+    "peak_torch_allocated_bytes": 51051008,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch32_model_only_repeat1_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.034108860068955,
+    "tiles": 424710,
+    "tiles_per_s": 14140.922308657602,
+    "energy_j": 6176.938999980688,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 263009174.816,
+    "energy_counter_end_j": 263015351.755,
+    "power_integrated_energy_j": 6167.101763782595,
+    "mean_power_w": 205.66413436001997,
+    "joules_per_tile": 0.014543898189307264,
+    "microjoules_per_tile": 14543.898189307263,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 200.571,
+    "sampled_max_power_w": 211.711,
+    "counter_vs_integral_relative_difference": 0.001595114946191373,
+    "batch_size": 32,
+    "scope": "model_only",
+    "repeat": 2,
+    "scenes": 495,
+    "idle_power_w": 64.1823022760673,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 4249.280746531431,
+    "peak_torch_allocated_bytes": 51051008,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch32_model_only_repeat2_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.019488019985147,
+    "tiles": 423852,
+    "tiles_per_s": 14119.228139994431,
+    "energy_j": 6165.782000005245,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 263017678.169,
+    "energy_counter_end_j": 263023843.951,
+    "power_integrated_energy_j": 6157.41981362529,
+    "mean_power_w": 205.39264346881743,
+    "joules_per_tile": 0.014547016411401256,
+    "microjoules_per_tile": 14547.016411401257,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 186.463,
+    "sampled_max_power_w": 210.234,
+    "counter_vs_integral_relative_difference": 0.001358066630677235,
+    "batch_size": 32,
+    "scope": "full_gpu_pipeline",
+    "repeat": 0,
+    "scenes": 494,
+    "idle_power_w": 65.95396286748975,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 4185.877801834092,
+    "peak_torch_allocated_bytes": 51561984,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch32_full_gpu_pipeline_repeat0_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.061856815009378,
+    "tiles": 371514,
+    "tiles_per_s": 12358.318459374383,
+    "energy_j": 5709.409999996424,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 263026210.083,
+    "energy_counter_end_j": 263031919.493,
+    "power_integrated_energy_j": 5707.092538495776,
+    "mean_power_w": 189.922067526641,
+    "joules_per_tile": 0.01536795383214744,
+    "microjoules_per_tile": 15367.95383214744,
+    "power_samples_inside": 300,
+    "sampled_min_power_w": 186.165,
+    "sampled_max_power_w": 194.69,
+    "counter_vs_integral_relative_difference": 0.00040606692199495755,
+    "batch_size": 32,
+    "scope": "full_gpu_pipeline",
+    "repeat": 1,
+    "scenes": 433,
+    "idle_power_w": 66.04636758985771,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 3723.9335543586453,
+    "peak_torch_allocated_bytes": 51561984,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch32_full_gpu_pipeline_repeat1_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.01345271500759,
+    "tiles": 375804,
+    "tiles_per_s": 12521.185202130617,
+    "energy_j": 5707.215000003576,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 263034251.215,
+    "energy_counter_end_j": 263039958.43,
+    "power_integrated_energy_j": 5709.607832343783,
+    "mean_power_w": 190.1552298629676,
+    "joules_per_tile": 0.015186679758607083,
+    "microjoules_per_tile": 15186.679758607082,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 185.051,
+    "sampled_max_power_w": 207.639,
+    "counter_vs_integral_relative_difference": -0.00041908873787303494,
+    "batch_size": 32,
+    "scope": "full_gpu_pipeline",
+    "repeat": 2,
+    "scenes": 438,
+    "idle_power_w": 65.57202469977837,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 3739.1721372494685,
+    "peak_torch_allocated_bytes": 51561984,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch32_full_gpu_pipeline_repeat2_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.01992772903759,
+    "tiles": 783354,
+    "tiles_per_s": 26094.466551372792,
+    "energy_j": 9962.503999978304,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 263043489.423,
+    "energy_counter_end_j": 263053451.927,
+    "power_integrated_energy_j": 9929.837572988952,
+    "mean_power_w": 331.8630241185358,
+    "joules_per_tile": 0.012717754680487116,
+    "microjoules_per_tile": 12717.754680487116,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 317.919,
+    "sampled_max_power_w": 352.779,
+    "counter_vs_integral_relative_difference": 0.003289724202358621,
+    "batch_size": 64,
+    "scope": "model_only",
+    "repeat": 0,
+    "scenes": 913,
+    "idle_power_w": 66.84605343498013,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 7955.790306888815,
+    "peak_torch_allocated_bytes": 87900672,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch64_model_only_repeat0_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.02967805392109,
+    "tiles": 857142,
+    "tiles_per_s": 28543.163148833017,
+    "energy_j": 10627.152000010014,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 263057291.635,
+    "energy_counter_end_j": 263067918.787,
+    "power_integrated_energy_j": 10602.323927968975,
+    "mean_power_w": 353.88830945599784,
+    "joules_per_tile": 0.01239835639836808,
+    "microjoules_per_tile": 12398.356398368081,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 344.985,
+    "sampled_max_power_w": 360.081,
+    "counter_vs_integral_relative_difference": 0.002341757543885441,
+    "batch_size": 64,
+    "scope": "model_only",
+    "repeat": 1,
+    "scenes": 999,
+    "idle_power_w": 82.23225412386218,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 8157.743883022207,
+    "peak_torch_allocated_bytes": 87900672,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch64_model_only_repeat1_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.01031368796248,
+    "tiles": 795366,
+    "tiles_per_s": 26503.08851383421,
+    "energy_j": 9688.783999979496,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 263071546.312,
+    "energy_counter_end_j": 263081235.096,
+    "power_integrated_energy_j": 9678.068155775163,
+    "mean_power_w": 322.84847471840294,
+    "joules_per_tile": 0.012181541579574053,
+    "microjoules_per_tile": 12181.541579574052,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 303.712,
+    "sampled_max_power_w": 348.302,
+    "counter_vs_integral_relative_difference": 0.0011072296693776012,
+    "batch_size": 64,
+    "scope": "model_only",
+    "repeat": 2,
+    "scenes": 927,
+    "idle_power_w": 84.42131937534286,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 7155.273723573791,
+    "peak_torch_allocated_bytes": 87900672,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch64_model_only_repeat2_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.021899026003666,
+    "tiles": 715572,
+    "tiles_per_s": 23835.001222947376,
+    "energy_j": 8950.673000007868,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 263084726.873,
+    "energy_counter_end_j": 263093677.546,
+    "power_integrated_energy_j": 8964.96442807432,
+    "mean_power_w": 298.1381355075235,
+    "joules_per_tile": 0.0125084170426007,
+    "microjoules_per_tile": 12508.4170426007,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 291.011,
+    "sampled_max_power_w": 305.959,
+    "counter_vs_integral_relative_difference": -0.0015941421944405394,
+    "batch_size": 64,
+    "scope": "full_gpu_pipeline",
+    "repeat": 0,
+    "scenes": 834,
+    "idle_power_w": 82.23050992116961,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 6481.956934297721,
+    "peak_torch_allocated_bytes": 88714752,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch64_full_gpu_pipeline_repeat0_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.008575311047025,
+    "tiles": 700986,
+    "tiles_per_s": 23359.52282752813,
+    "energy_j": 8801.67000001669,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 263097028.734,
+    "energy_counter_end_j": 263105830.404,
+    "power_integrated_energy_j": 8803.665390326129,
+    "mean_power_w": 293.30516056777077,
+    "joules_per_tile": 0.01255612808246768,
+    "microjoules_per_tile": 12556.12808246768,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 281.096,
+    "sampled_max_power_w": 300.767,
+    "counter_vs_integral_relative_difference": -0.00022665449230179407,
+    "batch_size": 64,
+    "scope": "full_gpu_pipeline",
+    "repeat": 1,
+    "scenes": 817,
+    "idle_power_w": 77.02032840802416,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 6490.399674502922,
+    "peak_torch_allocated_bytes": 88714752,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch64_full_gpu_pipeline_repeat1_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  },
+  {
+    "duration_s": 30.012689731898718,
+    "tiles": 654654,
+    "tiles_per_s": 21812.573476352132,
+    "energy_j": 8575.760000020266,
+    "energy_method": "nvml_energy_counter",
+    "energy_counter_start_j": 263109013.306,
+    "energy_counter_end_j": 263117589.066,
+    "power_integrated_energy_j": 8548.074728765134,
+    "mean_power_w": 285.73780213059666,
+    "joules_per_tile": 0.013099683191457268,
+    "microjoules_per_tile": 13099.683191457267,
+    "power_samples_inside": 299,
+    "sampled_min_power_w": 264.577,
+    "sampled_max_power_w": 317.391,
+    "counter_vs_integral_relative_difference": 0.003238772721764821,
+    "batch_size": 64,
+    "scope": "full_gpu_pipeline",
+    "repeat": 2,
+    "scenes": 763,
+    "idle_power_w": 76.52159350018037,
+    "idle_settle_seconds": 2.0,
+    "incremental_energy_j": 6279.141156508875,
+    "peak_torch_allocated_bytes": 88714752,
+    "processes_before": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "processes_after": {
+      "other_pids": [
+        4112,
+        3467119
+      ],
+      "unavailable": [],
+      "compute_pids": [],
+      "graphics_pids": [
+        4112,
+        3467119
+      ],
+      "display_pids": [
+        4112,
+        3467119
+      ],
+      "process_names": {
+        "4112": "/usr/lib/xorg/Xorg",
+        "3467119": "/usr/lib/xorg/Xorg"
+      },
+      "process_name_errors": {},
+      "allowed_display_pids": [
+        4112,
+        3467119
+      ],
+      "blocking_pids": [],
+      "process_policy": "allow_display_only"
+    },
+    "energy_unavailable_reason": null,
+    "power_csv": "batch64_full_gpu_pipeline_repeat2_power.csv",
+    "exclusive_at_boundaries": false,
+    "no_other_compute_at_boundaries": true,
+    "display_present_at_boundaries": true,
+    "process_condition": "display_background_only"
+  }
+]

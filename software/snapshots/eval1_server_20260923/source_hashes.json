@@ -1,0 +1,8 @@
+{
+  "both_FPGA_single_qat_source.py": "765804bf8541a3692ef420cd6b8292f294cf0c64ce9912af1b43b86b0759e42c",
+  "train_mambahsi_spatial_split_dense_qat.py": "aee89074a695b4ba0572a347b7e64e2ddab65495719c033317594dbbb9803cef",
+  "ssm_error_ablation.py": "56b05cc9ca2724bd7fa4ed784fc59bf380193f84754d0cce623981f6df1156e3",
+  "ssm_d_path.py": "fcd8b46e11eeddbd72c4b16c9846ee9b3a1d789d16981426aa3ec98b54c5e3fe",
+  "qat_forensics.py": "9dc45780a59c91f208e979e339bff5860a9ba2592c3dd6e8df1a1c45e11126a1",
+  "run_fpga_qat_eval1_four_datasets.py": "c84df5e948ec4f1495fedf95b492a397bfe4bbcdbdec3e9af7a7277879535607"
+}

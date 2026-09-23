@@ -1,0 +1,15 @@
+batch_size,scope,repeats,mean_power_w,sd_power_w,tiles_per_s,microjoules_per_tile,sd_microjoules_per_tile,all_exclusive_at_boundaries,all_no_other_compute_at_boundaries,any_display_present_at_boundaries,process_conditions,energy_methods
+1,model_only,3,70.25917118770182,0.36750079375685435,505.08699852783275,139156.4100289316,3636.5348543802575,False,True,True,display_background_only,nvml_energy_counter
+1,full_gpu_pipeline,3,71.22956247640478,0.4492772201715469,486.5356984184884,146492.994296549,4125.227515144912,False,True,True,display_background_only,nvml_energy_counter
+2,model_only,3,74.94049268896968,0.2011772860225402,1005.8576354226172,74562.55470432356,2454.6100372116216,False,True,True,display_background_only,nvml_energy_counter
+2,full_gpu_pipeline,3,74.01072726670807,0.44389571956519813,924.385405100196,80155.63581085572,3122.4527185940224,False,True,True,display_background_only,nvml_energy_counter
+4,model_only,3,81.70146569847846,0.5133306084200144,2043.9934357747911,39973.463435827165,248.69604194122778,False,True,True,display_background_only,nvml_energy_counter
+4,full_gpu_pipeline,3,79.46946343049899,0.6026199741921483,1756.8279835183469,45274.77448518907,1476.600286798191,False,True,True,display_background_only,nvml_energy_counter
+8,model_only,3,94.41947526496969,1.3776839996146195,3959.7588627903874,23868.658357754866,772.6449803276581,False,True,True,display_background_only,nvml_energy_counter
+8,full_gpu_pipeline,3,92.17759536310024,0.9926709446966053,3581.745481711538,25757.40302185309,803.6343559235843,False,True,True,display_background_only,nvml_energy_counter
+16,model_only,3,146.9738071892727,4.513595816715471,7735.141885375892,19014.128094961223,402.2860009373171,False,True,True,display_background_only,nvml_energy_counter
+16,full_gpu_pipeline,3,144.00852635538905,3.3889728226504867,7076.202892868818,20374.507841632996,654.5489566937347,False,True,True,display_background_only,nvml_energy_counter
+32,model_only,3,207.59458110513756,3.2988813518926996,14237.009410472569,14580.759939373294,94.74204261280012,False,True,True,display_background_only,nvml_energy_counter
+32,full_gpu_pipeline,3,195.15664695280867,8.865399577885805,12999.577267166476,15033.883334051927,431.2709388690343,False,True,True,display_background_only,nvml_energy_counter
+64,model_only,3,336.19993609764555,15.967919065119595,27046.90607134667,12432.550886143083,269.7370379524234,False,True,True,display_background_only,nvml_energy_counter
+64,full_gpu_pipeline,3,292.39369940196366,6.250211041021912,23002.365842275878,12721.409438841882,328.4621131418218,False,True,True,display_background_only,nvml_energy_counter

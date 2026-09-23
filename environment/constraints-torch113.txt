@@ -1,0 +1,9 @@
+# Use with every pip install in this recommended environment.
+# These protect the installed Torch ABI and keep pre-NumPy-2 compatibility.
+torch==1.13.1
+torchvision==0.14.1
+torchaudio==0.13.1
+numpy==1.24.4
+transformers==4.38.2
+triton==2.2.0
+packaging==24.0

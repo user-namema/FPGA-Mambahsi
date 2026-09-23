@@ -1,0 +1,117 @@
+{
+  "arguments": {
+    "fp32_dir": "$PROJECT_ROOT/results/SPATIAL_SPLIT_3WAY_DENSE/UP_all_samples_sqrt_inverse_clip3_2000_nobias/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16",
+    "qat_run_dir": null,
+    "model_kind": "fp32",
+    "model_path": null,
+    "data_path": "$PROJECT_ROOT/data",
+    "seed": 0,
+    "device": "cuda:0",
+    "batch_sizes": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scopes": [
+      "model_only",
+      "full_gpu_pipeline"
+    ],
+    "seconds": 30.0,
+    "warmup_seconds": 10.0,
+    "idle_seconds": 5.0,
+    "sample_ms": 100.0,
+    "repeats": 3,
+    "output_dir": "./gpu_power_UP_gpu0_display_v2",
+    "allow_tf32": false,
+    "allow_reference_scan": false,
+    "allow_other_processes": false,
+    "allow_display_processes": true,
+    "dry_run": false,
+    "dataset": "UP",
+    "hidden_dim": null,
+    "token_num": null
+  },
+  "nvml": {
+    "cuda_index": 0,
+    "pci_bus_id": "0000:17:00.0",
+    "uuid": "GPU-dd2a4adc-0ff6-244b-c86d-f19fdb3233da",
+    "name": "NVIDIA GeForce RTX 4090",
+    "driver": "580.178.04",
+    "cuda_visible_devices": null,
+    "power_scope": "NVML device including associated circuitry; not per-process or wall-plug",
+    "power_limit_w": 450.0
+  },
+  "initial_processes": {
+    "other_pids": [
+      4112,
+      3467119
+    ],
+    "unavailable": [],
+    "compute_pids": [],
+    "graphics_pids": [
+      4112,
+      3467119
+    ],
+    "display_pids": [
+      4112,
+      3467119
+    ],
+    "process_names": {
+      "4112": "/usr/lib/xorg/Xorg",
+      "3467119": "/usr/lib/xorg/Xorg"
+    },
+    "process_name_errors": {},
+    "allowed_display_pids": [
+      4112,
+      3467119
+    ],
+    "blocking_pids": [],
+    "process_policy": "allow_display_only"
+  },
+  "torch_version": "1.13.1",
+  "cuda_version": "11.7",
+  "checkpoint": "$PROJECT_ROOT/results/SPATIAL_SPLIT_3WAY_DENSE/UP_all_samples_sqrt_inverse_clip3_2000_nobias/current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16/run_seed0/best_model.pth",
+  "checkpoint_sha256": "0ef0103571b277ff39e7b032e9ac4c67ce991ba67bfed642235a61a1329cfaa8",
+  "config": {
+    "model_variant": "current",
+    "hidden_dim": 32,
+    "branch_mode": "both",
+    "fusion_mode": "sum",
+    "skip_scale": 2,
+    "use_z": false,
+    "use_D": true,
+    "A_mode": "shared",
+    "norm_path": "bn",
+    "activation": "relu",
+    "head_dim": 64,
+    "token_num": 4,
+    "d_state": 16,
+    "block_count": 3,
+    "downsample_count": 2,
+    "d_conv": 4,
+    "expand": 2,
+    "group_num": 4,
+    "linear_bias": false,
+    "conv_bias": true,
+    "branch_residual": false,
+    "spa_batch_safe": true,
+    "dt_bias_placement": "dt_proj_output_once",
+    "in_channels": 16,
+    "num_classes": 9,
+    "selective_scan_backend": "mamba_ssm_optimized"
+  },
+  "backend": "mamba_ssm_optimized",
+  "tile_count": 858,
+  "scene_shape": [
+    610,
+    340
+  ],
+  "preprocess_seconds_excluded": 0.662114133941941,
+  "protocol": "GPU-resident input; complete-scene loop, synchronize after each scene; no PCA/H2D/disk in measurement",
+  "power_note": "NVML telemetry includes device idle/background power; on RTX4090 power usage is ~1s averaged, polling faster does not improve sensor resolution",
+  "execution": "FP32 CUDA"
+}

@@ -1,0 +1,365 @@
+{
+  "snapshot_date": "2026-09-22",
+  "files": [
+    {
+      "source": "train_mambahsi_spatial_split_128_dense.py",
+      "destination": "software/train_mambahsi_spatial_split_128_dense.py",
+      "sha256": "86f295ed31e658e6d4f339bd83beff2be310f05be32e5f73150b4b0054d50a6b"
+    },
+    {
+      "source": "mambahsi_ablation_model.py",
+      "destination": "software/mambahsi_ablation_model.py",
+      "sha256": "c30588f580db04944fd7254318fd7d013b2a72f845b566f4e2028f184508a6b5"
+    },
+    {
+      "source": "train_mambahsi_spatial_split_dense_qat.py",
+      "destination": "software/train_mambahsi_spatial_split_dense_qat.py",
+      "sha256": "aee89074a695b4ba0572a347b7e64e2ddab65495719c033317594dbbb9803cef"
+    },
+    {
+      "source": "qat_forensics.py",
+      "destination": "software/qat_forensics.py",
+      "sha256": "9dc45780a59c91f208e979e339bff5860a9ba2592c3dd6e8df1a1c45e11126a1"
+    },
+    {
+      "source": "both_FPGA_single_qat_source.py",
+      "destination": "software/both_FPGA_single_qat_source.py",
+      "sha256": "d02d8f2bc2dfff0b27435334a2f0afe0ff67070b6250365d37a205b8d576d023"
+    },
+    {
+      "source": "ssm_error_ablation.py",
+      "destination": "software/ssm_error_ablation.py",
+      "sha256": "56b05cc9ca2724bd7fa4ed784fc59bf380193f84754d0cce623981f6df1156e3"
+    },
+    {
+      "source": "ssm_d_path.py",
+      "destination": "software/ssm_d_path.py",
+      "sha256": "fcd8b46e11eeddbd72c4b16c9846ee9b3a1d789d16981426aa3ec98b54c5e3fe"
+    },
+    {
+      "source": "train_shared_a_frozen_pair.py",
+      "destination": "software/train_shared_a_frozen_pair.py",
+      "sha256": "099609a811a6c8c86b39e6af895aafc3c1f858cbdc41d7c6af654c79a890a17a"
+    },
+    {
+      "source": "analyze_alog_dynamics.py",
+      "destination": "software/analyze_alog_dynamics.py",
+      "sha256": "14d3b8fdc44db1f5b024479b466d45f8ec3de5fac60364b1f3d0daf57f5321dd"
+    },
+    {
+      "source": "run_current_a_gpu_experiments.py",
+      "destination": "software/run_current_a_gpu_experiments.py",
+      "sha256": "94045c88fc3036f096726d0d67377fa8a10d8d0d57c3f3df63ad6b8eced9a241"
+    },
+    {
+      "source": "run_qat_stability_sweep.py",
+      "destination": "software/run_qat_stability_sweep.py",
+      "sha256": "59584b965c4fc221fafdf28b7005cf29770c9d9dbcd19647d59096df0469b6d9"
+    },
+    {
+      "source": "replay_qat_jump.py",
+      "destination": "software/replay_qat_jump.py",
+      "sha256": "ae88c778d0bec0abc00f31e1a0129b0c1652173992b05d807222c4bcfb9ad03f"
+    },
+    {
+      "source": "run_max_init_qat_fpga.py",
+      "destination": "software/run_max_init_qat_fpga.py",
+      "sha256": "bfe40ec4904bb26715b829c80b0faf551266fad3df40b48000ef80538aa668be"
+    },
+    {
+      "source": "run_qat_eval_batch1_four_datasets.py",
+      "destination": "software/run_qat_eval_batch1_four_datasets.py",
+      "sha256": "3e928985da99e2e702c175956944f52d8dc1f97bc5a3746f11f2b305546793b6"
+    },
+    {
+      "source": "run_fpga_qat_eval1_four_datasets.py",
+      "destination": "software/run_fpga_qat_eval1_four_datasets.py",
+      "sha256": "4877cd61b4a8649b189c768ead0d9a9ad24f6ab806eee0cbb96704288b5c3efc"
+    },
+    {
+      "source": "run_fpga_error_sweep.py",
+      "destination": "software/run_fpga_error_sweep.py",
+      "sha256": "6ca20bacec326b6e162c45155fc169c3d0666a85d7e468d83df50a05f20d5bdf"
+    },
+    {
+      "source": "run_ssm_error_ablation.py",
+      "destination": "software/run_ssm_error_ablation.py",
+      "sha256": "0835ab90a0596ef70f06bd93d4da148c1c5727b11d69e68d0949686ab02d7471"
+    },
+    {
+      "source": "diagnose_qat_batch.py",
+      "destination": "software/diagnose_qat_batch.py",
+      "sha256": "4b0b9c2f8fc4afdf7f19cc3eb897677b9fc4b6b42b48d1ac9242c5de91d3e0b7"
+    },
+    {
+      "source": "benchmark_gpu_batch1_dense16.py",
+      "destination": "software/benchmark_gpu_batch1_dense16.py",
+      "sha256": "643d4668a402fa2b1c9d07f051ca4ae9008631276e2bc1634d50ec04e0fa8753"
+    },
+    {
+      "source": "fixed_gpu_backend.py",
+      "destination": "software/fixed_gpu_backend.py",
+      "sha256": "1fa06467947bbfe851c8961ee0ee04b0aee6cba4fe8fd5619595d753a4243396"
+    },
+    {
+      "source": "run_fixed_gpu_four_datasets.py",
+      "destination": "software/run_fixed_gpu_four_datasets.py",
+      "sha256": "d40e1a1ee4b22b49e2711e5c03a25f340dee3643f1a2876838e23b374b48c8c7"
+    },
+    {
+      "source": "benchmark_up_gpu_power.py",
+      "destination": "software/benchmark_up_gpu_power.py",
+      "sha256": "a9a2c3225a55063f614482f5e6ccd62777d416188e6ec978189fd39137da5063"
+    },
+    {
+      "source": "gpu_power_monitor.py",
+      "destination": "software/gpu_power_monitor.py",
+      "sha256": "2b2a1684e3194242ce8d9b197018e48519de4b0376c3f85fcc41d5b4f399d3e5"
+    },
+    {
+      "source": "utils/visual_predict.py",
+      "destination": "software/utils/visual_predict.py",
+      "sha256": "809bee2c98680d593fdb22f80ac892367cdfd7446b5ba011498e5423348fde59"
+    },
+    {
+      "source": "utils/evaluation.py",
+      "destination": "software/utils/evaluation.py",
+      "sha256": "ba2004fcbdcb71e6175e9da6a4f828ed918f7231bcf1456fc97cfe50e5cf9997"
+    },
+    {
+      "source": "utils/data_load_operate.py",
+      "destination": "software/utils/data_load_operate.py",
+      "sha256": "25ac5f67a92b1a19a57bd4500b47053cd72bbdbf85598613eb16dd17241f2383"
+    },
+    {
+      "source": "utils/HSICommonUtils.py",
+      "destination": "software/utils/HSICommonUtils.py",
+      "sha256": "6ff985dc5c1bda81b65199e669f3cda82f92ffc54c67515fed93248123725155"
+    },
+    {
+      "source": "utils/setup_logger.py",
+      "destination": "software/utils/setup_logger.py",
+      "sha256": "0e4122496f47b484da84099a5b79d71467ae1df2598868f1f150ad9d97be833f"
+    },
+    {
+      "source": "utils/Loss.py",
+      "destination": "software/utils/Loss.py",
+      "sha256": "d5aa5ce3b7226f4b91d107fda1ad50f5178da1dab7b3ae7916eed69b6dade458"
+    },
+    {
+      "source": "ablation_scripts/13_activation_silu.sh",
+      "destination": "software/ablation_scripts/13_activation_silu.sh",
+      "sha256": "208345f0f6a55f7410590e57d2a285b400776a8b03ae8fa2d6d959aa8ce685a2"
+    },
+    {
+      "source": "ablation_scripts/16_token_num_2.sh",
+      "destination": "software/ablation_scripts/16_token_num_2.sh",
+      "sha256": "b7231ba781ac08646d34ab811543482fdd3a61f484f8d32de7d71d59eb45f8b5"
+    },
+    {
+      "source": "ablation_scripts/02_reference_original_full.sh",
+      "destination": "software/ablation_scripts/02_reference_original_full.sh",
+      "sha256": "e7e9f212c427551bed2fb2afd0d86b3c2328548653285fe92639c7e5d4efeab4"
+    },
+    {
+      "source": "ablation_scripts/10_restore_D.sh",
+      "destination": "software/ablation_scripts/10_restore_D.sh",
+      "sha256": "0a561124cef3ef51747f5c9107ca1ab439e00770769b28864f01d3881222fa71"
+    },
+    {
+      "source": "ablation_scripts/20_norm_gn_activation_silu.sh",
+      "destination": "software/ablation_scripts/20_norm_gn_activation_silu.sh",
+      "sha256": "8a44491efaa082eb32c9884d5cc3f0cea3f5e44e59bda080582aef937a573175"
+    },
+    {
+      "source": "ablation_scripts/06_fusion_softmax.sh",
+      "destination": "software/ablation_scripts/06_fusion_softmax.sh",
+      "sha256": "9d837ed6f80662be42042a28726c748bc826a6bf1d75c122c42855cb6a0f1023"
+    },
+    {
+      "source": "ablation_scripts/21_restore_z_D.sh",
+      "destination": "software/ablation_scripts/21_restore_z_D.sh",
+      "sha256": "53e33b9d50a19ced628a9e835b2493553192f4cfc4a7f7c4a32ee0c73187f5ee"
+    },
+    {
+      "source": "ablation_scripts/17_token_num_8.sh",
+      "destination": "software/ablation_scripts/17_token_num_8.sh",
+      "sha256": "227e0d4deeb2700ba23187e950eef90539dac87dd3ee6bca443965239a9996c1"
+    },
+    {
+      "source": "ablation_scripts/00_baseline_current.sh",
+      "destination": "software/ablation_scripts/00_baseline_current.sh",
+      "sha256": "1c6e1a796c26874e7c97f993556f3c63aec90b78a30ce5c775a3a0fe77ea4f21"
+    },
+    {
+      "source": "ablation_scripts/05_fusion_mean.sh",
+      "destination": "software/ablation_scripts/05_fusion_mean.sh",
+      "sha256": "597973ee17a1530b28e0a145139e38ff7a76c344f821b8d039904d650fd37d4b"
+    },
+    {
+      "source": "ablation_scripts/19_d_state_32.sh",
+      "destination": "software/ablation_scripts/19_d_state_32.sh",
+      "sha256": "44333ff09b4338d41e35dffb63967b2cfc0aa3d35a253238b8e6f05bdbdbbe8b"
+    },
+    {
+      "source": "ablation_scripts/08_skip_scale_0.sh",
+      "destination": "software/ablation_scripts/08_skip_scale_0.sh",
+      "sha256": "9eb0476852f60a4b234c67101b111d3583895e14f987d1289e8a45ff21eea3fa"
+    },
+    {
+      "source": "ablation_scripts/14_head_dim_32.sh",
+      "destination": "software/ablation_scripts/14_head_dim_32.sh",
+      "sha256": "25406a43431f2688e4bfbf6779284b4094bae2e154b93d994028dc1be68b97ee"
+    },
+    {
+      "source": "ablation_scripts/07_skip_scale_1.sh",
+      "destination": "software/ablation_scripts/07_skip_scale_1.sh",
+      "sha256": "da2d7209d853c32209189cd3ce734743b642a8e8a514970d6489d95d1d8d613f"
+    },
+    {
+      "source": "ablation_scripts/11_A_per_channel.sh",
+      "destination": "software/ablation_scripts/11_A_per_channel.sh",
+      "sha256": "8369b54f3477e64c1206d5f812289e4ba631eed30a25946660f003163ff64c1b"
+    },
+    {
+      "source": "ablation_scripts/18_d_state_8.sh",
+      "destination": "software/ablation_scripts/18_d_state_8.sh",
+      "sha256": "ae7fd583b323638e7cab09f3c880e4fb28413a1586153056a5499730ea9a7d49"
+    },
+    {
+      "source": "ablation_scripts/09_restore_z.sh",
+      "destination": "software/ablation_scripts/09_restore_z.sh",
+      "sha256": "8dd059d3ba8c72639b12eac1646b32257144a120c8bf23b8d48348ed883ce206"
+    },
+    {
+      "source": "ablation_scripts/01_reference_original_matched.sh",
+      "destination": "software/ablation_scripts/01_reference_original_matched.sh",
+      "sha256": "81d60a676885528728e51c02afb6506954343d14bf2b2ac6169c7b7acdeab548"
+    },
+    {
+      "source": "ablation_scripts/03_branch_spa_only.sh",
+      "destination": "software/ablation_scripts/03_branch_spa_only.sh",
+      "sha256": "63e426f1affeb1fae4d05a3430b6d273851bee78cb8596c9449af37ff4fdd8e3"
+    },
+    {
+      "source": "ablation_scripts/15_head_dim_128.sh",
+      "destination": "software/ablation_scripts/15_head_dim_128.sh",
+      "sha256": "d4c98d8897789a71ee97c1530b28f136c49405782fb72810dab4cc49fb89fce5"
+    },
+    {
+      "source": "ablation_scripts/12_norm_gn_path.sh",
+      "destination": "software/ablation_scripts/12_norm_gn_path.sh",
+      "sha256": "c1b08ba339d09c40aaa0e1c6956fe9700ab1111e73b3e871fdac91986f45a62f"
+    },
+    {
+      "source": "ablation_scripts/_common.sh",
+      "destination": "software/ablation_scripts/_common.sh",
+      "sha256": "c2687f73c96a481f64f82e370d69771a18c3d33eab7cd275949c841667aa762e"
+    },
+    {
+      "source": "tests/test_error_ablation_workflow.py",
+      "destination": "software/tests/test_error_ablation_workflow.py",
+      "sha256": "cc1044b66d407adc68ad49e5464bef2774687134f1da258f91f7207ee93c5216"
+    },
+    {
+      "source": "tests/test_qat_forensics.py",
+      "destination": "software/tests/test_qat_forensics.py",
+      "sha256": "ff987eecf9d3335ebf325abceb0ca9d44f8c6083407e2770071ab7304b121d33"
+    },
+    {
+      "source": "tests/test_sweep_diagnostics.py",
+      "destination": "software/tests/test_sweep_diagnostics.py",
+      "sha256": "49d3e2b00f687ea456f601dc854c5821d47cfca4ccce62ab5216fc03721c402c"
+    },
+    {
+      "source": "tests/test_gpu_scene_loading.py",
+      "destination": "software/tests/test_gpu_scene_loading.py",
+      "sha256": "e2d2b60a85e60b2f630aabfae2e4c3ea396d91e8766bd2035c9bb63f16076626"
+    },
+    {
+      "source": "tests/test_qat_stability.py",
+      "destination": "software/tests/test_qat_stability.py",
+      "sha256": "8617655ee15eae08f4a56f546ecc66efcde3f1c629c63c0635793539e14045be"
+    },
+    {
+      "source": "tests/test_batch_requant_k.py",
+      "destination": "software/tests/test_batch_requant_k.py",
+      "sha256": "f985026e6c699dd6e0cc33f507f03097c8931379f6163c64ddc4ff271c7db336"
+    },
+    {
+      "source": "tests/test_fixed_gpu_backend.py",
+      "destination": "software/tests/test_fixed_gpu_backend.py",
+      "sha256": "a540ec127750f9dcb5596567ec6552f09552906de6214cea046402222f6bd2b8"
+    },
+    {
+      "source": "tests/test_d_path.py",
+      "destination": "software/tests/test_d_path.py",
+      "sha256": "d72dba88b2ae3a0c420c7fb9945ef122a3fa49b776038210fa5c5e1dd45c41d0"
+    },
+    {
+      "source": "tests/test_d_max_initialization.py",
+      "destination": "software/tests/test_d_max_initialization.py",
+      "sha256": "af197e594a0417b2afb5ba6809cfe187296f0dbc4cf39f798a689b98fea92af8"
+    },
+    {
+      "source": "tests/test_qat_restore_device.py",
+      "destination": "software/tests/test_qat_restore_device.py",
+      "sha256": "76d44e026bf451efbda393548fe87456c2366e01c4037c26a24e37ab61cfec2f"
+    },
+    {
+      "source": "tests/test_dt_input_diagnostics.py",
+      "destination": "software/tests/test_dt_input_diagnostics.py",
+      "sha256": "c0f217d0c1908ef30d792cc16f092ac5dd71dfde46efe0aaa5f3b8e3eba05e0a"
+    },
+    {
+      "source": "tests/test_fpga_eval1_runner.py",
+      "destination": "software/tests/test_fpga_eval1_runner.py",
+      "sha256": "897225db92f9fbc4a43f1a4c4e66790537201cf0cddfbe6c1a76d9eb46419f90"
+    },
+    {
+      "source": "tests/test_ssm_error_ablation.py",
+      "destination": "software/tests/test_ssm_error_ablation.py",
+      "sha256": "357f5d39537ba7d58ed53ac837ff975aa8fa63a11eef0fe6bee6e484c60a256f"
+    },
+    {
+      "source": "tests/test_current_experiment_runner.py",
+      "destination": "software/tests/test_current_experiment_runner.py",
+      "sha256": "65e6d8de995bee3b1b54b2317ec790460ecba7fe0f36d3038b9e2640123c8843"
+    },
+    {
+      "source": "tests/test_eval1_power_tools.py",
+      "destination": "software/tests/test_eval1_power_tools.py",
+      "sha256": "913f0cf190eb7b86f0ec6d5bbd397180236e906f36a8db5239b9bff90ec02bf9"
+    },
+    {
+      "source": "tests/test_scan_device_dispatch.py",
+      "destination": "software/tests/test_scan_device_dispatch.py",
+      "sha256": "08d7cd79dcbecc4e1b3bf74e2cb8aaf90d2bb27c8ee161cfae8d2d105d6bf364"
+    },
+    {
+      "source": "tests/test_max_pipeline_device.py",
+      "destination": "software/tests/test_max_pipeline_device.py",
+      "sha256": "566df3839fff5a1dd9510edef34e9fa6b90052e0110c77137331a6f7cb59a1c1"
+    },
+    {
+      "source": "output/code_backups/20260908_error_ablation/both_FPGA_single_qat_source.py",
+      "destination": "software/output/code_backups/20260908_error_ablation/both_FPGA_single_qat_source.py",
+      "sha256": "bac6515e77848a8856f2a7d04a394bc8cf2985f116131538be05cb7b44512d9c",
+      "purpose": "D0 integer bit-parity regression fixture; not a supported runtime entry"
+    },
+    {
+      "source": "run_up_gpu_power.sh",
+      "destination": "software/run_up_gpu_power.sh",
+      "sha256": "f9cc503fccf42b3f924354f7c2685f50507296d750ae155b93048020428ab27a"
+    },
+    {
+      "source": "tests/test_gpu_display_policy.py",
+      "destination": "software/tests/test_gpu_display_policy.py",
+      "sha256": "24665c403f4c4c9522e8ed8f9d5ae4cbdaf749d1cf32412d2c58f0a09abd7c04"
+    }
+  ],
+  "updated_date": "2026-09-23",
+  "update_note": "GPU power: explicit graphics-only Xorg/Xwayland policy; numerical training/simulation kernels unchanged",
+  "recorded_server_snapshot": "software/snapshots/eval1_server_20260923/source_hashes.json",
+  "import_provenance": "evidence/server_update_20260923/provenance.json"
+}
