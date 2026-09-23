@@ -30,7 +30,7 @@ CUDA 测速。先执行环境检查：
 二、准备数据
 ------------
 
-按照 docs/DATA.txt 中的文件名和目录结构放置四个完整场景，然后执行：
+按照 docs/DATA.md 中的文件名和目录结构放置四个完整场景，然后执行：
 
     python tools/prepare_data_formats.py --data-root ./data
 
@@ -78,7 +78,7 @@ CUDA 测速。先执行环境检查：
 
     bash experiments/14_fpga_eval1.sh --datasets UP --seeds 0 --output-root ./results/fpga_eval1_UP_smoke
 
-完整实验清单和每个入口的依赖写在 docs/EXPERIMENTS.txt。不要让两个任务同时写入
+完整实验清单和每个入口的依赖写在 docs/EXPERIMENTS.md。不要让两个任务同时写入
 同一个输出目录。
 
 五、GPU 测速和功耗
@@ -94,6 +94,13 @@ CUDA 测速。先执行环境检查：
     bash experiments/12_gpu_fixed.sh --dry-run
     bash experiments/12_gpu_fixed.sh
 
+定点测速入口默认使用已归档的 `qat_eval8_4datasets` checkpoint，和
+`evidence/gpu_fixed_batch_summary.csv` 中的记录一致。如果要测速另一套 QAT checkpoint，
+请传入包含 `{dataset}` 和 `{seed}` 的模板：
+
+    QAT_TEMPLATE=/absolute/path/to/qat_eval1_4datasets/{dataset}/run_seed{seed} \
+      bash experiments/12_gpu_fixed.sh --output-root ./results/12_gpu_fixed_eval1
+
 UP GPU 功耗测试需要确保 GPU 没有其他计算任务：
 
     python -m pip install nvidia-ml-py
@@ -104,7 +111,53 @@ UP GPU 功耗测试需要确保 GPU 没有其他计算任务：
 NVML 测量的是整张 GPU 的设备功耗和设备能量，不是墙上插座功耗。输出报告会保存
 GPU 身份、进程快照、预热时间、测量窗口、吞吐率和每 tile 能耗。
 
-六、检查实验记录
+六、已归档软件结果
+------------------
+
+仓库中的 `evidence/` 保存了软件实验的数值记录。下面是 batch=1 评估协议的汇总，
+每个数据集使用 10 个 seed。`QAT direct` 是 batch=1 下的 QAT 模型，`INT8 FPGA`
+是对应的 FPGA 定点软件模拟结果。
+
+| 数据集 | FP32 OA (%) | QAT direct OA (%) | INT8 FPGA OA (%) | QAT 到 INT8 损失 (百分点) |
+|---|---:|---:|---:|---:|
+| UP | 94.912 +/- 2.460 | 96.451 +/- 0.811 | 96.385 +/- 0.877 | 0.066 |
+| HanChuan | 91.009 +/- 0.827 | 91.555 +/- 0.906 | 91.416 +/- 0.970 | 0.139 |
+| HongHu | 92.823 +/- 1.212 | 92.810 +/- 1.179 | 92.759 +/- 1.215 | 0.052 |
+| Houston | 93.321 +/- 0.978 | 92.101 +/- 1.936 | 91.540 +/- 2.439 | 0.560 |
+
+四个数据集的平均 OA 为 QAT 93.229%，定点模拟 93.025%，平均损失 0.204 个百分点。
+完整记录见 [`evidence/server_update_20260923/fpga_eval1/dataset_summary.json`](evidence/server_update_20260923/fpga_eval1/dataset_summary.json)
+和 [`evidence/eval1_per_seed.csv`](evidence/eval1_per_seed.csv)。
+
+共享 A 与逐通道 A 的配对结果如下：
+
+| 数据集 | Shared-A OA (%) | Per-channel-A OA (%) | Shared-A 相对差值 (百分点) |
+|---|---:|---:|---:|
+| UP | 96.309 +/- 1.558 | 96.106 +/- 1.522 | -0.203 |
+| HanChuan | 90.756 +/- 1.188 | 91.100 +/- 0.720 | 0.344 |
+| HongHu | 92.225 +/- 1.773 | 92.407 +/- 1.543 | 0.182 |
+| Houston | 92.671 +/- 1.491 | 93.023 +/- 1.556 | 0.352 |
+
+数据来自 [`evidence/paired_accuracy_summary.csv`](evidence/paired_accuracy_summary.csv)。
+
+RTX 4090 测速表使用 CUDA events、model-only 范围和 seed=0。定点路径是可执行的
+整数/FP64 功能模型，用于验证硬件数值语义，不等于 INT8 Tensor Core 内核性能。
+
+| 数据集 | FP32 tiles/s，batch=1 | 定点 tiles/s，batch=1 | FP32 tiles/s，batch=64 | 定点 tiles/s，batch=64 |
+|---|---:|---:|---:|---:|
+| UP | 492.1 | 7.9 | 23,547.2 | 422.3 |
+| HanChuan | 464.3 | 8.0 | 23,007.7 | 511.1 |
+| HongHu | 464.8 | 11.0 | 16,432.8 | 533.4 |
+| Houston | 493.9 | 8.8 | 16,295.9 | 649.2 |
+
+UP 的 NVML 功耗记录每个 batch 有 3 次重复。model-only 范围下，batch=1 为 70.26 W、
+139.16 mJ/tile；batch=8 为 94.42 W、23.87 mJ/tile；batch=64 为 336.20 W、
+12.43 mJ/tile。完整记录见 [`evidence/server_update_20260923/gpu_power_UP/power_summary.csv`](evidence/server_update_20260923/gpu_power_UP/power_summary.csv)。
+
+D1 的 N0--N3 软件对照测试 OA 分别为 95.1585%、95.5290%、95.2491% 和 95.1585%，
+完整报告见 [`evidence/completion_20260923/nonlinear_D1/`](evidence/completion_20260923/nonlinear_D1/)。
+
+七、检查实验记录
 ----------------
 
 下面的命令不需要数据集或 checkpoint：
@@ -118,7 +171,15 @@ GPU 身份、进程快照、预热时间、测量窗口、吞吐率和每 tile �
 功耗试验和 D1 非线性对照。不同文件可能重复使用同一个 checkpoint，不能把所有行
 简单相加为独立实验次数。
 
-七、代码范围
+八、复现范围
+------------
+
+检查脚本可以在不安装 GPU、不准备数据集的情况下复核已发布文件的哈希、汇总表、
+配对统计和数组。重新训练、QAT 或 FPGA 定点模拟还需要四个原始场景、FP32/QAT
+checkpoint 和可用的 NVIDIA CUDA 环境。GPU 功耗会随 GPU 型号和后台进程变化。RTL、
+Vivado 工程、bitstream 和板级测量不在此软件仓库中。
+
+九、代码范围
 ------------
 
 软件源码在 software/，编号运行入口在 experiments/，安装、数据和证据说明在 docs/

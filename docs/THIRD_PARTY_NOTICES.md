@@ -49,7 +49,7 @@ wheel and is not the verification manifest for the modified snapshot; use
 `evidence/server_update_20260923/provenance.json` for current hashes.
 
 The CUDA extensions are not bundled. Keeping this package for provenance does
-not automatically make it the active Python import: see `ENVIRONMENT.txt` for
+not automatically make it the active Python import: see `ENVIRONMENT.md` for
 explicit snapshot selection and the required causal-conv1d dependency.
 
 

@@ -104,6 +104,13 @@ FP32 和硬件定点语义测速：
     BATCH_SIZES=1,2,4,8,16,32,64 bash experiments/11_gpu_fp32.sh
     BATCH_SIZES=1,2,4,8,16,32,64 bash experiments/12_gpu_fixed.sh
 
+定点测速入口默认使用已归档的 `qat_eval8_4datasets` checkpoint，和
+`evidence/gpu_fixed_batch_summary.csv` 中的记录一致。如果要测速另一套 QAT checkpoint，
+请传入包含 `{dataset}` 和 `{seed}` 的模板：
+
+    QAT_TEMPLATE=/absolute/path/to/qat_eval1_4datasets/{dataset}/run_seed{seed} \
+      bash experiments/12_gpu_fixed.sh --output-root ./results/12_gpu_fixed_eval1
+
 定点测速采用宽整数/FP64 功能模拟，验证硬件舍入、饱和和状态反馈规则，不等于原生
 INT8 Tensor Core 性能。GPU 报告包含 model-only 和完整流程两个范围，不能把不同范围
 的行当成同一指标。
@@ -153,7 +160,7 @@ batch 差异定位：
 
 去掉最后的 `--dry-run` 执行完整 UP 场景。该入口使用固定的历史 D1 checkpoint 和
 N0–N3 软件快照，不能替换成最新 eval1 checkpoint。完整文件位置和哈希见
-docs/COMPLETION_20260923.txt。
+docs/COMPLETION_20260923.md。
 
 九、检查结果
 ------------

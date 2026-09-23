@@ -37,7 +37,7 @@ installed with:
 -------------------
 
 Create a data directory and place the four full-resolution scenes in the exact
-layout listed in docs/DATA.txt. Then validate the files:
+layout listed in docs/DATA.md. Then validate the files:
 
     python tools/prepare_data_formats.py --data-root ./data
 
@@ -91,7 +91,7 @@ For a first smoke test, run one dataset and one seed with a new output directory
     bash experiments/14_fpga_eval1.sh --datasets UP --seeds 0 --output-root ./results/fpga_eval1_UP_smoke
 
 The full experiment inventory and the dependency of every launcher are in
-docs/EXPERIMENTS.txt. Do not run two launchers that write to the same output
+docs/EXPERIMENTS.md. Do not run two launchers that write to the same output
 directory at the same time.
 
 5. Reproduce timing and power measurements
@@ -107,6 +107,13 @@ Fixed-arithmetic GPU timing:
     bash experiments/12_gpu_fixed.sh --dry-run
     bash experiments/12_gpu_fixed.sh
 
+The fixed timing launcher uses the published `qat_eval8_4datasets` checkpoint
+tree, matching `evidence/gpu_fixed_batch_summary.csv`. To time a different QAT
+tree, set a template containing `{dataset}` and `{seed}`:
+
+    QAT_TEMPLATE=/absolute/path/to/qat_eval1_4datasets/{dataset}/run_seed{seed} \
+      bash experiments/12_gpu_fixed.sh --output-root ./results/12_gpu_fixed_eval1
+
 UP GPU power measurement (the selected GPU must be idle apart from display
 services):
 
@@ -119,7 +126,58 @@ NVML reports device power and device energy, not wall-plug power. The report
 stores the GPU identity, process snapshot, warm-up interval, measurement window,
 throughput, and energy per tile.
 
-6. Verify the bundled records
+6. Recorded software results
+----------------------------
+
+The repository includes the numerical records used for the software-side results.
+The table below uses the batch=1 evaluation protocol with ten seeds per dataset.
+`QAT direct` is the trained quantized model evaluated with batch 1; `INT8 FPGA`
+is the matching fixed-point simulator output.
+
+| Dataset | FP32 OA (%) | QAT direct OA (%) | INT8 FPGA OA (%) | QAT-to-INT8 loss (pp) |
+|---|---:|---:|---:|---:|
+| UP | 94.912 +/- 2.460 | 96.451 +/- 0.811 | 96.385 +/- 0.877 | 0.066 |
+| HanChuan | 91.009 +/- 0.827 | 91.555 +/- 0.906 | 91.416 +/- 0.970 | 0.139 |
+| HongHu | 92.823 +/- 1.212 | 92.810 +/- 1.179 | 92.759 +/- 1.215 | 0.052 |
+| Houston | 93.321 +/- 0.978 | 92.101 +/- 1.936 | 91.540 +/- 2.439 | 0.560 |
+
+The four-dataset mean OA is 93.229% for QAT and 93.025% for the fixed-point
+simulator, an average loss of 0.204 percentage points. The complete records are
+in [`evidence/server_update_20260923/fpga_eval1/dataset_summary.json`](evidence/server_update_20260923/fpga_eval1/dataset_summary.json)
+and [`evidence/eval1_per_seed.csv`](evidence/eval1_per_seed.csv).
+
+The shared-A comparison uses paired ten-seed runs:
+
+| Dataset | Shared-A OA (%) | Per-channel-A OA (%) | Shared-A difference (pp) |
+|---|---:|---:|---:|
+| UP | 96.309 +/- 1.558 | 96.106 +/- 1.522 | -0.203 |
+| HanChuan | 90.756 +/- 1.188 | 91.100 +/- 0.720 | 0.344 |
+| HongHu | 92.225 +/- 1.773 | 92.407 +/- 1.543 | 0.182 |
+| Houston | 92.671 +/- 1.491 | 93.023 +/- 1.556 | 0.352 |
+
+The source file is [`evidence/paired_accuracy_summary.csv`](evidence/paired_accuracy_summary.csv).
+
+The RTX 4090 timing records use CUDA events, model-only scope, and seed 0. The
+fixed path is an integer/FP64 functional model used to check hardware arithmetic;
+it is not an INT8 Tensor Core implementation.
+
+| Dataset | FP32 tiles/s, batch 1 | Fixed tiles/s, batch 1 | FP32 tiles/s, batch 64 | Fixed tiles/s, batch 64 |
+|---|---:|---:|---:|---:|
+| UP | 492.1 | 7.9 | 23,547.2 | 422.3 |
+| HanChuan | 464.3 | 8.0 | 23,007.7 | 511.1 |
+| HongHu | 464.8 | 11.0 | 16,432.8 | 533.4 |
+| Houston | 493.9 | 8.8 | 16,295.9 | 649.2 |
+
+For the UP NVML power records, each batch has three repetitions. In model-only
+scope, batch 1 is 70.26 W and 139.16 mJ/tile, batch 8 is 94.42 W and 23.87
+mJ/tile, and batch 64 is 336.20 W and 12.43 mJ/tile. The full table is in
+[`evidence/server_update_20260923/gpu_power_UP/power_summary.csv`](evidence/server_update_20260923/gpu_power_UP/power_summary.csv).
+
+The D1 N0--N3 software comparison reports test OA of 95.1585%, 95.5290%,
+95.2491%, and 95.1585%, respectively. The reports and fixed-input replays are
+in [`evidence/completion_20260923/nonlinear_D1/`](evidence/completion_20260923/nonlinear_D1/).
+
+7. Verify the bundled records
 -----------------------------
 
 The checks below do not need a dataset or checkpoint:
@@ -134,8 +192,19 @@ integer summaries, shared-A paired statistics, GPU timing summaries, power
 trials, and the fixed D1 nonlinear comparison. Counts in different files may
 refer to the same checkpoint; do not add them as independent repetitions.
 
-7. Source scope and attribution
--------------------------------
+8. Reproducibility scope
+------------------------
+
+The verification commands reproduce the published hashes, summaries, paired
+statistics, and stored arrays without external data. Re-running training, QAT, or
+the FPGA simulator additionally requires the four original scenes, FP32 and QAT
+checkpoints, and a compatible NVIDIA CUDA environment. GPU power depends on the
+selected GPU and background processes. RTL, Vivado projects, bitstreams, and board
+measurements are maintained separately and are not generated by this software
+repository.
+
+9. Source scope and attribution
+--------------------------------
 
 The software snapshot is in software/, numbered launchers are in experiments/,
 and installation/data/evidence instructions are in docs/ and evidence/. The

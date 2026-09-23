@@ -14,5 +14,5 @@ packaging edits.
 This directory is not an installable wheel. It excludes `.so`, `.pyc` and cache
 files. The recorded interface imports both `selective_scan_cuda` and
 `causal_conv1d_cuda`; compatible binaries are required. Follow
-`../../docs/ENVIRONMENT.txt` for explicit `PYTHONPATH` selection on the existing
+`../../docs/ENVIRONMENT.md` for explicit `PYTHONPATH` selection on the existing
 server, and run the CUDA forward/backward check before replay.

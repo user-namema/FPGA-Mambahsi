@@ -1,6 +1,7 @@
 # D1 QAT 精度跳变：验证、对照与运行方法
 
-**上传的 fixed 对照已分析完，后续请按 [QAT 三阶段定位](README_QAT三阶段定位.txt) 操作。**
+本页说明 fixed 对照的稳定性诊断流程。需要捕获训练跳变时，请按
+[QAT 三阶段定位](README_QAT三阶段定位.md) 的步骤执行。
 fixed 保住最终测试精度但仍有训练跳变；新流程先定位 epoch0 损失，再捕获跳变，最后做独立参数对照。下文保留上一轮实验说明。
 
 更新：2026-09-16。保留 D 的 `max(abs(D))/qmax` 初始化。本次修订增加可观测性与配对训练控制，不宣称已经找到服务器 CUDA 根因或恢复真实数据精度；未修改 RTL。
@@ -95,7 +96,7 @@ python run_qat_stability_sweep.py \
 5. 重载验证不一致：先读取 recheck 文件并跑 batch 诊断，不将结果作为正常泛化损失。
 6. 重载验证一致但测试明显下降：属于同模型在不同空间区域的表现差异，需要逐类/分布分析。测试结果只能描述，不能用来事后挑 epoch。
 
-已有 batch 逐层工具 `diagnose_qat_batch.py` 仍可使用，见 `README_batch差异_再量化_K扫描.txt`。现有 batch 差异尚未由这份日志定位，不能直接认定是 TF32 或 scan 导致。
+已有 batch 逐层工具 `diagnose_qat_batch.py` 仍可使用，见 `README_batch差异_再量化_K扫描.md`。现有 batch 差异尚未由这份日志定位，不能直接认定是 TF32 或 scan 导致。
 
 ## 5. 范围
 

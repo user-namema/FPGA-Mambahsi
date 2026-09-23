@@ -76,7 +76,7 @@ CPU 可以运行路径检查和部分单元测试，但不能用于 GPU 吞吐�
 ------------
 
 * 找不到数据：先执行 `python tools/prepare_data_formats.py --data-root ./data`，并
-  检查 docs/DATA.txt 中的文件名和 MAT 变量名。
+  检查 docs/DATA.md 中的文件名和 MAT 变量名。
 * 找不到 checkpoint：将 FP32_ROOT、QAT_ROOT 或脚本参数改为包含完整配置目录的绝对路径。
 * CUDA 不可用：执行 `nvidia-smi` 和环境检查；CPU 模式只能用于调试。
 * 输出目录已存在：为新的试验指定新的 `--output-root`，避免混合不同配置的日志。

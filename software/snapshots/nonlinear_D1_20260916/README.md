@@ -14,4 +14,4 @@ software numerical references; no RTL source is bundled.
 The original `n2_config.json` contains old v5 checkpoint/core metadata. The D1
 code imports only its `fit` field, which matches `n2_fit` in the D1 result.
 D1 coefficients are constructed from the D1 checkpoint and checked against the
-D1 reference vectors. See `docs/COMPLETION_20260923.txt` for scope and commands.
+D1 reference vectors. See `docs/COMPLETION_20260923.md` for scope and commands.
