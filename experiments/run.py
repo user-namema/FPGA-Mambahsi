@@ -17,6 +17,7 @@ sys.path.insert(0,str(SOFTWARE))
 _bytecode_setting=sys.dont_write_bytecode
 sys.dont_write_bytecode=True
 from run_fpga_qat_eval1_four_datasets import device_environment
+from architecture_protocol import training_arguments
 sys.dont_write_bytecode=_bytecode_setting
 CONFIG='current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16'
 DATASETS=['UP','HanChuan','HongHu','Houston']
@@ -150,10 +151,9 @@ def main(argv=None):
   cases=['10_restore_D'] if s=='01_fp32_current' else (a.cases or ARCHITECTURE_CASES)
   for ds in datasets:
    for case in cases:
-    script=SOFTWARE/'ablation_scripts'/(case+'.sh')
-    if not script.is_file() or case.startswith('_'):p.error('Unknown included architecture case: '+case)
-    cmd=['bash',str(script),'--dataset',ds,'--data_set_path',data,'--work_dir',str(out),'--seeds',seeds,'--device',a.device]
-    jobs.append((ds+'_'+case,cmd,dict(os.environ,PYTHON_BIN=sys.executable)))
+    try:args=training_arguments(case,ds,data,out,seeds,a.device)
+    except ValueError as exc:p.error(str(exc))
+    add(ds+'_'+case,'train_mambahsi_spatial_split_128_dense.py',args)
  elif s=='03_shared_a':
   common=['--datasets']+datasets+['--seeds',seeds,'--device',a.device,'--data-path',data]
   if a.phase!='analyze':add('train','run_current_a_gpu_experiments.py',['--task','train-a']+common+['--fp32-template',fp_template,'--max-epoch','400','--output-dir',out]+(['--resume'] if a.resume else []))

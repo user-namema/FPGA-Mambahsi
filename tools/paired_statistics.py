@@ -3,8 +3,15 @@
 Holm adjustment across the eight primary OA comparisons (2 contrasts x 4 datasets).
 """
 from pathlib import Path
-import csv,json,itertools,math,statistics
+import argparse,csv,json,itertools,math,statistics
 R=Path(__file__).resolve().parents[1]
+parser=argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--output-dir',type=Path,default=R/'results/paired_statistics',
+                    help='New summary directory; bundled evidence is never overwritten')
+args=parser.parse_args()
+destination=args.output_dir.expanduser().resolve()
+if destination==R/'evidence' or R/'evidence' in destination.parents:
+ parser.error('Choose an output directory outside the immutable evidence tree')
 a=list(csv.DictReader((R/'evidence/paired_accuracy_by_seed.csv').open(encoding='utf-8-sig')))
 q=json.loads((R/'evidence/qat_metrics.json').read_text())['rows']
 DS=['UP','HanChuan','HongHu','Houston'];out=[]
@@ -23,7 +30,9 @@ for ds in DS:
 prior=0
 for j,i in enumerate(sorted(range(8),key=lambda i:out[i]['p_signflip'])):
  prior=max(prior,min(1,(8-j)*out[i]['p_signflip']));out[i]['p_holm_8']=prior
-(R/'evidence/paired_inference.json').write_text(json.dumps(out,indent=2))
-with (R/'evidence/paired_inference.csv').open('w') as f:
+destination.mkdir(parents=True,exist_ok=True)
+(destination/'paired_inference.json').write_text(json.dumps(out,indent=2)+'\n')
+with (destination/'paired_inference.csv').open('w',newline='',encoding='utf-8') as f:
  w=csv.DictWriter(f,fieldnames=[k for k in out[0] if k!='values']);w.writeheader();w.writerows({k:v for k,v in r.items() if k!='values'} for r in out)
 for r in out:print(r['dataset'],r['contrast'],f"{r['mean_pp']:.3f} [{r['ci95_low']:.3f},{r['ci95_high']:.3f}], pH={r['p_holm_8']:.3f}")
+print('Saved: '+str(destination))

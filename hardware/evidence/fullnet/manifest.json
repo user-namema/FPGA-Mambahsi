@@ -1,0 +1,187 @@
+[
+  {
+    "source": "E:\\nf\\all_100_v1\\N0\\sim_ok.txt",
+    "file": "evidence\\fullnet_20260925\\N0\\sim_ok.txt",
+    "sha256": "a6b6a522e66487df7bd228fb7c7aaa477db0790fdbe2d0316eb0c1462b0c7558"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N0\\build_status.txt",
+    "file": "evidence\\fullnet_20260925\\N0\\build_status.txt",
+    "sha256": "f9b793924c2996eb4712e076006dfabc61a9767f3c666f8af7dc9da57cd828ec"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N0\\capacity.txt",
+    "file": "evidence\\fullnet_20260925\\N0\\capacity.txt",
+    "sha256": "cd38d026113fb13cfc7e873e2afe380934c9be7575cf18ec119f442794ff266c"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N0\\synth_reports\\utilization.rpt",
+    "file": "evidence\\fullnet_20260925\\N0\\synth_reports\\utilization.rpt",
+    "sha256": "e1155400dc982094f3a13a6bb6cc354d5183b54fd18712b94e7147e0bcdc5f5f"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N1\\sim_ok.txt",
+    "file": "evidence\\fullnet_20260925\\N1\\sim_ok.txt",
+    "sha256": "9b91a66dd067954dc654d122229e12b572d5c99ceb9e00ac3ef4fb9a2823d6dc"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N1\\build_status.txt",
+    "file": "evidence\\fullnet_20260925\\N1\\build_status.txt",
+    "sha256": "f9b793924c2996eb4712e076006dfabc61a9767f3c666f8af7dc9da57cd828ec"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N1\\capacity.txt",
+    "file": "evidence\\fullnet_20260925\\N1\\capacity.txt",
+    "sha256": "5832bba70c359c48f3296b58390c7c4a967669e670b07d2697987d590d25d11e"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N1\\synth_reports\\utilization.rpt",
+    "file": "evidence\\fullnet_20260925\\N1\\synth_reports\\utilization.rpt",
+    "sha256": "e0bd9338ecbd57018b5937775c79ca50f2c5b4c3371f08d160e40165a03affcb"
+  },
+  {
+    "source": "E:\\nf\\n2_static_full_v1\\sim_ok.txt",
+    "file": "evidence\\fullnet_20260925\\N2\\sim_ok.txt",
+    "sha256": "306097f7b55865982971036dbe1834c5ee6f5c829ecde258f8fbc9ac95f83ab5"
+  },
+  {
+    "source": "E:\\nf\\n2_static_full_v1\\build_status.txt",
+    "file": "evidence\\fullnet_20260925\\N2\\build_status.txt",
+    "sha256": "f9b793924c2996eb4712e076006dfabc61a9767f3c666f8af7dc9da57cd828ec"
+  },
+  {
+    "source": "E:\\nf\\n2_static_full_v1\\capacity.txt",
+    "file": "evidence\\fullnet_20260925\\N2\\capacity.txt",
+    "sha256": "a4a27984804f683e23b92402245d61f3b57277aff23de4233cff7a2141495cb6"
+  },
+  {
+    "source": "E:\\nf\\n2_static_full_v1\\synth_reports\\utilization.rpt",
+    "file": "evidence\\fullnet_20260925\\N2\\synth_reports\\utilization.rpt",
+    "sha256": "a5050b8c055aebd948f40089e96d73863b207eca058e86095387ad1a8e6353f6"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N3\\sim_ok.txt",
+    "file": "evidence\\fullnet_20260925\\N3\\sim_ok.txt",
+    "sha256": "a658a7bf9401f1b5b5a5ba52242be133332f9ba71a55fb43ac6c44c0670c4027"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N3\\build_status.txt",
+    "file": "evidence\\fullnet_20260925\\N3\\build_status.txt",
+    "sha256": "c033a4d244013a3b50d38d4d7491c1adf6761d6d60d2e8d39b89a35dd5a229b6"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N3\\capacity.txt",
+    "file": "evidence\\fullnet_20260925\\N3\\capacity.txt",
+    "sha256": "d2de79d99620eedaf12a4594c599d65922e74ec1754ac3e6ec69b16dee648a8e"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N3\\synth_reports\\utilization.rpt",
+    "file": "evidence\\fullnet_20260925\\N3\\synth_reports\\utilization.rpt",
+    "sha256": "d1cfc871166157f4f41f69668f7ab6206e977dd939d864a8bc1ff9366e03bcfd"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N3\\routed_reports\\utilization.rpt",
+    "file": "evidence\\fullnet_20260925\\N3\\routed_reports\\utilization.rpt",
+    "sha256": "6a8c64dc938034e3fb37374548899b8d7b555bcb9c3c77d74264e707b247a1ac"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N3\\routed_reports\\split_timing.csv",
+    "file": "evidence\\fullnet_20260925\\N3\\routed_reports\\split_timing.csv",
+    "sha256": "910d532aaef0cb122a3dbf664f6dd18cfd6c082b8578821a5a653d2664b1504e"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N3\\routed_reports\\check_timing.rpt",
+    "file": "evidence\\fullnet_20260925\\N3\\routed_reports\\check_timing.rpt",
+    "sha256": "198fd268178d702330b5a68f8432b3f25c37ffe9bb10376acdca9c9ebab80ee2"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N3\\routed_reports\\timing_summary.rpt",
+    "file": "evidence\\fullnet_20260925\\N3\\routed_reports\\timing_summary.rpt",
+    "sha256": "ac874c58d512eda2b3c6ad72ef49666252ec78f572da9aad98aa1039d48a8e13"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N3\\routed_reports\\effective.xdc",
+    "file": "evidence\\fullnet_20260925\\N3\\routed_reports\\effective.xdc",
+    "sha256": "e7c23acd25a30a7c3c54dbfee4d404153763bcf775024bfff9cfc0400fc669ef"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N3\\routed_reports\\route_status.rpt",
+    "file": "evidence\\fullnet_20260925\\N3\\routed_reports\\route_status.rpt",
+    "sha256": "13f655fb1de05928a18c9c3a82369cf6f6d659c7756a3e1ed95ee49004392fde"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N3\\routed_reports\\exceptions.rpt",
+    "file": "evidence\\fullnet_20260925\\N3\\routed_reports\\exceptions.rpt",
+    "sha256": "241e44a32d5271275f9b8f4bd04eadeea1198d0116a4793e5f23ce96bc39363d"
+  },
+  {
+    "source": "E:\\nf\\all_100_v1\\N3\\routed_reports\\drc.rpt",
+    "file": "evidence\\fullnet_20260925\\N3\\routed_reports\\drc.rpt",
+    "sha256": "03ee5068d35d49a5fba419ee255357bb5861f0545fea541d9c376d1cf7f33e9f"
+  },
+  {
+    "source": "E:\\nf\\n3_report_clean_v2\\activity_bram_enable.rpt",
+    "file": "evidence\\fullnet_20260925\\N3_power\\activity_bram_enable.rpt",
+    "sha256": "ecad7c12b8d4cd7d2a6a88e9ad56de9b8c5e125e342d442064c850bec0a7847c"
+  },
+  {
+    "source": "E:\\nf\\n3_report_clean_v2\\activity_bram_wr_enable.rpt",
+    "file": "evidence\\fullnet_20260925\\N3_power\\activity_bram_wr_enable.rpt",
+    "sha256": "d937c5f049581aaf5eb5e1e77f46b91929f57a4e02329c5ed628194e8fc6f327"
+  },
+  {
+    "source": "E:\\nf\\n3_report_clean_v2\\activity_dsp.rpt",
+    "file": "evidence\\fullnet_20260925\\N3_power\\activity_dsp.rpt",
+    "sha256": "195758332beb16ad6f25446421075d3de4d047d94f723200df5ddd8443fa4fe2"
+  },
+  {
+    "source": "E:\\nf\\n3_report_clean_v2\\activity_lut.rpt",
+    "file": "evidence\\fullnet_20260925\\N3_power\\activity_lut.rpt",
+    "sha256": "12a5efd9291ce65076418f26635576869904682ea84aa564dab35595a9da47d7"
+  },
+  {
+    "source": "E:\\nf\\n3_report_clean_v2\\activity_lut_ram.rpt",
+    "file": "evidence\\fullnet_20260925\\N3_power\\activity_lut_ram.rpt",
+    "sha256": "cd15658f5b5850a4184f3763cf8c0887e056e06fb6bc360403ac21b0799490c6"
+  },
+  {
+    "source": "E:\\nf\\n3_report_clean_v2\\activity_register.rpt",
+    "file": "evidence\\fullnet_20260925\\N3_power\\activity_register.rpt",
+    "sha256": "eabc996570e25e3b5c75bc04e1ba06fe0cb59d67145d48605584c49023a7ed78"
+  },
+  {
+    "source": "E:\\nf\\n3_report_clean_v2\\diagnostic_errors.txt",
+    "file": "evidence\\fullnet_20260925\\N3_power\\diagnostic_errors.txt",
+    "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+  },
+  {
+    "source": "E:\\nf\\n3_report_clean_v2\\operating_conditions.rpt",
+    "file": "evidence\\fullnet_20260925\\N3_power\\operating_conditions.rpt",
+    "sha256": "be7e1533d8511d92e46eef714302a2031665a8a8fb8b12142c38f7130bf0971e"
+  },
+  {
+    "source": "E:\\nf\\n3_report_clean_v2\\power_advisory.rpt",
+    "file": "evidence\\fullnet_20260925\\N3_power\\power_advisory.rpt",
+    "sha256": "cbb0550f25c476ea40eb6bf5b914760569d9076501c6a4bbaf1bdb0faa192e61"
+  },
+  {
+    "source": "E:\\nf\\n3_report_clean_v2\\power_saif.rpt",
+    "file": "evidence\\fullnet_20260925\\N3_power\\power_saif.rpt",
+    "sha256": "f98eb9bc9b854e040982d3cd115a31b3ac298b2175d5e013d3715d6755451071"
+  },
+  {
+    "source": "E:\\nf\\n3_report_clean_v2\\preflight.json",
+    "file": "evidence\\fullnet_20260925\\N3_power\\preflight.json",
+    "sha256": "9dcaafe767aff7a788d5c4a0fa3a27dc2d964d9574b0621b7db73ca83c10691f"
+  },
+  {
+    "source": "E:\\nf\\n3_report_clean_v2\\protocol.txt",
+    "file": "evidence\\fullnet_20260925\\N3_power\\protocol.txt",
+    "sha256": "cfe87b8ba5def12012470f8ebc520b7c23444b185da2868ffade7a89bfcd470f"
+  },
+  {
+    "source": "E:\\nf\\n3_report_clean_v2\\REPORT_COMPLETE.txt",
+    "file": "evidence\\fullnet_20260925\\N3_power\\REPORT_COMPLETE.txt",
+    "sha256": "ef0ddbdfe6faacfd98ead004121c4099284364387d2784239dd260417307040f"
+  }
+]

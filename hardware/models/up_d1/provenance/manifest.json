@@ -1,0 +1,1059 @@
+{
+  "model": "D1_sharedU_seed0",
+  "baseline_project": "E:\\hdmi_demo\\pcie_e2e_v2",
+  "whole_network_rtl_simulated": false,
+  "head_input_contract_required": false,
+  "images": [
+    {
+      "name": "blk0_spa_in_weight_rom_64x256",
+      "width": 256,
+      "depth": 64,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "45eadce4ea5826e58d1bd74a6e2b038bf469da10e2bf69f4eb10207241ab76b6",
+      "files": [
+        "blk0_spa_in_weight_rom_64x256.mem",
+        "blk0_spa_in_weight_rom_64x256.memory",
+        "blk0_spa_in_weight_rom_64x256.coe"
+      ]
+    },
+    {
+      "name": "blk0_spe_in_weight_rom_16x64",
+      "width": 64,
+      "depth": 16,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "e972757bf8b537fe47dfd787c6c9541196e3c4585d33cf491079014263b81f33",
+      "files": [
+        "blk0_spe_in_weight_rom_16x64.mem",
+        "blk0_spe_in_weight_rom_16x64.memory",
+        "blk0_spe_in_weight_rom_16x64.coe"
+      ]
+    },
+    {
+      "name": "blk0_spa_conv_param_rom_8x512",
+      "width": 512,
+      "depth": 8,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "2ed227d073cb5a665050642838f64d62c6b26d0d0712a787a0e6ce99b2d4caa3",
+      "files": [
+        "blk0_spa_conv_param_rom_8x512.mem",
+        "blk0_spa_conv_param_rom_8x512.memory",
+        "blk0_spa_conv_param_rom_8x512.coe"
+      ]
+    },
+    {
+      "name": "blk0_spe_conv_param_rom_2x512",
+      "width": 512,
+      "depth": 2,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "c8f69296d1cef6ec41982aa27a57649b951451c82f8e65c36cecad9fe7808362",
+      "files": [
+        "blk0_spe_conv_param_rom_2x512.mem",
+        "blk0_spe_conv_param_rom_2x512.memory",
+        "blk0_spe_conv_param_rom_2x512.coe"
+      ]
+    },
+    {
+      "name": "blk0_spa_x_weight_rom_64x512",
+      "width": 512,
+      "depth": 64,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "9d3b85f4189668a9a87e7cfece3b5ff3dfacdc077f847e3c2c1e433a544f117a",
+      "files": [
+        "blk0_spa_x_weight_rom_64x512.mem",
+        "blk0_spa_x_weight_rom_64x512.memory",
+        "blk0_spa_x_weight_rom_64x512.coe"
+      ]
+    },
+    {
+      "name": "blk0_spe_x_weight_rom_64x128",
+      "width": 128,
+      "depth": 64,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "2fb41451a1cb14974b8c414efd3125281620a21e674f1035e600d0dd0c247210",
+      "files": [
+        "blk0_spe_x_weight_rom_64x128.mem",
+        "blk0_spe_x_weight_rom_64x128.memory",
+        "blk0_spe_x_weight_rom_64x128.coe"
+      ]
+    },
+    {
+      "name": "blk0_spa_dt_param_rom_8x384",
+      "width": 384,
+      "depth": 8,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "7719a0718956b83ca255cd0fc4a589a8c97cb9d0cdf3ebb4a9970c71cf236643",
+      "files": [
+        "blk0_spa_dt_param_rom_8x384.mem",
+        "blk0_spa_dt_param_rom_8x384.memory",
+        "blk0_spa_dt_param_rom_8x384.coe"
+      ]
+    },
+    {
+      "name": "blk0_spe_dt_param_rom_2x320",
+      "width": 320,
+      "depth": 2,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "f8ba35e4f44541d1f3eb5a7cefddaa8844cd1062335968e348a6fcca703c34ac",
+      "files": [
+        "blk0_spe_dt_param_rom_2x320.mem",
+        "blk0_spe_dt_param_rom_2x320.memory",
+        "blk0_spe_dt_param_rom_2x320.coe"
+      ]
+    },
+    {
+      "name": "blk0_spa_out_param_rom_32x544",
+      "width": 544,
+      "depth": 32,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "f994cd31fcee326c514cef60ff1167c61adb4379fdf9a4472180dd038a25bf7f",
+      "files": [
+        "blk0_spa_out_param_rom_32x544.mem",
+        "blk0_spa_out_param_rom_32x544.memory",
+        "blk0_spa_out_param_rom_32x544.coe"
+      ]
+    },
+    {
+      "name": "blk0_spe_out_param_rom_1x1280",
+      "width": 1280,
+      "depth": 1,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "42c3a0cf9251e7c761744738962cdc6a49dad3c7dd0d4fd74c56b49f1d3e1890",
+      "files": [
+        "blk0_spe_out_param_rom_1x1280.mem",
+        "blk0_spe_out_param_rom_1x1280.memory",
+        "blk0_spe_out_param_rom_1x1280.coe"
+      ]
+    },
+    {
+      "name": "blk0_spa_ssm_lut_rom_256x419",
+      "width": 419,
+      "depth": 256,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "cfed5b917dc1533d14194aa3f3e12e479c0c6a6ff3b11bbe0b3fc79ac0bb613c",
+      "files": [
+        "blk0_spa_ssm_lut_rom_256x419.mem",
+        "blk0_spa_ssm_lut_rom_256x419.memory",
+        "blk0_spa_ssm_lut_rom_256x419.coe"
+      ]
+    },
+    {
+      "name": "blk0_spe_ssm_lut_rom_256x419",
+      "width": 419,
+      "depth": 256,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "6ff84f1411083c8e7696cded889ed48106ac5b44720467fff58c2a30e4baf92e",
+      "files": [
+        "blk0_spe_ssm_lut_rom_256x419.mem",
+        "blk0_spe_ssm_lut_rom_256x419.memory",
+        "blk0_spe_ssm_lut_rom_256x419.coe"
+      ]
+    },
+    {
+      "name": "blk1_spa_in_weight_rom_64x256",
+      "width": 256,
+      "depth": 64,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "8969f38de606a2d1ea0e9ebc8aadf8bfc5743d2c69568e87d665c557bdacdb4e",
+      "files": [
+        "blk1_spa_in_weight_rom_64x256.mem",
+        "blk1_spa_in_weight_rom_64x256.memory",
+        "blk1_spa_in_weight_rom_64x256.coe"
+      ]
+    },
+    {
+      "name": "blk1_spe_in_weight_rom_16x64",
+      "width": 64,
+      "depth": 16,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "5d72b5102145bcf6cae8c87bcd186f06913c4ccfc6f638ea9c6d16264f6d3ab4",
+      "files": [
+        "blk1_spe_in_weight_rom_16x64.mem",
+        "blk1_spe_in_weight_rom_16x64.memory",
+        "blk1_spe_in_weight_rom_16x64.coe"
+      ]
+    },
+    {
+      "name": "blk1_spa_conv_param_rom_8x512",
+      "width": 512,
+      "depth": 8,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "f756b0897cddb539d0dc397adfd3044c68a7af0d5e30ead79ad81f1c1351b607",
+      "files": [
+        "blk1_spa_conv_param_rom_8x512.mem",
+        "blk1_spa_conv_param_rom_8x512.memory",
+        "blk1_spa_conv_param_rom_8x512.coe"
+      ]
+    },
+    {
+      "name": "blk1_spe_conv_param_rom_2x512",
+      "width": 512,
+      "depth": 2,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "eeb556603a0963f6d80f746be99784392438ece6e190369b2ec9f54466971845",
+      "files": [
+        "blk1_spe_conv_param_rom_2x512.mem",
+        "blk1_spe_conv_param_rom_2x512.memory",
+        "blk1_spe_conv_param_rom_2x512.coe"
+      ]
+    },
+    {
+      "name": "blk1_spa_x_weight_rom_64x512",
+      "width": 512,
+      "depth": 64,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "a4398b6190968006646df87c5d3e985f8dc01500610b574a99285b6741aa112f",
+      "files": [
+        "blk1_spa_x_weight_rom_64x512.mem",
+        "blk1_spa_x_weight_rom_64x512.memory",
+        "blk1_spa_x_weight_rom_64x512.coe"
+      ]
+    },
+    {
+      "name": "blk1_spe_x_weight_rom_64x128",
+      "width": 128,
+      "depth": 64,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "4904e7cd6895bb317c39fe4a1c74f988d58dfff6a41c338d8cf7588de8b2637d",
+      "files": [
+        "blk1_spe_x_weight_rom_64x128.mem",
+        "blk1_spe_x_weight_rom_64x128.memory",
+        "blk1_spe_x_weight_rom_64x128.coe"
+      ]
+    },
+    {
+      "name": "blk1_spa_dt_param_rom_8x384",
+      "width": 384,
+      "depth": 8,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "b2d3c3b0e8991ea930e5f46e0a5feb7dd210f37dfdfae01eab5d9cc0c972e39f",
+      "files": [
+        "blk1_spa_dt_param_rom_8x384.mem",
+        "blk1_spa_dt_param_rom_8x384.memory",
+        "blk1_spa_dt_param_rom_8x384.coe"
+      ]
+    },
+    {
+      "name": "blk1_spe_dt_param_rom_2x320",
+      "width": 320,
+      "depth": 2,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "d7090f1bab1e2c731133f9e3e984e008e74df91ea97faa8b764f619b575bdbb6",
+      "files": [
+        "blk1_spe_dt_param_rom_2x320.mem",
+        "blk1_spe_dt_param_rom_2x320.memory",
+        "blk1_spe_dt_param_rom_2x320.coe"
+      ]
+    },
+    {
+      "name": "blk1_spa_out_param_rom_32x544",
+      "width": 544,
+      "depth": 32,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "0640c38440a4c309559a4bac507487f87a4d119c8b23120e28fef946550a4e13",
+      "files": [
+        "blk1_spa_out_param_rom_32x544.mem",
+        "blk1_spa_out_param_rom_32x544.memory",
+        "blk1_spa_out_param_rom_32x544.coe"
+      ]
+    },
+    {
+      "name": "blk1_spe_out_param_rom_1x1280",
+      "width": 1280,
+      "depth": 1,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "651e8bd84eebc72536a0840382c208f3a48ef3f07edc7539d97d32fba2c436b8",
+      "files": [
+        "blk1_spe_out_param_rom_1x1280.mem",
+        "blk1_spe_out_param_rom_1x1280.memory",
+        "blk1_spe_out_param_rom_1x1280.coe"
+      ]
+    },
+    {
+      "name": "blk1_spa_ssm_lut_rom_256x419",
+      "width": 419,
+      "depth": 256,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "5b9eeb09210949eeeb5f88c81b26c44528fb8284d2aa30fce7d764c1823688b8",
+      "files": [
+        "blk1_spa_ssm_lut_rom_256x419.mem",
+        "blk1_spa_ssm_lut_rom_256x419.memory",
+        "blk1_spa_ssm_lut_rom_256x419.coe"
+      ]
+    },
+    {
+      "name": "blk1_spe_ssm_lut_rom_256x419",
+      "width": 419,
+      "depth": 256,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "3df5e05d54b925cb9f1103ef8bb40cc14d7b514e34be35459273a0cd4bb18c6c",
+      "files": [
+        "blk1_spe_ssm_lut_rom_256x419.mem",
+        "blk1_spe_ssm_lut_rom_256x419.memory",
+        "blk1_spe_ssm_lut_rom_256x419.coe"
+      ]
+    },
+    {
+      "name": "blk2_spa_in_weight_rom_64x256",
+      "width": 256,
+      "depth": 64,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "ecddbaf0b7d51f3fa02ed8977d0677ee240f5a0ac632e893b63753405622ba1c",
+      "files": [
+        "blk2_spa_in_weight_rom_64x256.mem",
+        "blk2_spa_in_weight_rom_64x256.memory",
+        "blk2_spa_in_weight_rom_64x256.coe"
+      ]
+    },
+    {
+      "name": "blk2_spe_in_weight_rom_16x64",
+      "width": 64,
+      "depth": 16,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "1949f356d2256063018d8b0babafa92d9f16c733669493198f8494bf8476c07f",
+      "files": [
+        "blk2_spe_in_weight_rom_16x64.mem",
+        "blk2_spe_in_weight_rom_16x64.memory",
+        "blk2_spe_in_weight_rom_16x64.coe"
+      ]
+    },
+    {
+      "name": "blk2_spa_conv_param_rom_8x512",
+      "width": 512,
+      "depth": 8,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "aa7c3dbe9a1e7b410664d3880b7877dd9d96218029ab2dd153def7269b8e03ff",
+      "files": [
+        "blk2_spa_conv_param_rom_8x512.mem",
+        "blk2_spa_conv_param_rom_8x512.memory",
+        "blk2_spa_conv_param_rom_8x512.coe"
+      ]
+    },
+    {
+      "name": "blk2_spe_conv_param_rom_2x512",
+      "width": 512,
+      "depth": 2,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "de320e0ba2d67e86868e73efff0b72d35a647168c36ad8ba1e97c967ccd51ba6",
+      "files": [
+        "blk2_spe_conv_param_rom_2x512.mem",
+        "blk2_spe_conv_param_rom_2x512.memory",
+        "blk2_spe_conv_param_rom_2x512.coe"
+      ]
+    },
+    {
+      "name": "blk2_spa_x_weight_rom_64x512",
+      "width": 512,
+      "depth": 64,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "8b0815ce327f828dd1d882857eccd33e35441721be35b6a8b22376aba298041d",
+      "files": [
+        "blk2_spa_x_weight_rom_64x512.mem",
+        "blk2_spa_x_weight_rom_64x512.memory",
+        "blk2_spa_x_weight_rom_64x512.coe"
+      ]
+    },
+    {
+      "name": "blk2_spe_x_weight_rom_64x128",
+      "width": 128,
+      "depth": 64,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "d3f00fcdc08765e65988f41ecdeaac3320b58f8ee353660063a8a01ad7068508",
+      "files": [
+        "blk2_spe_x_weight_rom_64x128.mem",
+        "blk2_spe_x_weight_rom_64x128.memory",
+        "blk2_spe_x_weight_rom_64x128.coe"
+      ]
+    },
+    {
+      "name": "blk2_spa_dt_param_rom_8x384",
+      "width": 384,
+      "depth": 8,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "0dec6288fc9d01fb04dfac9b713d6a0fe1afbae183666e9bd2731bea5647334b",
+      "files": [
+        "blk2_spa_dt_param_rom_8x384.mem",
+        "blk2_spa_dt_param_rom_8x384.memory",
+        "blk2_spa_dt_param_rom_8x384.coe"
+      ]
+    },
+    {
+      "name": "blk2_spe_dt_param_rom_2x320",
+      "width": 320,
+      "depth": 2,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "0a7cd4ee01f4021364d6f461e2cb0d0ec07df52a2a96306dc53b1f280db1e7cf",
+      "files": [
+        "blk2_spe_dt_param_rom_2x320.mem",
+        "blk2_spe_dt_param_rom_2x320.memory",
+        "blk2_spe_dt_param_rom_2x320.coe"
+      ]
+    },
+    {
+      "name": "blk2_spa_out_param_rom_32x544",
+      "width": 544,
+      "depth": 32,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "8c8842b09c366913812d2d35c7970e4de35b23a75b07da7258ca9112d1f29aff",
+      "files": [
+        "blk2_spa_out_param_rom_32x544.mem",
+        "blk2_spa_out_param_rom_32x544.memory",
+        "blk2_spa_out_param_rom_32x544.coe"
+      ]
+    },
+    {
+      "name": "blk2_spe_out_param_rom_1x1280",
+      "width": 1280,
+      "depth": 1,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "be276c69552161d61e6f747bcc5ce3498ab4ce88106275df5cb4b019e42c5f79",
+      "files": [
+        "blk2_spe_out_param_rom_1x1280.mem",
+        "blk2_spe_out_param_rom_1x1280.memory",
+        "blk2_spe_out_param_rom_1x1280.coe"
+      ]
+    },
+    {
+      "name": "blk2_spa_ssm_lut_rom_256x419",
+      "width": 419,
+      "depth": 256,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "5778561fd9dab1eb14f9683f800412705a319a9ba24ed1b926e63246cf8817d7",
+      "files": [
+        "blk2_spa_ssm_lut_rom_256x419.mem",
+        "blk2_spa_ssm_lut_rom_256x419.memory",
+        "blk2_spa_ssm_lut_rom_256x419.coe"
+      ]
+    },
+    {
+      "name": "blk2_spe_ssm_lut_rom_256x419",
+      "width": 419,
+      "depth": 256,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "688c67c539478ef4755b09a4b9185cbd347982d541168e770e4f752ea436c38b",
+      "files": [
+        "blk2_spe_ssm_lut_rom_256x419.mem",
+        "blk2_spe_ssm_lut_rom_256x419.memory",
+        "blk2_spe_ssm_lut_rom_256x419.coe"
+      ]
+    },
+    {
+      "name": "head_conv1_param_rom_64x288",
+      "width": 288,
+      "depth": 64,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "8c90556d958201d741bd9a5eda93f07585df6413fd37a9c6ca71301769b5aa5f",
+      "files": [
+        "head_conv1_param_rom_64x288.mem",
+        "head_conv1_param_rom_64x288.memory",
+        "head_conv1_param_rom_64x288.coe"
+      ]
+    },
+    {
+      "name": "head_conv2_param_rom_18x288",
+      "width": 288,
+      "depth": 18,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "625f2cf122a0d857c2045c0a0c266515655dceb397892bc4753d8e94971478d3",
+      "files": [
+        "head_conv2_param_rom_18x288.mem",
+        "head_conv2_param_rom_18x288.memory",
+        "head_conv2_param_rom_18x288.coe"
+      ]
+    },
+    {
+      "name": "patch_weight_rom_32x128",
+      "width": 128,
+      "depth": 32,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "73c1df3eb15ca54e05545001e390906c9f067b06a08f8d6ad4bb72c5b13a8653",
+      "files": [
+        "patch_weight_rom_32x128.mem",
+        "patch_weight_rom_32x128.memory",
+        "patch_weight_rom_32x128.coe"
+      ]
+    },
+    {
+      "name": "patch_bias_rom_8x128",
+      "width": 128,
+      "depth": 8,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "97696daa0d095e8a15d2c9e053b9aab9bd1f0f6be6c701b935232f8a4e576b88",
+      "files": [
+        "patch_bias_rom_8x128.mem",
+        "patch_bias_rom_8x128.memory",
+        "patch_bias_rom_8x128.coe"
+      ]
+    },
+    {
+      "name": "blk0_spa_x_stream_weight_rom_16x1088",
+      "width": 1088,
+      "depth": 16,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "d4d9375d2bd486b05c1010e654517185a22ca7762007cd362581eaafd62082dc",
+      "files": [
+        "blk0_spa_x_stream_weight_rom_16x1088.mem",
+        "blk0_spa_x_stream_weight_rom_16x1088.memory",
+        "blk0_spa_x_stream_weight_rom_16x1088.coe"
+      ]
+    },
+    {
+      "name": "blk0_spa_out_stream_weight_rom_16x1024",
+      "width": 1024,
+      "depth": 16,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "e586e682e6db850954cb99ccdc5f410b4925ba5641ffb37874dad2c3b850d3ef",
+      "files": [
+        "blk0_spa_out_stream_weight_rom_16x1024.mem",
+        "blk0_spa_out_stream_weight_rom_16x1024.memory",
+        "blk0_spa_out_stream_weight_rom_16x1024.coe"
+      ]
+    },
+    {
+      "name": "blk1_spa_x_stream_weight_rom_16x1088",
+      "width": 1088,
+      "depth": 16,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "768c7a1a73875a6af4011e2f66bc5d02093b4274b97e394f4e008e0ad808cb86",
+      "files": [
+        "blk1_spa_x_stream_weight_rom_16x1088.mem",
+        "blk1_spa_x_stream_weight_rom_16x1088.memory",
+        "blk1_spa_x_stream_weight_rom_16x1088.coe"
+      ]
+    },
+    {
+      "name": "blk1_spa_out_stream_weight_rom_16x1024",
+      "width": 1024,
+      "depth": 16,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "8c1bb69bf9bc3c02d1d999a43cc5e369ec52bd16a62d4386b37152817de26b65",
+      "files": [
+        "blk1_spa_out_stream_weight_rom_16x1024.mem",
+        "blk1_spa_out_stream_weight_rom_16x1024.memory",
+        "blk1_spa_out_stream_weight_rom_16x1024.coe"
+      ]
+    },
+    {
+      "name": "blk2_spa_x_stream_weight_rom_16x1088",
+      "width": 1088,
+      "depth": 16,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "db716e1a6d357b2b4bcd159c2f1e6edf90e95174a0d43335fa6900a57d86e3dc",
+      "files": [
+        "blk2_spa_x_stream_weight_rom_16x1088.mem",
+        "blk2_spa_x_stream_weight_rom_16x1088.memory",
+        "blk2_spa_x_stream_weight_rom_16x1088.coe"
+      ]
+    },
+    {
+      "name": "blk2_spa_out_stream_weight_rom_16x1024",
+      "width": 1024,
+      "depth": 16,
+      "lsb_first_element_packing": true,
+      "mem_sha256": "4b61467b383ee4a4e5f49e638dcaa1d3945d934563fcbc5ae714fa297a20f815",
+      "files": [
+        "blk2_spa_out_stream_weight_rom_16x1024.mem",
+        "blk2_spa_out_stream_weight_rom_16x1024.memory",
+        "blk2_spa_out_stream_weight_rom_16x1024.coe"
+      ]
+    }
+  ],
+  "ip_map": {
+    "b1_so4_rom": "blk1_spa_out_stream_weight_rom_16x1024.coe",
+    "b1_sx4_rom": "blk1_spa_x_stream_weight_rom_16x1088.coe",
+    "b2_so4_rom": "blk2_spa_out_stream_weight_rom_16x1024.coe",
+    "b2_sx4_rom": "blk2_spa_x_stream_weight_rom_16x1088.coe",
+    "blk0_spa_conv_param_rom_8x512": "blk0_spa_conv_param_rom_8x512.coe",
+    "blk0_spa_dt_param_rom_8x384": "blk0_spa_dt_param_rom_8x384.coe",
+    "blk0_spa_in_weight_rom_64x256": "blk0_spa_in_weight_rom_64x256.coe",
+    "blk0_spa_out_param_rom_32x544_copy01": "blk0_spa_out_param_rom_32x544.coe",
+    "blk0_spa_out_param_rom_32x544_copy23": "blk0_spa_out_param_rom_32x544.coe",
+    "blk0_spa_out_stream_weight_rom_16x1024": "blk0_spa_out_stream_weight_rom_16x1024.coe",
+    "blk0_spa_ssm_lut_rom_256x419_copy01": "blk0_spa_ssm_lut_rom_256x419.coe",
+    "blk0_spa_ssm_lut_rom_256x419_copy23": "blk0_spa_ssm_lut_rom_256x419.coe",
+    "blk0_spa_x_stream_weight_rom_16x1088": "blk0_spa_x_stream_weight_rom_16x1088.coe",
+    "blk0_spa_x_weight_rom_64x512": "blk0_spa_x_weight_rom_64x512.coe",
+    "blk0_spe_conv_param_rom_2x512": "blk0_spe_conv_param_rom_2x512.coe",
+    "blk0_spe_dt_param_rom_2x320": "blk0_spe_dt_param_rom_2x320.coe",
+    "blk0_spe_in_weight_rom_16x64": "blk0_spe_in_weight_rom_16x64.coe",
+    "blk0_spe_out_param_rom_1x1280": "blk0_spe_out_param_rom_1x1280.coe",
+    "blk0_spe_ssm_lut_rom_256x419_copy01": "blk0_spe_ssm_lut_rom_256x419.coe",
+    "blk0_spe_ssm_lut_rom_256x419_copy23": "blk0_spe_ssm_lut_rom_256x419.coe",
+    "blk0_spe_x_weight_rom_64x128_copy01": "blk0_spe_x_weight_rom_64x128.coe",
+    "blk0_spe_x_weight_rom_64x128_copy23": "blk0_spe_x_weight_rom_64x128.coe",
+    "blk1_spa_conv_param_rom_8x512": "blk1_spa_conv_param_rom_8x512.coe",
+    "blk1_spa_dt_param_rom_8x384": "blk1_spa_dt_param_rom_8x384.coe",
+    "blk1_spa_in_weight_rom_64x256": "blk1_spa_in_weight_rom_64x256.coe",
+    "blk1_spa_out_param_rom_32x544_copy01": "blk1_spa_out_param_rom_32x544.coe",
+    "blk1_spa_out_param_rom_32x544_copy23": "blk1_spa_out_param_rom_32x544.coe",
+    "blk1_spa_out_stream_weight_rom_16x1024": "blk1_spa_out_stream_weight_rom_16x1024.coe",
+    "blk1_spa_ssm_lut_rom_256x419_copy01": "blk1_spa_ssm_lut_rom_256x419.coe",
+    "blk1_spa_ssm_lut_rom_256x419_copy23": "blk1_spa_ssm_lut_rom_256x419.coe",
+    "blk1_spa_x_stream_weight_rom_16x1088": "blk1_spa_x_stream_weight_rom_16x1088.coe",
+    "blk1_spa_x_weight_rom_64x512": "blk1_spa_x_weight_rom_64x512.coe",
+    "blk1_spe_conv_param_rom_2x512": "blk1_spe_conv_param_rom_2x512.coe",
+    "blk1_spe_dt_param_rom_2x320": "blk1_spe_dt_param_rom_2x320.coe",
+    "blk1_spe_in_weight_rom_16x64": "blk1_spe_in_weight_rom_16x64.coe",
+    "blk1_spe_out_param_rom_1x1280": "blk1_spe_out_param_rom_1x1280.coe",
+    "blk1_spe_ssm_lut_rom_256x419_copy01": "blk1_spe_ssm_lut_rom_256x419.coe",
+    "blk1_spe_ssm_lut_rom_256x419_copy23": "blk1_spe_ssm_lut_rom_256x419.coe",
+    "blk1_spe_x_weight_rom_64x128_copy01": "blk1_spe_x_weight_rom_64x128.coe",
+    "blk1_spe_x_weight_rom_64x128_copy23": "blk1_spe_x_weight_rom_64x128.coe",
+    "blk2_spa_conv_param_rom_8x512": "blk2_spa_conv_param_rom_8x512.coe",
+    "blk2_spa_dt_param_rom_8x384": "blk2_spa_dt_param_rom_8x384.coe",
+    "blk2_spa_in_weight_rom_64x256": "blk2_spa_in_weight_rom_64x256.coe",
+    "blk2_spa_out_param_rom_32x544_copy01": "blk2_spa_out_param_rom_32x544.coe",
+    "blk2_spa_out_param_rom_32x544_copy23": "blk2_spa_out_param_rom_32x544.coe",
+    "blk2_spa_ssm_lut_rom_256x419_copy01": "blk2_spa_ssm_lut_rom_256x419.coe",
+    "blk2_spa_ssm_lut_rom_256x419_copy23": "blk2_spa_ssm_lut_rom_256x419.coe",
+    "blk2_spa_x_stream_weight_rom_16x1088": "blk2_spa_x_stream_weight_rom_16x1088.coe",
+    "blk2_spa_x_weight_rom_64x512": "blk2_spa_x_weight_rom_64x512.coe",
+    "blk2_spe_conv_param_rom_2x512": "blk2_spe_conv_param_rom_2x512.coe",
+    "blk2_spe_dt_param_rom_2x320": "blk2_spe_dt_param_rom_2x320.coe",
+    "blk2_spe_in_weight_rom_16x64": "blk2_spe_in_weight_rom_16x64.coe",
+    "blk2_spe_out_param_rom_1x1280": "blk2_spe_out_param_rom_1x1280.coe",
+    "blk2_spe_ssm_lut_rom_256x419_copy01": "blk2_spe_ssm_lut_rom_256x419.coe",
+    "blk2_spe_ssm_lut_rom_256x419_copy23": "blk2_spe_ssm_lut_rom_256x419.coe",
+    "blk2_spe_x_weight_rom_64x128_copy01": "blk2_spe_x_weight_rom_64x128.coe",
+    "blk2_spe_x_weight_rom_64x128_copy23": "blk2_spe_x_weight_rom_64x128.coe",
+    "head_conv1_param_rom_64x288": "head_conv1_param_rom_64x288.coe",
+    "head_conv2_param_rom_18x288": "head_conv2_param_rom_18x288.coe",
+    "patch_bias_rom_8x128": "patch_bias_rom_8x128.coe",
+    "patch_weight_rom_32x128_copy01": "patch_weight_rom_32x128.coe",
+    "patch_weight_rom_32x128_copy23": "patch_weight_rom_32x128.coe"
+  },
+  "quant_params": {
+    "SPA_IN_M": [
+      18546,
+      25243,
+      26470
+    ],
+    "SPA_IN_S": [
+      20,
+      20,
+      20
+    ],
+    "SPE_IN_M": [
+      22145,
+      25227,
+      19624
+    ],
+    "SPE_IN_S": [
+      19,
+      19,
+      18
+    ],
+    "SPA_CONV_M": [
+      16653,
+      21357,
+      26570
+    ],
+    "SPA_CONV_S": [
+      17,
+      17,
+      17
+    ],
+    "SPE_CONV_M": [
+      26479,
+      31982,
+      30685
+    ],
+    "SPE_CONV_S": [
+      18,
+      17,
+      17
+    ],
+    "SPA_X_DT_M": [
+      19739,
+      29845,
+      29343
+    ],
+    "SPA_X_DT_S": [
+      18,
+      18,
+      18
+    ],
+    "SPA_X_B_M": [
+      25960,
+      32617,
+      20506
+    ],
+    "SPA_X_B_S": [
+      22,
+      22,
+      21
+    ],
+    "SPA_X_C_M": [
+      23270,
+      16419,
+      22337
+    ],
+    "SPA_X_C_S": [
+      22,
+      21,
+      21
+    ],
+    "SPE_X_DT_M": [
+      22135,
+      22977,
+      30831
+    ],
+    "SPE_X_DT_S": [
+      16,
+      17,
+      16
+    ],
+    "SPE_X_B_M": [
+      16799,
+      19420,
+      28707
+    ],
+    "SPE_X_B_S": [
+      19,
+      20,
+      20
+    ],
+    "SPE_X_C_M": [
+      28221,
+      17749,
+      29510
+    ],
+    "SPE_X_C_S": [
+      20,
+      20,
+      20
+    ],
+    "SPA_DT_M": [
+      17223,
+      27587,
+      21797
+    ],
+    "SPA_DT_S": [
+      22,
+      22,
+      21
+    ],
+    "SPE_DT_M": [
+      27745,
+      31109,
+      29056
+    ],
+    "SPE_DT_S": [
+      23,
+      22,
+      22
+    ],
+    "SPA_SSM_MULT": [
+      16734,
+      27810,
+      22551
+    ],
+    "SPA_SSM_SHIFT": [
+      37,
+      38,
+      38
+    ],
+    "SPE_SSM_MULT": [
+      26812,
+      25026,
+      30765
+    ],
+    "SPE_SSM_SHIFT": [
+      39,
+      38,
+      39
+    ],
+    "SPA_OUT_MULT": [
+      30169,
+      21144,
+      20037
+    ],
+    "SPA_OUT_SHIFT": [
+      19,
+      19,
+      19
+    ],
+    "SPE_OUT_MULT": [
+      18683,
+      29670,
+      22737
+    ],
+    "SPE_OUT_SHIFT": [
+      17,
+      18,
+      18
+    ],
+    "FUSION_A_MULT": [
+      17376,
+      18154,
+      18548
+    ],
+    "FUSION_A_SHIFT": [
+      15,
+      15,
+      15
+    ],
+    "FUSION_B_MULT": [
+      31143,
+      29382,
+      28535
+    ],
+    "FUSION_B_SHIFT": [
+      16,
+      16,
+      16
+    ],
+    "BLOCK_A_MULT": [
+      31651,
+      25163,
+      29183
+    ],
+    "BLOCK_A_SHIFT": [
+      16,
+      17,
+      17
+    ],
+    "BLOCK_B_MULT": [
+      16988,
+      29741,
+      28560
+    ],
+    "BLOCK_B_SHIFT": [
+      15,
+      17,
+      18
+    ],
+    "PATCH_MULTIPLIER": 28478,
+    "PATCH_SHIFT": 19,
+    "HEAD1_MULTIPLIER": 25465,
+    "HEAD1_SHIFT": 18,
+    "HEAD2_MULTIPLIER": 25784,
+    "HEAD2_SHIFT": 22,
+    "SPA_INPUT_MULTIPLIER": [
+      32741,
+      32576,
+      16391
+    ],
+    "SPA_INPUT_SHIFT": [
+      15,
+      17,
+      16
+    ],
+    "SPE_INPUT_MULTIPLIER": [
+      16406,
+      32588,
+      32756
+    ],
+    "SPE_INPUT_SHIFT": [
+      14,
+      17,
+      17
+    ]
+  },
+  "source_checkpoint_sha256": "d113c6123eb3234ea2a6b8fe13640c02b82e235e469e4337ec01c291844daf33",
+  "files": {
+    "converted_ssm/ssm_luts/blk0_spa_Abar_uq1_24.txt": "06e0e070a97a364810592cc96d20541d9654d9ffb545c2145c1b6519cd9c440c",
+    "converted_ssm/ssm_luts/blk0_spa_K_q24_u19.txt": "5b85e87474bfa4de01146012eef95f27bd09fb5d0c175ff5a1b3c5b41d52d208",
+    "converted_ssm/ssm_luts/blk0_spe_Abar_uq1_24.txt": "c5c2052faa5350cd37bc8d8644d043ef172fd6f7f99f0e46ba47cb61b0d69386",
+    "converted_ssm/ssm_luts/blk0_spe_K_q24_u19.txt": "841fee2f692343d96ab7505642dc78d795bb6adc9ec6823a8f24867162a9d1db",
+    "converted_ssm/ssm_luts/blk1_spa_Abar_uq1_24.txt": "81989cfcf6c8491adfc111996a62af6fe3655eb50e7811903832024a0667d383",
+    "converted_ssm/ssm_luts/blk1_spa_K_q23_u19.txt": "272de6a13a95be60ad1d3050b0618e2b7257d356b83936700357472fa5929d46",
+    "converted_ssm/ssm_luts/blk1_spe_Abar_uq1_24.txt": "09c6530444f3112bfc44c71ac6f2dfdb9d0a79351da27a9f63da57b7a888e8fd",
+    "converted_ssm/ssm_luts/blk1_spe_K_q24_u19.txt": "33df014d0508ba151ed469c96851eebaba0236cf7cfefd555279cf0da21da9f2",
+    "converted_ssm/ssm_luts/blk2_spa_Abar_uq1_24.txt": "d30df105f31dd95f667dfaf31af6e3ae697d84225dcaf048aa11f5e39addea85",
+    "converted_ssm/ssm_luts/blk2_spa_K_q22_u19.txt": "2e08bea41f20cb1600bec41c9d7407200f583ed2ba86764f910ef15488857332",
+    "converted_ssm/ssm_luts/blk2_spe_Abar_uq1_24.txt": "ab3359b87f104c5fb9106fc278ef6a95ab253cd0efc6ea78092f2cfcdfe573a2",
+    "converted_ssm/ssm_luts/blk2_spe_K_q23_u19.txt": "534b0018385bd5866c9194ac9fed3422a0c19c86a1999511a3dede4a33e63f23",
+    "export_head_input_contract.py": "a8764fea881a3b65e99af4b51d9e995cbc4ca1d818d7aaee2a4e7387a9c18b73",
+    "finalize_head_contract.py": "5917a1d7b23b80aa88083513243eb39b4df6bfcda49b1c061fa5abc9e292d6c9",
+    "head_contract_ready.txt": "6e57b607bdb5a6524220a69c057c963ec3ed563de5f482731e90a3db463ff21d",
+    "head_input_contract.json": "96ea0a90544b015ff1b62af5f6aa88da1bf4408641f5d5735dedd54a522d5d3a",
+    "host/host/dual_bank_test.py": "bf7b31b6d8622f9651fb4c404e4e54ba20a37359e24c9c7f4cc27e04eb793d28",
+    "host/send_scene_v2.py": "2aa30f03323a1da34a60d46b3b22c78da12b9e8e77ad32a326a0a55faa46be75",
+    "implement_d1.tcl": "4ad1e5f2c7ce6e59e9dee2a243e3c5d28eb19f12b6c26d6b69cc0802f14c186d",
+    "prepare_d1_project.tcl": "ae74c56e73baa7569d699d997d03bcd356978b49f644a6fc8060088805ccb7c5",
+    "README_D1.md": "89910bd0b45ecc9e0de1a28f16c0b2422f3cb9cad4df12a07e6751fd4899f340",
+    "reference/fpga_simulation_result.json": "9f572c0d6c0b4b8e593edebd4489f1d36ba4cfa7b6a20b13dc3009388334e5d4",
+    "reference/int8_hw_prediction.npy": "5d0e437124496889270a0557e9cfde7a41fba54a7b706928af0fc77b42b4ea77",
+    "reference/int8_hw_prediction_u8.bin": "d0feeaf4b9f7124899d20aeb771380d013deb4cb116112a578d2bad468144f40",
+    "reference/numeric_config.json": "099b0e7034187a0e66f1fb2104311ad289015afa95fdd0805b4354494b976e81",
+    "reference/scene_tiles_uint8.bin": "5e830f01222de08bbffd59d391f73d8130972deee529c75f7506071edf7c752f",
+    "rom/blk0_spa_conv_param_rom_8x512.coe": "0815518afaad85aca05abc207fbe15e0209e64bfe1848a4b4b54c6fc5a146c54",
+    "rom/blk0_spa_conv_param_rom_8x512.mem": "2a1d7e3acc55f0278803928cbc87cb24f5a7c377eddbb7ade2bbd0d6c15b3249",
+    "rom/blk0_spa_conv_param_rom_8x512.memory": "2a1d7e3acc55f0278803928cbc87cb24f5a7c377eddbb7ade2bbd0d6c15b3249",
+    "rom/blk0_spa_dt_param_rom_8x384.coe": "ea8058003ef1f628e7dbeb5800c33710ed8417f7c6fc05a719e4538045d70383",
+    "rom/blk0_spa_dt_param_rom_8x384.mem": "e0d96f559cb4faf1997092dd99d4e312d89c62267808ac87c89bb345887c20d3",
+    "rom/blk0_spa_dt_param_rom_8x384.memory": "e0d96f559cb4faf1997092dd99d4e312d89c62267808ac87c89bb345887c20d3",
+    "rom/blk0_spa_in_weight_rom_64x256.coe": "e8b276e50dae3b69a101f41a875fdfb2a4344be2f6d763fd2cfcfa67af90263b",
+    "rom/blk0_spa_in_weight_rom_64x256.mem": "b1f00f6d3fefec5719908db1acc9d64270792b67b9c2dbb5332dbe16db5469e4",
+    "rom/blk0_spa_in_weight_rom_64x256.memory": "b1f00f6d3fefec5719908db1acc9d64270792b67b9c2dbb5332dbe16db5469e4",
+    "rom/blk0_spa_out_param_rom_32x544.coe": "29ac517ad820f45b57f000227a039ccd76bf7bac4cadc945753f6483683b5164",
+    "rom/blk0_spa_out_param_rom_32x544.mem": "97abfab003cec13df4bc7388ab5fd6466cd28690fe8e2aeba3d2a0586d80140f",
+    "rom/blk0_spa_out_param_rom_32x544.memory": "97abfab003cec13df4bc7388ab5fd6466cd28690fe8e2aeba3d2a0586d80140f",
+    "rom/blk0_spa_out_stream_weight_rom_16x1024.coe": "2691695119179c3465d6e23a9cf7c1e2057a6e923642ba55366f9de04b14cabe",
+    "rom/blk0_spa_out_stream_weight_rom_16x1024.mem": "0f3ef9f143241ca97af202ae32840da2570a2b6ddaf78cf08e7a3eda71081532",
+    "rom/blk0_spa_out_stream_weight_rom_16x1024.memory": "0f3ef9f143241ca97af202ae32840da2570a2b6ddaf78cf08e7a3eda71081532",
+    "rom/blk0_spa_ssm_lut_rom_256x419.coe": "d3c3510b963fe2dcfe1171dfaec2fda520ea1f74381ffb662f6febe14edc9fe6",
+    "rom/blk0_spa_ssm_lut_rom_256x419.mem": "3733f1c153f8319a15314a817d0ac6b690341bd42b63a654027f41a12a99e632",
+    "rom/blk0_spa_ssm_lut_rom_256x419.memory": "3733f1c153f8319a15314a817d0ac6b690341bd42b63a654027f41a12a99e632",
+    "rom/blk0_spa_x_stream_weight_rom_16x1088.coe": "4e62217a45a2829694348e02be68b14a24042691b48c374e0212a6249cd6c6bd",
+    "rom/blk0_spa_x_stream_weight_rom_16x1088.mem": "793b6df21c6ae59aced94d40b3aa279fed35450725788fd783f56ee421912a52",
+    "rom/blk0_spa_x_stream_weight_rom_16x1088.memory": "793b6df21c6ae59aced94d40b3aa279fed35450725788fd783f56ee421912a52",
+    "rom/blk0_spa_x_weight_rom_64x512.coe": "3ed23a2719f6d11b7acc4ea7eab62b1999cd3f9e93c8d7170e54b82708ce0d52",
+    "rom/blk0_spa_x_weight_rom_64x512.mem": "2ee838fc301d21638c32229af2a5f7c5bc62230af44b4ec5aae71266dc190550",
+    "rom/blk0_spa_x_weight_rom_64x512.memory": "2ee838fc301d21638c32229af2a5f7c5bc62230af44b4ec5aae71266dc190550",
+    "rom/blk0_spe_conv_param_rom_2x512.coe": "e9503ca5351e39834868fb6cbfe4bb12c50d17d8138392f494a5bde757c879b3",
+    "rom/blk0_spe_conv_param_rom_2x512.mem": "cbf4b42c147a84164eb02e1bc7fab31a0d557bec3e5eaa178799287c0b57d3b1",
+    "rom/blk0_spe_conv_param_rom_2x512.memory": "cbf4b42c147a84164eb02e1bc7fab31a0d557bec3e5eaa178799287c0b57d3b1",
+    "rom/blk0_spe_dt_param_rom_2x320.coe": "57188d02ac34fb0bd4a3e680e23a417afac0e7a59052002ff30d935d0d8f9146",
+    "rom/blk0_spe_dt_param_rom_2x320.mem": "7d28c3b9aac3845965da2a25453f80a5900129ba963d7b696481a401c049e64d",
+    "rom/blk0_spe_dt_param_rom_2x320.memory": "7d28c3b9aac3845965da2a25453f80a5900129ba963d7b696481a401c049e64d",
+    "rom/blk0_spe_in_weight_rom_16x64.coe": "167a83fc7af50f92ddf348e9d546e4510f43974024e1ee42f98652cd9e14dda7",
+    "rom/blk0_spe_in_weight_rom_16x64.mem": "a9e0c26dffea0c3d61257fd2a1ff1311f0965f78c7de45ed6e8f83dc7e6a5032",
+    "rom/blk0_spe_in_weight_rom_16x64.memory": "a9e0c26dffea0c3d61257fd2a1ff1311f0965f78c7de45ed6e8f83dc7e6a5032",
+    "rom/blk0_spe_out_param_rom_1x1280.coe": "0ac61bdde2c219745e1cb35978dd05a18efbe3745433f8d176b56beb3923e62a",
+    "rom/blk0_spe_out_param_rom_1x1280.mem": "ce9c806a05e71c4a84bd22a5ec63a0c828ab834c036f030225021b961472e859",
+    "rom/blk0_spe_out_param_rom_1x1280.memory": "ce9c806a05e71c4a84bd22a5ec63a0c828ab834c036f030225021b961472e859",
+    "rom/blk0_spe_ssm_lut_rom_256x419.coe": "5fb71ac788ab0a9a13231e7232cb97ca2411c8b6adce6fd7cb618ba88010b584",
+    "rom/blk0_spe_ssm_lut_rom_256x419.mem": "a415a82cc7f780afbae1eaeac2791e6064ef6f9bf8dc600a955c93dacb9352e7",
+    "rom/blk0_spe_ssm_lut_rom_256x419.memory": "a415a82cc7f780afbae1eaeac2791e6064ef6f9bf8dc600a955c93dacb9352e7",
+    "rom/blk0_spe_x_weight_rom_64x128.coe": "8fc307cf2e719a10e9c6915a676abbbe6e58867efa3837f0aa59da803b35d00f",
+    "rom/blk0_spe_x_weight_rom_64x128.mem": "3244901acd3d856baa9f98aab592ceaafed9ee92c926e0377dcb6a1e2bfb613d",
+    "rom/blk0_spe_x_weight_rom_64x128.memory": "3244901acd3d856baa9f98aab592ceaafed9ee92c926e0377dcb6a1e2bfb613d",
+    "rom/blk1_spa_conv_param_rom_8x512.coe": "86e516cefb612e74228ec30c1570ef2524fe634294cb1243a3eab94cdba8c787",
+    "rom/blk1_spa_conv_param_rom_8x512.mem": "392fabcf87a1ab1c872d45d3f508a75fab28885212733a9a2e62fff7436e47ef",
+    "rom/blk1_spa_conv_param_rom_8x512.memory": "392fabcf87a1ab1c872d45d3f508a75fab28885212733a9a2e62fff7436e47ef",
+    "rom/blk1_spa_dt_param_rom_8x384.coe": "2eac214bcc2c905053ea8ac490436df366997dacf103c490f1dae3f7874f1963",
+    "rom/blk1_spa_dt_param_rom_8x384.mem": "a781212e924ded75f7febd9475165c4680596b032cc2bc1407322323485328f0",
+    "rom/blk1_spa_dt_param_rom_8x384.memory": "a781212e924ded75f7febd9475165c4680596b032cc2bc1407322323485328f0",
+    "rom/blk1_spa_in_weight_rom_64x256.coe": "78b37772e82c9d5866df244f3031550fe119a4e4be3bc62e362c586a946e3b2d",
+    "rom/blk1_spa_in_weight_rom_64x256.mem": "d63850ed82dcc601e71f4fd256e3645e74c4033eacc1478c2b9ce4a4515f3768",
+    "rom/blk1_spa_in_weight_rom_64x256.memory": "d63850ed82dcc601e71f4fd256e3645e74c4033eacc1478c2b9ce4a4515f3768",
+    "rom/blk1_spa_out_param_rom_32x544.coe": "484e810ce11dfd58f25fea991f6c6e8be1b4243366d8ca0e2f33798a06e3a135",
+    "rom/blk1_spa_out_param_rom_32x544.mem": "6b26a6e4eb57d40ae210c5650b5498d9d02e10db43d63ef2fc743f5affdc059a",
+    "rom/blk1_spa_out_param_rom_32x544.memory": "6b26a6e4eb57d40ae210c5650b5498d9d02e10db43d63ef2fc743f5affdc059a",
+    "rom/blk1_spa_out_stream_weight_rom_16x1024.coe": "1645530bd8ecd200250c681a131c6115c419a403651a31311bdb080b42f6f4f9",
+    "rom/blk1_spa_out_stream_weight_rom_16x1024.mem": "c9c57a8b58dcef43b78731a5a3494fd96a200022995a0ef05c616f2e70f04af8",
+    "rom/blk1_spa_out_stream_weight_rom_16x1024.memory": "c9c57a8b58dcef43b78731a5a3494fd96a200022995a0ef05c616f2e70f04af8",
+    "rom/blk1_spa_ssm_lut_rom_256x419.coe": "64f92fc7ff024755195b5990dabd99676ade290fc9abb5ba03239ee37e6297ca",
+    "rom/blk1_spa_ssm_lut_rom_256x419.mem": "bd3280b89f76bb7304adb74d54fa5a3ad2bef9260a2a390648865e9ee43d6827",
+    "rom/blk1_spa_ssm_lut_rom_256x419.memory": "bd3280b89f76bb7304adb74d54fa5a3ad2bef9260a2a390648865e9ee43d6827",
+    "rom/blk1_spa_x_stream_weight_rom_16x1088.coe": "7731a247d321ce073e8b43504989aef102644ae3544779a669d0e7bbdf2c66f2",
+    "rom/blk1_spa_x_stream_weight_rom_16x1088.mem": "a45136572eb655839a02f00da896cb6352fcaca2c27dde5a87e394ca534dd746",
+    "rom/blk1_spa_x_stream_weight_rom_16x1088.memory": "a45136572eb655839a02f00da896cb6352fcaca2c27dde5a87e394ca534dd746",
+    "rom/blk1_spa_x_weight_rom_64x512.coe": "cc77d1ce46504eeff22f7b2b88e9c64c45d8ff97e55a5293c0e5012ca30037ed",
+    "rom/blk1_spa_x_weight_rom_64x512.mem": "79f68a78b7611fec85568b3a4b8c4bcfcc3d5e32cc0fc0c87022737c3e29c67d",
+    "rom/blk1_spa_x_weight_rom_64x512.memory": "79f68a78b7611fec85568b3a4b8c4bcfcc3d5e32cc0fc0c87022737c3e29c67d",
+    "rom/blk1_spe_conv_param_rom_2x512.coe": "5cf11a405a8cc28af3f16fc440af1eeb24afe294e0c4a4f1af5511350da95d17",
+    "rom/blk1_spe_conv_param_rom_2x512.mem": "94798010da4dd50efb2d26826ebe49d783c318a3b4f2c36b29a683270147e5b4",
+    "rom/blk1_spe_conv_param_rom_2x512.memory": "94798010da4dd50efb2d26826ebe49d783c318a3b4f2c36b29a683270147e5b4",
+    "rom/blk1_spe_dt_param_rom_2x320.coe": "71ed9a4640a2e8dd459f7be852242752bb0ad5caad0878bf9d499e528afe876a",
+    "rom/blk1_spe_dt_param_rom_2x320.mem": "6fd91cd37e9617384d17828d772e0211c629f6181627fd6ec39c8130dd7b28b2",
+    "rom/blk1_spe_dt_param_rom_2x320.memory": "6fd91cd37e9617384d17828d772e0211c629f6181627fd6ec39c8130dd7b28b2",
+    "rom/blk1_spe_in_weight_rom_16x64.coe": "9c87e34d1f31002d9c53ace4ecdc607d6055ede892db7cbd00de667326433359",
+    "rom/blk1_spe_in_weight_rom_16x64.mem": "f7128d04c055667dd5e379e6c334852f478c3badfab750eba2993463c88fdd9e",
+    "rom/blk1_spe_in_weight_rom_16x64.memory": "f7128d04c055667dd5e379e6c334852f478c3badfab750eba2993463c88fdd9e",
+    "rom/blk1_spe_out_param_rom_1x1280.coe": "7b8dd97499c3a8858a44a0435431422654c9abd310ecf9f9455f355d8eb33fea",
+    "rom/blk1_spe_out_param_rom_1x1280.mem": "66572e404a1fa883379c21ef74df648856ba8522292eba1fab2a2b23f42da5db",
+    "rom/blk1_spe_out_param_rom_1x1280.memory": "66572e404a1fa883379c21ef74df648856ba8522292eba1fab2a2b23f42da5db",
+    "rom/blk1_spe_ssm_lut_rom_256x419.coe": "6f62c7ef55d935959a2f53bb0982717c57a897f3489a00315b44812d125a8ec9",
+    "rom/blk1_spe_ssm_lut_rom_256x419.mem": "8bbde9f90e6c15ca2bf63f70faef632540bb743fb06519e02f2910fcba096fc8",
+    "rom/blk1_spe_ssm_lut_rom_256x419.memory": "8bbde9f90e6c15ca2bf63f70faef632540bb743fb06519e02f2910fcba096fc8",
+    "rom/blk1_spe_x_weight_rom_64x128.coe": "46b2ca64c0ad9f3d4b580e5662dc615c3aa7cb625561fd0da04e191fb6334144",
+    "rom/blk1_spe_x_weight_rom_64x128.mem": "559581267559e73657508f2b83cdcd018991522da68dd411823baaa4eafdb405",
+    "rom/blk1_spe_x_weight_rom_64x128.memory": "559581267559e73657508f2b83cdcd018991522da68dd411823baaa4eafdb405",
+    "rom/blk2_spa_conv_param_rom_8x512.coe": "855c50cae74d84b3e2bac1efc8358c7f5722424abd00ea0b9ae95a5583313825",
+    "rom/blk2_spa_conv_param_rom_8x512.mem": "a277be4282b7095b6f82b409514c81c7f8ee51f24ddd20c82d015225afdfc8ce",
+    "rom/blk2_spa_conv_param_rom_8x512.memory": "a277be4282b7095b6f82b409514c81c7f8ee51f24ddd20c82d015225afdfc8ce",
+    "rom/blk2_spa_dt_param_rom_8x384.coe": "3e3aafa26d3d5ebbe0a0c5e001dcfb8671e53db42b7759aa19c613f7f4e351dc",
+    "rom/blk2_spa_dt_param_rom_8x384.mem": "3d2de64bdfb7041a430373831cdf3027825d539a802bde22ec29c955aaac63b2",
+    "rom/blk2_spa_dt_param_rom_8x384.memory": "3d2de64bdfb7041a430373831cdf3027825d539a802bde22ec29c955aaac63b2",
+    "rom/blk2_spa_in_weight_rom_64x256.coe": "0d1b33e6389accbfb29c3e0e795943202b74215281c34abeced7d73cbc88bca8",
+    "rom/blk2_spa_in_weight_rom_64x256.mem": "4a48916c990e54606129d53eeb427033562d5951af62c0614c8238b66736d38a",
+    "rom/blk2_spa_in_weight_rom_64x256.memory": "4a48916c990e54606129d53eeb427033562d5951af62c0614c8238b66736d38a",
+    "rom/blk2_spa_out_param_rom_32x544.coe": "26e6badefb58c83d744d851639a808d5a89e9753f3c314d0246aa3c3eca32238",
+    "rom/blk2_spa_out_param_rom_32x544.mem": "e98cb5318ff330fa9fd9912fcd7860b8b2b589ecc1d25c1a8ec48435ffb5dbd3",
+    "rom/blk2_spa_out_param_rom_32x544.memory": "e98cb5318ff330fa9fd9912fcd7860b8b2b589ecc1d25c1a8ec48435ffb5dbd3",
+    "rom/blk2_spa_out_stream_weight_rom_16x1024.coe": "5d04dbcca459e856cdb19fa387c99136d9635268bb93202b7428bed81e0f519c",
+    "rom/blk2_spa_out_stream_weight_rom_16x1024.mem": "4d1d93ddc688fc65e9d7163bff17c3497206d836badbd55f337492c9afe02cfe",
+    "rom/blk2_spa_out_stream_weight_rom_16x1024.memory": "4d1d93ddc688fc65e9d7163bff17c3497206d836badbd55f337492c9afe02cfe",
+    "rom/blk2_spa_ssm_lut_rom_256x419.coe": "d29e073de33bb31dcd24cc2f54a5fce5ab75fa25c51f1aff1b4454aaf9da8933",
+    "rom/blk2_spa_ssm_lut_rom_256x419.mem": "1dad4f56b217b5b618382f37f1ae4f7704b663cdc01c2f91bb4b1fedf361c0c7",
+    "rom/blk2_spa_ssm_lut_rom_256x419.memory": "1dad4f56b217b5b618382f37f1ae4f7704b663cdc01c2f91bb4b1fedf361c0c7",
+    "rom/blk2_spa_x_stream_weight_rom_16x1088.coe": "37972d871c8fcc378cef2515094a58deebc71a7cb69996d16a21d9961441a6ee",
+    "rom/blk2_spa_x_stream_weight_rom_16x1088.mem": "54062c6b8cf23358bf297b2a93d719860f2b3d8f22b5bf8bdcf1d90c27f99ded",
+    "rom/blk2_spa_x_stream_weight_rom_16x1088.memory": "54062c6b8cf23358bf297b2a93d719860f2b3d8f22b5bf8bdcf1d90c27f99ded",
+    "rom/blk2_spa_x_weight_rom_64x512.coe": "0f38577bc4f2a0a6352ac34999364ecf07c3031070d2c2644365dc92ec672884",
+    "rom/blk2_spa_x_weight_rom_64x512.mem": "8e2536fbb1a78eb5db02180cfa185b52bf04b8f3a1b497c685e3249e56f0bcb9",
+    "rom/blk2_spa_x_weight_rom_64x512.memory": "8e2536fbb1a78eb5db02180cfa185b52bf04b8f3a1b497c685e3249e56f0bcb9",
+    "rom/blk2_spe_conv_param_rom_2x512.coe": "f8852e5f66ec3f050e68dc0025119977f21976e6f8bc69467d39123fa5d17fff",
+    "rom/blk2_spe_conv_param_rom_2x512.mem": "eef785c44064955c273a14559bfabace8a7b09e7416e43156eef4b5bfe955653",
+    "rom/blk2_spe_conv_param_rom_2x512.memory": "eef785c44064955c273a14559bfabace8a7b09e7416e43156eef4b5bfe955653",
+    "rom/blk2_spe_dt_param_rom_2x320.coe": "ba42e2b376c07d0290c747c7619cedb2e9f31aecc89f4164fcd45c643202db2d",
+    "rom/blk2_spe_dt_param_rom_2x320.mem": "6d260d21385a6a4a061cfd50c0b48a48b6ded502b074335e24161a3437ad87a8",
+    "rom/blk2_spe_dt_param_rom_2x320.memory": "6d260d21385a6a4a061cfd50c0b48a48b6ded502b074335e24161a3437ad87a8",
+    "rom/blk2_spe_in_weight_rom_16x64.coe": "a8756c2be682a3acf4cd9f411c4056142315ada0e01e935fe9a9ca0715cea67f",
+    "rom/blk2_spe_in_weight_rom_16x64.mem": "7a7e7af9c8efb90c4523026afc8aa8daa2d3a4daf91562f952dfae3bad1dbe45",
+    "rom/blk2_spe_in_weight_rom_16x64.memory": "7a7e7af9c8efb90c4523026afc8aa8daa2d3a4daf91562f952dfae3bad1dbe45",
+    "rom/blk2_spe_out_param_rom_1x1280.coe": "64544d09db8fbb5d5d6add02f3076079aebdcda53638d20124c5323d2ed916bd",
+    "rom/blk2_spe_out_param_rom_1x1280.mem": "3a8c468dad551c8ec2707b0ed35ec37eb5842ccdf5f4f474784c45fab98b191b",
+    "rom/blk2_spe_out_param_rom_1x1280.memory": "3a8c468dad551c8ec2707b0ed35ec37eb5842ccdf5f4f474784c45fab98b191b",
+    "rom/blk2_spe_ssm_lut_rom_256x419.coe": "f8e27a134576ae45ec52a59d0786bd99cac68e0d9e07d06fae259fc9a8330743",
+    "rom/blk2_spe_ssm_lut_rom_256x419.mem": "c7c0bc1449e84f89d6b8ed9cc04cc79e083fc81499cbe9b10152a79c2308e8ab",
+    "rom/blk2_spe_ssm_lut_rom_256x419.memory": "c7c0bc1449e84f89d6b8ed9cc04cc79e083fc81499cbe9b10152a79c2308e8ab",
+    "rom/blk2_spe_x_weight_rom_64x128.coe": "a3b74e2a7f039685cc5eae3989a7ea8de3bf593ebe4c92424466e1af027a8e86",
+    "rom/blk2_spe_x_weight_rom_64x128.mem": "4fb57ebf1c712f9e0049d8a7e0e904207e6f93a080f706cd966e4c51b164a068",
+    "rom/blk2_spe_x_weight_rom_64x128.memory": "4fb57ebf1c712f9e0049d8a7e0e904207e6f93a080f706cd966e4c51b164a068",
+    "rom/head_conv1_param_rom_64x288.coe": "976d908c7c03bf94fc34a188420b9e1e582a7eabbf0c8c54c8b54cfc218604e4",
+    "rom/head_conv1_param_rom_64x288.mem": "37cb07b98d041a8226c632b16f9e2b7b929ed3594acbfaed9b01bf3aec0e16f7",
+    "rom/head_conv1_param_rom_64x288.memory": "37cb07b98d041a8226c632b16f9e2b7b929ed3594acbfaed9b01bf3aec0e16f7",
+    "rom/head_conv2_param_rom_18x288.coe": "2232124dd054c8b75dc68a81f32d828b68748d19f0c3583ee8fff7bc9d9dc0ae",
+    "rom/head_conv2_param_rom_18x288.mem": "d816e3ea038e4d286e2e0b2d231ea319d45c27a600e93b550240cc8ad33ce8bf",
+    "rom/head_conv2_param_rom_18x288.memory": "d816e3ea038e4d286e2e0b2d231ea319d45c27a600e93b550240cc8ad33ce8bf",
+    "rom/ip_map.tcl": "008b8d53c67da7373adb63bb3e5a528a85a2434421e1405b8f06e6239998646a",
+    "rom/patch_bias_rom_8x128.coe": "06af52c1c158943126cd7160fe245a9ba7521de853ea911ca43e70e3f0df6c93",
+    "rom/patch_bias_rom_8x128.mem": "b640e2d312f1a7eb2f62be47c5261d6b83e58e774c81dece9b3ba696af15f2e6",
+    "rom/patch_bias_rom_8x128.memory": "b640e2d312f1a7eb2f62be47c5261d6b83e58e774c81dece9b3ba696af15f2e6",
+    "rom/patch_weight_rom_32x128.coe": "cbe970d2f2bf61a3a22a743e4ec8f04e6c7a3a3db974b62c9d81cc6c1b6ec4e6",
+    "rom/patch_weight_rom_32x128.mem": "7b375a7e6dc81f26a16b1a08f00e128fafb5de87f76e2a3d4770f91b3723decf",
+    "rom/patch_weight_rom_32x128.memory": "7b375a7e6dc81f26a16b1a08f00e128fafb5de87f76e2a3d4770f91b3723decf",
+    "rtl/block0_spa_steam_stream.v": "e9ebd9661d03ce327bbdb1de2d4a4b5b2cdb8c30cedbb3d51da52a4b3e8f39a2",
+    "rtl/both_in_proj_parallel_stream.v": "2a4efaadbef337c307f367e184a7f70a44925ca132a91cea031f5c5467f1693c",
+    "rtl/both_mamba_block0_post_ssm.v": "a62740f069dce26943e607a4b069993775c9850a59c4ed7d787d107648e3ff6c",
+    "rtl/mamba_block_rom_top.v": "51e2fa5b175ff540eeeb088fd01a80852f1c48274b2703cd0825aabe7c2204a4",
+    "rtl/mamba_classifier_head_stream.v": "2828f0ef640da9b817f75e75990e425be9fe9848ebd32202065f42db4fdbe2a6",
+    "rtl/mamba_d1_head_input_lut.v": "37baea8f8ceb9dd1cfcd197b5670225304b2c502a5cc48ac8bd34d538c569b41",
+    "rtl/mamba_d1_nonlinear_rom.v": "f6fe324c1be34442a0e09010f08c02b10c6a40602cbf98f21fa6e741fe5debaa",
+    "rtl/mamba_d_path_lut.v": "33dc5f10c24fa728e3ca4bc87f9dbad10540f85e8c94d205e54a8d15de55d729",
+    "rtl/patch_embdding.v": "bed394b40d1183b4d6e83a07bc0011d78bee01ac4f9f20bf45ff88d8b722acb1",
+    "rtl/spa_out_bias_function.vh": "94a2833032093e6eedb7a2af23e8e93207ac0197915e3462e5973da9cc5ecc99",
+    "rtl/ssm64_spa_fused_core.v": "8deb499034f8b2c406a5bc0595a3c7dbf42ac2b998f8935091c40e161a139f94",
+    "rtl/ssm_scaled_fused_core.v": "0a41406054d9bc7bd044dae01c3343994c631daa9de9d90df02813af9569ba87",
+    "run_d1_chain_sim.tcl": "366015abec8a4a5aed16800fd460bd8b843db5afb471e4dd4ddd8fe7e3b7a767",
+    "send_d1_scene.bat": "5b36ac77dc621c4ea0dcbc84867f2e4d5e2cf5ef67e65160a74a896419286a56",
+    "send_d1_scene.py": "3a124381dbb019ca88f1ff5a198ca540aa2cf575b43280f3c9da1b62c49a061b",
+    "sim/expected_head_logits.mem": "55e588a452ff79246496a5d068d8f5d53a99023016a8aed669fa26a0ef9b4a2e",
+    "sim/network_input_tile.mem": "e2bf827a51f2654eed86d464db047d7721cdc08bb519da8a6a5514e184596dc8",
+    "sim/tb_d1_network_ddr_hdmi.sv": "456ea224b47bd9dd38a811608f13a6c8c4e1340f3c1afb8de09cad33c4fa16a4",
+    "STATIC_CHECKS.json": "df69095d3d42b304049e53280bedcda95890e1c11a2cb2e3f99152f3bd79e0af",
+    "verify_package.py": "3b4e336cb2eeb97b23641e96d25cdf7f1e87c20a36efb193ce863ae75d2b6f1e"
+  },
+  "head_input_contract": {
+    "name": "head_input_requant",
+    "checkpoint_sha256": "d113c6123eb3234ea2a6b8fe13640c02b82e235e469e4337ec01c291844daf33",
+    "input_scale": 1.8985346555709839,
+    "output_scale": 1.8983098268508911,
+    "multiplier": 16386,
+    "shift": 14,
+    "rounding": "round-half-away-from-zero",
+    "source_keys": [
+      "mamba.4.block_output_quant.lsq_a.s",
+      "cls_head.0.lsq_a.s"
+    ]
+  },
+  "checks": {
+    "rtl_syntax": "Vivado xvlog 2025.2 PASS",
+    "tcl_structure": "info complete PASS (not executed by Vivado)",
+    "whole_network_simulation": "NOT RUN",
+    "synthesis_implementation_board": "NOT RUN"
+  }
+}

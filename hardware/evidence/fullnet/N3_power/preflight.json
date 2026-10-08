@@ -1,0 +1,12 @@
+{
+  "build": "E:\\nf\\all_100_v1\\N3",
+  "source_sha256": "46f577752f066f543d5280549c1013e3fc7fe756d71982ebc2ceb2501801d00e",
+  "routed_dcp_sha256": "a864ca8268b77a67be6e9bea143ac970f77b226e06818d3093603425d390d457",
+  "free_gib": 46.288963317871094,
+  "mode": "report",
+  "output": "E:\\nf\\n3_report_clean_v2",
+  "capture": "E:\\nf\\n3_power_20260923_120835",
+  "probe": "E:\\nf\\n3_report_clean_v2",
+  "saif_registration": "v2: no type/signal filters; depth-3 subtrees; batches of 1024",
+  "protocol": "100MHz; first 16 different tiles; 9216-cycle warmup; 32768-cycle SAIF window"
+}

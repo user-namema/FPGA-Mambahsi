@@ -1,0 +1,18 @@
+{
+  "result": "PASS",
+  "abi": "E2",
+  "clock_cycles_per_tile_target": 4096,
+  "input_sha256": "5e830f01222de08bbffd59d391f73d8130972deee529c75f7506071edf7c752f",
+  "transfer_and_inference_seconds": 0.03200000000001069,
+  "min_ii": 4096,
+  "max_ii": 4096,
+  "non4096_intervals": 0,
+  "tiles_started": 858,
+  "display_underflow": false,
+  "labels_sha256": "28f8b8f34b34f2f58ba67a2fe1fa0de20fd3fae80fb8209a5ebb6e44e5481354",
+  "labels_count": 207400,
+  "label_reference_checked": true,
+  "label_mismatches": 0,
+  "first_mismatch_yx": null,
+  "ii4096_pass": true
+}

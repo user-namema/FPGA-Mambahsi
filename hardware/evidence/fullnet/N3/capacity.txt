@@ -1,0 +1,3 @@
+DSP=2192 / 2760
+BRAM36_equiv=738.0 / 1080
+LUT_primitives=191317 (see report for packed CLB LUT usage)

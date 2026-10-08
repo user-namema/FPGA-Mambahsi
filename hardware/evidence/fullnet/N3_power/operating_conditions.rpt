@@ -1,0 +1,70 @@
+Device Grade = industrial
+Process Type = typical
+Junction Temp = 50.0 (C)
+Ambient Temp = 41.0 (C)
+ThetaJa = 1.40
+ThetaSa = 2.4 (C/W)
+ThetaJb = 1.9 (C/W)
+Airflow = 250 (LFM)
+Heat Sink Type = medium (Medium Profile)
+Board Type = medium (10"x10")
+Board Temp = 25.0 (C)
+Number Of Board Layers = 12to15 (12 to 15 Layers)
+Vccint = 0.950 V
+Vccaux = 1.800 V
+Vccaux_io = 1.800 V
+Vccint_io = 0.950 V
+Vcco33 = 3.300 V
+Vcco25 = 2.500 V
+Vcco18 = 1.800 V
+Vcco15 = 1.500 V
+Vcco135 = 1.350 V
+Vcco12 = 1.200 V
+Vcco10 = 1.000 V
+Vccbram = 0.950 V
+MGTAVcc = 1.000 V
+MGTAVtt = 1.200 V
+MGTVccaux = 1.800 V
+Vccadc = 1.800 V
+MGTYVccaux = 1.800 V
+MGTYAVcc = 1.000 V
+MGTYAVtt = 1.200 V
+{{Vccint 0.922V 0.950V 0.979V}
+ {Vccaux 1.746V 1.800V 1.854V}
+ {Vccaux_io 1.746V 1.800V 1.854V}
+ {Vccint_io 0.922V 0.950V 0.979V}
+ {Vcco33 3.150V 3.300V 3.400V}
+ {Vcco25 2.375V 2.500V 2.625V}
+ {Vcco18 1.710V 1.800V 1.890V}
+ {Vcco15 1.425V 1.500V 1.575V}
+ {Vcco135 1.283V 1.350V 1.418V}
+ {Vcco12 1.140V 1.200V 1.260V}
+ {Vcco10 0.950V 1.000V 1.050V}
+ {Vccbram 0.922V 0.950V 0.980V}
+ {MGTAVcc 0.970V 1.000V 1.030V}
+ {MGTAVtt 1.170V 1.200V 1.230V}
+ {MGTVccaux 1.750V 1.800V 1.850V}
+ {Vccadc 1.746V 1.800V 1.854V}
+ {MGTYVccaux 1.750V 1.800V 1.850V}
+ {MGTYAVcc 0.970V 1.000V 1.030V}
+ {MGTYAVtt 1.170V 1.200V 1.230V}}
+Design Power Budget = Unspecified
+Supply Current Budget: Vccint = Unspecified
+Supply Current Budget: Vccaux = Unspecified
+Supply Current Budget: Vccaux_io = Unspecified
+Supply Current Budget: Vccint_io = Unspecified
+Supply Current Budget: Vcco33 = Unspecified
+Supply Current Budget: Vcco25 = Unspecified
+Supply Current Budget: Vcco18 = Unspecified
+Supply Current Budget: Vcco15 = Unspecified
+Supply Current Budget: Vcco135 = Unspecified
+Supply Current Budget: Vcco12 = Unspecified
+Supply Current Budget: Vcco10 = Unspecified
+Supply Current Budget: Vccbram = Unspecified
+Supply Current Budget: MGTAVcc = Unspecified
+Supply Current Budget: MGTAVtt = Unspecified
+Supply Current Budget: MGTVccaux = Unspecified
+Supply Current Budget: Vccadc = Unspecified
+Supply Current Budget: MGTYVccaux = Unspecified
+Supply Current Budget: MGTYAVcc = Unspecified
+Supply Current Budget: MGTYAVtt = Unspecified

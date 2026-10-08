@@ -11,4 +11,6 @@ dependencies:
   - torchvision=0.14.1
   - torchaudio=0.13.1
   - pytorch-cuda=11.7
-  - numpy=1.24.4
+  # The exact NumPy pin is installed from requirements.txt in the next step.
+  # Keep the Conda solve independent of this pip-installed patch release.
+  - numpy<2

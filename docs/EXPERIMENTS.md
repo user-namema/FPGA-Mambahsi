@@ -1,174 +1,299 @@
-实验清单与运行顺序
-====================
+# 实验复现命令
 
-所有命令从仓库根目录执行。先完成环境安装和数据检查，再按需要运行下面的阶段。
-每个入口都支持 `--help`；`--dry-run` 只打印命令，不启动训练或模拟。不同任务必须
-使用不同的输出目录。
+## 1. 配置路径、GPU 和种子
 
-一、通用路径
-------------
+完成 [环境安装](ENVIRONMENT.md) 和 [数据准备](DATA.md)，将以下绝对路径改为本机目录。
 
-    export DATA_ROOT=/absolute/path/to/data
-    export FP32_ROOT=/absolute/path/to/results/SPATIAL_SPLIT_3WAY_DENSE
-    export DEVICE=cuda:0
-    export SEEDS=0,1,2,3,4,5,6,7,8,9
+```bash
+export PROJECT_ROOT="/absolute/path/to/FPGA-MambaHSI"
+export DATA_ROOT="/absolute/path/to/data"
+export RESULTS_ROOT="$PROJECT_ROOT/results"
+export FP32_ROOT="$RESULTS_ROOT/SPATIAL_SPLIT_3WAY_DENSE"
+export QAT_ROOT="$RESULTS_ROOT/qat_eval1_4datasets"
+export QAT_EVAL8_ROOT="$RESULTS_ROOT/qat_eval8_4datasets"
+export CUDA_VISIBLE_DEVICES="0"
+export DEVICE="cuda:0"
+export SEEDS="0,1,2,3,4,5,6,7,8,9"
+export DIAGNOSTIC_SEEDS="0,6"
+export ANALYSIS_SEED="0"
+export BATCH_SIZES="1,2,4,8,16,32,64"
+export CONFIG="current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16"
+export FP32_DIR="$FP32_ROOT/UP_all_samples_sqrt_inverse_clip3_2000_nobias/$CONFIG"
+export QAT_RUN_DIR="$QAT_ROOT/UP/models/SPATIAL_SPLIT_3WAY_DENSE_QAT/UP_patch_max_D_mean_freeze20_eval1/$CONFIG/run_seed$ANALYSIS_SEED"
+export QAT_EVAL8_TEMPLATE="$QAT_EVAL8_ROOT/{dataset}/models/SPATIAL_SPLIT_3WAY_DENSE_QAT/{dataset}_patch_max_D_mean_freeze20/$CONFIG/run_seed{seed}"
+export QAT_EVAL8_RUN_DIR="$QAT_EVAL8_ROOT/UP/models/SPATIAL_SPLIT_3WAY_DENSE_QAT/UP_patch_max_D_mean_freeze20/$CONFIG/run_seed$ANALYSIS_SEED"
+cd "$PROJECT_ROOT"
+python tools/check_environment.py --device "$DEVICE" --check-scan
+```
 
-当前部署配置目录：
+`CUDA_VISIBLE_DEVICES` 选择 GPU，`DEVICE` 使用选定 GPU 的逻辑编号。
+`DIAGNOSTIC_SEEDS` 和 `ANALYSIS_SEED` 从 `SEEDS` 中选择。
+每项实验使用独立输出目录。以下主流程按 01 → 13 → 14 执行。
 
-    current_h32_br-both_fu-sum_sk2_z0_D1_A-shared_n-bn_a-relu_head64_tok4_state16
+## 2. 训练 FP32：01
 
-默认数据集为 UP、HanChuan、HongHu、Houston。训练阶段通常使用十个 seed；诊断阶段
-默认使用 seed 0 或 0,6。FP32_ROOT 必须指向包含四个数据集配置目录的父目录，不能
-直接指向 run_seed0。
+```bash
+python experiments/run.py 01_fp32_current \
+  --datasets UP HanChuan HongHu Houston --seeds "$SEEDS" \
+  --data-root "$DATA_ROOT" --device "$DEVICE" --output-root "$RESULTS_ROOT"
+```
 
-二、完整复现主流程
-------------------
+配置：D1、shared A、16×16 tile、train-only PCA 16、训练 batch 32、评估 batch 8、
+最多 400 epoch、验证 mAcc 选模。
+输出：`$FP32_ROOT/{dataset}_all_samples_sqrt_inverse_clip3_2000_nobias/$CONFIG/`。
 
-1. 训练 FP32 模型并生成预处理、空间划分和 checkpoint：
+## 3. 训练 eval1 QAT：13
 
-    bash experiments/01_fp32_current.sh --dry-run
-    bash experiments/01_fp32_current.sh
+输入：步骤 2 的 FP32 配置、空间划分、预处理和逐种子采样索引。
 
-2. 运行网络结构配置实验（19 个配置）：
+```bash
+python experiments/run.py 13_qat_eval1 \
+  --datasets UP HanChuan HongHu Houston --seeds "$SEEDS" \
+  --data-root "$DATA_ROOT" --fp32-root "$FP32_ROOT" --device "$DEVICE" \
+  --output-root "$QAT_ROOT"
+```
 
-    bash experiments/02_architecture.sh --dry-run
-    bash experiments/02_architecture.sh
+配置：训练 batch 32，验证、选模、测试及部署参考 batch 1；patch embedding max、
+D mean 初始化；100 epoch；第 20 epoch 冻结 BN/LSQ；校准 epoch 0 参与选模。
+输出：`$QAT_ROOT/{dataset}/models/SPATIAL_SPLIT_3WAY_DENSE_QAT/{dataset}_patch_max_D_mean_freeze20_eval1/$CONFIG/run_seed{seed}/`。
 
-   只运行一个配置时，例如：
+## 4. 整数全场景模拟：14
 
-    bash experiments/02_architecture.sh --cases 10_restore_D --datasets UP --seeds 0
+输入：步骤 2、3 的输出和原始数据。
 
-3. 训练 shared-A 与 per-channel-A 配对模型，并分析极点和表容量：
+```bash
+python experiments/run.py 14_fpga_eval1 \
+  --datasets UP HanChuan HongHu Houston --seeds "$SEEDS" \
+  --data-root "$DATA_ROOT" --fp32-root "$FP32_ROOT" --qat-root "$QAT_ROOT" \
+  --device "$DEVICE" --output-root "$RESULTS_ROOT/fpga_eval1_4datasets"
+```
 
-    bash experiments/03_shared_a.sh --dry-run
-    bash experiments/03_shared_a.sh
+配置：DT9 输入、DT8 地址、A25/K19、32-bit Q24 状态、单次状态舍入。
+输出：`$RESULTS_ROOT/fpga_eval1_4datasets/per_seed_summary.csv`、`dataset_summary.json`。
 
-4. 运行评估 batch=1 的 QAT。训练 batch 为 32，验证、选模、测试和整数参考为
-   batch 1；freeze20 表示第 20 个 epoch 冻结 BN 统计量和 LSQ 尺度：
+## 5. 网络结构实验：02
 
-    bash experiments/13_qat_eval1.sh --dry-run
-    bash experiments/13_qat_eval1.sh
+```bash
+python experiments/run.py 02_architecture \
+  --datasets UP HanChuan HongHu Houston --seeds "$SEEDS" \
+  --data-root "$DATA_ROOT" --device "$DEVICE" \
+  --output-root "$RESULTS_ROOT/architecture"
+```
 
-5. 对相同 QAT checkpoint 做 FPGA 定点数值模拟：
+默认执行 19 项配置。指定配置时增加 `--cases 10_restore_D`，或传入多个配置名称。
 
-    bash experiments/14_fpga_eval1.sh --dry-run
-    bash experiments/14_fpga_eval1.sh
+## 6. shared/per-channel A 成对训练与分析：03
 
-   首次运行先做一个小测试：
+输入：步骤 2 的 FP32 划分、预处理和逐种子索引。
 
-    bash experiments/14_fpga_eval1.sh --datasets UP --seeds 0 --output-root ./results/fpga_eval1_UP_smoke
+```bash
+python experiments/run.py 03_shared_a \
+  --datasets UP HanChuan HongHu Houston --seeds "$SEEDS" \
+  --data-root "$DATA_ROOT" --fp32-root "$FP32_ROOT" --device "$DEVICE" \
+  --output-root "$RESULTS_ROOT/shared_a_pair"
+```
 
-   模拟器默认使用保存的数值配置：dt 输入 9 bit、dt 输出地址 8 bit、K 总位宽
-   19 bit、K 小数位上限 24、状态 Q24。主结果不要随意覆盖这些选项。
+输出：`shared_a_pair/` 保存成对模型与精度表；`shared_a_pair_dynamics/` 保存极点分析。
+单独训练或分析时使用 `--phase train` 或 `--phase analyze`；分析另设 `--pair-root`。
 
-三、结构和量化选型实验
-----------------------
+## 7. 初始化诊断：04
 
-以下实验用于复现网络选择和 QAT 初始化/冻结策略：
+输入：步骤 2 的 FP32 输出。
 
-    bash experiments/04_initialization.sh --init-kind weights
-    bash experiments/04_initialization.sh --init-kind groups --output-root ./results/04_quant_groups
-    bash experiments/05_stability.sh
-    bash experiments/06_max_init.sh
-    bash experiments/07_freeze.sh
+```bash
+python experiments/run.py 04_initialization --datasets UP --seeds "$DIAGNOSTIC_SEEDS" \
+  --data-root "$DATA_ROOT" --fp32-root "$FP32_ROOT" --device "$DEVICE" \
+  --init-kind weights --output-root "$RESULTS_ROOT/init_weights"
 
-04 是不训练的初始化对照；06 比较 patch_max 和 all_weight_max；07 比较 freeze1 和
-freeze20。正式部署配置使用 patch embedding max 初始化和 D mean 初始化。不同阶段
-的模型不能仅按目录名称合并，应同时读取 result.json 中的配置。
+python experiments/run.py 04_initialization --datasets UP --seeds "$DIAGNOSTIC_SEEDS" \
+  --data-root "$DATA_ROOT" --fp32-root "$FP32_ROOT" --device "$DEVICE" \
+  --init-kind groups --output-root "$RESULTS_ROOT/init_groups"
+```
 
-四、旧版 eval8、误差来源和回放
-------------------------------
+`weights` 比较权重尺度初始化；`groups` 比较分组量化配置。两者执行校准和验证诊断。
 
-需要复现旧版 batch=8 结果时：
+## 8. QAT 稳定性：05
 
-    bash experiments/08_qat_eval8.sh --dry-run
-    bash experiments/08_qat_eval8.sh
-    bash experiments/09_fpga_eval8.sh --dry-run
-    bash experiments/09_fpga_eval8.sh
+```bash
+python experiments/run.py 05_stability --datasets UP --seeds "$DIAGNOSTIC_SEEDS" \
+  --data-root "$DATA_ROOT" --fp32-root "$FP32_ROOT" --device "$DEVICE" \
+  --output-root "$RESULTS_ROOT/qat_stability"
+```
 
-误差来源和读出再量化扫描：
+默认配置：`control_bn20`、`bn1`、`bn1_fixed_scales`、`bn1_slow_scales`、
+`fixed_low_weight_lr`、`fixed_freeze_bn_affine`。选择部分配置时使用 `--cases`。
 
-    bash experiments/10_error_sources.sh --suite sources --dry-run
-    bash experiments/10_error_sources.sh --suite sources
-    bash experiments/10_error_sources.sh --suite requant --output-root ./results/readout_requant
-    bash experiments/10_error_sources.sh --suite k-precision --output-root ./results/K_precision
+## 9. max 初始化、QAT 和模拟：06
 
-`sources`、`requant` 和 `k-precision` 是不同实验。误差来源的 OA 差异不能简单相加；
-每次扫描都要保存完整命令、配置和输出目录。
+```bash
+python experiments/run.py 06_max_init --datasets UP --seeds "$DIAGNOSTIC_SEEDS" \
+  --data-root "$DATA_ROOT" --fp32-root "$FP32_ROOT" --device "$DEVICE" \
+  --output-root "$RESULTS_ROOT/max_init"
+```
 
-五、GPU 批量测速
-----------------
+配置：patch_max/all_weight_max、D max 初始化、20 epoch QAT。
 
-FP32 和硬件定点语义测速：
+## 10. freeze1/freeze20 对照：07
 
-    BATCH_SIZES=1,2,4,8,16,32,64 bash experiments/11_gpu_fp32.sh
-    BATCH_SIZES=1,2,4,8,16,32,64 bash experiments/12_gpu_fixed.sh
+```bash
+python experiments/run.py 07_freeze --datasets UP --seeds "$SEEDS" \
+  --data-root "$DATA_ROOT" --fp32-root "$FP32_ROOT" --device "$DEVICE" \
+  --output-root "$RESULTS_ROOT/freeze_comparison"
+```
 
-定点测速入口默认使用已归档的 `qat_eval8_4datasets` checkpoint，和
-`evidence/gpu_fixed_batch_summary.csv` 中的记录一致。如果要测速另一套 QAT checkpoint，
-请传入包含 `{dataset}` 和 `{seed}` 的模板：
+配置：patch_max、D mean、评估 batch 8；分别在第 1、20 epoch 冻结 BN/LSQ。
 
-    QAT_TEMPLATE=/absolute/path/to/qat_eval1_4datasets/{dataset}/run_seed{seed} \
-      bash experiments/12_gpu_fixed.sh --output-root ./results/12_gpu_fixed_eval1
+## 11. eval8 QAT 与全场景模拟：08、09
 
-定点测速采用宽整数/FP64 功能模拟，验证硬件舍入、饱和和状态反馈规则，不等于原生
-INT8 Tensor Core 性能。GPU 报告包含 model-only 和完整流程两个范围，不能把不同范围
-的行当成同一指标。
+```bash
+python experiments/run.py 08_qat_eval8 \
+  --datasets UP HanChuan HongHu Houston --seeds "$SEEDS" \
+  --data-root "$DATA_ROOT" --fp32-root "$FP32_ROOT" --device "$DEVICE" \
+  --output-root "$QAT_EVAL8_ROOT"
 
-六、UP GPU 功耗
----------------
+python experiments/run.py 09_fpga_eval8 \
+  --datasets UP HanChuan HongHu Houston --seeds "$SEEDS" \
+  --data-root "$DATA_ROOT" --fp32-root "$FP32_ROOT" --device "$DEVICE" \
+  --qat-template "$QAT_EVAL8_TEMPLATE" --output-root "$RESULTS_ROOT/fpga_eval8"
+```
 
-    python -m pip install nvidia-ml-py
-    DEVICE=cuda:0 BATCH_SIZES=1,2,4,8,16,32,64 \
-      bash experiments/16_gpu_power.sh --allow-display-processes \
-      --output-root ./results/gpu_power_UP
+08 配置：训练 batch 32、评估 batch 8、patch_max、D mean、freeze20、100 epoch。
+09 输入：08 的 QAT 输出、步骤 2 的 FP32 输出和原始数据。
 
-测量前停止其他计算任务。NVML 给出整卡设备功耗和能量，不是墙上插座功耗，也不是
-单个进程的功耗。若允许 Xorg/Xwayland 显示进程，报告会保留该条件标记。
+## 12. 整网误差来源：10
 
-七、dt 输入、batch 差异和局部 SSM 分析
----------------------------------------
+```bash
+python experiments/run.py 10_error_sources --datasets UP --seeds "$ANALYSIS_SEED" \
+  --data-root "$DATA_ROOT" --fp32-root "$FP32_ROOT" --device "$DEVICE" \
+  --qat-template "$QAT_EVAL8_TEMPLATE" --suite sources \
+  --output-root "$RESULTS_ROOT/error_sources"
+```
 
-dt 输入局部诊断：
+`--suite` 可选 `sources`、`widths`、`nonlinear`、`requant`、`k-precision`。
+每个 suite 使用独立输出目录。
 
-    bash experiments/15_dt_inputs.sh --datasets UP --seeds 0 --output-root ./results/dt_inputs_UP
+## 13. GPU 吞吐：11、12
 
-训练事件回放：
+输入：步骤 2 的 FP32 输出；12 另需 08 的 QAT 输出。
 
-    bash experiments/17_replay_jump.sh --event-dir /absolute/path/captured_event --mode native
-    bash experiments/17_replay_jump.sh --event-dir /absolute/path/captured_event --mode tf32-off
+```bash
+python experiments/run.py 11_gpu_fp32 \
+  --datasets UP HanChuan HongHu Houston --seeds "$ANALYSIS_SEED" \
+  --data-root "$DATA_ROOT" --fp32-root "$FP32_ROOT" --device "$DEVICE" \
+  --batch-sizes "$BATCH_SIZES" --output-root "$RESULTS_ROOT/gpu_fp32"
 
-局部 SSM 误差：
+python experiments/run.py 12_gpu_fixed \
+  --datasets UP HanChuan HongHu Houston --seeds "$ANALYSIS_SEED" \
+  --data-root "$DATA_ROOT" --fp32-root "$FP32_ROOT" --device "$DEVICE" \
+  --qat-template "$QAT_EVAL8_TEMPLATE" --batch-sizes "$BATCH_SIZES" \
+  --output-root "$RESULTS_ROOT/gpu_fixed_eval8"
+```
 
-    bash experiments/18_local_ssm.sh --inputs-glob '/absolute/path/ssm_inputs/*.npz' --suite sources
+11 执行 FP32 CUDA 推理；12 执行 FP64/INT64 定点算术模拟。
+输出：各输出根目录的 GPU batch 汇总 CSV。
 
-batch 差异定位：
+## 14. dt 输入诊断：15
 
-    bash experiments/19_batch_diagnosis.sh --prediction-dir /absolute/path/simulation
+```bash
+python experiments/run.py 15_dt_inputs --datasets UP --seeds "$ANALYSIS_SEED" \
+  --data-root "$DATA_ROOT" --fp32-root "$FP32_ROOT" --qat-root "$QAT_ROOT" \
+  --device "$DEVICE" --output-root "$RESULTS_ROOT/dt_inputs_UP"
+```
 
-这些入口必须使用同一 checkpoint 的预测、输入轨迹和配置。dt 局部探针不能直接当作
-整网 dt 输出位宽消融；要做整网消融，应重新训练并保存独立结果目录。
+输入：步骤 3 的 eval1 QAT 输出。输出包含完整模拟结果及 dt 输入探针。
 
-八、D1 N0–N3 非线性对照
-------------------------
+## 15. GPU 功耗与能量：16
 
-    bash experiments/20_nonlinear_D1.sh \
-      --qat-run-dir /absolute/path/historical_D1/run_seed0 \
-      --fp32-dir /absolute/path/matching_FP32/configuration \
-      --data-path /absolute/path/data --device cuda:0 \
-      --output-dir ./results/20_nonlinear_D1 --dry-run
+输入：步骤 2 的 UP FP32 模型、原始数据和支持 NVML 的空闲 NVIDIA GPU。
 
-去掉最后的 `--dry-run` 执行完整 UP 场景。该入口使用固定的历史 D1 checkpoint 和
-N0–N3 软件快照，不能替换成最新 eval1 checkpoint。完整文件位置和哈希见
-docs/COMPLETION_20260923.md。
+```bash
+python experiments/run.py 16_gpu_power --datasets UP --seeds "$ANALYSIS_SEED" \
+  --data-root "$DATA_ROOT" --fp32-root "$FP32_ROOT" --device "$DEVICE" \
+  --batch-sizes "$BATCH_SIZES" --output-root "$RESULTS_ROOT/gpu_power_UP"
+```
 
-九、检查结果
-------------
+配置：测量 30 秒、预热 10 秒、空闲 5 秒、重复 3 次、NVML 采样间隔 100 ms。
+显示服务占用同一 GPU 时增加 `--allow-display-processes`。
 
-    python tools/verify_release_records.py
-    python tools/verify_completion_records.py
-    python tools/verify_completion_records.py --check-arrays
-    python tools/paired_statistics.py
+## 16. QAT 跳变重放：17
 
-这些命令检查公开文件、报告哈希、统计汇总、数组差异和功耗汇总，不会自动下载数据或
-checkpoint。完整数字证据在 evidence/；不同实验可能复用同一模型，统计时不要重复计数。
+输入：QAT 训练生成的事件目录，包含 `event.json`、before/after 权重和验证 batch。
+
+```bash
+export EVENT_DIR="/absolute/path/to/run_seed0/jump_events/epoch_before_to_after"
+python experiments/run.py 17_replay_jump --datasets UP --seeds "$ANALYSIS_SEED" \
+  --event-dir "$EVENT_DIR" --device "$DEVICE" --mode native \
+  --output-root "$RESULTS_ROOT/jump_replay_native"
+```
+
+`--mode` 可选 `native`、`tf32-off`、`reference-tf32-off`。
+
+## 17. 捕获输入并重放局部 SSM：18
+
+```bash
+export CAPTURE_ROOT="$RESULTS_ROOT/ssm_capture_UP"
+python software/both_FPGA_single_qat_source.py \
+  --qat-run-dir "$QAT_RUN_DIR" --fp32-dir "$FP32_DIR" \
+  --dataset UP --seed "$ANALYSIS_SEED" --data-path "$DATA_ROOT" --device cuda \
+  --qat-reference-batch-size 1 --capture-ssm-inputs --ssm-capture-tiles 1 \
+  --ssm-analysis-split test --output-dir "$CAPTURE_ROOT"
+
+python experiments/run.py 18_local_ssm --datasets UP --seeds "$ANALYSIS_SEED" \
+  --inputs-glob "$CAPTURE_ROOT/replay_tiles/*/ssm_replay_inputs/*.npz" \
+  --suite sources --output-root "$RESULTS_ROOT/local_ssm_UP"
+```
+
+输入：步骤 3 的 UP QAT 模型。局部重放的 `--suite` 可选
+`sources`、`widths`、`nonlinear`、`k-precision`。
+
+## 18. batch 数值诊断：19
+
+输入：08 的 UP QAT 模型，保存的评估 batch 为 8。
+
+```bash
+python software/diagnose_qat_batch.py \
+  --qat-run-dir "$QAT_EVAL8_RUN_DIR" --fp32-dir "$FP32_DIR" \
+  --data-path "$DATA_ROOT" --device cuda --group-index 0 --target-index 0 \
+  --save-traces --output-dir "$RESULTS_ROOT/batch_diagnosis_UP"
+```
+
+`--group-index` 选择测试 batch，`--target-index` 选择该 batch 中的 tile。
+
+## 19. 四数据集非线性后端：21
+
+输入：步骤 2、3 的 FP32 与 eval1 D1 QAT 输出。
+
+```bash
+python software/run_backend_error_four_datasets.py \
+  --qat-root "$QAT_ROOT" --fp32-root "$FP32_ROOT" --data-path "$DATA_ROOT" \
+  --datasets UP HanChuan HongHu Houston --seeds "$SEEDS" --device "$DEVICE" \
+  --trace-tiles 5 --output-dir "$RESULTS_ROOT/backend_error_D1"
+```
+
+输出：`per_seed_backend_summary.csv`、`dataset_backend_summary.json`。
+参数、预检和续跑步骤见 [后端实验命令](BACKEND_ERROR_FOUR_DATASETS_20260927.md)。
+
+## 20. UP D1 指定参数模型：20
+
+输入：`best_qat_foldaware.pth` 的 SHA256 为
+`d113c6123eb3234ea2a6b8fe13640c02b82e235e469e4337ec01c291844daf33`，
+配套文件见 [D1 输入清单](COMPLETION_20260923.md)。
+
+```bash
+export D1_QAT_RUN_DIR="/absolute/path/to/D1/run_seed0"
+export D1_FP32_DIR="/absolute/path/to/D1/FP32/configuration"
+python tools/run_nonlinear_d1.py \
+  --qat-run-dir "$D1_QAT_RUN_DIR" --fp32-dir "$D1_FP32_DIR" \
+  --data-path "$DATA_ROOT" --device "$DEVICE" \
+  --output-dir "$RESULTS_ROOT/nonlinear_D1"
+```
+
+## 21. 查看参数和续跑
+
+```bash
+python experiments/run.py --help
+python software/run_backend_error_four_datasets.py --help
+```
+
+给 `experiments/run.py` 命令增加 `--dry-run` 可查看完整 Python 子命令。
+03、06、11、12、14、15、21 支持续跑：保持输入、参数和输出目录，追加 `--resume`。

@@ -1,0 +1,2 @@
+DOES_NOT_FIT_KU060
+Synthesis resources retained; routed frequency and power unavailable.

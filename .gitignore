@@ -28,3 +28,20 @@ server_collection*/
 *.dylib
 *.dll
 runtime_backup/
+
+# Hardware builds belong outside the repository. Preserve small source/config/vectors.
+*.bit
+*.dcp
+*.wdb
+*.wcfg
+*.saif
+*.jou
+*.pb
+.Xil/
+*.runs/
+*.cache/
+*.gen/
+*.ip_user_files/
+hardware/vendor_local/
+hardware/host/result_*/
+hardware/build*/

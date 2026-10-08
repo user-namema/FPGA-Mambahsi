@@ -1,0 +1,26 @@
+[
+  {
+    "name": "hdmiout_i2c_dri.v",
+    "sha256": "ec53b87de9cbf00ca438d3e443d89101f37377c8ff13663f86c41be00905b917",
+    "bytes": 23570,
+    "reason": "ALIENTEK HDMI controller source; Copyright(C) ALIENTEK 2018-2028; All rights reserved",
+    "origin": "ALIENTEK BSP / hdmi_output_stage/vendor/hdmiout_i2c_dri.v",
+    "path": "vendor/hdmi/hdmiout_i2c_dri.v"
+  },
+  {
+    "name": "hdmiout_i2c_ms7210_cfg.v",
+    "sha256": "613db85e571decdb0f1d619070acec6b200e01ba9faf7e66921a4b949af46ce8",
+    "bytes": 6759,
+    "reason": "ALIENTEK HDMI controller source; Copyright(C) ALIENTEK 2018-2028; All rights reserved",
+    "origin": "ALIENTEK BSP / hdmi_output_stage/vendor/hdmiout_i2c_ms7210_cfg.v",
+    "path": "vendor/hdmi/hdmiout_i2c_ms7210_cfg.v"
+  },
+  {
+    "name": "hdmiout_ms72xx_ctl.v",
+    "sha256": "1a96dd711f046aa0cbc50bc143ebf97750c85a025fad551f98592d033058ee78",
+    "bytes": 3337,
+    "reason": "ALIENTEK HDMI controller source; Copyright(C) ALIENTEK 2018-2028; All rights reserved",
+    "origin": "ALIENTEK BSP / hdmi_output_stage/vendor/hdmiout_ms72xx_ctl.v",
+    "path": "vendor/hdmi/hdmiout_ms72xx_ctl.v"
+  }
+]

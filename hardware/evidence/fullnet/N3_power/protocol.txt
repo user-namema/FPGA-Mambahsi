@@ -1,0 +1,21 @@
+method=N3
+frequency_mhz=100
+input_II=4096
+tiles=16 first DIFFERENT scene tiles
+window_start_cycle=9216
+window_cycles=32768
+window_ns=327680
+process=typical
+junction_c=50
+source_sha256=46f577752f066f543d5280549c1013e3fc7fe756d71982ebc2ceb2501801d00e
+routed_dcp_sha256=a864ca8268b77a67be6e9bea143ac970f77b226e06818d3093603425d390d457
+original_saif=E:/nf/n3_power_20260923_120835/activity.saif
+report_saif=D:/我的文档/桌面/毕设/n3_power_delivery/n3_activity_clean_v1.saif
+saif_derivation=xsim-null-net-name-v1
+simulation=E:/nf/all_100_v1/N3/nf_fullnet.sim/sim_postroute_16_20260923_120919/impl/func/xsim
+activity_source=post-route FUNCTIONAL; no SDF glitch timing
+power_kind=Vivado estimate; NOT board measurement
+unmatched_dump=disabled; simulation-only primitive nets produced a multi-GB dump
+coverage_review=PENDING; inspect Vivado annotation statistics, confidence and activity reports
+scope=full D1 inference fabric; excludes PCIe/DDR/HDMI
+

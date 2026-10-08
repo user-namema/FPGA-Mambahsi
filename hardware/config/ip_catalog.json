@@ -1,0 +1,721 @@
+[
+  {
+    "name": "b1_so4_rom",
+    "path": "ip/config/b1_so4_rom/b1_so4_rom.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spa_out_stream_weight_rom_16x1024.coe": "models/up_d1/rom/blk1_spa_out_stream_weight_rom_16x1024.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "b1_sx4_rom",
+    "path": "ip/config/b1_sx4_rom/b1_sx4_rom.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spa_x_stream_weight_rom_16x1088.coe": "models/up_d1/rom/blk1_spa_x_stream_weight_rom_16x1088.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "b2_so4_rom",
+    "path": "ip/config/b2_so4_rom/b2_so4_rom.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spa_out_stream_weight_rom_16x1024.coe": "models/up_d1/rom/blk2_spa_out_stream_weight_rom_16x1024.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "b2_sx4_rom",
+    "path": "ip/config/b2_sx4_rom/b2_sx4_rom.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spa_x_stream_weight_rom_16x1088.coe": "models/up_d1/rom/blk2_spa_x_stream_weight_rom_16x1088.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spa_conv_param_rom_8x512",
+    "path": "ip/config/blk0_spa_conv_param_rom_8x512/blk0_spa_conv_param_rom_8x512.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spa_conv_param_rom_8x512.coe": "models/up_d1/rom/blk0_spa_conv_param_rom_8x512.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spa_dt_param_rom_8x384",
+    "path": "ip/config/blk0_spa_dt_param_rom_8x384/blk0_spa_dt_param_rom_8x384.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spa_dt_param_rom_8x384.coe": "models/up_d1/rom/blk0_spa_dt_param_rom_8x384.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spa_in_weight_rom_64x256",
+    "path": "ip/config/blk0_spa_in_weight_rom_64x256/blk0_spa_in_weight_rom_64x256.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spa_in_weight_rom_64x256.coe": "models/up_d1/rom/blk0_spa_in_weight_rom_64x256.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spa_out_param_rom_32x544_copy01",
+    "path": "ip/config/blk0_spa_out_param_rom_32x544_copy01/blk0_spa_out_param_rom_32x544_copy01.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spa_out_param_rom_32x544.coe": "models/up_d1/rom/blk0_spa_out_param_rom_32x544.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spa_out_param_rom_32x544_copy23",
+    "path": "ip/config/blk0_spa_out_param_rom_32x544_copy23/blk0_spa_out_param_rom_32x544_copy23.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spa_out_param_rom_32x544.coe": "models/up_d1/rom/blk0_spa_out_param_rom_32x544.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spa_out_stream_weight_rom_16x1024",
+    "path": "ip/config/blk0_spa_out_stream_weight_rom_16x1024/blk0_spa_out_stream_weight_rom_16x1024.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spa_out_stream_weight_rom_16x1024.coe": "models/up_d1/rom/blk0_spa_out_stream_weight_rom_16x1024.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spa_ssm_lut_rom_256x419_copy01",
+    "path": "ip/config/blk0_spa_ssm_lut_rom_256x419_copy01/blk0_spa_ssm_lut_rom_256x419_copy01.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spa_ssm_lut_rom_256x419.coe": "models/up_d1/rom/blk0_spa_ssm_lut_rom_256x419.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spa_ssm_lut_rom_256x419_copy23",
+    "path": "ip/config/blk0_spa_ssm_lut_rom_256x419_copy23/blk0_spa_ssm_lut_rom_256x419_copy23.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spa_ssm_lut_rom_256x419.coe": "models/up_d1/rom/blk0_spa_ssm_lut_rom_256x419.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spa_x_stream_weight_rom_16x1088",
+    "path": "ip/config/blk0_spa_x_stream_weight_rom_16x1088/blk0_spa_x_stream_weight_rom_16x1088.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spa_x_stream_weight_rom_16x1088.coe": "models/up_d1/rom/blk0_spa_x_stream_weight_rom_16x1088.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spa_x_weight_rom_64x512",
+    "path": "ip/config/blk0_spa_x_weight_rom_64x512/blk0_spa_x_weight_rom_64x512.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spa_x_weight_rom_64x512.coe": "models/up_d1/rom/blk0_spa_x_weight_rom_64x512.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spe_conv_param_rom_2x512",
+    "path": "ip/config/blk0_spe_conv_param_rom_2x512/blk0_spe_conv_param_rom_2x512.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spe_conv_param_rom_2x512.coe": "models/up_d1/rom/blk0_spe_conv_param_rom_2x512.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spe_dt_param_rom_2x320",
+    "path": "ip/config/blk0_spe_dt_param_rom_2x320/blk0_spe_dt_param_rom_2x320.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spe_dt_param_rom_2x320.coe": "models/up_d1/rom/blk0_spe_dt_param_rom_2x320.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spe_in_weight_rom_16x64",
+    "path": "ip/config/blk0_spe_in_weight_rom_16x64/blk0_spe_in_weight_rom_16x64.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spe_in_weight_rom_16x64.coe": "models/up_d1/rom/blk0_spe_in_weight_rom_16x64.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spe_out_param_rom_1x1280",
+    "path": "ip/config/blk0_spe_out_param_rom_1x1280/blk0_spe_out_param_rom_1x1280.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spe_out_param_rom_1x1280.coe": "models/up_d1/rom/blk0_spe_out_param_rom_1x1280.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spe_ssm_lut_rom_256x419_copy01",
+    "path": "ip/config/blk0_spe_ssm_lut_rom_256x419_copy01/blk0_spe_ssm_lut_rom_256x419_copy01.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spe_ssm_lut_rom_256x419.coe": "models/up_d1/rom/blk0_spe_ssm_lut_rom_256x419.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spe_ssm_lut_rom_256x419_copy23",
+    "path": "ip/config/blk0_spe_ssm_lut_rom_256x419_copy23/blk0_spe_ssm_lut_rom_256x419_copy23.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spe_ssm_lut_rom_256x419.coe": "models/up_d1/rom/blk0_spe_ssm_lut_rom_256x419.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spe_x_weight_rom_64x128_copy01",
+    "path": "ip/config/blk0_spe_x_weight_rom_64x128_copy01/blk0_spe_x_weight_rom_64x128_copy01.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spe_x_weight_rom_64x128.coe": "models/up_d1/rom/blk0_spe_x_weight_rom_64x128.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk0_spe_x_weight_rom_64x128_copy23",
+    "path": "ip/config/blk0_spe_x_weight_rom_64x128_copy23/blk0_spe_x_weight_rom_64x128_copy23.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk0_spe_x_weight_rom_64x128.coe": "models/up_d1/rom/blk0_spe_x_weight_rom_64x128.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spa_conv_param_rom_8x512",
+    "path": "ip/config/blk1_spa_conv_param_rom_8x512/blk1_spa_conv_param_rom_8x512.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spa_conv_param_rom_8x512.coe": "models/up_d1/rom/blk1_spa_conv_param_rom_8x512.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spa_dt_param_rom_8x384",
+    "path": "ip/config/blk1_spa_dt_param_rom_8x384/blk1_spa_dt_param_rom_8x384.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spa_dt_param_rom_8x384.coe": "models/up_d1/rom/blk1_spa_dt_param_rom_8x384.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spa_in_weight_rom_64x256",
+    "path": "ip/config/blk1_spa_in_weight_rom_64x256/blk1_spa_in_weight_rom_64x256.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spa_in_weight_rom_64x256.coe": "models/up_d1/rom/blk1_spa_in_weight_rom_64x256.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spa_out_param_rom_32x544_copy01",
+    "path": "ip/config/blk1_spa_out_param_rom_32x544_copy01/blk1_spa_out_param_rom_32x544_copy01.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spa_out_param_rom_32x544.coe": "models/up_d1/rom/blk1_spa_out_param_rom_32x544.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spa_out_param_rom_32x544_copy23",
+    "path": "ip/config/blk1_spa_out_param_rom_32x544_copy23/blk1_spa_out_param_rom_32x544_copy23.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spa_out_param_rom_32x544.coe": "models/up_d1/rom/blk1_spa_out_param_rom_32x544.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spa_out_stream_weight_rom_16x1024",
+    "path": "ip/config/blk1_spa_out_stream_weight_rom_16x1024/blk1_spa_out_stream_weight_rom_16x1024.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spa_out_stream_weight_rom_16x1024.coe": "models/up_d1/rom/blk1_spa_out_stream_weight_rom_16x1024.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spa_ssm_lut_rom_256x419_copy01",
+    "path": "ip/config/blk1_spa_ssm_lut_rom_256x419_copy01/blk1_spa_ssm_lut_rom_256x419_copy01.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spa_ssm_lut_rom_256x419.coe": "models/up_d1/rom/blk1_spa_ssm_lut_rom_256x419.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spa_ssm_lut_rom_256x419_copy23",
+    "path": "ip/config/blk1_spa_ssm_lut_rom_256x419_copy23/blk1_spa_ssm_lut_rom_256x419_copy23.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spa_ssm_lut_rom_256x419.coe": "models/up_d1/rom/blk1_spa_ssm_lut_rom_256x419.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spa_x_stream_weight_rom_16x1088",
+    "path": "ip/config/blk1_spa_x_stream_weight_rom_16x1088/blk1_spa_x_stream_weight_rom_16x1088.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spa_x_stream_weight_rom_16x1088.coe": "models/up_d1/rom/blk1_spa_x_stream_weight_rom_16x1088.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spa_x_weight_rom_64x512",
+    "path": "ip/config/blk1_spa_x_weight_rom_64x512/blk1_spa_x_weight_rom_64x512.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spa_x_weight_rom_64x512.coe": "models/up_d1/rom/blk1_spa_x_weight_rom_64x512.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spe_conv_param_rom_2x512",
+    "path": "ip/config/blk1_spe_conv_param_rom_2x512/blk1_spe_conv_param_rom_2x512.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spe_conv_param_rom_2x512.coe": "models/up_d1/rom/blk1_spe_conv_param_rom_2x512.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spe_dt_param_rom_2x320",
+    "path": "ip/config/blk1_spe_dt_param_rom_2x320/blk1_spe_dt_param_rom_2x320.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spe_dt_param_rom_2x320.coe": "models/up_d1/rom/blk1_spe_dt_param_rom_2x320.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spe_in_weight_rom_16x64",
+    "path": "ip/config/blk1_spe_in_weight_rom_16x64/blk1_spe_in_weight_rom_16x64.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spe_in_weight_rom_16x64.coe": "models/up_d1/rom/blk1_spe_in_weight_rom_16x64.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spe_out_param_rom_1x1280",
+    "path": "ip/config/blk1_spe_out_param_rom_1x1280/blk1_spe_out_param_rom_1x1280.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spe_out_param_rom_1x1280.coe": "models/up_d1/rom/blk1_spe_out_param_rom_1x1280.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spe_ssm_lut_rom_256x419_copy01",
+    "path": "ip/config/blk1_spe_ssm_lut_rom_256x419_copy01/blk1_spe_ssm_lut_rom_256x419_copy01.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spe_ssm_lut_rom_256x419.coe": "models/up_d1/rom/blk1_spe_ssm_lut_rom_256x419.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spe_ssm_lut_rom_256x419_copy23",
+    "path": "ip/config/blk1_spe_ssm_lut_rom_256x419_copy23/blk1_spe_ssm_lut_rom_256x419_copy23.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spe_ssm_lut_rom_256x419.coe": "models/up_d1/rom/blk1_spe_ssm_lut_rom_256x419.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spe_x_weight_rom_64x128_copy01",
+    "path": "ip/config/blk1_spe_x_weight_rom_64x128_copy01/blk1_spe_x_weight_rom_64x128_copy01.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spe_x_weight_rom_64x128.coe": "models/up_d1/rom/blk1_spe_x_weight_rom_64x128.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk1_spe_x_weight_rom_64x128_copy23",
+    "path": "ip/config/blk1_spe_x_weight_rom_64x128_copy23/blk1_spe_x_weight_rom_64x128_copy23.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk1_spe_x_weight_rom_64x128.coe": "models/up_d1/rom/blk1_spe_x_weight_rom_64x128.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spa_conv_param_rom_8x512",
+    "path": "ip/config/blk2_spa_conv_param_rom_8x512/blk2_spa_conv_param_rom_8x512.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spa_conv_param_rom_8x512.coe": "models/up_d1/rom/blk2_spa_conv_param_rom_8x512.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spa_dt_param_rom_8x384",
+    "path": "ip/config/blk2_spa_dt_param_rom_8x384/blk2_spa_dt_param_rom_8x384.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spa_dt_param_rom_8x384.coe": "models/up_d1/rom/blk2_spa_dt_param_rom_8x384.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spa_in_weight_rom_64x256",
+    "path": "ip/config/blk2_spa_in_weight_rom_64x256/blk2_spa_in_weight_rom_64x256.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spa_in_weight_rom_64x256.coe": "models/up_d1/rom/blk2_spa_in_weight_rom_64x256.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spa_out_param_rom_32x544_copy01",
+    "path": "ip/config/blk2_spa_out_param_rom_32x544_copy01/blk2_spa_out_param_rom_32x544_copy01.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spa_out_param_rom_32x544.coe": "models/up_d1/rom/blk2_spa_out_param_rom_32x544.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spa_out_param_rom_32x544_copy23",
+    "path": "ip/config/blk2_spa_out_param_rom_32x544_copy23/blk2_spa_out_param_rom_32x544_copy23.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spa_out_param_rom_32x544.coe": "models/up_d1/rom/blk2_spa_out_param_rom_32x544.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spa_ssm_lut_rom_256x419_copy01",
+    "path": "ip/config/blk2_spa_ssm_lut_rom_256x419_copy01/blk2_spa_ssm_lut_rom_256x419_copy01.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spa_ssm_lut_rom_256x419.coe": "models/up_d1/rom/blk2_spa_ssm_lut_rom_256x419.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spa_ssm_lut_rom_256x419_copy23",
+    "path": "ip/config/blk2_spa_ssm_lut_rom_256x419_copy23/blk2_spa_ssm_lut_rom_256x419_copy23.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spa_ssm_lut_rom_256x419.coe": "models/up_d1/rom/blk2_spa_ssm_lut_rom_256x419.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spa_x_stream_weight_rom_16x1088",
+    "path": "ip/config/blk2_spa_x_stream_weight_rom_16x1088/blk2_spa_x_stream_weight_rom_16x1088.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spa_x_stream_weight_rom_16x1088.coe": "models/up_d1/rom/blk2_spa_x_stream_weight_rom_16x1088.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spa_x_weight_rom_64x512",
+    "path": "ip/config/blk2_spa_x_weight_rom_64x512/blk2_spa_x_weight_rom_64x512.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spa_x_weight_rom_64x512.coe": "models/up_d1/rom/blk2_spa_x_weight_rom_64x512.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spe_conv_param_rom_2x512",
+    "path": "ip/config/blk2_spe_conv_param_rom_2x512/blk2_spe_conv_param_rom_2x512.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spe_conv_param_rom_2x512.coe": "models/up_d1/rom/blk2_spe_conv_param_rom_2x512.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spe_dt_param_rom_2x320",
+    "path": "ip/config/blk2_spe_dt_param_rom_2x320/blk2_spe_dt_param_rom_2x320.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spe_dt_param_rom_2x320.coe": "models/up_d1/rom/blk2_spe_dt_param_rom_2x320.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spe_in_weight_rom_16x64",
+    "path": "ip/config/blk2_spe_in_weight_rom_16x64/blk2_spe_in_weight_rom_16x64.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spe_in_weight_rom_16x64.coe": "models/up_d1/rom/blk2_spe_in_weight_rom_16x64.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spe_out_param_rom_1x1280",
+    "path": "ip/config/blk2_spe_out_param_rom_1x1280/blk2_spe_out_param_rom_1x1280.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spe_out_param_rom_1x1280.coe": "models/up_d1/rom/blk2_spe_out_param_rom_1x1280.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spe_ssm_lut_rom_256x419_copy01",
+    "path": "ip/config/blk2_spe_ssm_lut_rom_256x419_copy01/blk2_spe_ssm_lut_rom_256x419_copy01.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spe_ssm_lut_rom_256x419.coe": "models/up_d1/rom/blk2_spe_ssm_lut_rom_256x419.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spe_ssm_lut_rom_256x419_copy23",
+    "path": "ip/config/blk2_spe_ssm_lut_rom_256x419_copy23/blk2_spe_ssm_lut_rom_256x419_copy23.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spe_ssm_lut_rom_256x419.coe": "models/up_d1/rom/blk2_spe_ssm_lut_rom_256x419.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spe_x_weight_rom_64x128_copy01",
+    "path": "ip/config/blk2_spe_x_weight_rom_64x128_copy01/blk2_spe_x_weight_rom_64x128_copy01.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spe_x_weight_rom_64x128.coe": "models/up_d1/rom/blk2_spe_x_weight_rom_64x128.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "blk2_spe_x_weight_rom_64x128_copy23",
+    "path": "ip/config/blk2_spe_x_weight_rom_64x128_copy23/blk2_spe_x_weight_rom_64x128_copy23.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/blk2_spe_x_weight_rom_64x128.coe": "models/up_d1/rom/blk2_spe_x_weight_rom_64x128.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "ddr4_0",
+    "path": "ip/config/ddr4_0/ddr4_0.xci",
+    "vlnv": "xilinx.com:ip:ddr4:2.2",
+    "relocations": {},
+    "board_only": true
+  },
+  {
+    "name": "hdmi_net_clock",
+    "path": "ip/config/hdmi_net_clock/hdmi_net_clock.xci",
+    "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+    "relocations": {},
+    "board_only": true
+  },
+  {
+    "name": "head_conv1_param_rom_64x288",
+    "path": "ip/config/head_conv1_param_rom_64x288/head_conv1_param_rom_64x288.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/head_conv1_param_rom_64x288.coe": "models/up_d1/rom/head_conv1_param_rom_64x288.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "head_conv2_param_rom_18x288",
+    "path": "ip/config/head_conv2_param_rom_18x288/head_conv2_param_rom_18x288.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/head_conv2_param_rom_18x288.coe": "models/up_d1/rom/head_conv2_param_rom_18x288.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "mamba_input_bram_256x256",
+    "path": "ip/config/mamba_input_bram_256x256/mamba_input_bram_256x256.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "mamba_mult_8x8",
+    "path": "ip/config/mamba_mult_8x8/mamba_mult_8x8.xci",
+    "vlnv": "xilinx.com:ip:mult_gen:12.0",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "mamba_mult_8x8_dsp",
+    "path": "ip/config/mamba_mult_8x8_dsp/mamba_mult_8x8_dsp.xci",
+    "vlnv": "xilinx.com:ip:mult_gen:12.0",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "patch_bias_rom_8x128",
+    "path": "ip/config/patch_bias_rom_8x128/patch_bias_rom_8x128.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/patch_bias_rom_8x128.coe": "models/up_d1/rom/patch_bias_rom_8x128.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "patch_mult_9x8",
+    "path": "ip/config/patch_mult_9x8/patch_mult_9x8.xci",
+    "vlnv": "xilinx.com:ip:mult_gen:12.0",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "patch_packed_dsp_3cyc",
+    "path": "ip/config/patch_packed_dsp_3cyc/patch_packed_dsp_3cyc.xci",
+    "vlnv": "xilinx.com:ip:dsp_macro:1.0",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "patch_weight_rom_32x128_copy01",
+    "path": "ip/config/patch_weight_rom_32x128_copy01/patch_weight_rom_32x128_copy01.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/patch_weight_rom_32x128.coe": "models/up_d1/rom/patch_weight_rom_32x128.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "patch_weight_rom_32x128_copy23",
+    "path": "ip/config/patch_weight_rom_32x128_copy23/patch_weight_rom_32x128_copy23.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {
+      "../../../../d1_delivery/rom/patch_weight_rom_32x128.coe": "models/up_d1/rom/patch_weight_rom_32x128.coe"
+    },
+    "board_only": false
+  },
+  {
+    "name": "requant_mult_21x16",
+    "path": "ip/config/requant_mult_21x16/requant_mult_21x16.xci",
+    "vlnv": "xilinx.com:ip:mult_gen:12.0",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "spa_x_input_bram_256x512",
+    "path": "ip/config/spa_x_input_bram_256x512/spa_x_input_bram_256x512.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "spe_x_input_bram_1024x128",
+    "path": "ip/config/spe_x_input_bram_1024x128/spe_x_input_bram_1024x128.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "ssm_abar_mult_27x18_3cyc",
+    "path": "ip/config/ssm_abar_mult_27x18_3cyc/ssm_abar_mult_27x18_3cyc.xci",
+    "vlnv": "xilinx.com:ip:mult_gen:12.0",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "ssm_bc_bram_1024x128",
+    "path": "ip/config/ssm_bc_bram_1024x128/ssm_bc_bram_1024x128.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "ssm_bc_bram_256x128",
+    "path": "ip/config/ssm_bc_bram_256x128/ssm_bc_bram_256x128.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "ssm_c_mult_32x8_5cyc_area",
+    "path": "ip/config/ssm_c_mult_32x8_5cyc_area/ssm_c_mult_32x8_5cyc_area.xci",
+    "vlnv": "xilinx.com:ip:mult_gen:12.0",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "ssm_kbu_mult_20x16_3cyc",
+    "path": "ip/config/ssm_kbu_mult_20x16_3cyc/ssm_kbu_mult_20x16_3cyc.xci",
+    "vlnv": "xilinx.com:ip:mult_gen:12.0",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "ssm_requant_mult_48x16",
+    "path": "ip/config/ssm_requant_mult_48x16/ssm_requant_mult_48x16.xci",
+    "vlnv": "xilinx.com:ip:mult_gen:12.0",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "ssm_scratch_bram_16x2048",
+    "path": "ip/config/ssm_scratch_bram_16x2048/ssm_scratch_bram_16x2048.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "ssm_scratch_bram_16x4096",
+    "path": "ip/config/ssm_scratch_bram_16x4096/ssm_scratch_bram_16x4096.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "ssm_scratch_bram_256x128",
+    "path": "ip/config/ssm_scratch_bram_256x128/ssm_scratch_bram_256x128.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "ssm_scratch_bram_256x256",
+    "path": "ip/config/ssm_scratch_bram_256x256/ssm_scratch_bram_256x256.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "ssm_scratch_bram_64x1024",
+    "path": "ip/config/ssm_scratch_bram_64x1024/ssm_scratch_bram_64x1024.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "ssm_scratch_bram_64x512",
+    "path": "ip/config/ssm_scratch_bram_64x512/ssm_scratch_bram_64x512.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {},
+    "board_only": false
+  },
+  {
+    "name": "ssm_udt_bram_2048x64",
+    "path": "ip/config/ssm_udt_bram_2048x64/ssm_udt_bram_2048x64.xci",
+    "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
+    "relocations": {},
+    "board_only": false
+  }
+]

@@ -1,0 +1,9 @@
+scope,analysis,status,slack_ns
+REG2REG,setup,PASS,1.159
+REG2REG,hold,PASS,0.030
+PORT2REG,setup,PASS,3.036
+PORT2REG,hold,PASS,0.065
+REG2PORT,setup,PASS,4.345
+REG2PORT,hold,PASS,1.127
+PORT2PORT,setup,NO_PATH,
+PORT2PORT,hold,NO_PATH,

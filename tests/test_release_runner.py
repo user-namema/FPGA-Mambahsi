@@ -83,11 +83,31 @@ class ReleaseRunnerTests(unittest.TestCase):
     def test_paper_architecture_set_has_nineteen_cases_per_dataset(self):
         jobs = self.plan('02_architecture')
         self.assertEqual(len(jobs), 4*19)
-        cases = {Path(cmd[1]).stem for _, cmd, _ in jobs}
+        cases = {label.split('_', 1)[1] for label, _, _ in jobs}
         self.assertNotIn('04_branch_spe_only', cases)
         self.assertNotIn('03_branch_spa_only', cases)
         self.assertNotIn('11_A_per_channel', cases)
         self.assertIn('21_restore_z_D', cases)
+
+    def test_fp32_and_architecture_commands_are_direct_python_and_explicit(self):
+        command = self.plan('01_fp32_current', '--datasets', 'UP', '--seeds', '0',
+                            '--device', 'cpu')[0][1]
+        self.assertEqual(Path(command[2]).name, 'train_mambahsi_spatial_split_128_dense.py')
+        self.assertNotIn('bash', command)
+        expected = {'--use_D': 'true', '--use_z': 'false', '--A_mode': 'shared',
+                    '--tile_size': '16', '--pca_components': '16',
+                    '--max_epoch': '400', '--eval_batch_size': '8',
+                    '--selection_metric': 'mAcc', '--split_seed': '2026',
+                    '--device': 'cpu', '--seeds': '0'}
+        for option, actual in expected.items():
+            self.assertEqual(value(command, option), actual)
+        for label, command, _ in self.plan('02_architecture', '--datasets', 'UP',
+                                          '--cases', '03_branch_spa_only', '11_A_per_channel'):
+            self.assertEqual(Path(command[2]).name, 'train_mambahsi_spatial_split_128_dense.py')
+            if label.endswith('03_branch_spa_only'):
+                self.assertEqual(value(command, '--branch_mode'), 'spa')
+            else:
+                self.assertEqual(value(command, '--A_mode'), 'per_channel')
 
     def test_stability_defaults_cover_six_completed_conditions(self):
         command = self.plan('05_stability')[0][1]

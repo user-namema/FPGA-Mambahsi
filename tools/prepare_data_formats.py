@@ -22,8 +22,9 @@ def validate_arrays(data, gt, name, np):
     classes = DATASETS[name][4]
     if data.ndim != 3 or gt.ndim != 2 or data.shape[:2] != gt.shape:
         raise ValueError("Expected HxWxB data and HxW labels; got {} and {}".format(data.shape, gt.shape))
-    if not np.issubdtype(data.dtype, np.number) or not np.issubdtype(gt.dtype, np.number):
-        raise ValueError("Dataset arrays must have numeric dtypes")
+    if (not np.issubdtype(data.dtype, np.number) or not np.issubdtype(gt.dtype, np.number)
+            or np.iscomplexobj(data) or np.iscomplexobj(gt)):
+        raise ValueError("Dataset arrays must have real numeric dtypes")
     # Limit temporary allocation on full-resolution scenes.
     if any(not np.isfinite(data[row:row+32]).all() for row in range(0, data.shape[0], 32)):
         raise ValueError("Image contains NaN/Inf")
@@ -84,23 +85,40 @@ def main():
     parser.add_argument("--data-root", type=Path, required=True)
     parser.add_argument("--datasets", default="UP,HanChuan,HongHu,Houston")
     parser.add_argument("--convert-honghu", action="store_true", help="create missing HongHu MAT pair from upstream NPY pair")
+    parser.add_argument("--json", type=Path, help="save validated shapes and source SHA-256 hashes; must not already exist")
     args = parser.parse_args()
     names = [x.strip() for x in args.datasets.split(",") if x.strip()]
-    if not names or any(x not in DATASETS for x in names):
-        parser.error("--datasets must be comma-separated names from " + ",".join(DATASETS))
+    if not names or any(x not in DATASETS for x in names) or len(set(names)) != len(names):
+        parser.error("--datasets must be unique comma-separated names from " + ",".join(DATASETS))
+    report_path = args.json.expanduser().resolve() if args.json else None
+    if report_path and report_path.exists():
+        parser.error("Report exists: " + str(report_path))
     import numpy as np
     from scipy import io as sio
     root = args.data_root.expanduser().resolve()
+    report = {"datasets": []}
     if args.convert_honghu:
-        print(json.dumps({"conversion": convert_honghu(root, np, sio)}, indent=2))
+        report["conversion"] = convert_honghu(root, np, sio)
+        print(json.dumps({"conversion": report["conversion"]}, indent=2))
     for name in names:
         image, label, image_key, label_key, _ = DATASETS[name]
         data_path = root/name/(image+".mat")
         gt_path = root/name/(label+".mat")
         data = sio.loadmat(str(data_path), variable_names=[image_key])[image_key]
         gt = sio.loadmat(str(gt_path), variable_names=[label_key])[label_key]
-        print(json.dumps(validate_arrays(data, gt, name, np), indent=2))
+        details = validate_arrays(data, gt, name, np)
+        if report_path:
+            details["files"] = [{"path": str(path.relative_to(root)), "variable": key,
+                                 "sha256": sha256(path)}
+                                for path, key in ((data_path, image_key), (gt_path, label_key))]
+        report["datasets"].append(details)
+        print(json.dumps(details, indent=2))
         del data, gt
+    if report_path:
+        report_path.parent.mkdir(parents=True, exist_ok=True)
+        with report_path.open("x", encoding="utf-8") as handle:
+            json.dump(report, handle, indent=2)
+            handle.write("\n")
 
 
 if __name__ == "__main__":

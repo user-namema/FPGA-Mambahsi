@@ -13,4 +13,4 @@ setuptools==69.2.0
 triton==2.2.0
 transformers==4.38.2
 spectral==0.23.1
-nvidia-ml-py>=12,<14
+nvidia-ml-py==13.610.43

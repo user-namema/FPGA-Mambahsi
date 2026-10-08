@@ -1,0 +1,13 @@
+{
+  "name": "head_input_requant",
+  "checkpoint_sha256": "d113c6123eb3234ea2a6b8fe13640c02b82e235e469e4337ec01c291844daf33",
+  "input_scale": 1.8985346555709839,
+  "output_scale": 1.8983098268508911,
+  "multiplier": 16386,
+  "shift": 14,
+  "rounding": "round-half-away-from-zero",
+  "source_keys": [
+    "mamba.4.block_output_quant.lsq_a.s",
+    "cls_head.0.lsq_a.s"
+  ]
+}

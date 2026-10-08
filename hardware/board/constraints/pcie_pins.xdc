@@ -1,0 +1,12 @@
+# PCIe portion of the tested KU060 pins.xdc. HDMI already owns both LEDs.
+set_property PACKAGE_PIN Y6 [get_ports {pcie_ref_clk_p[0]}]
+create_clock -period 10.000 -name pcie_ref_clk_p [get_ports {pcie_ref_clk_p[0]}]
+set_property PACKAGE_PIN AB2 [get_ports {pcie_mgt_rxp[0]}]
+set_property PACKAGE_PIN AD2 [get_ports {pcie_mgt_rxp[1]}]
+set_property PACKAGE_PIN AF2 [get_ports {pcie_mgt_rxp[2]}]
+set_property PACKAGE_PIN AH2 [get_ports {pcie_mgt_rxp[3]}]
+set_property PACKAGE_PIN AJ4 [get_ports {pcie_mgt_rxp[4]}]
+set_property PACKAGE_PIN AK2 [get_ports {pcie_mgt_rxp[5]}]
+set_property PACKAGE_PIN AM2 [get_ports {pcie_mgt_rxp[6]}]
+set_property PACKAGE_PIN AP2 [get_ports {pcie_mgt_rxp[7]}]
+set_property -dict {PACKAGE_PIN K22 IOSTANDARD LVCMOS33} [get_ports pcie_rst_n]

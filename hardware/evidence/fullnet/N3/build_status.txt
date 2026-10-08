@@ -1,0 +1,4 @@
+ROUTED
+observed_setup_hold_met=1
+coverage_review=PENDING
+No bitstream generated: fabric OOC benchmark only.

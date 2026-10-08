@@ -1,0 +1,6 @@
+899097e8560a2725dbd7dff74ff5ebafe160b447086a100e300f1c04ab23edb7
+E:/nf/n2_static_full_v1/nf_fullnet.sim/sim_rtl_16_20260921_110002/behav/xsim
+PASS independent method-specific software logits; tiles=16 bytes=2304 II=4096
+first_output_cycle=2899 last_output_cycle=67795 first_start_cycle=1025
+output_min_ii=4096 output_max_ii=4096
+
